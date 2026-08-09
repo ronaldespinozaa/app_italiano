@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#F4F0E4">
+<title>Italian Club — prototipo por nivel</title>
+<style>
+  :root{
+    --bg:#F4F0E4;
+    --card:#FCFAF3;
+    --ink:#211D18;
+    --ink-soft:#5B564C;
+    --ink-faint:#928C7D;
+    --hair:#E1DBC8;
+    --terracotta:#A6402D;
+    --terracotta-soft:#F1DCD2;
+    --olive:#4B5D3A;
+    --olive-soft:#DEE5D2;
+    --navy:#223349;
+    --navy-soft:#D9E0E7;
+    --gold:#C08A2E;
+    --font-display:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+    --font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --font-mono:ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);-webkit-font-smoothing:antialiased;}
+  body{min-height:100vh;padding-bottom:78px;}
+  .wrap{max-width:480px;margin:0 auto;padding:0 18px;}
+
+  /* ---------- top brand bar ---------- */
+  .brand{
+    display:flex;align-items:baseline;justify-content:space-between;
+    padding:22px 0 10px;
+  }
+  .brand-name{font-family:var(--font-display);font-size:20px;letter-spacing:.2px;}
+  .brand-name em{font-style:normal;color:var(--terracotta);}
+  .brand-sub{font-size:11px;color:var(--ink-faint);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.08em;}
+
+  /* ---------- level dial (signature element) ---------- */
+  .dial{display:flex;gap:4px;padding:6px 0 18px;}
+  .dial button{
+    flex:1;padding:10px 0;border:none;border-radius:10px;font-family:var(--font-mono);
+    font-size:13px;font-weight:600;cursor:pointer;background:var(--hair);color:var(--ink-faint);
+    transition:all .18s ease;
+  }
+  .dial button[data-tier="A"]{}
+  .dial button.active[data-tier="A"]{background:var(--terracotta);color:#fff;}
+  .dial button.active[data-tier="B"]{background:var(--olive);color:#fff;}
+  .dial button.active[data-tier="C"]{background:var(--navy);color:#fff;}
+  .dial button.active{transform:scale(1.06);}
+
+  /* ---------- level select screen ---------- */
+  .select-screen h1{font-family:var(--font-display);font-size:26px;line-height:1.25;margin:6px 0 4px;}
+  .select-screen p.lead{color:var(--ink-soft);font-size:14.5px;line-height:1.5;margin:0 0 22px;}
+  .level-card{
+    display:flex;align-items:center;gap:14px;padding:16px;border-radius:14px;background:var(--card);
+    border:1px solid var(--hair);margin-bottom:10px;cursor:pointer;
+  }
+  .level-badge{
+    width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-mono);font-weight:700;font-size:15px;color:#fff;flex-shrink:0;
+  }
+  .level-info h3{margin:0 0 2px;font-size:15.5px;font-family:var(--font-display);}
+  .level-info p{margin:0;font-size:12.5px;color:var(--ink-faint);}
+
+  /* ---------- home screen ---------- */
+  .hidden{display:none;}
+  .level-header{padding:2px 0 16px;border-bottom:1px solid var(--hair);margin-bottom:18px;}
+  .level-header h1{font-family:var(--font-display);font-size:24px;margin:0 0 4px;}
+  .level-header .tag-row{display:flex;align-items:center;gap:8px;}
+  .pill{font-family:var(--font-mono);font-size:11px;padding:3px 9px;border-radius:20px;font-weight:700;}
+  .ui-lang-note{font-size:12px;color:var(--ink-faint);}
+
+  .checklist{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:15px 16px;margin-bottom:18px;}
+  .checklist .row{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
+  .checklist .row span:first-child{font-size:13px;font-weight:600;}
+  .checklist .pct{font-family:var(--font-mono);font-size:12px;color:var(--ink-faint);}
+  .bar{height:6px;border-radius:6px;background:var(--hair);overflow:hidden;}
+  .bar > i{display:block;height:100%;border-radius:6px;}
+
+  .module-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;}
+  .module-card{
+    background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:14px;cursor:pointer;
+    min-height:96px;display:flex;flex-direction:column;justify-content:space-between;
+  }
+  .module-card h4{margin:0;font-size:14.5px;font-family:var(--font-display);}
+  .module-card p{margin:0;font-size:11.5px;color:var(--ink-faint);line-height:1.35;}
+
+  .cta-external{
+    border-radius:14px;padding:15px 16px;margin-bottom:18px;display:flex;align-items:center;gap:12px;
+  }
+  .cta-external h5{margin:0 0 2px;font-size:13.5px;font-family:var(--font-display);}
+  .cta-external p{margin:0;font-size:11.5px;opacity:.85;}
+
+  /* ---------- exercise modal ---------- */
+  .modal-back{
+    position:fixed;inset:0;background:rgba(33,29,24,.55);display:flex;align-items:flex-end;z-index:50;
+  }
+  .modal{
+    background:var(--bg);width:100%;max-width:480px;margin:0 auto;border-radius:20px 20px 0 0;
+    padding:22px 20px 26px;max-height:88vh;overflow-y:auto;
+  }
+  .modal-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;}
+  .modal-top .close{font-size:22px;color:var(--ink-faint);cursor:pointer;line-height:1;}
+  .modal h3{font-family:var(--font-display);font-size:19px;margin:0 0 4px;}
+  .modal .kicker{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-faint);}
+  .ex-prompt{font-size:15px;line-height:1.6;margin:16px 0;}
+  .opt{
+    display:block;width:100%;text-align:left;padding:12px 14px;border-radius:10px;border:1.5px solid var(--hair);
+    background:var(--card);font-size:14px;margin-bottom:8px;cursor:pointer;font-family:var(--font-body);color:var(--ink);
+  }
+  .opt.correct{border-color:var(--olive);background:var(--olive-soft);}
+  .opt.wrong{border-color:var(--terracotta);background:var(--terracotta-soft);}
+  textarea.free{
+    width:100%;min-height:90px;border-radius:10px;border:1.5px solid var(--hair);padding:12px;font-size:14px;
+    font-family:var(--font-body);background:var(--card);resize:vertical;
+  }
+  .feedback{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:13px;line-height:1.5;}
+  .btn{
+    display:inline-block;margin-top:14px;padding:11px 18px;border-radius:10px;border:none;font-size:13.5px;
+    font-weight:600;cursor:pointer;font-family:var(--font-body);
+  }
+  .audio-row{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--hair);border-radius:10px;padding:10px 12px;margin:14px 0;}
+  .audio-row .play{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;flex-shrink:0;}
+  .audio-row .meta{font-size:11.5px;color:var(--ink-faint);}
+  .transcript{font-size:13px;line-height:1.55;color:var(--ink-soft);margin-top:8px;font-style:italic;}
+
+  /* ---------- bottom nav ---------- */
+  .bottom-nav{
+    position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--hair);
+    display:flex;justify-content:space-around;padding:9px 4px 14px;z-index:10;
+  }
+  .bottom-nav .item{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:9.5px;color:var(--ink-faint);}
+  .bottom-nav .item.active{color:var(--ink);}
+  .bottom-nav .dot{width:5px;height:5px;border-radius:50%;background:transparent;}
+  .bottom-nav .item.active .dot{background:var(--gold);}
+  .bottom-nav .item{cursor:pointer;}
+
+  /* ---------- shared secondary screens ---------- */
+  .sec-title{font-family:var(--font-display);font-size:22px;margin:6px 0 4px;}
+  .sec-lead{font-size:13.5px;color:var(--ink-soft);margin:0 0 18px;line-height:1.5;}
+
+  /* Practicar: flashcard */
+  .flash{
+    background:var(--card);border:1px solid var(--hair);border-radius:16px;padding:26px 20px;
+    text-align:center;margin-bottom:16px;min-height:150px;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:10px;cursor:pointer;
+  }
+  .flash .word{font-family:var(--font-display);font-size:24px;}
+  .flash .hint{font-size:12px;color:var(--ink-faint);}
+  .flash .back{font-size:15px;color:var(--ink-soft);}
+  .flash-controls{display:flex;gap:8px;margin-bottom:20px;}
+  .flash-controls button{flex:1;padding:11px 0;border:none;border-radius:10px;font-size:13px;font-weight:600;font-family:var(--font-body);cursor:pointer;}
+  .streakbox{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:18px;}
+  .streakbox .n{font-family:var(--font-display);font-size:22px;color:var(--gold);}
+  .streakbox .l{font-size:11.5px;color:var(--ink-faint);}
+
+  /* Noticias */
+  .news-card{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:14px 16px;margin-bottom:10px;}
+  .news-card .d{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.05em;}
+  .news-card h4{margin:6px 0 4px;font-family:var(--font-display);font-size:15.5px;}
+  .news-card p{margin:0 0 8px;font-size:12.5px;color:var(--ink-soft);line-height:1.5;}
+  .news-play{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:var(--terracotta);font-weight:600;}
+
+  /* Progreso */
+  .prog-row{background:var(--card);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;margin-bottom:8px;}
+  .prog-row .top{display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:6px;}
+  .prog-row .top span:first-child{font-weight:600;}
+  .prog-row .top span:last-child{color:var(--ink-faint);font-family:var(--font-mono);}
+  .retest{width:100%;padding:13px 0;border:none;border-radius:12px;background:var(--navy);color:#fff;font-weight:600;font-size:14px;margin-top:6px;cursor:pointer;}
+
+  /* Más */
+  .more-block{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:15px 16px;margin-bottom:10px;}
+  .more-block h5{margin:0 0 3px;font-family:var(--font-display);font-size:14.5px;}
+  .more-block p{margin:0;font-size:12px;color:var(--ink-faint);}
+  .article-card{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:15px 16px;margin-bottom:14px;}
+  .article-card .k{font-family:var(--font-mono);font-size:10.5px;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;}
+  .article-card h4{margin:6px 0 6px;font-family:var(--font-display);font-size:16px;}
+  .article-card p{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.55;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="brand">
+    <div class="brand-name">Online<em>Italian</em>Club</div>
+    <div class="brand-sub">Prototipo</div>
+  </div>
+
+  <!-- LEVEL SELECT SCREEN -->
+  <div id="selectScreen" class="select-screen">
+    <h1>¿Dónde empezamos?</h1>
+    <p class="lead">Elige tu nivel. Cada uno abre un espacio propio — gramática, listening, vocabulario, diálogos, verbos y lectura pensados solo para ese nivel.</p>
+    <div id="levelList"></div>
+  </div>
+
+  <!-- LEVEL HOME SCREEN -->
+  <div id="homeScreen" class="hidden">
+    <div class="dial" id="dial"></div>
+
+    <div class="level-header">
+      <h1 id="levelTitle"></h1>
+      <div class="tag-row">
+        <span class="pill" id="levelPill"></span>
+        <span class="ui-lang-note" id="uiLangNote"></span>
+      </div>
+    </div>
+
+    <div class="checklist">
+      <div class="row"><span>Checklist del nivel</span><span class="pct" id="checkPct"></span></div>
+      <div class="bar"><i id="checkBar"></i></div>
+    </div>
+
+    <div class="module-grid" id="moduleGrid"></div>
+
+    <div class="cta-external" id="ctaExternal"></div>
+  </div>
+
+  <!-- PRACTICAR SCREEN -->
+  <div id="practiceScreen" class="hidden">
+    <h1 class="sec-title">Practicar</h1>
+    <p class="sec-lead">Repaso rápido mezclando lo que ya has visto en tu nivel — así se fija en la memoria.</p>
+    <div class="streakbox">
+      <span class="n">6</span>
+      <span class="l">días seguidos practicando</span>
+    </div>
+    <div class="flash" id="flashCard" onclick="flipFlash()"></div>
+    <div class="flash-controls">
+      <button style="background:var(--terracotta-soft);color:var(--terracotta)" onclick="nextFlash(false)">Aún no la sé</button>
+      <button style="background:var(--olive-soft);color:var(--olive)" onclick="nextFlash(true)">La sé</button>
+    </div>
+  </div>
+
+  <!-- NOTICIAS SCREEN -->
+  <div id="newsScreen" class="hidden">
+    <h1 class="sec-title">Noticias fáciles</h1>
+    <p class="sec-lead">Boletines cortos en italiano, en texto y audio — martes, jueves y sábado.</p>
+    <div id="newsList"></div>
+  </div>
+
+  <!-- PROGRESO SCREEN -->
+  <div id="progressScreen" class="hidden">
+    <h1 class="sec-title">Tu progreso</h1>
+    <p class="sec-lead">Cómo vas dentro de tu nivel actual.</p>
+    <div id="progList"></div>
+    <button class="retest">Repetir el test de nivel</button>
+  </div>
+
+  <!-- MÁS SCREEN -->
+  <div id="moreScreen" class="hidden">
+    <h1 class="sec-title">Más</h1>
+    <p class="sec-lead">El club, la tienda y las clases — todo lo que no es estudio del día a día.</p>
+    <div class="article-card">
+      <div class="k">Carta del club · 5 ago</div>
+      <h4>Frustration, then joy</h4>
+      <p>Daniel reflexiona sobre el ajedrez, el error y cómo aprender de verdad de nuestros fallos — con paralelismos directos al aprendizaje de idiomas.</p>
+    </div>
+    <div class="more-block"><h5>Ebooks por nivel</h5><p>easyreaders.org · lecturas graduadas de A1 a C2</p></div>
+    <div class="more-block"><h5>Clases con profesores nativos</h5><p>nativespeakerteachers.com · conversación 1:1</p></div>
+    <div class="more-block"><h5>Escuela en Bolonia</h5><p>madrelinguaitalian.com · cursos presenciales</p></div>
+  </div>
+
+</div>
+
+<div class="bottom-nav" id="bottomNav" style="display:none;">
+  <div class="item active" data-tab="home" onclick="switchTab('home')"><span class="dot"></span>Mi nivel</div>
+  <div class="item" data-tab="practice" onclick="switchTab('practice')"><span class="dot"></span>Practicar</div>
+  <div class="item" data-tab="news" onclick="switchTab('news')"><span class="dot"></span>Noticias</div>
+  <div class="item" data-tab="progress" onclick="switchTab('progress')"><span class="dot"></span>Progreso</div>
+  <div class="item" data-tab="more" onclick="switchTab('more')"><span class="dot"></span>Más</div>
+</div>
+
+<div id="modalRoot"></div>
+
+<script>
+const TIERS = { A:'var(--terracotta)', B:'var(--olive)', C:'var(--navy)' };
+const TIER_SOFT = { A:'var(--terracotta-soft)', B:'var(--olive-soft)', C:'var(--navy-soft)' };
+
+const LEVELS = [
+  {code:'A1', tier:'A', name:'Principiante', pct:35, uiLang:'Interfaz en español', desc:'Primeros pasos: saludos, presente, frases muy cortas.'},
+  {code:'A2', tier:'A', name:'Elemental', pct:0,  uiLang:'Interfaz en español', desc:'Rutinas diarias, pasado simple, vocabulario ampliado.'},
+  {code:'B1', tier:'B', name:'Intermedio', pct:0,  uiLang:'Interfaz mixta ES/IT', desc:'Opiniones, condicional, textos algo más largos.'},
+  {code:'B2', tier:'B', name:'Intermedio alto', pct:0, uiLang:'Interfaz en italiano', desc:'Congiuntivo, matices, noticias y lectura real.'},
+  {code:'C1', tier:'C', name:'Avanzado', pct:0,  uiLang:'Interfaz en italiano', desc:'Literatura, registro formal, producción libre.'},
+  {code:'C2', tier:'C', name:'Dominio', pct:0,  uiLang:'Interfaz en italiano', desc:'Nivel nativo: matices culturales e idiomáticos.'},
+];
+
+const MODULES = {
+  A1: [
+    {k:'gram', title:'Gramática', sub:'12 lecciones · 14 explicaciones'},
+    {k:'list', title:'Listening', sub:'44 audios · con transcripción'},
+    {k:'vocab', title:'Vocabulario', sub:'32 listas · flashcards'},
+    {k:'dial', title:'Diálogos', sub:'En el bar · 3 líneas'},
+    {k:'verb', title:'Verbos', sub:'Presente indicativo'},
+    {k:'read', title:'Lectura', sub:'90 ejercicios cortos'},
+  ],
+  B2: [
+    {k:'gram', title:'Grammatica', sub:'Il congiuntivo · uso reale'},
+    {k:'list', title:'Ascolto', sub:'Velocità nativa · senza testo'},
+    {k:'vocab', title:'Vocabolario', sub:'Linguaggio giornalistico'},
+    {k:'dial', title:'Dialoghi', sub:'Discussione informale'},
+    {k:'verb', title:'Verbi', sub:'Tempi composti, sfumature'},
+    {k:'read', title:'Lettura', sub:'Articolo di attualità'},
+  ]
+};
+
+const EXTERNAL = {
+  A1: {bg:'var(--terracotta-soft)', color:'var(--terracotta)', title:'Un empujón extra', body:'Sin prisa — cuando quieras, hay clases con profesores nativos.'},
+  B2: {bg:'var(--olive-soft)', color:'var(--olive)', title:'Pratica dal vivo', body:'Prenota una lezione di conversazione con un madrelingua.'},
+};
+
+// Motor de ejercicios: uno por NIVEL EXACTO (no por tier), para que B1 y B2
+// —o C1 y C2— dejen de compartir el mismo set. Los temas están tomados de
+// la gramática real confirmada en cada *-content.json; donde no se pudo
+// migrar la transcripción completa del sitio, se escribió un ejercicio
+// nuevo y pedagógicamente correcto sobre ese mismo tema real (marcado abajo).
+const EXERCISE_QUEUES = {
+  A1: [
+    {
+      type:'mc', kicker:'Gramática · A1 · Verbi', title:'Essere e avere',
+      audio:{label:'Ascolto lento (0.8x)'},
+      transcript:'"Io sono italiano. Tu sei spagnolo. Lui è francese."',
+      prompt:'Completa: "Io ___ italiano."',
+      options:[{t:'sono', correct:true},{t:'sei', correct:false},{t:'è', correct:false}],
+      feedbackCorrect:'¡Perfecto! "Sono" es la forma de "io" (yo) del verbo essere.',
+      feedbackWrong:'Casi. Con "io" (yo) se usa "sono". Inténtalo de nuevo.'
+    },
+    {
+      type:'gapfill', kicker:'Gramática · A1 · Famiglia', title:'Famiglia 1',
+      before:'Io ', after:' due sorelle e un fratello.',
+      answer:'ho', hint:'verbo avere, forma "io"',
+      feedbackCorrect:'Esatto — "ho" es la forma de "io" del verbo avere.',
+      feedbackWrong:'No es correcta. Pista: es el verbo avere, forma "io".'
+    },
+    {
+      type:'ordering', kicker:'Gramática · A1 · Frasi', title:'Domanda o affermazione',
+      words:['italiano','sono','Io'],
+      correct:'Io sono italiano',
+      explanation:'En italiano, como en español, el orden habitual es sujeto + verbo + complemento.'
+    }
+  ],
+  A2: [
+    {
+      type:'truefalse', kicker:'Listening · A2 · Prenotazioni', title:'Fare prenotazioni',
+      audio:{label:'Ascolto — Hotel Riviera'},
+      transcript:'"Pronto, parlo con l\'Hotel Riviera? Mi chiamo Francesca Rossi, vorrei prenotare una camera singola..."',
+      statement:'Francesca vuole una camera doppia con vasca da bagno.',
+      answer:false,
+      explanation:'Falso — Francesca chiede una camera SINGOLA con balcone e vasca da bagno, non doppia.'
+    },
+    {
+      type:'gapfill', kicker:'Grammatica · A2 · Futuro', title:'Futuro semplice',
+      before:'Domani io ', after:' (partire) per Roma.',
+      answer:'partirò', hint:'futuro semplice, forma "io" di partire',
+      feedbackCorrect:'Esatto — "partirò" es la forma "io" del futuro simple.',
+      feedbackWrong:'No es correcta. Pista: futuro semplice, forma "io".'
+    }
+  ],
+  B1: [
+    {
+      type:'mc', kicker:'Grammatica · B1 · Congiuntivo', title:'Congiuntivo presente',
+      prompt:'"Spero che tu ___ (stare) bene." — quale forma è corretta?',
+      options:[{t:'stia', correct:true},{t:'stai', correct:false},{t:'staresti', correct:false}],
+      feedbackCorrect:'Esatto. Dopo "spero che" si usa il congiuntivo presente.',
+      feedbackWrong:'"Spero che" richiede il congiuntivo, non l\'indicativo.'
+    },
+    {
+      type:'gapfill', kicker:'Grammatica · B1 · Trapassato', title:'Trapassato prossimo',
+      before:'Quando sono arrivato, lui ', after:' (già, uscire).',
+      answer:'era già uscito', hint:'trapassato prossimo con essere',
+      feedbackCorrect:'Esatto — el trapassato describe una acción anterior a otra acción pasada.',
+      feedbackWrong:'Pista: trapassato prossimo, con essere + participio.'
+    }
+  ],
+  B2: [
+    {
+      type:'mc', kicker:'Grammatica · B2 · Passato remoto', title:'Passato remoto',
+      prompt:'"Dante ___ (nascere) a Firenze nel 1265." — forma corretta per un testo storico:',
+      options:[{t:'nacque', correct:true},{t:'è nato', correct:false},{t:'nasceva', correct:false}],
+      feedbackCorrect:'Esatto — il passato remoto si usa per fatti storici, distanti e conclusi.',
+      feedbackWrong:'En narrativa histórica formal se usa el passato remoto, no el passato prossimo.'
+    },
+    {
+      type:'gapfill', kicker:'Grammatica · B2 · Forma passiva', title:'Forma passiva',
+      before:'Il libro ', after:' (scrivere) da un autore famoso.',
+      answer:'è stato scritto', hint:'forma passiva, presente + participio',
+      feedbackCorrect:'Esatto — essere + participio passato del verbo principale.',
+      feedbackWrong:'Pista: forma passiva con essere + participio.'
+    }
+  ],
+  C1: [
+    {
+      type:'mc', kicker:'Grammatica · C1 · Discorso indiretto', title:'Discorso indiretto',
+      prompt:'Diretto: "Vengo domani." → Indiretto: Ha detto che ___',
+      options:[{t:'sarebbe venuto il giorno dopo', correct:true},{t:'viene domani', correct:false},{t:'è venuto domani', correct:false}],
+      feedbackCorrect:'Esatto — nel discorso indiretto il futuro diventa condizionale passato, e "domani" diventa "il giorno dopo".',
+      feedbackWrong:'En discurso indirecto, el tiempo y las referencias temporales cambian respecto al original.'
+    },
+    {
+      type:'truefalse', kicker:'Grammatica · C1 · Mica', title:"L'uso di 'mica'",
+      statement:"'Mica' si usa per rafforzare una negazione, in un registro colloquiale.",
+      answer:true,
+      explanation:'Vero — "Non è mica facile" rafforza "non è facile" in tono colloquiale/informale.'
+    }
+  ],
+  C2: [
+    {
+      type:'mc', kicker:'Grammatica · C2 · Particelle', title:"Particella 'ne'",
+      prompt:'"Quanti libri hai letto?" — "___ ho letti tre."',
+      options:[{t:'Ne', correct:true},{t:'Ci', correct:false},{t:'Li', correct:false}],
+      feedbackCorrect:'Esatto — "ne" sostituisce "di libri" (quantità parziale).',
+      feedbackWrong:'Pista: si tratta di una quantità parziale ("di libri"), non di un luogo.'
+    },
+    {
+      type:'gapfill', kicker:'Grammatica · C2 · Concordanza', title:'Concordanza dei tempi',
+      before:'Se avessi saputo, ', after:' (venire) prima.',
+      answer:'sarei venuto', hint:'periodo ipotetico del terzo tipo (irrealtà)',
+      feedbackCorrect:'Esatto — congiuntivo trapassato + condizionale passato, para lo irreal en el pasado.',
+      feedbackWrong:'Pista: es el tercer tipo de periodo ipotetico (irrealtà nel passato).'
+    }
+  ]
+};
+
+let currentLevel = null;
+let currentTab = 'home';
+let flashIndex = 0;
+let flashFlipped = false;
+
+// Vocabulario real migrado (ver a1-content.json / a2-content.json), indexado
+// por NIVEL exacto, no por tier — así A1 nunca muestra vocabulario de A2 ni viceversa.
+const REAL_VOCAB = {
+  A1: [
+    "la famiglia/la familia", "buongiorno/buenos días", "il pane/el pan", "grazie mille/muchas gracias",
+    "gli alberghi/los hoteles", "l'aspetto/el aspecto físico", "la casa/la casa", "il cibo/la comida",
+    "i colori/los colores", "cucinare/cocinar", "le ferie/las vacaciones", "i giorni/los días",
+    "i mesi/los meses", "il meteo/el clima", "la nazionalità/la nacionalidad", "i negozi/las tiendas",
+    "i numeri/los números", "le professioni/las profesiones", "la salute/la salud", "i vestiti/la ropa"
+  ],
+  A2: [
+    "gli animali/los animales", "la bicicletta/la bicicleta", "il carattere/el carácter",
+    "città contro campagna/ciudad vs campo", "esprimere opinioni/expresar opiniones",
+    "feste e vacanze/fiestas y vacaciones", "gli inviti/las invitaciones", "le mani/las manos",
+    "i mezzi di trasporto/los medios de transporte", "le parti del corpo/las partes del cuerpo",
+    "le regioni italiane/las regiones italianas", "lo zodiaco/el zodíaco"
+  ],
+  B1: [
+    "l'ambiente e il riciclaggio/el medio ambiente y el reciclaje", "la bocca/la boca", "il cinema/el cine",
+    "i computers/los ordenadores", "descrivere oggetti/describir objetos", "i disastri naturali/los desastres naturales",
+    "le emergenze/las emergencias", "la geografia/la geografía", "il mercato del lavoro/el mercado laboral",
+    "i libri/los libros", "gli oggetti in casa/los objetos en casa", "tipi di persone/tipos de personas"
+  ],
+  B2: [
+    "aggettivi e verbi/adjetivos y verbos", "gli animali/los animales", "i contrari/los antónimos",
+    "il crimine/la delincuencia", "cucinare e cuocere in forno/cocinar y hornear", "espressioni comuni/expresiones comunes",
+    "generi letterari/géneros literarios", "carte e scacchi/cartas y ajedrez", "la mafia/la mafia",
+    "parole difficili/palabras difíciles", "la psicologia/la psicología", "il sistema politico/el sistema político",
+    "teatro e opera/teatro y ópera", "viaggiare/viajar"
+  ],
+  // C1 tiene solo 3 listas reales de vocabulario en el sitio (el foco pasa
+  // a gramática/matices), así que se completa con las mismas 3 repetidas
+  // hasta migrar más adelante otro tipo de contenido léxico para este nivel.
+  C1: [
+    "espressioni con verbi alta frequenza/expresiones con verbos frecuentes",
+    "occhi nei modi di dire/ojos en modismos",
+    "orecchie nei modi di dire/orejas en modismos"
+  ]
+};
+
+// Contenido de lectura (lecciones + gramática) migrado, para la vista
+// "Leer" separada de la práctica de ejercicios.
+const LESSON_CONTENT = {
+  A1: {
+    lessons: ["Articoli","Plurali","C'è/Ci sono","Presente indicativo","Piace/Piacciono","Aggettivi","Avverbi","Il passato","Pronomi diretti e indiretti","Preposizioni","Verbi riflessivi","La forma impersonale con 'si'"],
+    grammar: ["Articoli","Avverbi in -mente","C'è/ci sono","La forma 'Lei'","La forma passiva (si impersonale)","Passato prossimo","Piace/Piacciono","Plurale dei nomi","Pronomi diretti","Introduzione ai verbi","Verbi regolari","Verbi riflessivi","Verbi utili","A o in?"]
+  },
+  A2: {
+    lessons: ["Presente progressivo","Altri aspetti del passato","L'imperativo","L'imperfetto","Il futuro semplice","Il condizionale presente","Il congiuntivo presente","I verbi pronominali"],
+    grammar: ["Aggettivi e avverbi","Aggettivi possessivi","Condizionale - come si usa?","Condizionale semplice","Congiuntivo presente","Consonanti doppie","Futuro semplice","Imperativo diretto","Imperativo indiretto","Imperfetto","Pronomi diretti al passato prossimo","Stare + gerundio","Uso intransitivo e transitivo","Verbi irregolari","Verbi modali al passato prossimo","Verbi pronominali"]
+  },
+  B1: {
+    lessons: ["Forma passiva","Pronomi combinati","Condizionale passato","Trapassato prossimo","Congiuntivo passato","Congiuntivo imperfetto","Congiuntivo trapassato","Periodo ipotetico - presente irreale","Periodo ipotetico - passato irreale"],
+    grammar: ["Condizionale composto","Congiuntivo imperfetto","Congiuntivo passato","Congiuntivo presente","Congiuntivo trapassato","Forma impersonale con essere","Forma passiva","Periodo ipotetico della possibilità","Periodo ipotetico dell'impossibilità","Pronomi combinati","Trapassato prossimo","Uso di 'prima di'"]
+  },
+  B2: {
+    lessons: ["Passato remoto","Usi del congiuntivo","Pronomi relativi","Tipo e posizione degli aggettivi","La forma impersonale con 'si' (parte 2)","I connettivi"],
+    grammar: ["Aggettivi determinativi e relazionali","Avverbi e congiunzioni come connettori","Costruzione scissa","Forma diminutiva e accrescitiva","Forma passiva","Imperativo (parte 2)","Parole composte","Passato remoto","Posizione degli aggettivi","Pronome relativo 'che'","Pronome relativo doppio 'chi'","Quando si usa il congiuntivo?","'Si' spersonalizzante"]
+  },
+  C1: {
+    lessons: ["Verbi pronominali","Usi del participio presente","Usi del participio passato","Usi dell'infinito","'Piuttosto che'","'Mica'","Quando usare 'non'","Discorso indiretto","Pronomi e aggettivi indefiniti","Uso e omissione degli articoli","Locuzioni avverbiali"],
+    grammar: ["Costruzione fare + infinito","Discorso indiretto","Gerundio composto","Gerundio semplice","Infinito","Locuzioni avverbiali","Mica","Parole di difficile comprensione","Participio","Piuttosto che","Pronomi e aggettivi indefiniti","Quando usare 'non'","Uso e omissione degli articoli","Verbi pronominali"]
+  },
+  C2: {
+    lessons: ["Finché/affinché","Congiunzioni e connettivi","Concordanza dei tempi","Pronomi relativi 'che' e 'cui'","Pronomi relativi possessivi","Preposizioni semplici","Preposizioni articolate","Particelle pronominali 'ci' e 'ne'"],
+    grammar: ["Altri usi del congiuntivo","Articoli con nomi propri e toponimi","Concordanze verbali","Congiunzioni","Connettivi vari","Finché / Finché non","Particelle pronominali 'ci' e 'ne'","Plurale dei nomi composti","Preposizioni semplici","Preposizioni articolate","Pronomi dimostrativi","Pronomi relativi 'che' e 'cui'","Pronomi relativi possessivi"]
+  }
+};
+
+// C2 aún no se pudo migrar por completo en esta sesión (ver c2-content.json,
+// estado "parcial") — se mantiene contenido de ejemplo hasta confirmar cifras.
+const PLACEHOLDER_VOCAB = {
+  C2: ["ravvisare/detectar, apreciar (registro formal)", "in men che non si dica/en un abrir y cerrar de ojos", "circostanziato/pormenorizado", "addentrarsi/adentrarse (en un tema)"]
+};
+
+function vocabSetForLevel(code){
+  if(code === 'C2'){
+    return 'NO_VOCAB'; // dato real: el sitio no tiene listas de vocabulario en C2
+  }
+  const raw = REAL_VOCAB[code] || PLACEHOLDER_VOCAB[code] || REAL_VOCAB.B1;
+  return raw.map(s=>{
+    const [word, back] = s.split('/');
+    return {word, back};
+  });
+}
+
+const NEWS = [
+  {d:'Martedì · 3 min', h:'Nuove regole per il turismo a Venezia', p:'Il Comune introduce un nuovo sistema di prenotazione per i visitatori giornalieri...'},
+  {d:'Giovedì · 4 min', h:'Estate calda in tutta Italia', p:'Le temperature superano i 35 gradi in molte regioni, con allerta rossa in cinque città...'},
+  {d:'Sabato · 3 min', h:'Il cinema italiano al festival di Venezia', p:'Tre film italiani sono stati selezionati per la competizione ufficiale di quest\'anno...'},
+];
+
+function renderLevelList(){
+  const el = document.getElementById('levelList');
+  el.innerHTML = LEVELS.map(l => `
+    <div class="level-card" onclick="openLevel('${l.code}')">
+      <div class="level-badge" style="background:${TIERS[l.tier]}">${l.code}</div>
+      <div class="level-info">
+        <h3>${l.name}</h3>
+        <p>${l.desc}</p>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderDial(){
+  const el = document.getElementById('dial');
+  el.innerHTML = LEVELS.map(l => `
+    <button data-tier="${l.tier}" class="${l.code===currentLevel?'active':''}" onclick="openLevel('${l.code}')">${l.code}</button>
+  `).join('');
+}
+
+function openLevel(code){
+  currentLevel = code;
+  const lvl = LEVELS.find(l=>l.code===code);
+  document.getElementById('selectScreen').classList.add('hidden');
+  document.getElementById('homeScreen').classList.remove('hidden');
+  document.getElementById('bottomNav').style.display = 'flex';
+
+  renderDial();
+  document.getElementById('levelTitle').textContent = lvl.name;
+  const pill = document.getElementById('levelPill');
+  pill.textContent = lvl.code;
+  pill.style.background = TIERS[lvl.tier];
+  pill.style.color = '#fff';
+  document.getElementById('uiLangNote').textContent = '· ' + lvl.uiLang;
+
+  document.getElementById('checkPct').textContent = lvl.pct + '% completado';
+  document.getElementById('checkBar').style.width = lvl.pct + '%';
+  document.getElementById('checkBar').style.background = TIERS[lvl.tier];
+
+  // modules: reuse A1/B2 demo sets for any A-tier/B-tier/C-tier level (prototype simplification)
+  const modSet = (lvl.tier === 'A') ? MODULES.A1 : MODULES.B2;
+  const grid = document.getElementById('moduleGrid');
+  grid.innerHTML = modSet.map(m => `
+    <div class="module-card" onclick="${m.k==='gram' ? `openReading('${m.k}')` : `openExercise('${m.k}')`}">
+      <h4>${m.title}</h4>
+      <p>${m.sub}</p>
+    </div>
+  `).join('');
+
+  const extKey = (lvl.tier === 'A') ? 'A1' : 'B2';
+  const ext = EXTERNAL[extKey];
+  const cta = document.getElementById('ctaExternal');
+  cta.style.background = ext.bg;
+  cta.innerHTML = `<div><h5 style="color:${ext.color}">${ext.title}</h5><p>${ext.body}</p></div>`;
+
+  flashIndex = 0;
+  switchTab('home');
+}
+
+let exQueueIndex = 0;
+let orderingPicked = [];
+
+function openReading(moduleKey){
+  const content = LESSON_CONTENT[currentLevel];
+  const tier = currentTier();
+  window._currentTier = tier;
+  const root = document.getElementById('modalRoot');
+
+  if(!content){
+    // nivel aún no migrado: solo se puede practicar, no leer teoría todavía
+    openExercise(moduleKey);
+    return;
+  }
+
+  const lessonsHtml = content.lessons.map((l,i)=>`
+    <div class="prog-row" style="cursor:default;margin-bottom:6px;">
+      <div class="top" style="margin-bottom:0;"><span>${i+1}. ${l}</span></div>
+    </div>`).join('');
+
+  const grammarHtml = content.grammar.map(g=>`
+    <div class="prog-row" style="cursor:default;margin-bottom:6px;">
+      <div class="top" style="margin-bottom:0;"><span>${g}</span></div>
+    </div>`).join('');
+
+  root.innerHTML = `
+    <div class="modal-back" onclick="if(event.target===this) closeModal()">
+      <div class="modal">
+        <div class="modal-top">
+          <div><div class="kicker">Gramática · ${currentLevel} · Contenido migrado</div><h3>Lecciones y teoría</h3></div>
+          <span class="close" onclick="closeModal()">✕</span>
+        </div>
+        <p class="sec-lead" style="margin-bottom:14px;">Lecciones estructuradas (${content.lessons.length})</p>
+        ${lessonsHtml}
+        <p class="sec-lead" style="margin:18px 0 14px;">Explicaciones puntuales (${content.grammar.length})</p>
+        ${grammarHtml}
+        <button class="btn" style="background:${TIERS[tier]};color:#fff;width:100%;margin-top:18px;" onclick="openExercise('${moduleKey}')">Practicar ejercicios de este bloque</button>
+      </div>
+    </div>`;
+}
+
+function openExercise(moduleKey){
+  const lvl = LEVELS.find(l=>l.code===currentLevel);
+  window._currentTier = lvl.tier;
+  exQueueIndex = 0;
+  renderExercise();
+}
+
+function currentQueue(){
+  return EXERCISE_QUEUES[currentLevel] || EXERCISE_QUEUES.A1;
+}
+
+function renderExercise(){
+  const queue = currentQueue();
+  const ex = queue[exQueueIndex % queue.length];
+  window._currentEx = ex;
+  orderingPicked = [];
+  const tier = window._currentTier;
+  const root = document.getElementById('modalRoot');
+
+  let bodyHtml = '';
+
+  if(ex.audio){
+    bodyHtml += `<div class="audio-row">
+      <div class="play" style="background:${TIERS[tier]}">▶</div>
+      <div class="meta">${ex.audio.label}</div>
+    </div>`;
+    if(ex.transcript){
+      bodyHtml += `<div class="transcript">${ex.transcript}</div>`;
+    }
+  }
+
+  if(ex.type === 'mc'){
+    bodyHtml += `<div class="ex-prompt">${ex.prompt}</div>`;
+    bodyHtml += ex.options.map(o=>`<button class="opt" onclick="answerMC(this, ${o.correct})">${o.t}</button>`).join('');
+  } else if(ex.type === 'gapfill'){
+    bodyHtml += `<div class="ex-prompt">${ex.before}<u>____</u>${ex.after}</div>`;
+    bodyHtml += `<textarea class="free" style="min-height:44px" id="gapInput" placeholder="${ex.hint}"></textarea>`;
+    bodyHtml += `<button class="btn" style="background:${TIERS[tier]};color:#fff" onclick="answerGapfill()">Verifica</button>`;
+  } else if(ex.type === 'truefalse'){
+    bodyHtml += `<div class="ex-prompt">${ex.statement}</div>`;
+    bodyHtml += `<button class="opt" onclick="answerTF(this, true)">Vero</button>`;
+    bodyHtml += `<button class="opt" onclick="answerTF(this, false)">Falso</button>`;
+  } else if(ex.type === 'ordering'){
+    bodyHtml += `<div class="ex-prompt">Ordina le parole per formare la frase:</div>`;
+    bodyHtml += `<div id="orderBuilt" style="min-height:40px;font-size:16px;font-weight:600;margin-bottom:10px;"></div>`;
+    bodyHtml += `<div id="orderChips">` + ex.words.map((w,i)=>
+      `<button class="opt" style="display:inline-block;width:auto;margin-right:6px;" onclick="pickWord(this,'${w.replace(/'/g,"\\'")}')">${w}</button>`
+    ).join('') + `</div>`;
+    bodyHtml += `<button class="btn" style="background:var(--hair);color:var(--ink-soft);margin-left:8px" onclick="resetOrdering()">Reiniciar</button>`;
+  }
+
+  bodyHtml += `<div id="fb"></div>`;
+
+  root.innerHTML = `
+    <div class="modal-back" onclick="if(event.target===this) closeModal()">
+      <div class="modal">
+        <div class="modal-top">
+          <div><div class="kicker">${ex.kicker}</div><h3>${ex.title}</h3></div>
+          <span class="close" onclick="closeModal()">✕</span>
+        </div>
+        ${bodyHtml}
+      </div>
+    </div>`;
+}
+
+function showFeedback(correct, msg){
+  const fb = document.getElementById('fb');
+  fb.innerHTML = `<div class="feedback" style="background:${correct?'var(--olive-soft)':'var(--terracotta-soft)'};color:${correct?'var(--olive)':'var(--terracotta)'}">
+    ${msg}
+  </div>
+  <button class="btn" style="background:${TIERS[window._currentTier]};color:#fff" onclick="nextExercise()">Siguiente ejercicio</button>`;
+}
+
+function nextExercise(){
+  exQueueIndex++;
+  renderExercise();
+}
+
+function answerMC(btn, correct){
+  const ex = window._currentEx;
+  document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
+  btn.classList.add(correct ? 'correct' : 'wrong');
+  showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong);
+}
+
+function answerGapfill(){
+  const ex = window._currentEx;
+  const val = document.getElementById('gapInput').value.trim().toLowerCase();
+  const correct = val === ex.answer.toLowerCase();
+  document.getElementById('gapInput').style.borderColor = correct ? 'var(--olive)' : 'var(--terracotta)';
+  showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong + ` (Risposta corretta: "${ex.answer}")`);
+}
+
+function answerTF(btn, val){
+  const ex = window._currentEx;
+  document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
+  const correct = (val === ex.answer);
+  btn.classList.add(correct ? 'correct' : 'wrong');
+  showFeedback(correct, ex.explanation);
+}
+
+function pickWord(btn, word){
+  orderingPicked.push(word);
+  btn.style.display = 'none';
+  document.getElementById('orderBuilt').textContent = orderingPicked.join(' ');
+  const ex = window._currentEx;
+  if(orderingPicked.length === ex.words.length){
+    const built = orderingPicked.join(' ');
+    const correct = built.toLowerCase() === ex.correct.toLowerCase();
+    document.getElementById('orderBuilt').style.color = correct ? 'var(--olive)' : 'var(--terracotta)';
+    showFeedback(correct, (correct ? '¡Corretto! ' : `La frase corretta era: "${ex.correct}". `) + ex.explanation);
+  }
+}
+
+function resetOrdering(){
+  renderExercise();
+}
+
+function revealModel(){
+  const ex = window._currentEx;
+  const fb = document.getElementById('fb');
+  fb.innerHTML = `<div class="feedback" style="background:var(--olive-soft);color:var(--olive)">
+    <strong>Risposta modello:</strong><br>${ex.modelAnswer}
+  </div>`;
+}
+
+function closeModal(){
+  document.getElementById('modalRoot').innerHTML = '';
+}
+
+function switchTab(tab){
+  currentTab = tab;
+  ['home','practice','news','progress','more'].forEach(t=>{
+    document.getElementById(screenId(t)).classList.toggle('hidden', t!==tab);
+  });
+  document.querySelectorAll('.bottom-nav .item').forEach(it=>{
+    it.classList.toggle('active', it.dataset.tab===tab);
+  });
+  if(tab==='practice') renderFlash();
+  if(tab==='news') renderNews();
+  if(tab==='progress') renderProgress();
+}
+function screenId(t){
+  return {home:'homeScreen',practice:'practiceScreen',news:'newsScreen',progress:'progressScreen',more:'moreScreen'}[t];
+}
+
+function currentTier(){
+  const lvl = LEVELS.find(l=>l.code===currentLevel);
+  return lvl ? lvl.tier : 'A';
+}
+
+function renderFlash(){
+  flashFlipped = false;
+  const card = document.getElementById('flashCard');
+  const set = vocabSetForLevel(currentLevel);
+  if(set === 'NO_VOCAB'){
+    card.innerHTML = `<div class="word" style="font-size:16px;">Este nivel no tiene listas de vocabulario propias en el sitio original</div><div class="hint">C2 se centra 100% en gramática y matices — prueba "Gramática" en Mi nivel</div>`;
+    card.dataset.back = '';
+    return;
+  }
+  const item = set[flashIndex % set.length];
+  card.innerHTML = `<div class="word">${item.word}</div><div class="hint">toca para ver la traducción</div>`;
+  card.dataset.back = item.back;
+}
+function flipFlash(){
+  const card = document.getElementById('flashCard');
+  if(!card.dataset.back) return; // C2: no hay reverso que mostrar
+  flashFlipped = !flashFlipped;
+  if(flashFlipped){
+    card.innerHTML = `<div class="back">${card.dataset.back}</div><div class="hint">toca para volver</div>`;
+  } else {
+    renderFlash();
+  }
+}
+function nextFlash(){
+  flashIndex++;
+  renderFlash();
+}
+
+function renderNews(){
+  document.getElementById('newsList').innerHTML = NEWS.map(n=>`
+    <div class="news-card">
+      <div class="d">${n.d}</div>
+      <h4>${n.h}</h4>
+      <p>${n.p}</p>
+      <div class="news-play">▶ Escuchar bolletino</div>
+    </div>`).join('');
+}
+
+function renderProgress(){
+  const tier = currentTier();
+  const modSet = (tier === 'A') ? MODULES.A1 : MODULES.B2;
+  const vals = [72, 40, 85, 20, 55, 10];
+  document.getElementById('progList').innerHTML = modSet.map((m,i)=>`
+    <div class="prog-row">
+      <div class="top"><span>${m.title}</span><span>${vals[i]}%</span></div>
+      <div class="bar"><i style="width:${vals[i]}%;background:${TIERS[tier]}"></i></div>
+    </div>`).join('');
+}
+
+function openLevelWrapped(code){
+  openLevel(code);
+  switchTab('home');
+}
+
+renderLevelList();
+</script>
+
+</body>
+</html>

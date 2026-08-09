@@ -1,0 +1,53 @@
+{
+  "level": "B2",
+  "name": "Upper-Intermediate",
+  "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/",
+  "migrated_at": "2026-08-09",
+  "modules": {
+    "lessons": {
+      "label": "Lecciones estructuradas",
+      "count": 6,
+      "items": [
+        {"n": 30, "title": "Remote Past", "title_it": "Passato remoto"},
+        {"n": 31, "title": "Uses Of The Subjunctive", "title_it": "Usi del congiuntivo"},
+        {"n": 32, "title": "Relative Pronouns", "title_it": "Pronomi relativi"},
+        {"n": 33, "title": "Type And Position Of Adjectives", "title_it": "Tipo e posizione degli aggettivi"},
+        {"n": 34, "title": "The Impersonal Form With 'Si' (part 2)", "title_it": "La forma impersonale con 'si' (parte 2)"},
+        {"n": 35, "title": "Linkers", "title_it": "I connettivi"}
+      ]
+    },
+    "grammar": {
+      "label": "Explicaciones de gramática",
+      "count": 13,
+      "items": [
+        {"title_it": "Aggettivi determinativi e relazionali", "topic": "Definite and relational adjectives"},
+        {"title_it": "Avverbi e congiunzioni come connettori", "topic": "Adverbs/conjunctions as linkers"},
+        {"title_it": "Costruzione scissa", "topic": "Cleft construction"},
+        {"title_it": "Forma diminutiva e accrescitiva", "topic": "Diminutives and augmentatives"},
+        {"title_it": "Forma passiva", "topic": "Passive form"},
+        {"title_it": "Imperativo (parte 2)", "topic": "Imperative form"},
+        {"title_it": "Parole composte", "topic": "Compound words"},
+        {"title_it": "Passato remoto", "topic": "Preterite tense"},
+        {"title_it": "Posizione degli aggettivi", "topic": "Position of adjectives"},
+        {"title_it": "Pronome relativo 'che'", "topic": "Relative pronoun 'che'"},
+        {"title_it": "Pronome relativo doppio 'chi'", "topic": "Relative double pronoun 'chi'"},
+        {"title_it": "Quando si usa il congiuntivo?", "topic": "When to use subjunctive"},
+        {"title_it": "'Si' spersonalizzante", "topic": "Impersonal 'si'"}
+      ]
+    },
+    "vocabulary": {
+      "label": "Listas de vocabulario",
+      "count": 18,
+      "items": [
+        "Aggettivi e verbi/Adjetivos y verbos", "Animali 2/Animales", "Contrari/Antónimos", "Crime/Delincuencia",
+        "Cucinare e cuocere in forno/Cocinar y hornear", "Espressioni comuni/Expresiones comunes",
+        "Generi letterari/Géneros literarios", "Giochi: carte e scacchi/Juegos: cartas y ajedrez", "Mafia/Mafia",
+        "Naso nei modi di dire/La nariz en modismos", "Parole difficili/Palabras difíciles", "Parole utili/Palabras útiles",
+        "Professioni 3/Profesiones", "Psicologia 1/Psicología", "Psicologia 2/Psicología",
+        "Sistema politico italiano/Sistema político italiano", "Teatro e opera/Teatro y ópera", "Viaggiare/Viajar"
+      ]
+    },
+    "listening": {"label": "Ejercicios de listening", "count": 48, "note": "Pendiente migrar audio + transcripción"},
+    "exercises": {"label": "Ejercicios interactivos", "count": 62, "note": "Formato legacy HTML, requiere reescritura"}
+  }
+}

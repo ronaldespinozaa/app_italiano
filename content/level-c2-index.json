@@ -1,0 +1,48 @@
+{
+  "level": "C2",
+  "name": "Proficiency",
+  "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/",
+  "migrated_at": "2026-08-09",
+  "modules": {
+    "lessons": {
+      "label": "Lecciones estructuradas",
+      "count": 8,
+      "items": [
+        {"n": 47, "title": "Finché/affinché", "title_it": "Finché/affinché"},
+        {"n": 48, "title": "Conjunctions and Linkers", "title_it": "Congiunzioni e connettivi"},
+        {"n": 49, "title": "Tense Agreement", "title_it": "Concordanza dei tempi"},
+        {"n": 50, "title": "Relative Pronouns 'Che' and 'Cui'", "title_it": "Pronomi relativi 'che' e 'cui'"},
+        {"n": 51, "title": "Possessive Relative Pronouns", "title_it": "Pronomi relativi possessivi"},
+        {"n": 52, "title": "Simple Prepositions", "title_it": "Preposizioni semplici"},
+        {"n": 53, "title": "Articulated Prepositions", "title_it": "Preposizioni articolate"},
+        {"n": 54, "title": "Pronominal Particles 'Ci' and 'Ne'", "title_it": "Particelle pronominali 'ci' e 'ne'"}
+      ]
+    },
+    "grammar": {
+      "label": "Explicaciones de gramática",
+      "count": 13,
+      "items": [
+        {"title_it": "Altri usi del congiuntivo", "topic": "Other uses of subjunctive"},
+        {"title_it": "Articoli con nomi propri e toponimi", "topic": "Articles with proper nouns/place names"},
+        {"title_it": "Concordanze verbali", "topic": "Tense consistency"},
+        {"title_it": "Congiunzioni", "topic": "Connectives"},
+        {"title_it": "Connettivi vari", "topic": "Conjunctions"},
+        {"title_it": "Finché / Finché non", "topic": "Until / as long as"},
+        {"title_it": "Particelle pronominali 'ci' e 'ne'", "topic": "Pronominal particles"},
+        {"title_it": "Plurale dei nomi composti", "topic": "Plural of compound nouns"},
+        {"title_it": "Preposizioni semplici", "topic": "Prepositions"},
+        {"title_it": "Preposizioni articolate", "topic": "Compound prepositions"},
+        {"title_it": "Pronomi dimostrativi", "topic": "Demonstrative pronouns"},
+        {"title_it": "Pronomi relativi 'che' e 'cui'", "topic": "Relative pronouns"},
+        {"title_it": "Pronomi relativi possessivi", "topic": "Possessive relative pronouns"}
+      ]
+    },
+    "vocabulary": {
+      "label": "Listas de vocabulario",
+      "count": 0,
+      "note": "Confirmado: el sitio no dedica NINGUNA lista de vocabulario a C2. Tendencia iniciada en C1 (3 listas) llega a cero aqui - a este nivel el aprendizaje es 100% gramatica/matiz, cero lexico nuevo estructurado."
+    },
+    "listening": {"label": "Ejercicios de listening", "count": 16, "note": "Pendiente migrar audio + transcripcion"},
+    "exercises": {"label": "Ejercicios interactivos", "count": 22, "note": "Formato legacy HTML, requiere reescritura"}
+  }
+}

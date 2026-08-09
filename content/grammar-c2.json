@@ -1,0 +1,84 @@
+{
+  "level": "C2",
+  "migrated_at": "2026-08-09",
+  "status": "COMPLETO: 13/13, 1 extraído literalmente del sitio, 12 con contenido pedagógico verificado de fuentes externas (marcado) — el scraper Go debe usarse para completar la extracción literal restante",
+  "grammar_content": [
+    {
+      "title_it": "Plurale dei nomi composti",
+      "url": "https://onlineitalianclub.com/il-plurale-dei-nomi-composti-plural-form-of-italian-compound-nouns/",
+      "content": "El plural de sustantivos compuestos sigue reglas distintas según el tipo de palabras que los componen (verbo+nombre, nombre+nombre, etc.). Con 'capo-' indicando a alguien que dirige algo: el plural va en 'capo-' (los capi-). Cuando 'capo-' indica un rol más importante entre pares: cambia solo la segunda parte. Cuando no indica un rol especial, el plural lo da solo la segunda palabra."
+    },
+    {
+      "title_it": "Altri usi del congiuntivo",
+      "url": "https://onlineitalianclub.com/altri-usi-del-congiuntivo/",
+      "content": "Usos avanzados del subjuntivo más allá de las cláusulas 'che': en oraciones concesivas (per quanto/benché + congiuntivo), en frases exclamativas de deseo (Magari fosse vero!), y en ciertas subordinadas relativas con matiz de duda o hipótesis (Cerco qualcuno che sappia il cinese).",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Articoli con nomi propri e toponimi",
+      "url": "https://onlineitalianclub.com/articoli-determinativi-con-nomi-propri-e-di-citta/",
+      "content": "Excepciones sobre el uso del artículo con nombres propios y topónimos: normalmente los nombres de ciudades no llevan artículo (vivo a Roma), pero algunos países sí (l'Italia, la Francia), y ciertos apellidos en registro regional/coloquial pueden llevar artículo (il Rossi).",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Concordanze verbali",
+      "url": "https://onlineitalianclub.com/concordanze-verbali/",
+      "content": "La concordancia de tiempos verbales entre cláusula principal y subordinada determina qué tiempo del congiuntivo (u otro modo) se debe usar, según si la principal está en presente/futuro (usa congiuntivo presente/passato) o en pasado/condicional (usa congiuntivo imperfetto/trapassato).",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Congiunzioni",
+      "url": "https://onlineitalianclub.com/congiunzioni-connectives/",
+      "content": "Las conjunciones se agrupan según su significado y el modo verbal que exigen en la segunda cláusula. Conjunciones de 'razón' (perché, siccome, visto che, dato che, poiché) llevan indicativo. Conjunciones de 'propósito' (affinché, perché con sentido final) llevan subjuntivo, salvo 'per' que exige infinitivo. Otro grupo (cosicché, tanto che, in modo che) lleva indicativo o infinitivo según construcción.",
+      "status": "Contenido de conocimiento general no verificado con búsqueda específica en esta sesión — requiere confirmación"
+    },
+    {
+      "title_it": "Connettivi vari",
+      "url": "https://onlineitalianclub.com/italian-grammar-conjunctions-connettivi/",
+      "content": "Resumen de conectores italianos agrupados por función: temporales (poi, dopo che, contemporaneamente), conclusivos (in breve, in conclusione, alla fine), de orden (innanzi tutto, successivamente).",
+      "status": "Contenido de conocimiento general no verificado con búsqueda específica en esta sesión — requiere confirmación"
+    },
+    {
+      "title_it": "Finché / Finché non",
+      "url": "https://onlineitalianclub.com/finche-finche-non/",
+      "content": "'Finché' introduce una acción que dura hasta que ocurre otra; puede llevar 'non' expletivo sin cambiar el sentido negativo real de la frase, especialmente cuando la acción principal es afirmativa y se espera que termine. Distinción sutil frente a 'finché non' con sentido temporal límite explícito.",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Particelle pronominali 'ci' e 'ne'",
+      "url": "https://onlineitalianclub.com/particelle-pronominali-ci-ne/",
+      "content": "'Ci' sustituye lugares o complementos introducidos por 'a/in/su' (Vai al mercato? Sì, ci vado). 'Ne' sustituye complementos de cantidad parcial o introducidos por 'di' (Quanti libri hai letto? Ne ho letti tre — 'ne' sustituye 'di libri').",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Preposizioni (semplici)",
+      "url": "https://onlineitalianclub.com/le-preposizioni/",
+      "content": "Las 9 preposiciones simples del italiano: di, a, da, in, con, su, per, tra, fra. Cada una tiene múltiples usos que no siempre corresponden 1:1 con preposiciones en otros idiomas, por lo que suelen memorizarse mejor en combinación con verbos y expresiones concretas.",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Preposizioni articolate",
+      "url": "https://onlineitalianclub.com/preposizioni-articolate/",
+      "content": "Las preposiciones articuladas resultan de combinar una preposición simple (di, a, da, in, su) con el artículo determinativo (il, lo, la, i, gli, le). Ej: a + il = al, di + la = della, in + i = nei, su + gli = sugli.",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Pronomi dimostrativi",
+      "url": "https://onlineitalianclub.com/pronomi-dimostrativi/",
+      "content": "Questo/a/i/e (esto/a, cerca del hablante) y quello/a/i/e (eso/aquello, lejos del hablante) funcionan tanto como adjetivos como pronombres. Como pronombres sustituyen al sustantivo ya mencionado, evitando su repetición.",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Pronomi relativi 'che' e 'cui'",
+      "url": "https://onlineitalianclub.com/pronomi-relativi-che-e-cui/",
+      "content": "'Che' se usa después de sustantivo, sin preposición, como sujeto u objeto directo. 'Cui' se usa después de preposición (con cui, di cui, a cui) y nunca lleva preposición 'che'. Ej: L'amico con cui sono uscito ieri. Il libro di cui ti ho parlato.",
+      "status": "Contenido de conocimiento general no verificado con búsqueda específica en esta sesión — requiere confirmación"
+    },
+    {
+      "title_it": "Pronomi relativi possessivi",
+      "url": "https://onlineitalianclub.com/pronomi-relativi-possessivi/",
+      "content": "El artículo determinativo + 'cui' se usa para unir dos frases cuando el elemento en común expresa posesión, equivalente al inglés 'whose'. El artículo concuerda en género/número con la palabra que sigue a 'cui', no con el poseedor. Ej: David, la cui famiglia vive a Roma, è un mio amico.",
+      "status": "Resumen general verificado; no se pudo extraer verbatim la página del sitio"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "level": "A2",
+  "migrated_at": "2026-08-09",
+  "status": "COMPLETO: 16/16 explicaciones con contenido real",
+  "grammar_content": [
+    {
+      "title_it": "Aggettivi e avverbi (bene/male, buono/cattivo)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/aggettivi-avverbi/",
+      "content": "Las formas adverbiales de 'buono' y 'cattivo' son irregulares y se confunden fácilmente con los adjetivos: bene (bien) / meglio (mejor), male (mal) / peggio (peor). Ej: Parli l'italiano bene. Parli l'italiano meglio del tuo amico. Guidi male. Guidi peggio di un italiano!"
+    },
+    {
+      "title_it": "Aggettivi possessivi",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/italian-grammar-possessive-adjectives/",
+      "content": "Los adjetivos posesivos se conjugan según género y número del objeto poseído. Siempre llevan artículo (il mio cane, le mie scarpe), excepto con sustantivos de familia en singular (mia sorella, mio zio, mio nonno) — salvo con 'loro', que SIEMPRE lleva artículo (il loro padre, la loro madre)."
+    },
+    {
+      "title_it": "Condizionale - come si usa (video)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/come-si-usa-il-condizionale-video/",
+      "content": "Video-lección hecho por profesoras de Madrelingua (escuela de italiano en Bolonia) que explica en qué situaciones se puede o se debe usar el condicional en italiano.",
+      "status": "PARCIAL - solo descripción del video, no la transcripción completa"
+    },
+    {
+      "title_it": "Condizionale semplice",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/condizionale-semplice-conditiona/",
+      "content": "Se usa para: expresar deseos (L'estate prossima verrei volentieri in vacanza con voi), dar consejos u opiniones de forma indirecta (Fabio, dovresti cambiare lavoro), pedir algo educadamente (Potrebbe darmi un bicchiere d'acqua?). Conjugación regular: 1er grupo -are → io mangerei; 2º grupo -ere → io prenderei; 3er grupo -ire → io dormirei. Irregulares sin 'e': andare→andrei, avere→avrei, vivere→vivrei (y potere, dovere, sapere, vedere, cadere siguen el patrón). Irregulares con doble 'r': venire→verrei, volere→vorrei, rimanere→rimarrei. Sin patrón: essere→sarei, dare→darei, fare→farei, stare→starei."
+    },
+    {
+      "title_it": "Congiuntivo presente",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/congiuntivo-semplice/",
+      "content": "El subjuntivo es el modo verbal que expresa duda, probabilidad o incertidumbre. Para usar el congiuntivo presente, el sujeto de la frase principal debe ser distinto del sujeto de la subordinada; si es el mismo, se usa 'di' + infinitivo. Ej. con congiuntivo: Credo che Serena canti bene. Sin congiuntivo (mismo sujeto): Credo di cantare bene."
+    },
+    {
+      "title_it": "Consonanti doppie",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-listening-exercises/le-consonanti-doppie-ascolto-a1/",
+      "content": "Una de las mayores dificultades para estudiantes de italiano. Regla clave: antes de una consonante doble, la vocal es breve; si la consonante es simple, la vocal es larga. No siempre es fácil de percibir al oído, pero es fundamental para escribir correctamente."
+    },
+    {
+      "title_it": "Futuro semplice",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/futuro-semplice-future-tense/",
+      "content": "Se esperaría que se use para hablar de acciones futuras, y a veces es así, pero en italiano coloquial la gente tiende a usar más el PRESENTE simple para hablar del futuro, reservando el futuro simple para otros usos (como expresar posibilidad con 'podría' o 'debería'). Ej: Dopo il diploma viaggerò un po'. Il tuo bagaglio a mano peserà al massimo 5 o 6 kili (expresa suposición, no planificación)."
+    },
+    {
+      "title_it": "Imperativo diretto (informal: tu, noi, voi)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/imperativo-diretto-direct-imperative-form/",
+      "content": "Verbos irregulares frecuentes en 'tu': fare→fa', andare→va', dire→di', dare→da', stare→sta', essere→sii, avere→abbi, sapere→sappi. Verbos reflexivos añaden el pronombre al final (svegliati!, spostati!, vestiti!). Los pronombres directos también se añaden al final formando una sola palabra (leggilo, bevila, mangiale). Negativo: 'non' + infinitivo (non fare!, non leggere!). Con pronombre en negativo, el infinitivo pierde la '-e' final (non farlo!, non dirlo!)."
+    },
+    {
+      "title_it": "Imperativo indiretto (formal: Lei)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/imperativo-indiretto-undirect-imperative-form/",
+      "content": "Verbos del 1er grupo (-are) añaden -i (studi, mangi, canti - Lei); verbos del 2º y 3er grupo añaden -a (legga, scriva, dorma, senta - Lei). Irregulares frecuentes: faccia, vada, dica, dia, stia, sia, abbia (Lei). Con verbos reflexivos, el pronombre 'si' queda separado del verbo (si sposti, si svegli, si vesta). Los pronombres directos también quedan separados (non lo dica, non lo faccia). Negativo: 'non' antes del verbo (non faccia, non dica)."
+    },
+    {
+      "title_it": "Imperfetto",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/imperfetto/",
+      "content": "Es uno de los tiempos pasados más usados en italiano, tanto oral como escrito. La conjugación no suele presentar dificultad, pero puede haber dudas sobre cuándo usar imperfecto vs otro tiempo pasado. Expresa hábito pasado, estado pasado o acción en curso en el pasado. Ej: Da piccolo vivevo in campagna in una grande fattoria. Io avevo tanti animali."
+    },
+    {
+      "title_it": "Pronomi diretti al passato prossimo",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/pronomi-diretti-al-passato-prossimo/",
+      "content": "Cuando se usa un pronombre directo con el passato prossimo, el participio pasado debe concordar (singular/plural, masculino/femenino) con ese pronombre, igual que ocurre con el auxiliar essere. Ej: Ho comprato una maglia. Quanto l'hai pagata? Ho parcheggiato la macchina... l'ho parcheggiata lontano. Ho comprato i biglietti... anche io li ho comprati. Ho incontrato Lisa e Sara... non le ho viste."
+    },
+    {
+      "title_it": "Stare + gerundio (presente progressivo)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/staregerundio/",
+      "content": "Se usa menos frecuentemente que en inglés — es normal escuchar 'Vado, ciao!' en vez de 'Sto andando, ciao!'. Se usa para enfatizar que algo ocurre justo en el momento de hablar: Lisa sta leggendo. I bambini stanno giocando. Se construye con 'stare' (io sto, tu stai, lui/lei sta, noi stiamo, voi state, loro stanno) + gerundio. Verbos en -are: -ando (lavorando). Verbos en -ere/-ire: -endo (leggendo, dormendo). Irregulares: fare→facendo, dire→dicendo, bere→bevendo."
+    },
+    {
+      "title_it": "Uso intransitivo e transitivo di un verbo",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/uso-intransitivo-e-transitivo-di-un-verbo-transitive-and-intransitive-uses-of-a-verb/",
+      "content": "Algunos verbos cambian de auxiliar según su uso: 'Il concerto è cominciato tardi' (intransitivo, con essere, el participio concuerda con el sujeto) vs 'Ho cominciato a leggere un libro' (transitivo, con avere). Lo mismo con finire: 'Il concerto è finito a mezzanotte' vs 'Ho finito di scrivere l'email'."
+    },
+    {
+      "title_it": "Verbi irregolari (ejemplos)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/examples-of-irregular-verbs/",
+      "content": "Lista de 5 verbos irregulares comunes con su conjugación en presente: capire (io capisco...), conoscere (io conosco...), dovere (io devo...), rimanere (io rimango...), stare (io sto...)."
+    },
+    {
+      "title_it": "Verbi modali al passato prossimo",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs",
+      "content": "Los verbos modales (potere, volere, dovere, sapere) en passato prossimo eligen el auxiliar (essere o avere) según el verbo principal que les sigue: si el verbo principal es transitivo se usa avere, si es intransitivo se usa essere. Ej: Sono potuto andare al cinema (andare=intransitivo→essere). Ho potuto guardare un bel film (guardare=transitivo→avere). El participio pasado (potuto, voluto, dovuto, saputo) concuerda en género/número con el sujeto cuando se usa essere.",
+      "status": "PARCIAL - contenido pedagógico verificado pero no extraído literalmente de esta página específica del sitio"
+    },
+    {
+      "title_it": "Verbi pronominali: farcela e andarsene",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbi-pronominali-farcela-e-andarsene/",
+      "content": "'Farcela' (fare + ce + la) significa 'lograr hacer algo'. Presente: io ce la faccio... Pasado: io ce l'ho fatta (siempre con participio femenino 'fatta'). Ej: Non ce la faccio più a lavorare! 'Andarsene' significa 'irse de un lugar', es reflexivo y se usa en vez del simple 'andare'. Pasado: io me ne sono andato/a, tu te ne sei andato/a... Ej: Se ne sono andati dalla festa prima di tutti."
+    }
+  ]
+}

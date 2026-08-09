@@ -1,0 +1,944 @@
+{
+  "project": "OnlineItalianClub.com — migración a app móvil",
+  "migrated_at": "2026-08-09",
+  "source_site": "https://onlineitalianclub.com/",
+  "architecture_note": "Contenido estático, sin dependencia de WordPress en runtime. Cada nivel es un contenedor independiente (ver decisiones de arquitectura en la conversación).",
+  "levels": {
+    "A1": {
+      "level": "A1",
+      "name": "Beginner/Elementary",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 12,
+          "items": [
+            {
+              "n": 1,
+              "title": "Articles",
+              "title_it": "Articoli"
+            },
+            {
+              "n": 2,
+              "title": "Plurals",
+              "title_it": "Plurali"
+            },
+            {
+              "n": 3,
+              "title": "There is/There are",
+              "title_it": "C'è/Ci sono"
+            },
+            {
+              "n": 4,
+              "title": "Verbs in the present tense",
+              "title_it": "Presente indicativo"
+            },
+            {
+              "n": 5,
+              "title": "Like",
+              "title_it": "Piace/Piacciono"
+            },
+            {
+              "n": 6,
+              "title": "Adjectives",
+              "title_it": "Aggettivi"
+            },
+            {
+              "n": 7,
+              "title": "Adverbs",
+              "title_it": "Avverbi"
+            },
+            {
+              "n": 8,
+              "title": "The Past",
+              "title_it": "Il passato"
+            },
+            {
+              "n": 9,
+              "title": "Direct and indirect pronouns",
+              "title_it": "Pronomi diretti e indiretti"
+            },
+            {
+              "n": 10,
+              "title": "Prepositions",
+              "title_it": "Preposizioni"
+            },
+            {
+              "n": 11,
+              "title": "Reflexive verbs",
+              "title_it": "Verbi riflessivi"
+            },
+            {
+              "n": 12,
+              "title": "The Impersonal Form With 'Si'",
+              "title_it": "La forma impersonale con 'si'"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 14,
+          "items": [
+            {
+              "title_it": "Articoli",
+              "topic": "Articles"
+            },
+            {
+              "title_it": "Avverbi in -mente",
+              "topic": "Adverbs"
+            },
+            {
+              "title_it": "C'è/ci sono",
+              "topic": "There is/there are"
+            },
+            {
+              "title_it": "La forma 'Lei'",
+              "topic": "Formal address"
+            },
+            {
+              "title_it": "La forma passiva (si impersonale)",
+              "topic": "Passive/impersonal form"
+            },
+            {
+              "title_it": "Passato prossimo",
+              "topic": "Present perfect"
+            },
+            {
+              "title_it": "Piace/Piacciono",
+              "topic": "To like"
+            },
+            {
+              "title_it": "Plurale dei nomi",
+              "topic": "Plurals"
+            },
+            {
+              "title_it": "Pronomi diretti",
+              "topic": "Direct pronouns"
+            },
+            {
+              "title_it": "Introduzione ai verbi",
+              "topic": "Verbs intro"
+            },
+            {
+              "title_it": "Verbi regolari",
+              "topic": "Regular verbs"
+            },
+            {
+              "title_it": "Verbi riflessivi",
+              "topic": "Reflexive verbs"
+            },
+            {
+              "title_it": "Verbi utili",
+              "topic": "Useful verbs"
+            },
+            {
+              "title_it": "A o in?",
+              "topic": "Prepositions a/in"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 32,
+          "items": [
+            "Alberghi/Hotels",
+            "Aspetto/Appearance",
+            "Casa e contenuti/Home and contents",
+            "Cibo/Food",
+            "Colori/Colors",
+            "Cucinare/Cooking",
+            "Descrivere cibo/Describing food",
+            "Ferie/Holidays",
+            "Frequenza/Frequency",
+            "Giorni/Days",
+            "Indicazioni/Directions",
+            "Luoghi di lavoro/Workplaces",
+            "Mesi/Months",
+            "Meteo/Weather",
+            "Nazionalità/Nationalities",
+            "Negozi/Shops",
+            "Nomi/Nouns",
+            "Numeri/Numbers",
+            "Numeri ordinali/Ordinal numbers",
+            "Preposizioni di luogo/Prepositions of place",
+            "Professioni/Professions",
+            "Quantità/Quantity",
+            "Salute e malattie/Health",
+            "Sapori d'Italia/Tastes of Italy",
+            "Scuola e studiare/School and studying",
+            "Stagioni/Seasons",
+            "Tempo/Telling the time",
+            "Termini geografici/Geographical terms",
+            "Verbi/Verbs",
+            "Verbi di routine/Routine verbs",
+            "Vestiti/Clothes"
+          ]
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 44,
+          "note": "Cada item requiere migrar también su archivo de audio y transcripción; pendiente de scraping página a página",
+          "sample": [
+            "Agenda del giorno/Daily diary",
+            "Famiglia/Family",
+            "Professioni/Professions",
+            "Quartiere/District",
+            "Presentazioni/Presentations",
+            "Natale in Italia/Christmas in Italy"
+          ]
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 90,
+          "note": "Formato legacy HTML (/free_italian_exercises/*.html) con motor de quiz propio en JS; requiere reescritura a componente nativo, no solo migración de datos",
+          "sample": [
+            "Verbo ESSERE",
+            "Verbo AVERE",
+            "Numeri 1-100",
+            "Plurale dei nomi",
+            "Passato prossimo - coniuga il verbo",
+            "Pronomi diretti"
+          ]
+        }
+      }
+    },
+    "A2": {
+      "level": "A2",
+      "name": "Pre-Intermediate",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 8,
+          "items": [
+            {
+              "n": 13,
+              "title": "Present Progressive Tense",
+              "title_it": "Presente progressivo"
+            },
+            {
+              "n": 14,
+              "title": "Past Tense, Other Aspects",
+              "title_it": "Altri aspetti del passato"
+            },
+            {
+              "n": 15,
+              "title": "The Imperative",
+              "title_it": "L'imperativo"
+            },
+            {
+              "n": 16,
+              "title": "The Imperfect Tense",
+              "title_it": "L'imperfetto"
+            },
+            {
+              "n": 17,
+              "title": "The Future Simple Tense",
+              "title_it": "Il futuro semplice"
+            },
+            {
+              "n": 18,
+              "title": "Conditional Present",
+              "title_it": "Il condizionale presente"
+            },
+            {
+              "n": 19,
+              "title": "Subjunctive Present",
+              "title_it": "Il congiuntivo presente"
+            },
+            {
+              "n": 20,
+              "title": "Pronominal Verbs",
+              "title_it": "I verbi pronominali"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 16,
+          "items": [
+            {
+              "title_it": "Aggettivi e avverbi",
+              "topic": "Adjectives and adverbs"
+            },
+            {
+              "title_it": "Aggettivi possessivi",
+              "topic": "Possessive adjectives"
+            },
+            {
+              "title_it": "Condizionale - come si usa?",
+              "topic": "How to use the conditional"
+            },
+            {
+              "title_it": "Condizionale semplice",
+              "topic": "Simple conditional"
+            },
+            {
+              "title_it": "Congiuntivo presente",
+              "topic": "Subjunctive present"
+            },
+            {
+              "title_it": "Consonanti doppie",
+              "topic": "Double consonants"
+            },
+            {
+              "title_it": "Futuro semplice",
+              "topic": "Simple future tense"
+            },
+            {
+              "title_it": "Imperativo diretto",
+              "topic": "Imperative (informal)"
+            },
+            {
+              "title_it": "Imperativo indiretto",
+              "topic": "Imperative (formal)"
+            },
+            {
+              "title_it": "Imperfetto",
+              "topic": "Imperfect"
+            },
+            {
+              "title_it": "Pronomi diretti al passato prossimo",
+              "topic": "Direct pronouns in present perfect"
+            },
+            {
+              "title_it": "Stare + gerundio",
+              "topic": "-ing form"
+            },
+            {
+              "title_it": "Uso intransitivo e transitivo di un verbo",
+              "topic": "Transitive/intransitive verbs"
+            },
+            {
+              "title_it": "Verbi irregolari",
+              "topic": "Irregular verbs"
+            },
+            {
+              "title_it": "Verbi modali al passato prossimo",
+              "topic": "Modal verbs in present perfect"
+            },
+            {
+              "title_it": "Verbi pronominali FARCELA e ANDARSENE",
+              "topic": "Pronominal verbs"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 18,
+          "items": [
+            "Animali/Animals",
+            "Aspetto/Appearance",
+            "Bicicletta/Bicycle",
+            "Carattere/Character",
+            "Casa/House",
+            "Città contro campagna/City vs countryside",
+            "Esprimere opinioni/Expressing opinions",
+            "Famiglia/Family",
+            "Feste e vacanze/Festivals and holidays",
+            "Inviti/Invitations",
+            "Mani/Hands",
+            "Mezzi di trasporto/Means of transport",
+            "Parti del corpo/Body parts",
+            "Piedi/Feet",
+            "Regioni italiane/Italian regions",
+            "Salute/Health",
+            "Televisione/Television",
+            "Zodiaco/Zodiac"
+          ]
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 34,
+          "note": "Pendiente migrar audio + transcripción"
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 60,
+          "note": "Formato legacy HTML, requiere reescritura"
+        }
+      }
+    },
+    "B1": {
+      "level": "B1",
+      "name": "Intermediate",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 9,
+          "items": [
+            {
+              "n": 21,
+              "title": "Passive",
+              "title_it": "Forma passiva"
+            },
+            {
+              "n": 22,
+              "title": "Combined Pronouns",
+              "title_it": "Pronomi combinati"
+            },
+            {
+              "n": 23,
+              "title": "Conditional Past",
+              "title_it": "Condizionale passato"
+            },
+            {
+              "n": 24,
+              "title": "Past Perfect",
+              "title_it": "Trapassato prossimo"
+            },
+            {
+              "n": 25,
+              "title": "Subjunctive Past",
+              "title_it": "Congiuntivo passato"
+            },
+            {
+              "n": 26,
+              "title": "Subjunctive Imperfect",
+              "title_it": "Congiuntivo imperfetto"
+            },
+            {
+              "n": 27,
+              "title": "Subjunctive Past Perfect",
+              "title_it": "Congiuntivo trapassato"
+            },
+            {
+              "n": 28,
+              "title": "Unreal Present",
+              "title_it": "Periodo ipotetico - presente irreale"
+            },
+            {
+              "n": 29,
+              "title": "Unreal Past",
+              "title_it": "Periodo ipotetico - passato irreale"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 12,
+          "items": [
+            {
+              "title_it": "Condizionale composto",
+              "topic": "Composed conditional"
+            },
+            {
+              "title_it": "Congiuntivo imperfetto",
+              "topic": "Subjunctive imperfect"
+            },
+            {
+              "title_it": "Congiuntivo passato",
+              "topic": "Subjunctive past"
+            },
+            {
+              "title_it": "Congiuntivo presente",
+              "topic": "Subjunctive present"
+            },
+            {
+              "title_it": "Congiuntivo trapassato",
+              "topic": "Subjunctive past perfect"
+            },
+            {
+              "title_it": "Forma impersonale con essere",
+              "topic": "Impersonal form with 'to be'"
+            },
+            {
+              "title_it": "Forma passiva",
+              "topic": "Passive form"
+            },
+            {
+              "title_it": "Periodo ipotetico della possibilità",
+              "topic": "Conditional clause - possibility"
+            },
+            {
+              "title_it": "Periodo ipotetico dell'impossibilità",
+              "topic": "Conditional clause - impossibility"
+            },
+            {
+              "title_it": "Pronomi combinati",
+              "topic": "Combined pronouns"
+            },
+            {
+              "title_it": "Trapassato prossimo",
+              "topic": "Past perfect tense"
+            },
+            {
+              "title_it": "Uso di 'prima di'",
+              "topic": "Use of 'before'"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 18,
+          "items": [
+            "Ambiente e riciclaggio/Medio ambiente y reciclaje",
+            "Bocca/Boca",
+            "Cinema/Cine",
+            "Colori nelle frasi idiomatiche/Colores en frases idiomáticas",
+            "Computers/Ordenadores",
+            "Descrivere oggetti/Describir objetos",
+            "Disastri naturali/Desastres naturales",
+            "Emergenze/Emergencias",
+            "Geografia/Geografía",
+            "Lavori e il mercato del lavoro/Trabajos y mercado laboral",
+            "Libri/Libros",
+            "Nomi 2/Sustantivos",
+            "Nomi 3/Sustantivos",
+            "Oggetti in casa/Objetos en casa",
+            "Tipi di persone/Tipos de personas",
+            "Verbi 3/Verbos",
+            "Verbi 4/Verbos",
+            "Verbi 5/Verbos"
+          ]
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 38,
+          "note": "Pendiente migrar audio + transcripción"
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 72,
+          "note": "Formato legacy HTML, requiere reescritura"
+        }
+      }
+    },
+    "B2": {
+      "level": "B2",
+      "name": "Upper-Intermediate",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 6,
+          "items": [
+            {
+              "n": 30,
+              "title": "Remote Past",
+              "title_it": "Passato remoto"
+            },
+            {
+              "n": 31,
+              "title": "Uses Of The Subjunctive",
+              "title_it": "Usi del congiuntivo"
+            },
+            {
+              "n": 32,
+              "title": "Relative Pronouns",
+              "title_it": "Pronomi relativi"
+            },
+            {
+              "n": 33,
+              "title": "Type And Position Of Adjectives",
+              "title_it": "Tipo e posizione degli aggettivi"
+            },
+            {
+              "n": 34,
+              "title": "The Impersonal Form With 'Si' (part 2)",
+              "title_it": "La forma impersonale con 'si' (parte 2)"
+            },
+            {
+              "n": 35,
+              "title": "Linkers",
+              "title_it": "I connettivi"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 13,
+          "items": [
+            {
+              "title_it": "Aggettivi determinativi e relazionali",
+              "topic": "Definite and relational adjectives"
+            },
+            {
+              "title_it": "Avverbi e congiunzioni come connettori",
+              "topic": "Adverbs/conjunctions as linkers"
+            },
+            {
+              "title_it": "Costruzione scissa",
+              "topic": "Cleft construction"
+            },
+            {
+              "title_it": "Forma diminutiva e accrescitiva",
+              "topic": "Diminutives and augmentatives"
+            },
+            {
+              "title_it": "Forma passiva",
+              "topic": "Passive form"
+            },
+            {
+              "title_it": "Imperativo (parte 2)",
+              "topic": "Imperative form"
+            },
+            {
+              "title_it": "Parole composte",
+              "topic": "Compound words"
+            },
+            {
+              "title_it": "Passato remoto",
+              "topic": "Preterite tense"
+            },
+            {
+              "title_it": "Posizione degli aggettivi",
+              "topic": "Position of adjectives"
+            },
+            {
+              "title_it": "Pronome relativo 'che'",
+              "topic": "Relative pronoun 'che'"
+            },
+            {
+              "title_it": "Pronome relativo doppio 'chi'",
+              "topic": "Relative double pronoun 'chi'"
+            },
+            {
+              "title_it": "Quando si usa il congiuntivo?",
+              "topic": "When to use subjunctive"
+            },
+            {
+              "title_it": "'Si' spersonalizzante",
+              "topic": "Impersonal 'si'"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 18,
+          "items": [
+            "Aggettivi e verbi/Adjetivos y verbos",
+            "Animali 2/Animales",
+            "Contrari/Antónimos",
+            "Crime/Delincuencia",
+            "Cucinare e cuocere in forno/Cocinar y hornear",
+            "Espressioni comuni/Expresiones comunes",
+            "Generi letterari/Géneros literarios",
+            "Giochi: carte e scacchi/Juegos: cartas y ajedrez",
+            "Mafia/Mafia",
+            "Naso nei modi di dire/La nariz en modismos",
+            "Parole difficili/Palabras difíciles",
+            "Parole utili/Palabras útiles",
+            "Professioni 3/Profesiones",
+            "Psicologia 1/Psicología",
+            "Psicologia 2/Psicología",
+            "Sistema politico italiano/Sistema político italiano",
+            "Teatro e opera/Teatro y ópera",
+            "Viaggiare/Viajar"
+          ]
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 48,
+          "note": "Pendiente migrar audio + transcripción"
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 62,
+          "note": "Formato legacy HTML, requiere reescritura"
+        }
+      }
+    },
+    "C1": {
+      "level": "C1",
+      "name": "Advanced",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 11,
+          "items": [
+            {
+              "n": 36,
+              "title": "Pronominal Verbs",
+              "title_it": "Verbi pronominali"
+            },
+            {
+              "n": 37,
+              "title": "Uses Of The Present Participle",
+              "title_it": "Usi del participio presente"
+            },
+            {
+              "n": 38,
+              "title": "Uses Of The Past Participle",
+              "title_it": "Usi del participio passato"
+            },
+            {
+              "n": 39,
+              "title": "Uses Of The Infinitive",
+              "title_it": "Usi dell'infinito"
+            },
+            {
+              "n": 40,
+              "title": "'Piuttosto che'",
+              "title_it": "'Piuttosto che'"
+            },
+            {
+              "n": 41,
+              "title": "'Mica'",
+              "title_it": "'Mica'"
+            },
+            {
+              "n": 42,
+              "title": "'Non'",
+              "title_it": "Quando usare 'non'"
+            },
+            {
+              "n": 43,
+              "title": "Reported Speech",
+              "title_it": "Discorso indiretto"
+            },
+            {
+              "n": 44,
+              "title": "Indefinite pronouns and Adjectives",
+              "title_it": "Pronomi e aggettivi indefiniti"
+            },
+            {
+              "n": 45,
+              "title": "Use and Omission of Articles",
+              "title_it": "Uso e omissione degli articoli"
+            },
+            {
+              "n": 46,
+              "title": "Adverbial phrases",
+              "title_it": "Locuzioni avverbiali"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 14,
+          "items": [
+            {
+              "title_it": "Costruzione fare + infinito",
+              "topic": "Construction 'fare' + infinitive"
+            },
+            {
+              "title_it": "Discorso indiretto",
+              "topic": "Reported speech"
+            },
+            {
+              "title_it": "Gerundio composto",
+              "topic": "Compound gerund"
+            },
+            {
+              "title_it": "Gerundio semplice",
+              "topic": "Simple gerund"
+            },
+            {
+              "title_it": "Infinito",
+              "topic": "Infinitive"
+            },
+            {
+              "title_it": "Locuzioni avverbiali",
+              "topic": "Adverb phrases"
+            },
+            {
+              "title_it": "Mica",
+              "topic": "'At all'"
+            },
+            {
+              "title_it": "Parole di difficile comprensione",
+              "topic": "Difficult words"
+            },
+            {
+              "title_it": "Participio",
+              "topic": "Participle"
+            },
+            {
+              "title_it": "Piuttosto che",
+              "topic": "'Rather than'"
+            },
+            {
+              "title_it": "Pronomi e aggettivi indefiniti",
+              "topic": "Indefinite pronouns/adjectives"
+            },
+            {
+              "title_it": "Quando usare 'non'",
+              "topic": "When to use 'non'"
+            },
+            {
+              "title_it": "Uso e omissione degli articoli",
+              "topic": "Use/omission of articles"
+            },
+            {
+              "title_it": "Verbi pronominali",
+              "topic": "Pronominal verbs"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 3,
+          "note": "El sitio reduce drásticamente el vocabulario dedicado en C1 (frente a ~18 en niveles B) — a este nivel el foco pasa a matices gramaticales y modismos, no léxico nuevo",
+          "items": [
+            "Espressioni comuni con verbi alta frequenza/Expresiones con verbos de alta frecuencia",
+            "Occhi nei modi di dire/Los ojos en modismos",
+            "Orecchie nei modi di dire/Las orejas en modismos"
+          ]
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 18,
+          "note": "Pendiente migrar audio + transcripción"
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 27,
+          "note": "Formato legacy HTML, requiere reescritura"
+        }
+      }
+    },
+    "C2": {
+      "level": "C2",
+      "name": "Proficiency",
+      "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/",
+      "migrated_at": "2026-08-09",
+      "modules": {
+        "lessons": {
+          "label": "Lecciones estructuradas",
+          "count": 8,
+          "items": [
+            {
+              "n": 47,
+              "title": "Finché/affinché",
+              "title_it": "Finché/affinché"
+            },
+            {
+              "n": 48,
+              "title": "Conjunctions and Linkers",
+              "title_it": "Congiunzioni e connettivi"
+            },
+            {
+              "n": 49,
+              "title": "Tense Agreement",
+              "title_it": "Concordanza dei tempi"
+            },
+            {
+              "n": 50,
+              "title": "Relative Pronouns 'Che' and 'Cui'",
+              "title_it": "Pronomi relativi 'che' e 'cui'"
+            },
+            {
+              "n": 51,
+              "title": "Possessive Relative Pronouns",
+              "title_it": "Pronomi relativi possessivi"
+            },
+            {
+              "n": 52,
+              "title": "Simple Prepositions",
+              "title_it": "Preposizioni semplici"
+            },
+            {
+              "n": 53,
+              "title": "Articulated Prepositions",
+              "title_it": "Preposizioni articolate"
+            },
+            {
+              "n": 54,
+              "title": "Pronominal Particles 'Ci' and 'Ne'",
+              "title_it": "Particelle pronominali 'ci' e 'ne'"
+            }
+          ]
+        },
+        "grammar": {
+          "label": "Explicaciones de gramática",
+          "count": 13,
+          "items": [
+            {
+              "title_it": "Altri usi del congiuntivo",
+              "topic": "Other uses of subjunctive"
+            },
+            {
+              "title_it": "Articoli con nomi propri e toponimi",
+              "topic": "Articles with proper nouns/place names"
+            },
+            {
+              "title_it": "Concordanze verbali",
+              "topic": "Tense consistency"
+            },
+            {
+              "title_it": "Congiunzioni",
+              "topic": "Connectives"
+            },
+            {
+              "title_it": "Connettivi vari",
+              "topic": "Conjunctions"
+            },
+            {
+              "title_it": "Finché / Finché non",
+              "topic": "Until / as long as"
+            },
+            {
+              "title_it": "Particelle pronominali 'ci' e 'ne'",
+              "topic": "Pronominal particles"
+            },
+            {
+              "title_it": "Plurale dei nomi composti",
+              "topic": "Plural of compound nouns"
+            },
+            {
+              "title_it": "Preposizioni semplici",
+              "topic": "Prepositions"
+            },
+            {
+              "title_it": "Preposizioni articolate",
+              "topic": "Compound prepositions"
+            },
+            {
+              "title_it": "Pronomi dimostrativi",
+              "topic": "Demonstrative pronouns"
+            },
+            {
+              "title_it": "Pronomi relativi 'che' e 'cui'",
+              "topic": "Relative pronouns"
+            },
+            {
+              "title_it": "Pronomi relativi possessivi",
+              "topic": "Possessive relative pronouns"
+            }
+          ]
+        },
+        "vocabulary": {
+          "label": "Listas de vocabulario",
+          "count": 0,
+          "note": "Confirmado: el sitio no dedica NINGUNA lista de vocabulario a C2. Tendencia iniciada en C1 (3 listas) llega a cero aqui - a este nivel el aprendizaje es 100% gramatica/matiz, cero lexico nuevo estructurado."
+        },
+        "listening": {
+          "label": "Ejercicios de listening",
+          "count": 16,
+          "note": "Pendiente migrar audio + transcripcion"
+        },
+        "exercises": {
+          "label": "Ejercicios interactivos",
+          "count": 22,
+          "note": "Formato legacy HTML, requiere reescritura"
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_pages": 756,
+    "by_module_type": {
+      "lessons": 54,
+      "grammar": 82,
+      "vocabulary": 89,
+      "listening": 198,
+      "exercises": 333
+    },
+    "by_level": {
+      "A1": 192,
+      "A2": 136,
+      "B1": 149,
+      "B2": 147,
+      "C1": 73,
+      "C2": 59
+    }
+  }
+}

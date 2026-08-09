@@ -1,0 +1,13 @@
+# Binarios compilados
+tools/grammar-scraper
+tools/level-content-service
+tools/server
+*.exe
+
+# Salidas de prueba
+*.log
+test-*.json
+test-*.log
+
+# Sistema
+.DS_Store

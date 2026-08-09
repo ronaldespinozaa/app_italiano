@@ -1,0 +1,67 @@
+{
+  "level": "A2",
+  "name": "Pre-Intermediate",
+  "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/",
+  "migrated_at": "2026-08-09",
+  "modules": {
+    "lessons": {
+      "label": "Lecciones estructuradas",
+      "count": 8,
+      "items": [
+        {"n": 13, "title": "Present Progressive Tense", "title_it": "Presente progressivo"},
+        {"n": 14, "title": "Past Tense, Other Aspects", "title_it": "Altri aspetti del passato"},
+        {"n": 15, "title": "The Imperative", "title_it": "L'imperativo"},
+        {"n": 16, "title": "The Imperfect Tense", "title_it": "L'imperfetto"},
+        {"n": 17, "title": "The Future Simple Tense", "title_it": "Il futuro semplice"},
+        {"n": 18, "title": "Conditional Present", "title_it": "Il condizionale presente"},
+        {"n": 19, "title": "Subjunctive Present", "title_it": "Il congiuntivo presente"},
+        {"n": 20, "title": "Pronominal Verbs", "title_it": "I verbi pronominali"}
+      ]
+    },
+    "grammar": {
+      "label": "Explicaciones de gramática",
+      "count": 16,
+      "items": [
+        {"title_it": "Aggettivi e avverbi", "topic": "Adjectives and adverbs"},
+        {"title_it": "Aggettivi possessivi", "topic": "Possessive adjectives"},
+        {"title_it": "Condizionale - come si usa?", "topic": "How to use the conditional"},
+        {"title_it": "Condizionale semplice", "topic": "Simple conditional"},
+        {"title_it": "Congiuntivo presente", "topic": "Subjunctive present"},
+        {"title_it": "Consonanti doppie", "topic": "Double consonants"},
+        {"title_it": "Futuro semplice", "topic": "Simple future tense"},
+        {"title_it": "Imperativo diretto", "topic": "Imperative (informal)"},
+        {"title_it": "Imperativo indiretto", "topic": "Imperative (formal)"},
+        {"title_it": "Imperfetto", "topic": "Imperfect"},
+        {"title_it": "Pronomi diretti al passato prossimo", "topic": "Direct pronouns in present perfect"},
+        {"title_it": "Stare + gerundio", "topic": "-ing form"},
+        {"title_it": "Uso intransitivo e transitivo di un verbo", "topic": "Transitive/intransitive verbs"},
+        {"title_it": "Verbi irregolari", "topic": "Irregular verbs"},
+        {"title_it": "Verbi modali al passato prossimo", "topic": "Modal verbs in present perfect"},
+        {"title_it": "Verbi pronominali FARCELA e ANDARSENE", "topic": "Pronominal verbs"}
+      ]
+    },
+    "vocabulary": {
+      "label": "Listas de vocabulario",
+      "count": 18,
+      "items": [
+        "Animali/Animals", "Aspetto/Appearance", "Bicicletta/Bicycle", "Carattere/Character",
+        "Casa/House", "Città contro campagna/City vs countryside", "Esprimere opinioni/Expressing opinions",
+        "Famiglia/Family", "Feste e vacanze/Festivals and holidays", "Inviti/Invitations",
+        "Mani/Hands", "Mezzi di trasporto/Means of transport", "Parti del corpo/Body parts",
+        "Piedi/Feet", "Regioni italiane/Italian regions", "Salute/Health",
+        "Televisione/Television", "Zodiaco/Zodiac"
+      ]
+    },
+    "listening": {
+      "label": "Ejercicios de listening",
+      "count": 34,
+      "note": "Pendiente migrar audio + transcripción"
+    },
+    "exercises": {
+      "label": "Ejercicios interactivos",
+      "count": 60,
+      "note": "Formato legacy HTML, requiere reescritura"
+    }
+  }
+}
+

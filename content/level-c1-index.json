@@ -1,0 +1,57 @@
+{
+  "level": "C1",
+  "name": "Advanced",
+  "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/",
+  "migrated_at": "2026-08-09",
+  "modules": {
+    "lessons": {
+      "label": "Lecciones estructuradas",
+      "count": 11,
+      "items": [
+        {"n": 36, "title": "Pronominal Verbs", "title_it": "Verbi pronominali"},
+        {"n": 37, "title": "Uses Of The Present Participle", "title_it": "Usi del participio presente"},
+        {"n": 38, "title": "Uses Of The Past Participle", "title_it": "Usi del participio passato"},
+        {"n": 39, "title": "Uses Of The Infinitive", "title_it": "Usi dell'infinito"},
+        {"n": 40, "title": "'Piuttosto che'", "title_it": "'Piuttosto che'"},
+        {"n": 41, "title": "'Mica'", "title_it": "'Mica'"},
+        {"n": 42, "title": "'Non'", "title_it": "Quando usare 'non'"},
+        {"n": 43, "title": "Reported Speech", "title_it": "Discorso indiretto"},
+        {"n": 44, "title": "Indefinite pronouns and Adjectives", "title_it": "Pronomi e aggettivi indefiniti"},
+        {"n": 45, "title": "Use and Omission of Articles", "title_it": "Uso e omissione degli articoli"},
+        {"n": 46, "title": "Adverbial phrases", "title_it": "Locuzioni avverbiali"}
+      ]
+    },
+    "grammar": {
+      "label": "Explicaciones de gramática",
+      "count": 14,
+      "items": [
+        {"title_it": "Costruzione fare + infinito", "topic": "Construction 'fare' + infinitive"},
+        {"title_it": "Discorso indiretto", "topic": "Reported speech"},
+        {"title_it": "Gerundio composto", "topic": "Compound gerund"},
+        {"title_it": "Gerundio semplice", "topic": "Simple gerund"},
+        {"title_it": "Infinito", "topic": "Infinitive"},
+        {"title_it": "Locuzioni avverbiali", "topic": "Adverb phrases"},
+        {"title_it": "Mica", "topic": "'At all'"},
+        {"title_it": "Parole di difficile comprensione", "topic": "Difficult words"},
+        {"title_it": "Participio", "topic": "Participle"},
+        {"title_it": "Piuttosto che", "topic": "'Rather than'"},
+        {"title_it": "Pronomi e aggettivi indefiniti", "topic": "Indefinite pronouns/adjectives"},
+        {"title_it": "Quando usare 'non'", "topic": "When to use 'non'"},
+        {"title_it": "Uso e omissione degli articoli", "topic": "Use/omission of articles"},
+        {"title_it": "Verbi pronominali", "topic": "Pronominal verbs"}
+      ]
+    },
+    "vocabulary": {
+      "label": "Listas de vocabulario",
+      "count": 3,
+      "note": "El sitio reduce drásticamente el vocabulario dedicado en C1 (frente a ~18 en niveles B) — a este nivel el foco pasa a matices gramaticales y modismos, no léxico nuevo",
+      "items": [
+        "Espressioni comuni con verbi alta frequenza/Expresiones con verbos de alta frecuencia",
+        "Occhi nei modi di dire/Los ojos en modismos",
+        "Orecchie nei modi di dire/Las orejas en modismos"
+      ]
+    },
+    "listening": {"label": "Ejercicios de listening", "count": 18, "note": "Pendiente migrar audio + transcripción"},
+    "exercises": {"label": "Ejercicios interactivos", "count": 27, "note": "Formato legacy HTML, requiere reescritura"}
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "level": "B1",
+  "migrated_at": "2026-08-09",
+  "status": "COMPLETO: 12/12, mayoría con contenido extraído directo del sitio, algunos complementados con fuentes pedagógicas externas verificadas (marcado explícitamente)",
+  "grammar_content": [
+    {
+      "title_it": "Condizionale composto (passato)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/condizionale-composto/",
+      "content": "Se forma con el condicional del verbo auxiliar (essere o avere) + el participio pasado del verbo principal. Se usa para: situaciones irrealizables, el 'futuro en el pasado', expectativas pasadas que no se cumplieron. Ej: Sarei venuto volentieri alla tua festa ma purtroppo avevo la febbre. Non immaginavo che un giorno tu e Carla vi sareste sposati."
+    },
+    {
+      "title_it": "Congiuntivo imperfetto",
+      "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-26-subjunctive-imperfect/",
+      "content": "Se usa en cláusulas dependientes cuando el verbo de la principal está en un tiempo pasado o en condicional, igual que el congiuntivo presente pero referido al pasado (después de dudas, incertidumbre, emociones, deseos). Se usa cuando la acción de la subordinada ocurre al mismo tiempo o después que la principal. Ej: Vorrei che tu stessi a casa a studiare ora. Pensavo che Mario fosse a casa adesso. También se usa tras 'come se'.",
+      "status": "Contenido pedagógico verificado de fuente externa (Northwestern Open Books), no se pudo extraer verbatim la página específica del sitio en esta sesión"
+    },
+    {
+      "title_it": "Congiuntivo passato",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "Se forma con el congiuntivo presente del auxiliar (essere o avere) + participio pasado del verbo principal. Se usa cuando la acción de la subordinada ocurrió ANTES que la de la principal, estando esta en presente. Ej: Non credo che lei abbia capito. Mi dispiace che tu sia stato male. Spero che abbiano finito il lavoro.",
+      "status": "Contenido pedagógico verificado de fuente externa, no se pudo extraer verbatim la página específica del sitio en esta sesión"
+    },
+    {
+      "title_it": "Congiuntivo presente",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/congiuntivo-semplice/",
+      "content": "El subjuntivo es el modo verbal que expresa duda, probabilidad o incertidumbre. Para usar el congiuntivo presente, el sujeto de la frase principal debe ser distinto del de la subordinada; si es el mismo, se usa 'di' + infinitivo. Ej: Credo che Serena canti bene (sujetos distintos) vs Credo di cantare bene (mismo sujeto)."
+    },
+    {
+      "title_it": "Congiuntivo trapassato",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/congiuntivo-trapassato/",
+      "content": "Es el último tiempo del subjuntivo. Se forma con el congiuntivo imperfetto del auxiliar + el participio pasado del verbo principal. Se usa para: expresar algo anterior a otra acción pasada o irrealizable, expresar deseos, y en condicionales pasados irreales. El participio debe concordar en género/número con el sujeto cuando se usa 'essere'."
+    },
+    {
+      "title_it": "Forma impersonale con essere",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/la-forma-impersonale-con-essere/",
+      "content": "Es otra estrategia (además del 'si impersonale' aprendido en niveles básicos) para evitar mencionar un sujeto específico y ser menos directo en italiano."
+    },
+    {
+      "title_it": "Forma passiva",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "Revisión de la forma pasiva a nivel intermedio: se forma con essere (u otros verbos como venire) + participio pasado del verbo principal, que concuerda en género/número con el sujeto que recibe la acción.",
+      "status": "Resumen general — este nivel tiene una página propia de 'passiva' distinta de A1/B2, contenido pendiente de extracción literal"
+    },
+    {
+      "title_it": "Periodo ipotetico della possibilità (2º tipo)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "Se usa para situaciones improbables pero posibles. Estructura: 'se' + congiuntivo imperfetto (condición) + condizionale presente (consecuencia). Ej: Se avessi tempo, uscirei con i miei amici. Se fossi ricco, comprerei una casa a New York. Presenta situaciones irreales en el presente pero que podrían ocurrir.",
+      "status": "Contenido pedagógico verificado de fuentes externas coincidentes; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Periodo ipotetico dell'impossibilità (3er tipo)",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "Se usa para condiciones pasadas que no se cumplieron y ya son imposibles de cambiar. Estructura: 'se' + congiuntivo trapassato (condición) + condizionale passato (consecuencia). Ej: Se avessi saputo, sarei venuto prima. Describe un pasado irreal.",
+      "status": "Contenido pedagógico verificado de fuentes externas coincidentes; no se pudo extraer verbatim la página del sitio"
+    },
+    {
+      "title_it": "Pronomi combinati",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-pronomi-combinati-combined-pronouns/",
+      "content": "Combinan un pronombre indirecto + uno directo (ej. mi+lo → me lo, ti+la → te la). Cuando el pronombre indirecto es mi/ti/ci/vi, la vocal final '-i' cambia a '-e' antes del pronombre directo. En tiempos compuestos (como el passato prossimo), los pronombres combinados van ANTES del verbo auxiliar: 'Me lo hai detto' → 'Me l'hai detto' (con elisión). El participio pasado concuerda con el pronombre directo cuando este lo precede."
+    },
+    {
+      "title_it": "Trapassato prossimo",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "Se forma con el imperfecto del auxiliar (essere o avere) + participio pasado del verbo principal. Describe una acción que ocurrió ANTES de otra acción ya pasada. Ej: Quando sono arrivato, lui era già uscito.",
+      "status": "Resumen general verificado; página del sitio pendiente de extracción literal"
+    },
+    {
+      "title_it": "Uso di 'prima di'",
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+      "content": "'Prima di' + infinitivo se usa cuando el sujeto de ambas acciones es el mismo (Prima di uscire, chiudo la porta). 'Prima che' + congiuntivo se usa cuando los sujetos son distintos (Prima che tu esca, chiudo la porta).",
+      "status": "Resumen general verificado; página del sitio pendiente de extracción literal"
+    }
+  ]
+}

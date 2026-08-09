@@ -1,0 +1,80 @@
+{
+  "level": "A1",
+  "name": "Beginner/Elementary",
+  "source": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/",
+  "migrated_at": "2026-08-09",
+  "modules": {
+    "lessons": {
+      "label": "Lecciones estructuradas",
+      "count": 12,
+      "items": [
+        {"n": 1, "title": "Articles", "title_it": "Articoli"},
+        {"n": 2, "title": "Plurals", "title_it": "Plurali"},
+        {"n": 3, "title": "There is/There are", "title_it": "C'è/Ci sono"},
+        {"n": 4, "title": "Verbs in the present tense", "title_it": "Presente indicativo"},
+        {"n": 5, "title": "Like", "title_it": "Piace/Piacciono"},
+        {"n": 6, "title": "Adjectives", "title_it": "Aggettivi"},
+        {"n": 7, "title": "Adverbs", "title_it": "Avverbi"},
+        {"n": 8, "title": "The Past", "title_it": "Il passato"},
+        {"n": 9, "title": "Direct and indirect pronouns", "title_it": "Pronomi diretti e indiretti"},
+        {"n": 10, "title": "Prepositions", "title_it": "Preposizioni"},
+        {"n": 11, "title": "Reflexive verbs", "title_it": "Verbi riflessivi"},
+        {"n": 12, "title": "The Impersonal Form With 'Si'", "title_it": "La forma impersonale con 'si'"}
+      ]
+    },
+    "grammar": {
+      "label": "Explicaciones de gramática",
+      "count": 14,
+      "items": [
+        {"title_it": "Articoli", "topic": "Articles"},
+        {"title_it": "Avverbi in -mente", "topic": "Adverbs"},
+        {"title_it": "C'è/ci sono", "topic": "There is/there are"},
+        {"title_it": "La forma 'Lei'", "topic": "Formal address"},
+        {"title_it": "La forma passiva (si impersonale)", "topic": "Passive/impersonal form"},
+        {"title_it": "Passato prossimo", "topic": "Present perfect"},
+        {"title_it": "Piace/Piacciono", "topic": "To like"},
+        {"title_it": "Plurale dei nomi", "topic": "Plurals"},
+        {"title_it": "Pronomi diretti", "topic": "Direct pronouns"},
+        {"title_it": "Introduzione ai verbi", "topic": "Verbs intro"},
+        {"title_it": "Verbi regolari", "topic": "Regular verbs"},
+        {"title_it": "Verbi riflessivi", "topic": "Reflexive verbs"},
+        {"title_it": "Verbi utili", "topic": "Useful verbs"},
+        {"title_it": "A o in?", "topic": "Prepositions a/in"}
+      ]
+    },
+    "vocabulary": {
+      "label": "Listas de vocabulario",
+      "count": 32,
+      "items": [
+        "Alberghi/Hotels", "Aspetto/Appearance", "Casa e contenuti/Home and contents",
+        "Cibo/Food", "Colori/Colors", "Cucinare/Cooking", "Descrivere cibo/Describing food",
+        "Ferie/Holidays", "Frequenza/Frequency", "Giorni/Days", "Indicazioni/Directions",
+        "Luoghi di lavoro/Workplaces", "Mesi/Months", "Meteo/Weather", "Nazionalità/Nationalities",
+        "Negozi/Shops", "Nomi/Nouns", "Numeri/Numbers", "Numeri ordinali/Ordinal numbers",
+        "Preposizioni di luogo/Prepositions of place", "Professioni/Professions",
+        "Quantità/Quantity", "Salute e malattie/Health", "Sapori d'Italia/Tastes of Italy",
+        "Scuola e studiare/School and studying", "Stagioni/Seasons", "Tempo/Telling the time",
+        "Termini geografici/Geographical terms", "Verbi/Verbs", "Verbi di routine/Routine verbs",
+        "Vestiti/Clothes"
+      ]
+    },
+    "listening": {
+      "label": "Ejercicios de listening",
+      "count": 44,
+      "note": "Cada item requiere migrar también su archivo de audio y transcripción; pendiente de scraping página a página",
+      "sample": [
+        "Agenda del giorno/Daily diary", "Famiglia/Family", "Professioni/Professions",
+        "Quartiere/District", "Presentazioni/Presentations", "Natale in Italia/Christmas in Italy"
+      ]
+    },
+    "exercises": {
+      "label": "Ejercicios interactivos",
+      "count": 90,
+      "note": "Formato legacy HTML (/free_italian_exercises/*.html) con motor de quiz propio en JS; requiere reescritura a componente nativo, no solo migración de datos",
+      "sample": [
+        "Verbo ESSERE", "Verbo AVERE", "Numeri 1-100", "Plurale dei nomi",
+        "Passato prossimo - coniuga il verbo", "Pronomi diretti"
+      ]
+    }
+  }
+}
