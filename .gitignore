@@ -9,5 +9,8 @@ tools/server
 test-*.json
 test-*.log
 
+# Build artifacts de wasmapp (se regeneran con wasmapp/build.ps1)
+wasmapp/dist/
+
 # Sistema
 .DS_Store

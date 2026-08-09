@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>italianclub mc-engine — demo WASM</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 2rem auto; padding: 0 1rem; }
+  button { display: block; width: 100%; margin: .4rem 0; padding: .6rem; font-size: 1rem;
+           border: 1px solid #ccc; border-radius: .4rem; background: #fff; cursor: pointer; }
+  button:hover:not(:disabled) { background: #f0f0f0; }
+  button.correct { background: #d4f7d4; border-color: #4caf50; }
+  button.wrong { background: #f7d4d4; border-color: #e53935; }
+  #feedback { margin: 1rem 0; min-height: 1.4rem; font-weight: 600; }
+  #status, #progress { color: #666; font-size: .9rem; }
+  #next { background: #2b6cb0; color: #fff; border: none; }
+</style>
+</head>
+<body>
+  <h1>Motor <code>mc</code> — Milestone 1 (Go → WASM)</h1>
+  <p id="status">Cargando WebAssembly…</p>
+
+  <div id="quiz" hidden>
+    <p><strong id="kicker"></strong></p>
+    <p id="prompt"></p>
+    <div id="options"></div>
+    <p id="feedback"></p>
+    <button id="next" hidden>Siguiente</button>
+  </div>
+
+  <p id="progress"></p>
+
+  <!-- Contenido REAL: las 2 preguntas `mc` de A1 tal como existen hoy en
+       prototype/index.html (EXERCISE_QUEUES.A1), no datos de prueba
+       inventados — mismo principio de honestidad de datos del resto del repo. -->
+  <script>
+    const LEVEL = "A1";
+    const QUESTIONS = [
+      {
+        id: "a1-mc-essere-avere",
+        prompt: 'Completa: "Io ___ italiano."',
+        options: ["sono", "sei", "è"],
+        correct: 0
+      },
+      {
+        id: "a1-mc-plurale-mano",
+        prompt: '¿Cuál es el plural de "la mano" (femenino aunque termine en -o)?',
+        options: ["le mani", "le mano", "i mani"],
+        correct: 0
+      }
+    ];
+  </script>
+
+  <script src="dist/wasm_exec.js"></script>
+  <script>
+    const statusEl = document.getElementById("status");
+
+    function waitForEngine(cb, triesLeft = 100) {
+      if (window.mcEngine) return cb();
+      if (triesLeft <= 0) {
+        statusEl.textContent = "Error: window.mcEngine nunca apareció. ¿Corriste build.ps1?";
+        return;
+      }
+      setTimeout(() => waitForEngine(cb, triesLeft - 1), 50);
+    }
+
+    const go = new Go();
+    WebAssembly.instantiateStreaming(fetch("dist/app.wasm"), go.importObject)
+      .then((result) => {
+        go.run(result.instance); // no resuelve nunca (el programa Go bloquea en select{})
+        waitForEngine(startQuiz);
+      })
+      .catch((err) => {
+        statusEl.textContent = "Error cargando app.wasm: " + err;
+        console.error(err);
+      });
+
+    function startQuiz() {
+      statusEl.textContent = "";
+      const res = JSON.parse(mcEngine.load(LEVEL, JSON.stringify(QUESTIONS)));
+      if (res.error) {
+        statusEl.textContent = "Error: " + res.error;
+        return;
+      }
+      document.getElementById("quiz").hidden = false;
+      renderProgress(res.progress);
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      const q = JSON.parse(mcEngine.current());
+      const feedback = document.getElementById("feedback");
+      const nextBtn = document.getElementById("next");
+      feedback.textContent = "";
+      nextBtn.hidden = true;
+
+      if (q.done) {
+        document.getElementById("kicker").textContent = "";
+        document.getElementById("prompt").textContent = "¡Ronda terminada!";
+        document.getElementById("options").innerHTML = "";
+        renderProgress(JSON.parse(mcEngine.progress(LEVEL)));
+        return;
+      }
+
+      document.getElementById("kicker").textContent = `Pregunta ${q.index + 1} / ${q.total}`;
+      document.getElementById("prompt").textContent = q.prompt;
+
+      const optsEl = document.getElementById("options");
+      optsEl.innerHTML = "";
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.onclick = () => onAnswer(i, btn, optsEl);
+        optsEl.appendChild(btn);
+      });
+    }
+
+    function onAnswer(selectedIndex, btnEl, optsEl) {
+      const res = JSON.parse(mcEngine.answer(selectedIndex));
+      if (res.error) {
+        document.getElementById("feedback").textContent = "Error: " + res.error;
+        return;
+      }
+      [...optsEl.children].forEach((b, i) => {
+        b.disabled = true;
+        if (i === res.correctIndex) b.classList.add("correct");
+        else if (i === selectedIndex) b.classList.add("wrong");
+      });
+      document.getElementById("feedback").textContent = res.correct
+        ? "✅ ¡Correcto!"
+        : "❌ Incorrecto.";
+      const nextBtn = document.getElementById("next");
+      nextBtn.hidden = false;
+      nextBtn.onclick = () => { mcEngine.next(); renderQuestion(); };
+    }
+
+    function renderProgress(p) {
+      if (!p || p.attempts === 0) {
+        document.getElementById("progress").textContent =
+          "Sin intentos previos guardados en este navegador todavía.";
+        return;
+      }
+      document.getElementById("progress").textContent =
+        `Progreso guardado (localStorage) — intentos: ${p.attempts}, ` +
+        `mejor puntaje: ${p.bestScore}/${p.bestTotal}, último: ${p.lastPlayedAt}`;
+    }
+  </script>
+</body>
+</html>
