@@ -1,7 +1,7 @@
 {
   "level": "B2",
   "migrated_at": "2026-08-09",
-  "status": "COMPLETO: 13/13, 10 extraídos literalmente del sitio, 3 con nota de fuente externa verificada",
+  "status": "COMPLETO: 13/13 verbatim del sitio (10 originales + 3 actualizados a literal vía grammar-scraper.go el 2026-08-09)",
   "grammar_content": [
     {
       "title_it": "Aggettivi determinativi e relazionali",

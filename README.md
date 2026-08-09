@@ -12,24 +12,31 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Inventario de contenido (6 niveles, 756 páginas catalogadas) | ✅ Completo, ver `content/master-content.json` |
 | Vocabulario (89 listas) | ✅ Migrado |
 | Lecciones (54 títulos — confirmado: son bundles de enlaces, no cuerpo propio) | ✅ Migrado |
-| Gramática — texto real (82 explicaciones) | 🟡 46/82 (56%) verbatim del sitio, 13 verificados de fuente externa, 23 pendientes — ver tabla abajo |
+| Gramática — texto real (82 explicaciones) | 🟢 78/82 (95%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`), 4 pendientes — ver tabla abajo |
 | Listening (198 audios + transcripciones) | ⏳ No iniciado |
-| Ejercicios interactivos (333 legacy) | ⏳ 13 reescritos como muestra en el motor nuevo |
+| Ejercicios interactivos (333 legacy) | 🟡 23/333 reescritos en el motor nuevo |
 
 ### Cobertura real de gramática por nivel
 
-| Nivel | Literal del sitio | Fuente externa verificada | Pendiente (requiere scraper) |
-|---|---|---|---|
-| A1 | 13/14 | 0 | 1 |
-| A2 | 15/16 | 0 | 1 |
-| B1 | 5/12  | 7 | 0 |
-| B2 | 10/13 | 3 | 0 |
-| C1 | 2/14  | 3 | 9 |
-| C2 | 1/13  | 0 | 12 |
+*(actualizado el 2026-08-09 tras auditar `content/grammar-*.json` ítem por ítem — la tabla
+anterior de esta sección quedó desactualizada porque `merge_scraper_output.py` actualiza el
+contenido de cada ítem pero no el resumen de nivel; ver `migration-log/log.json`)*
+
+| Nivel | Verbatim del sitio | Pendiente (campo `status` a nivel de ítem) |
+|---|---|---|
+| A1 | 14/14 | 0 |
+| A2 | 15/16 | 1 |
+| B1 | 9/12  | 3 |
+| B2 | 13/13 | 0 |
+| C1 | 14/14 | 0 |
+| C2 | 13/13 | 0 |
+| **Total** | **78/82** | **4** |
 
 Cada ítem en `content/grammar-*.json` que no tiene contenido 100% verbatim lleva un campo
 `"status"` explicando por qué (fuente externa, contenido sin verificar, etc.). No se oculta
 ninguna limitación — usar ese campo como checklist de QA antes de publicar contenido en producción.
+Los 4 pendientes actuales: A2 "Verbi modali al passato prossimo"; B1 "Forma passiva",
+"Periodo ipotetico dell'impossibilità (3er tipo)", "Uso di 'prima di'".
 
 ## Estructura del repositorio
 
@@ -65,9 +72,14 @@ docs/
 
 ## Cómo continuar
 
-1. **Cerrar el 100% de gramática**: correr `tools/grammar-scraper.go` con internet real
-   (no funciona en entornos con red restringida). Reemplaza los `grammar-*.json` con las
-   URLs pendientes resueltas.
+1. **Cerrar el 5% de gramática que falta** (4 ítems: ver tabla de cobertura arriba): añadir
+   sus URLs a `tools/grammar-scraper.go` (dos de B1 ya están en `toDiscover` pero no se
+   encontraron en el índice; hay que resolverlas a mano) y correr
+   `go run grammar-scraper.go > grammar-final.json` con internet real (no funciona en
+   entornos con red restringida), luego `python3 tools/merge_scraper_output.py grammar-final.json`.
+   **Importante**: ese merge actualiza el contenido de cada ítem pero no el resumen
+   `"status"` de nivel en cada `grammar-*.json` ni esta tabla — hay que actualizarlos a mano
+   después de correrlo (ver `migration-log/log.json` para el historial de este problema).
 2. **Listening**: mismo patrón — las URLs de los 198 audios están identificadas en los
    `level-*-index.json` (`modules.listening`), pero no descargadas. Requiere un scraper
    nuevo que también baje el archivo de audio, no solo el texto.

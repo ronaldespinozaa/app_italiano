@@ -4,6 +4,37 @@
     "item": "La forma 'Lei'",
     "url": "https://onlineitalianclub.com/italian-grammar-first-meetings/",
     "problem": "La búsqueda no devolvió el contenido real de esta página específica — los resultados fueron de sitios de terceros sobre el mismo tema, no la página original del sitio.",
-    "status": "PENDIENTE - requiere reintento con fetch directo"
+    "status": "RESUELTO 2026-08-09 — grammar-scraper.go + merge_scraper_output.py extrajeron el contenido literal. content/grammar-a1.json está 14/14 verbatim."
+  },
+  {
+    "level": "PROCESO",
+    "item": "merge_scraper_output.py no actualiza el resumen de nivel",
+    "problem": "El script actualiza el campo 'status'/'content' de cada ítem migrado a verbatim (correctamente), pero nunca toca el campo 'status' a nivel de archivo (el resumen tipo 'COMPLETO: X/Y...') ni las tablas de cobertura en README.md. Resultado: tras varias corridas del scraper, los resúmenes de nivel en grammar-b1.json, grammar-b2.json, grammar-c1.json y grammar-c2.json quedaron desactualizados (ej. C1 decía '3 literales, 11 externos' cuando en realidad ya eran 14/14 literales), y el README seguía mostrando el estado pre-scraper (46/82) mientras el estado real ya era 78/82.",
+    "status": "CORREGIDO 2026-08-09 — se recalcularon los 6 resúmenes de nivel y la tabla de cobertura del README contando ítems sin campo 'status' por archivo. Pendiente a futuro: automatizar este recálculo (ej. un paso final en merge_scraper_output.py que regenere ambos) para que no se desactualice de nuevo."
+  },
+  {
+    "level": "A2",
+    "item": "Verbi modali al passato prossimo",
+    "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs/",
+    "problem": "Contenido pedagógico verificado pero no extraído literalmente de esta página específica del sitio.",
+    "status": "PENDIENTE - requiere reintento con fetch directo (URL ya está en grammar-scraper.go, pendiente de que el scraper corra con internet real)"
+  },
+  {
+    "level": "B1",
+    "item": "Forma passiva",
+    "problem": "Este nivel tiene una página propia de 'passiva' distinta de la de A1/B2, contenido pendiente de extracción literal.",
+    "status": "PENDIENTE - requiere identificar la URL específica de B1 y agregarla a grammar-scraper.go"
+  },
+  {
+    "level": "B1",
+    "item": "Periodo ipotetico dell'impossibilità (3er tipo)",
+    "problem": "Contenido pedagógico verificado de fuentes externas coincidentes; no se pudo extraer verbatim la página del sitio.",
+    "status": "PENDIENTE - en toDiscover de grammar-scraper.go ('periodo ipotetico dell'impossibilità'), no se encontró en el índice del sitio en la última corrida — requiere búsqueda manual de la URL"
+  },
+  {
+    "level": "B1",
+    "item": "Uso di 'prima di'",
+    "problem": "Resumen general verificado; página del sitio pendiente de extracción literal.",
+    "status": "PENDIENTE - en toDiscover de grammar-scraper.go ('uso di \"prima di\"'), no se encontró en el índice del sitio en la última corrida — requiere búsqueda manual de la URL"
   }
 ]

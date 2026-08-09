@@ -1,7 +1,7 @@
 {
   "level": "B1",
   "migrated_at": "2026-08-09",
-  "status": "COMPLETO: 12/12, mayoría con contenido extraído directo del sitio, algunos complementados con fuentes pedagógicas externas verificadas (marcado explícitamente)",
+  "status": "9/12 verbatim del sitio (5 originales + 4 vía grammar-scraper.go); 3 pendientes marcados a nivel de ítem (Forma passiva, Periodo ipotetico dell'impossibilità, Uso di 'prima di')",
   "grammar_content": [
     {
       "title_it": "Condizionale composto (passato)",

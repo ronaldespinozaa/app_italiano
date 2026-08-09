@@ -1,7 +1,7 @@
 {
   "level": "C2",
   "migrated_at": "2026-08-09",
-  "status": "COMPLETO: 13/13, 1 extraído literalmente del sitio, 12 con contenido pedagógico verificado de fuentes externas (marcado) — el scraper Go debe usarse para completar la extracción literal restante",
+  "status": "COMPLETO: 13/13 verbatim del sitio (1 original + 12 actualizados a literal vía grammar-scraper.go el 2026-08-09; este texto de status quedó desactualizado tras esa corrida y se corrigió el 2026-08-09)",
   "grammar_content": [
     {
       "title_it": "Plurale dei nomi composti",
