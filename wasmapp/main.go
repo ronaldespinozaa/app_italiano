@@ -1,59 +1,73 @@
 //go:build js && wasm
 
-// Motor de ejercicios "mc" (opción múltiple) compilado a WebAssembly.
+// Motor de ejercicios compilado a WebAssembly.
 //
-// Milestone 1 del plan Go->WASM: reemplaza solo la lógica del tipo `mc` del
-// motor de EXERCISE_QUEUES (ver prototype/index.html), y agrega algo que el
-// prototipo HTML/JS no tiene: progreso persistido entre sesiones, vía
-// localStorage. Los otros 3 tipos (gapfill, truefalse, ordering) siguen
-// viviendo en JS hasta el próximo milestone — ver wasmapp/README.md.
+// Milestone 2 del plan "Go -> WASM": generaliza el Milestone 1 (que solo
+// soportaba `mc`) a los 4 tipos que ya soporta `EXERCISE_QUEUES` en
+// prototype/index.html: mc, gapfill, truefalse, ordering. La lógica de
+// corrección de cada tipo replica EXACTO el comportamiento de
+// answerMC/answerGapfill/answerTF/pickWord en prototype/index.html (mismo
+// trim/lowercase, mismo join con espacio simple para ordering) — no es una
+// reinterpretación, es el mismo contrato de datos.
 //
-// Expone en window.mcEngine: load, current, answer, next, progress.
-// Todas las funciones reciben/devuelven JSON como string, no objetos JS
-// directos, para mantener la interfaz simple y fácil de debuggear desde la
-// consola del navegador.
+// Expone en window.exerciseEngine: load, current, answer, next, progress.
+// (Antes de este milestone se llamaba window.mcEngine — se renombró porque
+// ya no es solo mc.)
 package main
 
 import (
 	"encoding/json"
 	"fmt"
+	"strings"
 	"syscall/js"
 	"time"
 )
 
-// Question es el formato de entrada: un ítem `mc` ya aplanado (el índice de
-// la opción correcta, no un booleano por opción como en EXERCISE_QUEUES, para
-// no tener que reimplementar el parseo del formato legacy en esta primera
-// versión).
-type Question struct {
-	ID      string   `json:"id"`
-	Prompt  string   `json:"prompt"`
-	Options []string `json:"options"`
-	Correct int      `json:"correct"`
+// ExerciseItem es el superset de los 4 tipos, con el mismo shape que ya
+// usa EXERCISE_QUEUES en el prototipo (adaptado a JSON con nombres en
+// minúscula). Cada tipo solo llena los campos que le corresponden.
+type ExerciseItem struct {
+	Type string `json:"type"` // mc | gapfill | truefalse | ordering
+	ID   string `json:"id"`
+
+	// mc
+	Prompt  string   `json:"prompt,omitempty"`
+	Options []string `json:"options,omitempty"`
+	Correct int      `json:"correct,omitempty"`
+
+	// gapfill
+	Before string `json:"before,omitempty"`
+	After  string `json:"after,omitempty"`
+	Answer string `json:"answer,omitempty"`
+	Hint   string `json:"hint,omitempty"`
+
+	// truefalse
+	Statement  string `json:"statement,omitempty"`
+	BoolAnswer bool   `json:"boolAnswer,omitempty"`
+
+	// ordering
+	Words           []string `json:"words,omitempty"`
+	CorrectSentence string   `json:"correctSentence,omitempty"`
 }
 
-// publicQuestion es lo que se expone a JS — sin el índice correcto, para no
-// filtrar la respuesta por la consola del navegador.
-type publicQuestion struct {
-	ID      string   `json:"id"`
-	Index   int      `json:"index"`
-	Total   int      `json:"total"`
-	Prompt  string   `json:"prompt"`
-	Options []string `json:"options"`
+// answerPayload es lo que manda la UI al contestar. Solo el campo que
+// corresponde al tipo de la pregunta activa debe venir seteado.
+type answerPayload struct {
+	SelectedIndex *int     `json:"selectedIndex,omitempty"` // mc
+	Text          *string  `json:"text,omitempty"`          // gapfill
+	Selected      *bool    `json:"selected,omitempty"`      // truefalse
+	Words         []string `json:"words,omitempty"`         // ordering
 }
 
 type answerResult struct {
-	Error        string `json:"error,omitempty"`
-	Correct      bool   `json:"correct"`
-	CorrectIndex int    `json:"correctIndex"`
-	Score        int    `json:"score"`
-	Total        int    `json:"total"`
-	Done         bool   `json:"done"`
+	Error           string `json:"error,omitempty"`
+	Correct         bool   `json:"correct"`
+	CorrectAnswer   string `json:"correctAnswer,omitempty"` // texto legible, para el feedback
+	Score           int    `json:"score"`
+	Total           int    `json:"total"`
+	Done            bool   `json:"done"`
 }
 
-// progressRecord es lo único que persiste entre sesiones (localStorage), por
-// nivel. Fase 5 del roadmap (PWA) pedía justamente esto — hoy el prototipo
-// HTML no guarda nada.
 type progressRecord struct {
 	Attempts   int    `json:"attempts"`
 	BestScore  int    `json:"bestScore"`
@@ -61,16 +75,16 @@ type progressRecord struct {
 	LastPlayed string `json:"lastPlayedAt"`
 }
 
-type engine struct {
-	levelKey  string
-	questions []Question
-	index     int
-	score     int
-	answered  bool
+type engineState struct {
+	levelKey string
+	items    []ExerciseItem
+	index    int
+	score    int
+	answered bool
 }
 
 func storageKey(levelKey string) string {
-	return "italianclub:progress:mc:" + levelKey
+	return "italianclub:progress:" + levelKey
 }
 
 func loadProgress(levelKey string) progressRecord {
@@ -103,80 +117,143 @@ func errJSON(msg string) string {
 	return toJSON(map[string]string{"error": msg})
 }
 
-var current *engine
+var current *engineState
 
-// load(levelKey, questionsJSON) — reemplaza el engine activo. Devuelve
-// cuántas preguntas cargó y el progreso histórico ya guardado de ese nivel.
+// load(levelKey, itemsJSON) — reemplaza la cola de ejercicios activa.
 func load(this js.Value, args []js.Value) interface{} {
 	if len(args) < 2 {
-		return errJSON("uso: mcEngine.load(levelKey, questionsJSON)")
+		return errJSON("uso: exerciseEngine.load(levelKey, itemsJSON)")
 	}
 	levelKey := args[0].String()
 
-	var qs []Question
-	if err := json.Unmarshal([]byte(args[1].String()), &qs); err != nil {
-		return errJSON("JSON de preguntas inválido: " + err.Error())
+	var items []ExerciseItem
+	if err := json.Unmarshal([]byte(args[1].String()), &items); err != nil {
+		return errJSON("JSON de ejercicios inválido: " + err.Error())
 	}
-	if len(qs) == 0 {
-		return errJSON("la lista de preguntas está vacía")
+	if len(items) == 0 {
+		return errJSON("la lista de ejercicios está vacía")
+	}
+	for i, it := range items {
+		if it.Type != "mc" && it.Type != "gapfill" && it.Type != "truefalse" && it.Type != "ordering" {
+			return errJSON(fmt.Sprintf("ítem %d: tipo desconocido %q", i, it.Type))
+		}
 	}
 
-	current = &engine{levelKey: levelKey, questions: qs}
+	current = &engineState{levelKey: levelKey, items: items}
 	return toJSON(map[string]interface{}{
-		"loaded":   len(qs),
+		"loaded":   len(items),
 		"progress": loadProgress(levelKey),
 	})
 }
 
-// current() — la pregunta activa, o {"done":true} si ya se terminó la ronda.
-func currentQuestion(this js.Value, args []js.Value) interface{} {
+// current() — el ejercicio activo, sin revelar la respuesta correcta, o
+// {"done":true} si ya se terminó la cola.
+func currentItem(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
 	}
-	if current.index >= len(current.questions) {
+	if current.index >= len(current.items) {
 		return toJSON(map[string]bool{"done": true})
 	}
-	q := current.questions[current.index]
-	return toJSON(publicQuestion{
-		ID: q.ID, Index: current.index, Total: len(current.questions),
-		Prompt: q.Prompt, Options: q.Options,
-	})
+	it := current.items[current.index]
+
+	public := map[string]interface{}{
+		"id": it.ID, "type": it.Type,
+		"index": current.index, "total": len(current.items),
+	}
+	switch it.Type {
+	case "mc":
+		public["prompt"] = it.Prompt
+		public["options"] = it.Options
+	case "gapfill":
+		public["before"] = it.Before
+		public["after"] = it.After
+		public["hint"] = it.Hint
+	case "truefalse":
+		public["statement"] = it.Statement
+	case "ordering":
+		public["words"] = it.Words
+	}
+	return toJSON(public)
 }
 
-// answer(selectedIndex) — corrige la pregunta activa. No avanza el índice:
-// eso lo hace next(), para que la UI pueda mostrar el feedback antes de
-// pasar a la siguiente (mismo patrón que showFeedback/nextExercise en el
-// prototipo JS).
+// answer(payloadJSON) — corrige el ejercicio activo. La corrección replica
+// exacto la lógica de prototype/index.html:
+//   - gapfill: trim + lowercase, comparación exacta contra `answer`.
+//   - ordering: palabras unidas con un espacio, trim + lowercase.
+//   - truefalse: comparación booleana estricta.
+//   - mc: índice de opción seleccionada contra `correct`.
 func answer(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
 	}
-	if current.index >= len(current.questions) {
+	if current.index >= len(current.items) {
 		return toJSON(answerResult{Done: true})
 	}
 	if current.answered {
-		return errJSON("esta pregunta ya fue respondida — llamá a next()")
+		return errJSON("este ejercicio ya fue respondido — llamá a next()")
 	}
 	if len(args) < 1 {
-		return errJSON("uso: mcEngine.answer(selectedIndex)")
+		return errJSON("uso: exerciseEngine.answer(payloadJSON)")
 	}
 
-	selected := args[0].Int()
-	q := current.questions[current.index]
-	correct := selected == q.Correct
+	var payload answerPayload
+	if err := json.Unmarshal([]byte(args[0].String()), &payload); err != nil {
+		return errJSON("payload de respuesta inválido: " + err.Error())
+	}
+
+	it := current.items[current.index]
+	var correct bool
+	var correctAnswer string
+
+	switch it.Type {
+	case "mc":
+		if payload.SelectedIndex == nil {
+			return errJSON("falta selectedIndex para un ejercicio mc")
+		}
+		correct = *payload.SelectedIndex == it.Correct
+		if it.Correct >= 0 && it.Correct < len(it.Options) {
+			correctAnswer = it.Options[it.Correct]
+		}
+	case "gapfill":
+		if payload.Text == nil {
+			return errJSON("falta text para un ejercicio gapfill")
+		}
+		given := strings.ToLower(strings.TrimSpace(*payload.Text))
+		correct = given == strings.ToLower(it.Answer)
+		correctAnswer = it.Answer
+	case "truefalse":
+		if payload.Selected == nil {
+			return errJSON("falta selected para un ejercicio truefalse")
+		}
+		correct = *payload.Selected == it.BoolAnswer
+		if it.BoolAnswer {
+			correctAnswer = "Vero"
+		} else {
+			correctAnswer = "Falso"
+		}
+	case "ordering":
+		if len(payload.Words) == 0 {
+			return errJSON("falta words para un ejercicio ordering")
+		}
+		built := strings.ToLower(strings.Join(payload.Words, " "))
+		correct = built == strings.ToLower(it.CorrectSentence)
+		correctAnswer = it.CorrectSentence
+	}
+
 	if correct {
 		current.score++
 	}
 	current.answered = true
 
 	return toJSON(answerResult{
-		Correct: correct, CorrectIndex: q.Correct,
-		Score: current.score, Total: len(current.questions),
+		Correct: correct, CorrectAnswer: correctAnswer,
+		Score: current.score, Total: len(current.items),
 	})
 }
 
-// next() — avanza a la siguiente pregunta. Cuando la ronda termina, persiste
-// el resultado en localStorage (intentos totales + mejor puntaje).
+// next() — avanza al siguiente ejercicio. Al terminar la cola, persiste el
+// resultado (intentos totales + mejor puntaje) en localStorage.
 func next(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
@@ -184,14 +261,14 @@ func next(this js.Value, args []js.Value) interface{} {
 	current.index++
 	current.answered = false
 
-	done := current.index >= len(current.questions)
+	done := current.index >= len(current.items)
 	if done {
 		rec := loadProgress(current.levelKey)
 		isFirstAttempt := rec.Attempts == 0
 		rec.Attempts++
 		if isFirstAttempt || current.score > rec.BestScore {
 			rec.BestScore = current.score
-			rec.BestTotal = len(current.questions)
+			rec.BestTotal = len(current.items)
 		}
 		rec.LastPlayed = time.Now().UTC().Format(time.RFC3339)
 		saveProgress(current.levelKey, rec)
@@ -199,11 +276,11 @@ func next(this js.Value, args []js.Value) interface{} {
 	return toJSON(map[string]bool{"done": done})
 }
 
-// progress(levelKey) — progreso histórico de un nivel, sin necesidad de
-// tener un engine cargado (para mostrarlo en una pantalla de resumen).
+// progress(levelKey) — progreso histórico de un nivel, sin necesitar un
+// load() previo (para pantallas de resumen).
 func progress(this js.Value, args []js.Value) interface{} {
 	if len(args) < 1 {
-		return errJSON("uso: mcEngine.progress(levelKey)")
+		return errJSON("uso: exerciseEngine.progress(levelKey)")
 	}
 	return toJSON(loadProgress(args[0].String()))
 }
@@ -211,13 +288,13 @@ func progress(this js.Value, args []js.Value) interface{} {
 func main() {
 	api := js.Global().Get("Object").New()
 	api.Set("load", js.FuncOf(load))
-	api.Set("current", js.FuncOf(currentQuestion))
+	api.Set("current", js.FuncOf(currentItem))
 	api.Set("answer", js.FuncOf(answer))
 	api.Set("next", js.FuncOf(next))
 	api.Set("progress", js.FuncOf(progress))
-	js.Global().Set("mcEngine", api)
+	js.Global().Set("exerciseEngine", api)
 
-	fmt.Println("italianclub mc-engine (wasm) listo — window.mcEngine disponible")
+	fmt.Println("italianclub exercise-engine (wasm) listo — window.exerciseEngine disponible")
 
 	select {} // mantiene vivo el programa para que los callbacks sigan respondiendo
 }

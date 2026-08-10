@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>italianclub mc-engine — demo WASM</title>
+<title>italianclub exercise-engine — demo WASM</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 2rem auto; padding: 0 1rem; }
   button { display: block; width: 100%; margin: .4rem 0; padding: .6rem; font-size: 1rem;
@@ -10,42 +10,60 @@
   button:hover:not(:disabled) { background: #f0f0f0; }
   button.correct { background: #d4f7d4; border-color: #4caf50; }
   button.wrong { background: #f7d4d4; border-color: #e53935; }
+  button.chip { display: inline-block; width: auto; margin-right: .4rem; }
+  textarea { width: 100%; min-height: 3rem; font: inherit; padding: .5rem; box-sizing: border-box; }
+  #built { min-height: 1.6rem; font-weight: 600; margin: .5rem 0; }
   #feedback { margin: 1rem 0; min-height: 1.4rem; font-weight: 600; }
   #status, #progress { color: #666; font-size: .9rem; }
-  #next { background: #2b6cb0; color: #fff; border: none; }
+  #next, #verify { background: #2b6cb0; color: #fff; border: none; }
 </style>
 </head>
 <body>
-  <h1>Motor <code>mc</code> — Milestone 1 (Go → WASM)</h1>
+  <h1>Motor de ejercicios — Milestone 2 (Go → WASM)</h1>
+  <p>4 tipos: <code>mc</code>, <code>gapfill</code>, <code>truefalse</code>, <code>ordering</code>.</p>
   <p id="status">Cargando WebAssembly…</p>
 
   <div id="quiz" hidden>
     <p><strong id="kicker"></strong></p>
-    <p id="prompt"></p>
-    <div id="options"></div>
+    <div id="body"></div>
     <p id="feedback"></p>
     <button id="next" hidden>Siguiente</button>
   </div>
 
   <p id="progress"></p>
 
-  <!-- Contenido REAL: las 2 preguntas `mc` de A1 tal como existen hoy en
-       prototype/index.html (EXERCISE_QUEUES.A1), no datos de prueba
-       inventados — mismo principio de honestidad de datos del resto del repo. -->
+  <!-- Contenido REAL: las 5 preguntas de A1 tal como existen hoy en
+       prototype/index.html (EXERCISE_QUEUES.A1) — no son datos de prueba
+       inventados, mismo principio de honestidad de datos del resto del
+       repo. correctAnswer/boolAnswer/correct nunca se leen desde acá para
+       mostrar la pregunta: el motor WASM los oculta en current(). -->
   <script>
     const LEVEL = "A1";
-    const QUESTIONS = [
+    const ITEMS = [
       {
-        id: "a1-mc-essere-avere",
+        id: "a1-1-mc", type: "mc",
         prompt: 'Completa: "Io ___ italiano."',
-        options: ["sono", "sei", "è"],
-        correct: 0
+        options: ["sono", "sei", "è"], correct: 0
       },
       {
-        id: "a1-mc-plurale-mano",
+        id: "a1-2-gapfill", type: "gapfill",
+        before: "Io ", after: " due sorelle e un fratello.",
+        answer: "ho", hint: "verbo avere, forma \"io\""
+      },
+      {
+        id: "a1-3-ordering", type: "ordering",
+        words: ["italiano", "sono", "Io"],
+        correctSentence: "Io sono italiano"
+      },
+      {
+        id: "a1-4-mc", type: "mc",
         prompt: '¿Cuál es el plural de "la mano" (femenino aunque termine en -o)?',
-        options: ["le mani", "le mano", "i mani"],
-        correct: 0
+        options: ["le mani", "le mano", "i mani"], correct: 0
+      },
+      {
+        id: "a1-5-gapfill", type: "gapfill",
+        before: "Mi ", after: " i biscotti al cioccolato.",
+        answer: "piacciono", hint: 'el sujeto real es "i biscotti" (plural)'
       }
     ];
   </script>
@@ -55,9 +73,9 @@
     const statusEl = document.getElementById("status");
 
     function waitForEngine(cb, triesLeft = 100) {
-      if (window.mcEngine) return cb();
+      if (window.exerciseEngine) return cb();
       if (triesLeft <= 0) {
-        statusEl.textContent = "Error: window.mcEngine nunca apareció. ¿Corriste build.ps1?";
+        statusEl.textContent = "Error: window.exerciseEngine nunca apareció. ¿Corriste build.ps1?";
         return;
       }
       setTimeout(() => waitForEngine(cb, triesLeft - 1), 50);
@@ -74,63 +92,117 @@
         console.error(err);
       });
 
+    let orderingPicked = [];
+
     function startQuiz() {
       statusEl.textContent = "";
-      const res = JSON.parse(mcEngine.load(LEVEL, JSON.stringify(QUESTIONS)));
+      const res = JSON.parse(exerciseEngine.load(LEVEL, JSON.stringify(ITEMS)));
       if (res.error) {
         statusEl.textContent = "Error: " + res.error;
         return;
       }
       document.getElementById("quiz").hidden = false;
       renderProgress(res.progress);
-      renderQuestion();
+      renderItem();
     }
 
-    function renderQuestion() {
-      const q = JSON.parse(mcEngine.current());
+    function renderItem() {
+      const it = JSON.parse(exerciseEngine.current());
       const feedback = document.getElementById("feedback");
       const nextBtn = document.getElementById("next");
+      const body = document.getElementById("body");
       feedback.textContent = "";
       nextBtn.hidden = true;
+      orderingPicked = [];
 
-      if (q.done) {
+      if (it.done) {
         document.getElementById("kicker").textContent = "";
-        document.getElementById("prompt").textContent = "¡Ronda terminada!";
-        document.getElementById("options").innerHTML = "";
-        renderProgress(JSON.parse(mcEngine.progress(LEVEL)));
+        body.innerHTML = "<p><strong>¡Cola terminada!</strong></p>";
+        renderProgress(JSON.parse(exerciseEngine.progress(LEVEL)));
         return;
       }
 
-      document.getElementById("kicker").textContent = `Pregunta ${q.index + 1} / ${q.total}`;
-      document.getElementById("prompt").textContent = q.prompt;
+      document.getElementById("kicker").textContent =
+        `${it.type} · ejercicio ${it.index + 1} / ${it.total}`;
+      body.innerHTML = "";
 
-      const optsEl = document.getElementById("options");
-      optsEl.innerHTML = "";
-      q.options.forEach((opt, i) => {
-        const btn = document.createElement("button");
-        btn.textContent = opt;
-        btn.onclick = () => onAnswer(i, btn, optsEl);
-        optsEl.appendChild(btn);
-      });
+      if (it.type === "mc") {
+        const p = document.createElement("p");
+        p.textContent = it.prompt;
+        body.appendChild(p);
+        it.options.forEach((opt, i) => {
+          const btn = document.createElement("button");
+          btn.textContent = opt;
+          btn.onclick = () => submitAnswer({ selectedIndex: i }, [btn]);
+          body.appendChild(btn);
+        });
+      } else if (it.type === "gapfill") {
+        const p = document.createElement("p");
+        p.innerHTML = `${it.before}<u>____</u>${it.after}`;
+        body.appendChild(p);
+        const ta = document.createElement("textarea");
+        ta.placeholder = it.hint;
+        ta.id = "gapInput";
+        body.appendChild(ta);
+        const verify = document.createElement("button");
+        verify.id = "verify";
+        verify.textContent = "Verifica";
+        verify.onclick = () => submitAnswer({ text: ta.value }, []);
+        body.appendChild(verify);
+      } else if (it.type === "truefalse") {
+        const p = document.createElement("p");
+        p.textContent = it.statement;
+        body.appendChild(p);
+        const veroBtn = document.createElement("button");
+        veroBtn.textContent = "Vero";
+        veroBtn.onclick = () => submitAnswer({ selected: true }, [veroBtn]);
+        body.appendChild(veroBtn);
+        const falsoBtn = document.createElement("button");
+        falsoBtn.textContent = "Falso";
+        falsoBtn.onclick = () => submitAnswer({ selected: false }, [falsoBtn]);
+        body.appendChild(falsoBtn);
+      } else if (it.type === "ordering") {
+        const p = document.createElement("p");
+        p.textContent = "Ordina le parole per formare la frase:";
+        body.appendChild(p);
+        const built = document.createElement("div");
+        built.id = "built";
+        body.appendChild(built);
+        const chips = document.createElement("div");
+        it.words.forEach((w) => {
+          const chip = document.createElement("button");
+          chip.className = "chip";
+          chip.textContent = w;
+          chip.onclick = () => {
+            orderingPicked.push(w);
+            chip.style.display = "none";
+            built.textContent = orderingPicked.join(" ");
+            if (orderingPicked.length === it.words.length) {
+              submitAnswer({ words: orderingPicked }, []);
+            }
+          };
+          chips.appendChild(chip);
+        });
+        body.appendChild(chips);
+      }
     }
 
-    function onAnswer(selectedIndex, btnEl, optsEl) {
-      const res = JSON.parse(mcEngine.answer(selectedIndex));
+    function submitAnswer(payload, answeredButtons) {
+      const res = JSON.parse(exerciseEngine.answer(JSON.stringify(payload)));
       if (res.error) {
         document.getElementById("feedback").textContent = "Error: " + res.error;
         return;
       }
-      [...optsEl.children].forEach((b, i) => {
-        b.disabled = true;
-        if (i === res.correctIndex) b.classList.add("correct");
-        else if (i === selectedIndex) b.classList.add("wrong");
-      });
+      document.querySelectorAll("#body button").forEach((b) => (b.disabled = true));
+      answeredButtons.forEach((b) => b.classList.add(res.correct ? "correct" : "wrong"));
+
       document.getElementById("feedback").textContent = res.correct
         ? "✅ ¡Correcto!"
-        : "❌ Incorrecto.";
+        : `❌ Incorrecto. Respuesta correcta: "${res.correctAnswer}"`;
+
       const nextBtn = document.getElementById("next");
       nextBtn.hidden = false;
-      nextBtn.onclick = () => { mcEngine.next(); renderQuestion(); };
+      nextBtn.onclick = () => { exerciseEngine.next(); renderItem(); };
     }
 
     function renderProgress(p) {
