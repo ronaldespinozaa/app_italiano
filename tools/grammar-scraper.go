@@ -45,7 +45,23 @@ var pending = map[string][][2]string{
 	},
 	"A2": {
 		{"Condizionale - come si usa (video)", "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/come-si-usa-il-condizionale-video/"},
-		{"Verbi modali al passato prossimo", "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs/"},
+		// URL original (.../online-italian-course-pre-intermediate-level-a2/verbi-modali-...)
+		// devuelve 404: corregida el 2026-08-10 verificando el índice alfabético del sitio.
+		{"Verbi modali al passato prossimo", "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbi-modali-passato-prossimo-modal-verbs/"},
+	},
+	"B1": {
+		// Las 7 URLs de abajo se confirmaron el 2026-08-10 buscando cada título en
+		// grammarIndexURL a mano (discoverURL no las encontraba con el regex simple
+		// porque el índice del sitio agrupa varios niveles bajo el mismo <a>).
+		// Las primeras 4 ya se habían migrado con éxito en una corrida anterior;
+		// se incluyen igual para que el tool quede reproducible desde cero.
+		{"Congiuntivo imperfetto", "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-imperfetto/"},
+		{"Congiuntivo passato", "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-passato/"},
+		{"Periodo ipotetico della possibilità (2º tipo)", "http://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-della-possibilita-conditional-clause-part-1/"},
+		{"Trapassato prossimo", "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammartrapassato-prossimo/"},
+		{"Forma passiva", "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-forma-passiva/"},
+		{"Periodo ipotetico dell'impossibilità (3er tipo)", "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-dell-impossibilita/"},
+		{"Uso di 'prima di'", "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/use-of-prima-di/"},
 	},
 	"B2": {
 		{"Aggettivi determinativi e relazionali", "https://onlineitalianclub.com/aggettivi-determinativi-e-relazionali/"},
@@ -98,17 +114,12 @@ var pending = map[string][][2]string{
 // Ítems cuya URL exacta no se confirmó manualmente durante la sesión.
 // El programa las busca automáticamente en el índice alfabético del
 // sitio antes de intentar descargarlas.
-var toDiscover = map[string][]string{
-	"B1": {
-		"congiuntivo imperfetto",
-		"congiuntivo passato",
-		"forma passiva",
-		"periodo ipotetico della possibilità",
-		"periodo ipotetico dell'impossibilità",
-		"trapassato prossimo",
-		"uso di \"prima di\"",
-	},
-}
+//
+// Vacío desde el 2026-08-10: las 7 URLs de B1 que vivían acá se confirmaron
+// a mano (ver comentario en el mapa "pending" de arriba) y se movieron ahí.
+// Se deja la función discoverURL/Fase 2 por si aparecen ítems nuevos sin
+// URL confirmada en el futuro (otros niveles, o contenido nuevo del sitio).
+var toDiscover = map[string][]string{}
 
 const grammarIndexURL = "https://onlineitalianclub.com/index-of-free-italian-exercises-and-grammar-lessons/index-of-italian-grammar-lessons/"
 
@@ -177,8 +188,8 @@ func discoverURL(indexHTML, keyword string) string {
 func main() {
 	results := []LevelResult{}
 
-	// Fase 1: niveles con URL ya confirmada (A1, A2 pendientes + B2/C1/C2)
-	for _, level := range []string{"A1", "A2", "B2", "C1", "C2"} {
+	// Fase 1: niveles con URL ya confirmada (A1, A2, B1 pendientes + B2/C1/C2)
+	for _, level := range []string{"A1", "A2", "B1", "B2", "C1", "C2"} {
 		items, ok := pending[level]
 		if !ok {
 			continue

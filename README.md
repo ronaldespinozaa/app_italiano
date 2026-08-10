@@ -12,31 +12,31 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Inventario de contenido (6 niveles, 756 páginas catalogadas) | ✅ Completo, ver `content/master-content.json` |
 | Vocabulario (89 listas) | ✅ Migrado |
 | Lecciones (54 títulos — confirmado: son bundles de enlaces, no cuerpo propio) | ✅ Migrado |
-| Gramática — texto real (82 explicaciones) | 🟢 78/82 (95%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`), 4 pendientes — ver tabla abajo |
+| Gramática — texto real (82 explicaciones) | ✅ 82/82 (100%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`) |
 | Listening (198 audios + transcripciones) | ⏳ No iniciado |
 | Ejercicios interactivos (333 legacy) | 🟡 23/333 reescritos en el motor nuevo |
 
 ### Cobertura real de gramática por nivel
 
-*(actualizado el 2026-08-09 tras auditar `content/grammar-*.json` ítem por ítem — la tabla
-anterior de esta sección quedó desactualizada porque `merge_scraper_output.py` actualiza el
-contenido de cada ítem pero no el resumen de nivel; ver `migration-log/log.json`)*
+*(actualizado el 2026-08-10 — se cerraron los últimos 4 ítems pendientes con acceso real a
+internet: se corrigió una URL rota en `verbi-modali-passato-prossimo` y se confirmaron a mano
+en el índice del sitio las 3 URLs de B1 que `discoverURL` no encontraba con su regex simple.
+Ver `tools/grammar-scraper.go` y `migration-log/log.json`.)*
 
-| Nivel | Verbatim del sitio | Pendiente (campo `status` a nivel de ítem) |
+| Nivel | Verbatim del sitio | Pendiente |
 |---|---|---|
 | A1 | 14/14 | 0 |
-| A2 | 15/16 | 1 |
-| B1 | 9/12  | 3 |
+| A2 | 16/16 | 0 |
+| B1 | 12/12 | 0 |
 | B2 | 13/13 | 0 |
 | C1 | 14/14 | 0 |
 | C2 | 13/13 | 0 |
-| **Total** | **78/82** | **4** |
+| **Total** | **82/82** | **0** |
 
-Cada ítem en `content/grammar-*.json` que no tiene contenido 100% verbatim lleva un campo
-`"status"` explicando por qué (fuente externa, contenido sin verificar, etc.). No se oculta
-ninguna limitación — usar ese campo como checklist de QA antes de publicar contenido en producción.
-Los 4 pendientes actuales: A2 "Verbi modali al passato prossimo"; B1 "Forma passiva",
-"Periodo ipotetico dell'impossibilità (3er tipo)", "Uso di 'prima di'".
+Ningún ítem en `content/grammar-*.json` conserva ya el campo `"status"` a nivel de ítem — todos
+tienen contenido 100% verbatim del sitio. `tools/grammar-scraper.go` queda como herramienta
+reproducible (con las URLs confirmadas) por si el sitio cambia contenido en el futuro y hay que
+re-verificar algo.
 
 ## Estructura del repositorio
 
@@ -72,17 +72,16 @@ docs/
 
 ## Cómo continuar
 
-1. **Cerrar el 5% de gramática que falta** (4 ítems: ver tabla de cobertura arriba): añadir
-   sus URLs a `tools/grammar-scraper.go` (dos de B1 ya están en `toDiscover` pero no se
-   encontraron en el índice; hay que resolverlas a mano) y correr
-   `go run grammar-scraper.go > grammar-final.json` con internet real (no funciona en
-   entornos con red restringida), luego `python3 tools/merge_scraper_output.py grammar-final.json`.
-   **Importante**: ese merge actualiza el contenido de cada ítem pero no el resumen
-   `"status"` de nivel en cada `grammar-*.json` ni esta tabla — hay que actualizarlos a mano
-   después de correrlo (ver `migration-log/log.json` para el historial de este problema).
-2. **Listening**: mismo patrón — las URLs de los 198 audios están identificadas en los
+1. ~~Cerrar el 5% de gramática que falta~~ — **hecho el 2026-08-10**: gramática está 100%
+   (82/82) verbatim del sitio. También se sincronizó `prototype/index.html` (el
+   `GRAMMAR_CONTENT` embebido) para que refleje exactamente el contenido de
+   `content/grammar-*.json` — antes tenía ~30 ítems con paráfrasis o placeholders propios,
+   ahora es un espejo 1:1 del contenido migrado.
+2. **Listening**: las URLs de los 198 audios están identificadas en los
    `level-*-index.json` (`modules.listening`), pero no descargadas. Requiere un scraper
-   nuevo que también baje el archivo de audio, no solo el texto.
+   nuevo que también baje el archivo de audio, no solo el texto. Con acceso real a internet
+   ya confirmado en este entorno (ver `tools/grammar-scraper.go` como referencia de patrón),
+   este es el siguiente bloque de trabajo más natural.
 3. **Ejercicios**: los 333 ejercicios legacy (formato HTML/JS antiguo, ver
    `/free_italian_exercises/*.html` en el sitio) deben convertirse al formato de datos
    que ya consume el motor en `prototype/index.html` (busca `EXERCISE_QUEUES`) — son 4-5

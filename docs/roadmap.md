@@ -5,9 +5,9 @@ Prototipo HTML mobile-first con selector de nivel, 6 contenedores independientes
 4 tipos de ejercicio, flashcards de vocabulario real, vista de lectura de gramática.
 → `prototype/index.html`
 
-## Fase 1 — Migración de texto (🟡 ~85% completo)
-Lecciones, gramática y vocabulario de los 6 niveles. Ver tabla de cobertura real en el
-README. Pendiente: cerrar el 44% de gramática que aún no es verbatim del sitio.
+## Fase 1 — Migración de texto (✅ completo)
+Lecciones, gramática y vocabulario de los 6 niveles. Gramática cerrada al 100% (82/82
+verbatim del sitio) el 2026-08-10 — ver tabla de cobertura real en el README.
 → `content/level-*-index.json`, `content/grammar-*.json`
 
 ## Fase 2 — Listening (⏳ no iniciado)

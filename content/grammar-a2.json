@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "migrated_at": "2026-08-09",
-  "status": "15/16 verbatim del sitio; 1 pendiente marcado a nivel de ítem (ver campo status en 'Verbi modali al passato prossimo')",
+  "migrated_at": "2026-08-10",
+  "status": "16/16 verbatim del sitio (100%). 'Verbi modali al passato prossimo' cerrado el 2026-08-10 vía grammar-scraper.go tras corregir la URL rota del índice.",
   "grammar_content": [
     {
       "title_it": "Aggettivi e avverbi (bene/male, buono/cattivo)",
@@ -76,9 +76,9 @@
     },
     {
       "title_it": "Verbi modali al passato prossimo",
-      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs",
-      "content": "Los verbos modales (potere, volere, dovere, sapere) en passato prossimo eligen el auxiliar (essere o avere) según el verbo principal que les sigue: si el verbo principal es transitivo se usa avere, si es intransitivo se usa essere. Ej: Sono potuto andare al cinema (andare=intransitivo→essere). Ho potuto guardare un bel film (guardare=transitivo→avere). El participio pasado (potuto, voluto, dovuto, saputo) concuerda en género/número con el sujeto cuando se usa essere.",
-      "status": "PARCIAL - contenido pedagógico verificado pero no extraído literalmente de esta página específica del sitio"
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbi-modali-passato-prossimo-modal-verbs/",
+      "content": "This lesson is about using modal verbs in the Italian past tense, the passato prossimo. The modal verbs potere/dovere/volere are conjugated like any other verb, and followed by the infinitive form of the verb that they &#8216;modify'. When using them in the past tense, you'll also need the auxiliary verb, &#8216;essere' or &#8216;avere', so you end up with three verbs in sequence! essere/avere + dovere/volere/potere + infinitive So, should you use &#8216;essere' or &#8216;avere' as the auxiliary with the modal verbs &#8216;dovere', &#8216;volere' and &#8216;potere'? Simple! Choose &#8216;essere' or &#8216;avere' as the auxiliary for the modal according to the verb that follows the modal, the main verb, the one in the infinitive form. (If you don't know which auxiliary goes with the main verb, go back and study our lesson on the Italian past tense .) Below are some examples. See if you can identify the chain of three verbs (auxiliary, modal, main verb) in each: Carla ha tanti vestiti e così ha dovuto comprare un altro armadio. Sono dovuto rimanere a casa ieri sera perché mia moglie stava poco bene. Ho avuto tantissimo da fare e non sono potuto andare alla festa. Francesca non ha potuto comprare il libro perché aveva dimenticato il portafoglio a casa. Elisa non è voluta uscire perché era troppo stanca. Stefano non ha voluto dare l'esame perché non si sentiva pronto You'll hopefully remember that the past participle of verbs used with the &#8216;essere' auxiliary change their endings according to whether the subject is masculine, feminine, singular or plural. This is also true of modal verbs used with the &#8216;essere' auxiliary. Singular subjects &#8211; masculine: o / feminine: a Plural subects &#8211; masculine: i / feminine: e Here are some examples. Look for the chains of three verbs as you did before. Notice how the first one in each &#8216;chain' is a conjugation of &#8216;essere' and the second one (the past participle) has an ending which agrees with the subject. Marco è voluto partire per gli Stati Uniti, mentre Stefania e Giulia sono volute andare in Inghilterra. La mamma è dovuta andare al supermercato. Non c'erano abbastanza posti sull'autobus, così io e Marco siamo dovuti venire in macchina. Back to Italian lesson on: The Past Tense, Other Aspects",
+      "migrated_via": "grammar-scraper.go"
     },
     {
       "title_it": "Verbi pronominali: farcela e andarsene",

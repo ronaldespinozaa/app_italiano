@@ -17,24 +17,30 @@
     "item": "Verbi modali al passato prossimo",
     "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs/",
     "problem": "Contenido pedagógico verificado pero no extraído literalmente de esta página específica del sitio.",
-    "status": "PENDIENTE - requiere reintento con fetch directo (URL ya está en grammar-scraper.go, pendiente de que el scraper corra con internet real)"
+    "status": "RESUELTO 2026-08-10 — la URL original devolvía 404 (el path correcto no lleva '/online-italian-course-pre-intermediate-level-a2/', sino '/italian-grammar/'). Corregida en grammar-scraper.go verificando el índice alfabético del sitio; grammar-scraper.go + merge_scraper_output.py extrajeron el contenido literal. content/grammar-a2.json está 16/16 verbatim."
   },
   {
     "level": "B1",
     "item": "Forma passiva",
     "problem": "Este nivel tiene una página propia de 'passiva' distinta de la de A1/B2, contenido pendiente de extracción literal.",
-    "status": "PENDIENTE - requiere identificar la URL específica de B1 y agregarla a grammar-scraper.go"
+    "status": "RESUELTO 2026-08-10 — URL identificada a mano buscando 'passiva' en el índice alfabético del sitio (.../online-italian-course-intermediate-b1/la-forma-passiva/). grammar-scraper.go + merge_scraper_output.py extrajeron el contenido literal."
   },
   {
     "level": "B1",
     "item": "Periodo ipotetico dell'impossibilità (3er tipo)",
     "problem": "Contenido pedagógico verificado de fuentes externas coincidentes; no se pudo extraer verbatim la página del sitio.",
-    "status": "PENDIENTE - en toDiscover de grammar-scraper.go ('periodo ipotetico dell'impossibilità'), no se encontró en el índice del sitio en la última corrida — requiere búsqueda manual de la URL"
+    "status": "RESUELTO 2026-08-10 — el regex simple de discoverURL no encontraba el enlace porque el texto visible del <a> en el índice del sitio no contenía la keyword exacta buscada. URL identificada a mano (.../italian-grammar/periodo-ipotetico-dell-impossibilita/) y movida de toDiscover a pending en grammar-scraper.go. Contenido extraído literal."
   },
   {
     "level": "B1",
     "item": "Uso di 'prima di'",
     "problem": "Resumen general verificado; página del sitio pendiente de extracción literal.",
-    "status": "PENDIENTE - en toDiscover de grammar-scraper.go ('uso di \"prima di\"'), no se encontró en el índice del sitio en la última corrida — requiere búsqueda manual de la URL"
+    "status": "RESUELTO 2026-08-10 — mismo problema que 'Periodo ipotetico dell'impossibilità': discoverURL no la encontraba. URL identificada a mano (.../italian-grammar/use-of-prima-di/) y movida a pending. Contenido extraído literal."
+  },
+  {
+    "level": "PROCESO",
+    "item": "Gramática cerrada al 100% (82/82)",
+    "problem": "N/A — nota de hito, no de problema.",
+    "status": "2026-08-10: este entorno de sesión sí tiene acceso real a internet (a diferencia de lo documentado antes en grammar-scraper.go), lo que permitió cerrar los últimos 4 ítems pendientes y confirmar sus URLs contra el índice real del sitio. Se sincronizó además el GRAMMAR_CONTENT embebido en prototype/index.html (que tenía ~30 ítems con paráfrasis/placeholders propios sin relación con content/grammar-*.json) para que sea un espejo exacto del contenido migrado. README y roadmap.md actualizados a juego."
   }
 ]

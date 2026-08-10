@@ -1,7 +1,7 @@
 [
   {
     "level": "A1",
-    "migrated_at": "2026-08-09",
+    "migrated_at": "2026-08-10",
     "grammar_content": [
       {
         "title_it": "La forma 'Lei'",
@@ -12,7 +12,7 @@
   },
   {
     "level": "A2",
-    "migrated_at": "2026-08-09",
+    "migrated_at": "2026-08-10",
     "grammar_content": [
       {
         "title_it": "Condizionale - come si usa (video)",
@@ -21,15 +21,55 @@
       },
       {
         "title_it": "Verbi modali al passato prossimo",
-        "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/verbi-modali-passato-prossimo-modal-verbs/",
-        "content": "",
-        "status": "ERROR: status 404"
+        "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbi-modali-passato-prossimo-modal-verbs/",
+        "content": "This lesson is about using modal verbs in the Italian past tense, the passato prossimo. The modal verbs potere/dovere/volere are conjugated like any other verb, and followed by the infinitive form of the verb that they &#8216;modify'. When using them in the past tense, you'll also need the auxiliary verb, &#8216;essere' or &#8216;avere', so you end up with three verbs in sequence! essere/avere + dovere/volere/potere + infinitive So, should you use &#8216;essere' or &#8216;avere' as the auxiliary with the modal verbs &#8216;dovere', &#8216;volere' and &#8216;potere'? Simple! Choose &#8216;essere' or &#8216;avere' as the auxiliary for the modal according to the verb that follows the modal, the main verb, the one in the infinitive form. (If you don't know which auxiliary goes with the main verb, go back and study our lesson on the Italian past tense .) Below are some examples. See if you can identify the chain of three verbs (auxiliary, modal, main verb) in each: Carla ha tanti vestiti e così ha dovuto comprare un altro armadio. Sono dovuto rimanere a casa ieri sera perché mia moglie stava poco bene. Ho avuto tantissimo da fare e non sono potuto andare alla festa. Francesca non ha potuto comprare il libro perché aveva dimenticato il portafoglio a casa. Elisa non è voluta uscire perché era troppo stanca. Stefano non ha voluto dare l'esame perché non si sentiva pronto You'll hopefully remember that the past participle of verbs used with the &#8216;essere' auxiliary change their endings according to whether the subject is masculine, feminine, singular or plural. This is also true of modal verbs used with the &#8216;essere' auxiliary. Singular subjects &#8211; masculine: o / feminine: a Plural subects &#8211; masculine: i / feminine: e Here are some examples. Look for the chains of three verbs as you did before. Notice how the first one in each &#8216;chain' is a conjugation of &#8216;essere' and the second one (the past participle) has an ending which agrees with the subject. Marco è voluto partire per gli Stati Uniti, mentre Stefania e Giulia sono volute andare in Inghilterra. La mamma è dovuta andare al supermercato. Non c'erano abbastanza posti sull'autobus, così io e Marco siamo dovuti venire in macchina. Back to Italian lesson on: The Past Tense, Other Aspects"
+      }
+    ]
+  },
+  {
+    "level": "B1",
+    "migrated_at": "2026-08-10",
+    "grammar_content": [
+      {
+        "title_it": "Congiuntivo imperfetto",
+        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-imperfetto/",
+        "content": "Like the subjunctive past, the subjunctive imperfect is used to express opinions and assumptions about past events. But whereas the subjunctive past is used with a main verb (I think, I believe, etc.) in the present tense, the subjunctive imperfect is used when the main verb (I thought, I believed, etc.) is in a past tense. You'll often see the subjunctive imperfect used in expressions that communicate an opinion or express a doubt about the past, such as: Credevo che&#8230; Era importante che&#8230; Non immaginavo che&#8230; Era necessario che&#8230; Avevo paura che&#8230; As regards the conjugation of subjunctive imperfect, here below is a regular verb from each of the main groups, then some of the more important irregular verbs. Regular verbs First group -are Ballare [to dance] io ballassi tu ballassi lui/lei ballasse noi ballassimo voi ballaste loro ballassero Second group -ere Perdere [to lose] io perdessi tu perdessi lui/lei perdesse noi perdessimo voi perdeste loro perdessero Third group -ire Dormire [to sleep] io dormissi tu dormissi lui/lei dormisse noi dormissimo voi dormiste loro dormissero Irregular verbs Essere [to be] io fossi tu fossi lui/lei fosse noi fossimo voi foste loro fossero Fare [to do] io facessi tu facessi lui/lei facesse noi facessimo voi faceste loro facessero Stare [to stay/to remain] io stessi tu stessi lui/lei stesse noi stessimo voi steste loro stessero Dare [to give] io dessi tu dessi lui/lei desse noi dessimo voi deste loro dessero Dire [to say] io dicessi tu dicessi lui/lei dicesse noi dicessimo voi diceste loro dicessero Here are some examples of the subjunctive imperfect (1st sentence), as contrasted with the subjunctive past (second sentence) and with rough English translations: Veronica non credeva che fossi il fratello della sua migliore amica. [Veronica didn't believe that I was / you were the brother of her best friend.] Veronica non crede che io le abbia detto la verità. [Veronica doesn't believe that I told her the truth.] Avevamo creduto che non ci fosse nessuno in casa ma poi qualcuno venne alla porta. [We thought that no one was at home but then someone came to the door.] Crediamo che tu e Luca abbiate speso molto per comprare questa nuova casa. [We think that you and Lucia spent a lot to buy this new house.] Sperava che la madre non la rimproverasse per aver fatto tardi quella notte. [She was hoping that her mother wouldn't tell her off for having been late that night.] Teme che sua madre l'abbia sentita mentre rientrava la scorsa notte dopo la festa a casa tua. [She fears that her mother heard her while she was coming in last night after the party at your place.] Era necessario che Paolo si impegnasse nello studio per non essere bocciato di nuovo. [It was necessary for Paolo to start studying seriously so as not to be failed again.] È necessario che tu abbia studiato molto se desideri passare l'esame di oggi. [It's necessary for you to have studied a lot if you want to pass today's exam.] Back to Italian lesson on: subjunctive imperfect"
+      },
+      {
+        "title_it": "Congiuntivo passato",
+        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-passato/",
+        "content": "The subjunctive past is formed using the present subjunctive of the auxiliary verb and the past participle of the main verb. It's used to express opinions or assumptions about something that happened in the past. Note that the subjunctive past is used only if the verb it follows in the main sentence (I think, I believe, etc.) is in the present tense. See below for the conjunction of the two auxiliary verbs and an example conjugation from each of the three groups. Remember that when you use the auxiliary verb &#8216;essere', the ending of the past participle will change according to whether the subject is singular, plural, masculine or feminine. Essere [to be] io sia stato/a tu sia stato/a lui/lei sia stato/a noi siamo stati/e voi siate stati/e loro siano stati/e Avere [to have] io abbia avuto tu abbia avuto lui/lei abbia avuto noi abbiamo avuto voi abbiate avuto loro abbiano avuto First conjugation -are camminare [to walk] io abbia camminato tu abbia camminato lui/lei abbia camminato noi abbiamo camminato voi abbiate camminato loro abbiano camminato Second conjugation -ere rimanere [to stay/ to remain] io sia rimasto/a tu sia rimasto/a lui/lei sia rimasto/a noi siamo rimasti/e voi siate rimasti/e loro siano rimasti/e Third conjugation -ire sentire [to hear] io abbia sentito tu abbia sentito lui/lei abbia sentito noi abbiamo sentito voi abbiate sentito loro abbiano sentito Here are some examples of the subjunctive past in use: Non credo che Manuel ci abbia detto una scusa per non venire alla festa con noi. [I don't think that Manuel gave a reason for not coming to the party with us.] Filippo pensa che il suo cane sia scappato mentre era in giardino a giocare. [Filippo thinks that his dog escaped while it was playing in the garden.] Penso che i miei genitori siano usciti prima da lavoro per prepararmi questa festa di compleanno a sorpresa. [I think that my parents left work early to prepare this surprise birthday party for me.] Back to Italian lesson on: subjunctive past"
+      },
+      {
+        "title_it": "Periodo ipotetico della possibilità (2º tipo)",
+        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-della-possibilita-conditional-clause-part-1/",
+        "content": "We can categorize conditional sentences as referring to either &#8216;real' or &#8216;unreal' (hypothetical) situations. &#8216;Unreal' conditional sentences which refer to the present/future period are constructed using two different forms: the subjunctive imperfect and the conditional present . Here are some examples, with English translations: Se avessi più soldi comprerei un'auto nuova. [If I had more money, I would buy a new car.] Se fossi più magro, non farei una dieta così stretta. [If I was thinner, I wouldn't be on such a strict diet.] Se potessi, mi trasferirei in Irlanda per lavorare. [If I could, I'd move to Ireland to work.] Back to Italian lesson on: unreal present"
+      },
+      {
+        "title_it": "Trapassato prossimo",
+        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammartrapassato-prossimo/",
+        "content": "The past perfect, in Italian as in English, is used to show that a past event or state happened prior to a past reference point. It's formed using the auxiliary verb &#8216;avere' or &#8216;essere' in the imperfect tense, and the past participle of the main verb. Below are the conjunctions of &#8216;essere', &#8216;avere', and an example verb from each of the three main groups. Remember that when you use the auxiliary verb &#8216;essere, the past participle needs to &#8216;agree' with the gender and singular or plural nature of the subject. essere [to be] io ero stato/a tu eri stato/a lui/lei era stato/a noi eravamo stati/e voi eravate stati/e loro erano stati/e avere [to have] io avevo avuto tu avevi avuto lui/lei aveva avuto noi avevamo avuto voi avevate avuto loro avevano avuto First group, -are magiare [to eat] io avevo mangiato tu avevi mangiato lui/lei aveva mangiato noi avevamo mangiato voi avevate mangiato loro avevano mangiato Second group, -ere bere [to drink] io avevo bevuto tu avevi bevuto lui/lei aveva bevuto noi avevamo bevuto voi avevate bevuto loro avevano bevuto Third group, -ire venire [to come] io ero venuto/a tu eri venuto/a lui/lei era venuto/a noi eravamo venuti/e voi eravate venuti/e loro erano venuti/e Here's a text with some examples of the past perfect. To help you see the pattern of use, I've underlined the &#8216;reference point' verb (which uses the past tense, NOT the past perfect). I've then put the &#8216;prior time' past perfect verbs in italics. \"Il signor Rizzoli, prima di partire per una vacanza, ha lasciato alla sua segretaria una lista di cose da fare. Quando è tornato ha scoperto che la signorina Giuliano non aveva aperto la posta, si era dimenticata di contattare il professor Mizzi, non aveva letto le mail, aveva trascorso il tempo facendo solo cruciverba e non era andata in banca.\" And here's a rough translation. \"Before leaving for a holiday, Mr. Rizzoli left his secretary a list of things to do. When he got back , he found that Miss Giuliano hadn't opened the post, had forgotten to contact Professor Mizzi and hadn't read the emails. She &#8216;d spent the time doing crosswords and hadn't been to the bank.\" In this rare case, the similarity in the way the tenses are used in Italian and English is striking! Back to Italian lesson on: past perfect"
+      },
+      {
+        "title_it": "Forma passiva",
+        "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-forma-passiva/",
+        "content": "In grammar the term &#8216;passive' is used to refer to verb forms in which the subject is not the &#8216;doer' (agent) of the verb. The more usual verb form is described as &#8216;active'. Active: I love you. (I'm the subject of the verb, and the agent, the one &#8216;doing' the loving. Passive: You are loved. (You are the subject, but not the agent. That's still me!) There are three constructions in Italian that express passive meanings. Here are examples of each one, all three of which mean &#8216;The company's annual report is presented to investors.' Note how different grammar forms express this: &#8216;essere' + past participle Il bilancio dell'azienda è presentato ogni anno ai finanziatori. &#8216;si' + 3rd person of singular or plural Si presenta il bilancio dell'azienda ogni anno ai finanziatori. &#8216;andare' + past participle Va presentato il bilancio dell'azienda ogni anno ai finanziatori. Here are some further sets of examples for you to study: [Cars must be parked outside of the pedestrian area.] Le automobili devono essere parcheggiate fuori dalla zona pedonale. Le automobili si devono parcheggiare fuori dalla zona pedonale. Le automobili vanno parcheggiate fuori dalla zona pedonale. [Spaghetti must be eaten with a fork.] Gli spaghetti devono essere mangiati con la forchetta. Gli spaghetti si mangiano con la forchetta. Gli spaghetti vanno mangiati con la forchetta. In a passive form there's no need to mention the agent. In all of the above examples, the agent is implicit. You can guess who or what is doing the action, but it's usually irrelevant to the meaning. However, when the agent IS specified, it's introduced (passive form!) with the preposition &#8216;da' (&#8216;by' in English. &#8216;You are loved &#8211; by me.') For example: La mela è stata mangiata dal bambino. [The apple was eaten by the child.] Il pranzo è stato preparato dalla mamma. [Lunch was prepared by the mother.] I premi Nobel per la chimica e per la fisica sono decisi dalla Reale Accademia Svedese delle Scienze. [The Nobel prizes for chemistry and physics are decided by the Royal Swedish Academy of Sciences.] Back to Italian lesson on: Passive"
+      },
+      {
+        "title_it": "Periodo ipotetico dell'impossibilità (3er tipo)",
+        "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-dell-impossibilita/",
+        "content": "As mentioned in the previous lesson on &#8216;unreal present' , we can categorize conditional sentences as referring to either &#8216;real' or &#8216;unreal' (hypothetical) situations. &#8216;Unreal' conditional sentences which refer to the past are constructed using two different forms: the subjunctive past perfect and the conditional past . Here are some examples, with English translations: Se avessi avuto il tuo aiuto non mi sarei trovato in difficoltà con il test di inglese. [If I had had your help, I wouldn't have had trouble with the English test.] Sono sicuro che, se aveste visto il bambino correre, lo avreste fermato subito. [I am sure that, if you had seen the baby running, you would have stopped him immediately.] Se avessi saputo del terremoto non sarei mai venuto in vacanza a Bologna in questo periodo. [If I had known about the earthquake, I would never have come on holiday to Bologna at this time.] Back to Italian lesson on: unreal past"
+      },
+      {
+        "title_it": "Uso di 'prima di'",
+        "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/use-of-prima-di/",
+        "content": "This construction is another way to express that something happened before another event of the past, the present or the future. It is very simple to use, but notice one important thing: the subject is the same both in both sentences. If subjects are different, this construction cannot be used. Prima di [before] + infinitive Examples: &#8211; Prima di avere una promozione, Michele ha lavorato molto come cassiere. &#8211; Prima di chiudere la porta ho controllato di avere le chiavi. &#8211; Prima di andare a letto mi lavo i denti. &#8211; Prima di andare a Madrid ci fermeremo due giorni a Barcellona."
       }
     ]
   },
   {
     "level": "B2",
-    "migrated_at": "2026-08-09",
+    "migrated_at": "2026-08-10",
     "grammar_content": [
       {
         "title_it": "Aggettivi determinativi e relazionali",
@@ -100,7 +140,7 @@
   },
   {
     "level": "C1",
-    "migrated_at": "2026-08-09",
+    "migrated_at": "2026-08-10",
     "grammar_content": [
       {
         "title_it": "Costruzione fare + infinito",
@@ -176,7 +216,7 @@
   },
   {
     "level": "C2",
-    "migrated_at": "2026-08-09",
+    "migrated_at": "2026-08-10",
     "grammar_content": [
       {
         "title_it": "Altri usi del congiuntivo",
@@ -242,50 +282,6 @@
         "title_it": "Pronomi relativi possessivi",
         "url": "https://onlineitalianclub.com/pronomi-relativi-possessivi/",
         "content": "This lesson covers the possessive relative pronoun structure: preposition + definite article + &#8216;cui' Here are some examples to study. Note how the article before the pronoun agrees subject of the relative pronoun. Laura è la mia amica. Ho scritto il libro sulla vita di Laura. Laura, sulla cui vita ho scritto un libro, è mia amica. Il pittore Marcelli è famoso. Sono andata alla sua mostra qualche mese fa. Il pittore Marcelli, alla cui mostra sono andata qualche mese fa, è famoso. Marco è mio fratello. Ieri siamo andati a casa di Marco. Marco, alla cui casa siamo andati ieri, è mio fratello. Back to Italian lesson on: possessive relative pronouns"
-      }
-    ]
-  },
-  {
-    "level": "B1-descubiertos",
-    "migrated_at": "2026-08-09",
-    "grammar_content": [
-      {
-        "title_it": "congiuntivo imperfetto",
-        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-imperfetto/",
-        "content": "Like the subjunctive past, the subjunctive imperfect is used to express opinions and assumptions about past events. But whereas the subjunctive past is used with a main verb (I think, I believe, etc.) in the present tense, the subjunctive imperfect is used when the main verb (I thought, I believed, etc.) is in a past tense. You'll often see the subjunctive imperfect used in expressions that communicate an opinion or express a doubt about the past, such as: Credevo che&#8230; Era importante che&#8230; Non immaginavo che&#8230; Era necessario che&#8230; Avevo paura che&#8230; As regards the conjugation of subjunctive imperfect, here below is a regular verb from each of the main groups, then some of the more important irregular verbs. Regular verbs First group -are Ballare [to dance] io ballassi tu ballassi lui/lei ballasse noi ballassimo voi ballaste loro ballassero Second group -ere Perdere [to lose] io perdessi tu perdessi lui/lei perdesse noi perdessimo voi perdeste loro perdessero Third group -ire Dormire [to sleep] io dormissi tu dormissi lui/lei dormisse noi dormissimo voi dormiste loro dormissero Irregular verbs Essere [to be] io fossi tu fossi lui/lei fosse noi fossimo voi foste loro fossero Fare [to do] io facessi tu facessi lui/lei facesse noi facessimo voi faceste loro facessero Stare [to stay/to remain] io stessi tu stessi lui/lei stesse noi stessimo voi steste loro stessero Dare [to give] io dessi tu dessi lui/lei desse noi dessimo voi deste loro dessero Dire [to say] io dicessi tu dicessi lui/lei dicesse noi dicessimo voi diceste loro dicessero Here are some examples of the subjunctive imperfect (1st sentence), as contrasted with the subjunctive past (second sentence) and with rough English translations: Veronica non credeva che fossi il fratello della sua migliore amica. [Veronica didn't believe that I was / you were the brother of her best friend.] Veronica non crede che io le abbia detto la verità. [Veronica doesn't believe that I told her the truth.] Avevamo creduto che non ci fosse nessuno in casa ma poi qualcuno venne alla porta. [We thought that no one was at home but then someone came to the door.] Crediamo che tu e Luca abbiate speso molto per comprare questa nuova casa. [We think that you and Lucia spent a lot to buy this new house.] Sperava che la madre non la rimproverasse per aver fatto tardi quella notte. [She was hoping that her mother wouldn't tell her off for having been late that night.] Teme che sua madre l'abbia sentita mentre rientrava la scorsa notte dopo la festa a casa tua. [She fears that her mother heard her while she was coming in last night after the party at your place.] Era necessario che Paolo si impegnasse nello studio per non essere bocciato di nuovo. [It was necessary for Paolo to start studying seriously so as not to be failed again.] È necessario che tu abbia studiato molto se desideri passare l'esame di oggi. [It's necessary for you to have studied a lot if you want to pass today's exam.] Back to Italian lesson on: subjunctive imperfect"
-      },
-      {
-        "title_it": "congiuntivo passato",
-        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammar-congiuntivo-passato/",
-        "content": "The subjunctive past is formed using the present subjunctive of the auxiliary verb and the past participle of the main verb. It's used to express opinions or assumptions about something that happened in the past. Note that the subjunctive past is used only if the verb it follows in the main sentence (I think, I believe, etc.) is in the present tense. See below for the conjunction of the two auxiliary verbs and an example conjugation from each of the three groups. Remember that when you use the auxiliary verb &#8216;essere', the ending of the past participle will change according to whether the subject is singular, plural, masculine or feminine. Essere [to be] io sia stato/a tu sia stato/a lui/lei sia stato/a noi siamo stati/e voi siate stati/e loro siano stati/e Avere [to have] io abbia avuto tu abbia avuto lui/lei abbia avuto noi abbiamo avuto voi abbiate avuto loro abbiano avuto First conjugation -are camminare [to walk] io abbia camminato tu abbia camminato lui/lei abbia camminato noi abbiamo camminato voi abbiate camminato loro abbiano camminato Second conjugation -ere rimanere [to stay/ to remain] io sia rimasto/a tu sia rimasto/a lui/lei sia rimasto/a noi siamo rimasti/e voi siate rimasti/e loro siano rimasti/e Third conjugation -ire sentire [to hear] io abbia sentito tu abbia sentito lui/lei abbia sentito noi abbiamo sentito voi abbiate sentito loro abbiano sentito Here are some examples of the subjunctive past in use: Non credo che Manuel ci abbia detto una scusa per non venire alla festa con noi. [I don't think that Manuel gave a reason for not coming to the party with us.] Filippo pensa che il suo cane sia scappato mentre era in giardino a giocare. [Filippo thinks that his dog escaped while it was playing in the garden.] Penso che i miei genitori siano usciti prima da lavoro per prepararmi questa festa di compleanno a sorpresa. [I think that my parents left work early to prepare this surprise birthday party for me.] Back to Italian lesson on: subjunctive past"
-      },
-      {
-        "title_it": "forma passiva",
-        "url": "",
-        "content": "",
-        "status": "NO ENCONTRADO en el índice — requiere búsqueda manual"
-      },
-      {
-        "title_it": "periodo ipotetico della possibilità",
-        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-della-possibilita-conditional-clause-part-1/",
-        "content": "We can categorize conditional sentences as referring to either &#8216;real' or &#8216;unreal' (hypothetical) situations. &#8216;Unreal' conditional sentences which refer to the present/future period are constructed using two different forms: the subjunctive imperfect and the conditional present . Here are some examples, with English translations: Se avessi più soldi comprerei un'auto nuova. [If I had more money, I would buy a new car.] Se fossi più magro, non farei una dieta così stretta. [If I was thinner, I wouldn't be on such a strict diet.] Se potessi, mi trasferirei in Irlanda per lavorare. [If I could, I'd move to Ireland to work.] Back to Italian lesson on: unreal present"
-      },
-      {
-        "title_it": "periodo ipotetico dell'impossibilità",
-        "url": "",
-        "content": "",
-        "status": "NO ENCONTRADO en el índice — requiere búsqueda manual"
-      },
-      {
-        "title_it": "trapassato prossimo",
-        "url": "http://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-grammartrapassato-prossimo/",
-        "content": "The past perfect, in Italian as in English, is used to show that a past event or state happened prior to a past reference point. It's formed using the auxiliary verb &#8216;avere' or &#8216;essere' in the imperfect tense, and the past participle of the main verb. Below are the conjunctions of &#8216;essere', &#8216;avere', and an example verb from each of the three main groups. Remember that when you use the auxiliary verb &#8216;essere, the past participle needs to &#8216;agree' with the gender and singular or plural nature of the subject. essere [to be] io ero stato/a tu eri stato/a lui/lei era stato/a noi eravamo stati/e voi eravate stati/e loro erano stati/e avere [to have] io avevo avuto tu avevi avuto lui/lei aveva avuto noi avevamo avuto voi avevate avuto loro avevano avuto First group, -are magiare [to eat] io avevo mangiato tu avevi mangiato lui/lei aveva mangiato noi avevamo mangiato voi avevate mangiato loro avevano mangiato Second group, -ere bere [to drink] io avevo bevuto tu avevi bevuto lui/lei aveva bevuto noi avevamo bevuto voi avevate bevuto loro avevano bevuto Third group, -ire venire [to come] io ero venuto/a tu eri venuto/a lui/lei era venuto/a noi eravamo venuti/e voi eravate venuti/e loro erano venuti/e Here's a text with some examples of the past perfect. To help you see the pattern of use, I've underlined the &#8216;reference point' verb (which uses the past tense, NOT the past perfect). I've then put the &#8216;prior time' past perfect verbs in italics. \"Il signor Rizzoli, prima di partire per una vacanza, ha lasciato alla sua segretaria una lista di cose da fare. Quando è tornato ha scoperto che la signorina Giuliano non aveva aperto la posta, si era dimenticata di contattare il professor Mizzi, non aveva letto le mail, aveva trascorso il tempo facendo solo cruciverba e non era andata in banca.\" And here's a rough translation. \"Before leaving for a holiday, Mr. Rizzoli left his secretary a list of things to do. When he got back , he found that Miss Giuliano hadn't opened the post, had forgotten to contact Professor Mizzi and hadn't read the emails. She &#8216;d spent the time doing crosswords and hadn't been to the bank.\" In this rare case, the similarity in the way the tenses are used in Italian and English is striking! Back to Italian lesson on: past perfect"
-      },
-      {
-        "title_it": "uso di \"prima di\"",
-        "url": "",
-        "content": "",
-        "status": "NO ENCONTRADO en el índice — requiere búsqueda manual"
       }
     ]
   }

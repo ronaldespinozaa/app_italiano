@@ -1,7 +1,7 @@
 {
   "level": "B1",
-  "migrated_at": "2026-08-09",
-  "status": "9/12 verbatim del sitio (5 originales + 4 vía grammar-scraper.go); 3 pendientes marcados a nivel de ítem (Forma passiva, Periodo ipotetico dell'impossibilità, Uso di 'prima di')",
+  "migrated_at": "2026-08-10",
+  "status": "12/12 verbatim del sitio (100%). Forma passiva, Periodo ipotetico dell'impossibilità y Uso di 'prima di' cerrados el 2026-08-10 vía grammar-scraper.go, tras confirmar sus URLs a mano en el índice del sitio (discoverURL no las encontraba con el regex simple).",
   "grammar_content": [
     {
       "title_it": "Condizionale composto (passato)",
@@ -37,9 +37,9 @@
     },
     {
       "title_it": "Forma passiva",
-      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
-      "content": "Revisión de la forma pasiva a nivel intermedio: se forma con essere (u otros verbos como venire) + participio pasado del verbo principal, que concuerda en género/número con el sujeto que recibe la acción.",
-      "status": "Resumen general — este nivel tiene una página propia de 'passiva' distinta de A1/B2, contenido pendiente de extracción literal"
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-forma-passiva/",
+      "content": "In grammar the term &#8216;passive' is used to refer to verb forms in which the subject is not the &#8216;doer' (agent) of the verb. The more usual verb form is described as &#8216;active'. Active: I love you. (I'm the subject of the verb, and the agent, the one &#8216;doing' the loving. Passive: You are loved. (You are the subject, but not the agent. That's still me!) There are three constructions in Italian that express passive meanings. Here are examples of each one, all three of which mean &#8216;The company's annual report is presented to investors.' Note how different grammar forms express this: &#8216;essere' + past participle Il bilancio dell'azienda è presentato ogni anno ai finanziatori. &#8216;si' + 3rd person of singular or plural Si presenta il bilancio dell'azienda ogni anno ai finanziatori. &#8216;andare' + past participle Va presentato il bilancio dell'azienda ogni anno ai finanziatori. Here are some further sets of examples for you to study: [Cars must be parked outside of the pedestrian area.] Le automobili devono essere parcheggiate fuori dalla zona pedonale. Le automobili si devono parcheggiare fuori dalla zona pedonale. Le automobili vanno parcheggiate fuori dalla zona pedonale. [Spaghetti must be eaten with a fork.] Gli spaghetti devono essere mangiati con la forchetta. Gli spaghetti si mangiano con la forchetta. Gli spaghetti vanno mangiati con la forchetta. In a passive form there's no need to mention the agent. In all of the above examples, the agent is implicit. You can guess who or what is doing the action, but it's usually irrelevant to the meaning. However, when the agent IS specified, it's introduced (passive form!) with the preposition &#8216;da' (&#8216;by' in English. &#8216;You are loved &#8211; by me.') For example: La mela è stata mangiata dal bambino. [The apple was eaten by the child.] Il pranzo è stato preparato dalla mamma. [Lunch was prepared by the mother.] I premi Nobel per la chimica e per la fisica sono decisi dalla Reale Accademia Svedese delle Scienze. [The Nobel prizes for chemistry and physics are decided by the Royal Swedish Academy of Sciences.] Back to Italian lesson on: Passive",
+      "migrated_via": "grammar-scraper.go"
     },
     {
       "title_it": "Periodo ipotetico della possibilità (2º tipo)",
@@ -49,9 +49,9 @@
     },
     {
       "title_it": "Periodo ipotetico dell'impossibilità (3er tipo)",
-      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
-      "content": "Se usa para condiciones pasadas que no se cumplieron y ya son imposibles de cambiar. Estructura: 'se' + congiuntivo trapassato (condición) + condizionale passato (consecuencia). Ej: Se avessi saputo, sarei venuto prima. Describe un pasado irreal.",
-      "status": "Contenido pedagógico verificado de fuentes externas coincidentes; no se pudo extraer verbatim la página del sitio"
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico-dell-impossibilita/",
+      "content": "As mentioned in the previous lesson on &#8216;unreal present' , we can categorize conditional sentences as referring to either &#8216;real' or &#8216;unreal' (hypothetical) situations. &#8216;Unreal' conditional sentences which refer to the past are constructed using two different forms: the subjunctive past perfect and the conditional past . Here are some examples, with English translations: Se avessi avuto il tuo aiuto non mi sarei trovato in difficoltà con il test di inglese. [If I had had your help, I wouldn't have had trouble with the English test.] Sono sicuro che, se aveste visto il bambino correre, lo avreste fermato subito. [I am sure that, if you had seen the baby running, you would have stopped him immediately.] Se avessi saputo del terremoto non sarei mai venuto in vacanza a Bologna in questo periodo. [If I had known about the earthquake, I would never have come on holiday to Bologna at this time.] Back to Italian lesson on: unreal past",
+      "migrated_via": "grammar-scraper.go"
     },
     {
       "title_it": "Pronomi combinati",
@@ -66,9 +66,9 @@
     },
     {
       "title_it": "Uso di 'prima di'",
-      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
-      "content": "'Prima di' + infinitivo se usa cuando el sujeto de ambas acciones es el mismo (Prima di uscire, chiudo la porta). 'Prima che' + congiuntivo se usa cuando los sujetos son distintos (Prima che tu esca, chiudo la porta).",
-      "status": "Resumen general verificado; página del sitio pendiente de extracción literal"
+      "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/use-of-prima-di/",
+      "content": "This construction is another way to express that something happened before another event of the past, the present or the future. It is very simple to use, but notice one important thing: the subject is the same both in both sentences. If subjects are different, this construction cannot be used. Prima di [before] + infinitive Examples: &#8211; Prima di avere una promozione, Michele ha lavorato molto come cassiere. &#8211; Prima di chiudere la porta ho controllato di avere le chiavi. &#8211; Prima di andare a letto mi lavo i denti. &#8211; Prima di andare a Madrid ci fermeremo due giorni a Barcellona.",
+      "migrated_via": "grammar-scraper.go"
     }
   ]
 }
