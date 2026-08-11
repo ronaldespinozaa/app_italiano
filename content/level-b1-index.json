@@ -49,7 +49,7 @@
         "Tipi di persone/Tipos de personas", "Verbi 3/Verbos", "Verbi 4/Verbos", "Verbi 5/Verbos"
       ]
     },
-    "listening": {"label": "Ejercicios de listening", "count": 38, "note": "Pendiente migrar audio + transcripción"},
+    "listening": {"label": "Ejercicios de listening", "count": 30, "note": "MIGRADO 2026-08-10 (ver content/listening-b1.json): 30 ítems reales con transcripción verbatim + audio real vía SoundCloud. Conteo original (38) era estimación pre-scraping; el índice real tiene 30."},
     "exercises": {"label": "Ejercicios interactivos", "count": 72, "note": "Formato legacy HTML, requiere reescritura"}
   }
 }

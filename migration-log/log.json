@@ -42,5 +42,17 @@
     "item": "Gramática cerrada al 100% (82/82)",
     "problem": "N/A — nota de hito, no de problema.",
     "status": "2026-08-10: este entorno de sesión sí tiene acceso real a internet (a diferencia de lo documentado antes en grammar-scraper.go), lo que permitió cerrar los últimos 4 ítems pendientes y confirmar sus URLs contra el índice real del sitio. Se sincronizó además el GRAMMAR_CONTENT embebido en prototype/index.html (que tenía ~30 ítems con paráfrasis/placeholders propios sin relación con content/grammar-*.json) para que sea un espejo exacto del contenido migrado. README y roadmap.md actualizados a juego."
+  },
+  {
+    "level": "PROCESO",
+    "item": "Herramienta interna: escapado JS al generar LISTENING_CONTENT para prototype/index.html",
+    "problem": "El primer intento de generar el bloque const LISTENING_CONTENT embebido en prototype/index.html (vía un script Python ejecutado con el heredoc de la herramienta de shell de esta sesión) produjo JS inválido: los literales de barra invertida escritos en el comando (p.ej. \\\\' para escapar un apóstrofe) llegaban recortados a la mitad al archivo .py real (\\' en vez de \\\\'), así que algunos apóstrofes rectos dentro de transcripciones reales (ej. \"dall'ufficio\") quedaban sin escapar y rompían el string JS. Detectado recién al validar el archivo completo con `node --check`, no por inspección visual.",
+    "status": "RESUELTO 2026-08-10 — se reescribió el generador usando chr(92)/chr(39) (códigos de carácter) en vez de literales de barra invertida en el texto del comando, eliminando la ambigüedad de transporte. Se revirtió el prototype/index.html roto (git checkout) y se regeneró limpio; validado con un self-check de conteo de comillas por ítem (0 mismatches en 175 ítems) y con `node --check` sobre el <script> completo del archivo (448KB) antes de dar el cambio por bueno. Lección para el futuro: para bloques de datos grandes generados por script, siempre correr una validación de sintaxis real (node --check / equivalente) sobre el archivo completo, no confiar en que el heredoc llegó tal cual se escribió."
+  },
+  {
+    "level": "PROCESO",
+    "item": "Listening migrado al 100% (175/175) — audio real vía SoundCloud, no offline",
+    "problem": "N/A — nota de hito, no de problema.",
+    "status": "2026-08-10: se escribió tools/listening-scraper.go, que descubre los ejercicios reales desde https://onlineitalianclub.com/index-of-italian-listening-comprehension-exercises/ (175 ítems encontrados, contra 198 estimados en el inventario original) y extrae transcripción + soundcloud_track_id de cada página (el sitio no aloja mp3 propios, usa embeds de SoundCloud). Se escribió content/listening-*.json (uno por nivel) y se embebió el contenido completo en prototype/index.html como LISTENING_CONTENT, con una vista nueva (openListening()) que reproduce el audio real (iframe de SoundCloud, carga diferida por ítem para no disparar ~40 reproductores de golpe) y muestra la transcripción — visible por defecto en A1/A2, oculta tras un <details> en B1+ siguiendo el patrón de props-por-nivel ya usado en gramática. Decisión de arquitectura documentada en docs/architecture.md punto 7: esto deja al módulo de listening como el único que no puede funcionar 100% offline (depende de que SoundCloud esté disponible), a diferencia de gramática/lecciones/vocabulario que sí quedan embebidos."
   }
 ]

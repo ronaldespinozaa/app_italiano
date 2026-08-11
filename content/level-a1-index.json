@@ -60,8 +60,8 @@
     },
     "listening": {
       "label": "Ejercicios de listening",
-      "count": 44,
-      "note": "Cada item requiere migrar también su archivo de audio y transcripción; pendiente de scraping página a página",
+      "count": 42,
+      "note": "MIGRADO 2026-08-10 (ver content/listening-a1.json): 42 ítems reales con transcripción verbatim + audio real embebido vía SoundCloud (streaming, no offline — ver docs/architecture.md decisión 7). El conteo original (44) era una estimación previa al scraping; el índice real del sitio tiene 42.",
       "sample": [
         "Agenda del giorno/Daily diary", "Famiglia/Family", "Professioni/Professions",
         "Quartiere/District", "Presentazioni/Presentations", "Natale in Italia/Christmas in Italy"

@@ -47,7 +47,7 @@
         "Sistema politico italiano/Sistema político italiano", "Teatro e opera/Teatro y ópera", "Viaggiare/Viajar"
       ]
     },
-    "listening": {"label": "Ejercicios de listening", "count": 48, "note": "Pendiente migrar audio + transcripción"},
+    "listening": {"label": "Ejercicios de listening", "count": 45, "note": "MIGRADO 2026-08-10 (ver content/listening-b2.json): 45 ítems reales con transcripción verbatim + audio real vía SoundCloud. Conteo original (48) era estimación pre-scraping; el índice real tiene 45."},
     "exercises": {"label": "Ejercicios interactivos", "count": 62, "note": "Formato legacy HTML, requiere reescritura"}
   }
 }

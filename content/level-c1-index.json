@@ -51,7 +51,7 @@
         "Orecchie nei modi di dire/Las orejas en modismos"
       ]
     },
-    "listening": {"label": "Ejercicios de listening", "count": 18, "note": "Pendiente migrar audio + transcripción"},
+    "listening": {"label": "Ejercicios de listening", "count": 16, "note": "MIGRADO 2026-08-10 (ver content/listening-c1.json): 16 ítems reales con transcripción verbatim + audio real vía SoundCloud. Conteo original (18) era estimación pre-scraping; el índice real tiene 16."},
     "exercises": {"label": "Ejercicios interactivos", "count": 27, "note": "Formato legacy HTML, requiere reescritura"}
   }
 }

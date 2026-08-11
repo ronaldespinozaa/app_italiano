@@ -54,8 +54,8 @@
     },
     "listening": {
       "label": "Ejercicios de listening",
-      "count": 34,
-      "note": "Pendiente migrar audio + transcripción"
+      "count": 26,
+      "note": "MIGRADO 2026-08-10 (ver content/listening-a2.json): 26 ítems reales con transcripción verbatim + audio real embebido vía SoundCloud. El conteo original (34) era una estimación previa al scraping; el índice real del sitio tiene 26."
     },
     "exercises": {
       "label": "Ejercicios interactivos",

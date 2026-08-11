@@ -13,7 +13,7 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Vocabulario (89 listas) | ✅ Migrado |
 | Lecciones (54 títulos — confirmado: son bundles de enlaces, no cuerpo propio) | ✅ Migrado |
 | Gramática — texto real (82 explicaciones) | ✅ 82/82 (100%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`) |
-| Listening (198 audios + transcripciones) | ⏳ No iniciado |
+| Listening (175 audios reales + transcripciones) | ✅ 175/175 migrado (vía `listening-scraper.go`) — audio real por streaming desde SoundCloud, no offline (ver `docs/architecture.md` decisión 7) |
 | Ejercicios interactivos (333 legacy) | 🟡 23/333 reescritos en el motor nuevo |
 
 ### Cobertura real de gramática por nivel
@@ -45,19 +45,27 @@ content/
   level-*-index.json     Índice por nivel: conteo de lecciones, gramática, vocabulario,
                           listening y ejercicios (extraído de los índices del sitio)
   grammar-*.json         Contenido REAL de cada explicación de gramática (título + texto)
+  listening-*.json       Contenido REAL de cada ejercicio de listening (transcripción +
+                          `soundcloud_track_id` — el sitio no aloja mp3 propios, ver
+                          docs/architecture.md decisión 7)
   master-content.json    Consolidado de los 6 niveles + resumen numérico
 
 prototype/
   index.html             Prototipo funcional mobile-first (HTML/CSS/JS puro, sin build step).
                           Abrir directo en un navegador móvil. Usa los datos de content/
                           embebidos como constantes JS (ver sección "REAL_VOCAB",
-                          "LESSON_CONTENT", "EXERCISE_QUEUES" dentro del archivo).
+                          "LESSON_CONTENT", "GRAMMAR_CONTENT", "LISTENING_CONTENT",
+                          "EXERCISE_QUEUES" dentro del archivo).
 
 tools/
   grammar-scraper.go      Descarga las páginas de gramática restantes con acceso directo
                            al HTML (no depende de un buscador). Incluye descubrimiento
                            automático de URL para los ítems de B1 sin URL confirmada.
                            USO: go run grammar-scraper.go > grammar-final.json
+  listening-scraper.go    Descubre y descarga los ejercicios de listening: transcripción +
+                           ID del track de SoundCloud embebido en cada página. Escribe
+                           directo en content/listening-<nivel>.json (no requiere merge).
+                           USO: go run tools/listening-scraper.go
   level-content-service.go  Microservicio HTTP de ejemplo (cachea contenido por nivel).
                              Su rol quedó obsoleto tras decidir migración estática — se
                              conserva como referencia de arquitectura alternativa.
@@ -77,17 +85,21 @@ docs/
    `GRAMMAR_CONTENT` embebido) para que refleje exactamente el contenido de
    `content/grammar-*.json` — antes tenía ~30 ítems con paráfrasis o placeholders propios,
    ahora es un espejo 1:1 del contenido migrado.
-2. **Listening**: las URLs de los 198 audios están identificadas en los
-   `level-*-index.json` (`modules.listening`), pero no descargadas. Requiere un scraper
-   nuevo que también baje el archivo de audio, no solo el texto. Con acceso real a internet
-   ya confirmado en este entorno (ver `tools/grammar-scraper.go` como referencia de patrón),
-   este es el siguiente bloque de trabajo más natural.
+2. ~~Listening~~ — **hecho el 2026-08-10**: 175/175 ítems migrados (`tools/listening-scraper.go`
+   + `content/listening-*.json`), con transcripción verbatim y audio real reproducible en
+   `prototype/index.html` (`openListening()`, embed de SoundCloud con carga diferida por
+   ítem). Limitación conocida y documentada: el audio requiere internet (streaming desde
+   SoundCloud, no se descargó ningún binario) — ver `docs/architecture.md` decisión 7. El
+   conteo real (175) difiere del estimado inicial (198); corregido en cada `level-*-index.json`.
 3. **Ejercicios**: los 333 ejercicios legacy (formato HTML/JS antiguo, ver
    `/free_italian_exercises/*.html` en el sitio) deben convertirse al formato de datos
    que ya consume el motor en `prototype/index.html` (busca `EXERCISE_QUEUES`) — son 4-5
-   tipos de componente reutilizables, no 333 piezas de código distintas.
+   tipos de componente reutilizables, no 333 piezas de código distintas. Con listening
+   resuelto, es el único bloque de contenido que queda por migrar.
 4. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) cuando
-   el contenido esté más completo — ver `docs/roadmap.md`, fase 6.
+   el contenido esté más completo — ver `docs/roadmap.md`, fase 6. El módulo de listening
+   necesitará resolver su dependencia de internet (SoundCloud) antes de poder llamarse
+   "100% offline" — ver decisión 7 en `docs/architecture.md`.
 
 ## Principio de honestidad de datos
 

@@ -42,7 +42,7 @@
       "count": 0,
       "note": "Confirmado: el sitio no dedica NINGUNA lista de vocabulario a C2. Tendencia iniciada en C1 (3 listas) llega a cero aqui - a este nivel el aprendizaje es 100% gramatica/matiz, cero lexico nuevo estructurado."
     },
-    "listening": {"label": "Ejercicios de listening", "count": 16, "note": "Pendiente migrar audio + transcripcion"},
+    "listening": {"label": "Ejercicios de listening", "count": 16, "note": "MIGRADO 2026-08-10 (ver content/listening-c2.json): 16 ítems reales con transcripción verbatim + audio real vía SoundCloud — coincide con la estimación original."},
     "exercises": {"label": "Ejercicios interactivos", "count": 22, "note": "Formato legacy HTML, requiere reescritura"}
   }
 }
