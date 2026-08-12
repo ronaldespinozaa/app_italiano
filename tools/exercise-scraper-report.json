@@ -301,6 +301,12 @@
       "items": 11
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
+      "level": "A1",
+      "topic": "Adjectives and their opposites",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html",
       "level": "A1",
       "topic": "Italian Plurals - 1",
@@ -325,6 +331,12 @@
       "items": 12
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
+      "level": "SIN_NIVEL",
+      "topic": "Adjective Opposites",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html",
       "level": "SIN_NIVEL",
       "topic": "Possessive Adjectives",
@@ -335,6 +347,12 @@
       "level": "SIN_NIVEL",
       "topic": "Indefinite Adjectives",
       "items": 10
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
+      "level": "SIN_NIVEL",
+      "topic": "Adjectives From Nouns",
+      "items": 1
     },
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html",
@@ -361,6 +379,12 @@
       "items": 8
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html",
+      "level": "A2",
+      "topic": "Comparative And Superlative Forms",
+      "items": 15
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/ce_o_ci_sono_part_one.html",
       "level": "SIN_NIVEL",
       "topic": "There is / are - C'é o ci sono? - 1",
@@ -377,6 +401,12 @@
       "level": "C2",
       "topic": "Relative Pronouns - 'Che' or 'Cui'?",
       "items": 9
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
+      "level": "A2",
+      "topic": "Match the prompts and responses:",
+      "items": 1
     },
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html",
@@ -457,6 +487,12 @@
       "items": 10
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
+      "level": "SIN_NIVEL",
+      "topic": "Linkers",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html",
       "level": "SIN_NIVEL",
       "topic": "Linkers - 1",
@@ -467,6 +503,18 @@
       "level": "SIN_NIVEL",
       "topic": "Linkers - 2",
       "items": 10
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
+      "level": "A1",
+      "topic": "Italian Plurals - 1",
+      "items": 1
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
+      "level": "A1",
+      "topic": "Plurals - 2",
+      "items": 1
     },
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html",
@@ -535,6 +583,12 @@
       "items": 12
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
+      "level": "SIN_NIVEL",
+      "topic": "Real/Unreal Conditionals Matching Exercise - 1",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico2.html",
       "level": "SIN_NIVEL",
       "topic": "Real/Unreal Conditionals - Dropdown Exercise",
@@ -577,6 +631,24 @@
       "items": 10
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/il_passato_remoto_c1.html",
+      "level": "C1",
+      "topic": "Remote Past",
+      "items": 10
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
+      "level": "SIN_NIVEL",
+      "topic": "Italian Sentence Adverbs - 1",
+      "items": 1
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
+      "level": "SIN_NIVEL",
+      "topic": "Italian Sentence Adverbs - 2",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/imperativo_a2.html",
       "level": "A2",
       "topic": "The Imperative Form",
@@ -586,6 +658,12 @@
       "url": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html",
       "level": "SIN_NIVEL",
       "topic": "Formal Or Informal Imperative?",
+      "items": 12
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html",
+      "level": "A2",
+      "topic": "Imperfect or Past Tense? (1)",
       "items": 12
     },
     {
@@ -745,6 +823,12 @@
       "items": 12
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
+      "level": "SIN_NIVEL",
+      "topic": "Unreal Present",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html",
       "level": "C1",
       "topic": "Present Or Past Condtional?",
@@ -787,6 +871,12 @@
       "items": 10
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
+      "level": "SIN_NIVEL",
+      "topic": "The Position Of Adjectives",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html",
       "level": "C2",
       "topic": "Simple Prepositions - 2",
@@ -826,6 +916,12 @@
       "url": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html",
       "level": "SIN_NIVEL",
       "topic": "Present, Past or Imperfect?",
+      "items": 12
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html",
+      "level": "A2",
+      "topic": "Conditional Present Tense",
       "items": 12
     },
     {
@@ -889,10 +985,28 @@
       "items": 10
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/tempi_passati-b1.html",
+      "level": "B1",
+      "topic": "Italian Past Tenses Gapfill Exercise",
+      "items": 15
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html",
       "level": "SIN_NIVEL",
       "topic": "Which subjunctive tense?",
       "items": 10
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/trapassato_prossimo_b1.html",
+      "level": "B1",
+      "topic": "Past Perfect",
+      "items": 12
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html",
+      "level": "SIN_NIVEL",
+      "topic": "Prepositions",
+      "items": 15
     },
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/uso_condizionale_b1.html",
@@ -919,6 +1033,12 @@
       "items": 10
     },
     {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
+      "level": "SIN_NIVEL",
+      "topic": "Uses of the Conditional Present Tense",
+      "items": 1
+    },
+    {
       "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html",
       "level": "SIN_NIVEL",
       "topic": "Irregular Verbs",
@@ -935,6 +1055,12 @@
       "level": "SIN_NIVEL",
       "topic": "Pronominal Verbs - Gapfill Exercise",
       "items": 10
+    },
+    {
+      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
+      "level": "C1",
+      "topic": "Pronominal Verbs - Matching Exercise",
+      "items": 1
     },
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html",
@@ -1297,709 +1423,8 @@
       "items": 6
     }
   ],
-  "skipped_pages": [
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_passato_remoto_c1.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/tempi_passati-b1.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/trapassato_prossimo_b1.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html",
-      "reason": "sin preguntas reconocibles (no es hub ni tiene questionArray)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "reason": "0 ítems convertibles en esta página (ver report.skipped para el detalle)"
-    }
-  ],
-  "skipped": [
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 9,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 10,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 11,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 12,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 13,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html",
-      "q": 14,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 9,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 10,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 11,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 12,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html",
-      "q": 13,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 1,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 2,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 3,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 4,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 5,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 6,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 7,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    },
-    {
-      "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html",
-      "q": 8,
-      "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"
-    }
-  ],
+  "skipped_pages": [],
+  "skipped": [],
   "hub_pages_followed": [
     {
       "url": "https://onlineitalianclub.com/free_italian_exercises/condizionale.html",

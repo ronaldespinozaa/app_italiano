@@ -2620,6 +2620,47 @@
       "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
     },
     {
+      "type": "matching",
+      "kicker": "Ejercicios · A1 · Adjectives and their opposites",
+      "title": "Adjectives and their opposites",
+      "pairs": [
+        {
+          "left": "Alto",
+          "right": "basso"
+        },
+        {
+          "left": "Saporito",
+          "right": "insipido"
+        },
+        {
+          "left": "Amaro",
+          "right": "dolce"
+        },
+        {
+          "left": "leggero",
+          "right": "pesante"
+        },
+        {
+          "left": "crudo",
+          "right": "cotto"
+        },
+        {
+          "left": "magro",
+          "right": "grasso"
+        },
+        {
+          "left": "scuro",
+          "right": "chiaro"
+        },
+        {
+          "left": "calorico",
+          "right": "dietetico"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Contrari_a1.html"
+    },
+    {
       "type": "gapfill",
       "kicker": "Ejercicios · A1 · Italian Plurals - 1",
       "title": "Italian Plurals - 1",
@@ -3080,6 +3121,132 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "pairs": [
+        {
+          "left": "l'arancia",
+          "right": "le arance"
+        },
+        {
+          "left": "la pesca",
+          "right": "le pesche"
+        },
+        {
+          "left": "il pesce",
+          "right": "i pesci"
+        },
+        {
+          "left": "il vino",
+          "right": "i vini"
+        },
+        {
+          "left": "la salsiccia",
+          "right": "le salsicce"
+        },
+        {
+          "left": "la lasagna",
+          "right": "le lasagne"
+        },
+        {
+          "left": "l'uovo",
+          "right": "le uova"
+        },
+        {
+          "left": "il gelato",
+          "right": "i gelati"
+        },
+        {
+          "left": "il toast",
+          "right": "i toast"
+        },
+        {
+          "left": "il caffe",
+          "right": "i caffe"
+        },
+        {
+          "left": "la fragola",
+          "right": "le fragole"
+        },
+        {
+          "left": "la spremuta",
+          "right": "le spremute"
+        },
+        {
+          "left": "il dessert",
+          "right": "i dessert"
+        },
+        {
+          "left": "l'oliva",
+          "right": "le olive"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_1.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · A1 · Plurals - 2",
+      "title": "Plurals - 2",
+      "pairs": [
+        {
+          "left": "il limone",
+          "right": "i limoni"
+        },
+        {
+          "left": "il fagiolo",
+          "right": "i fagioli"
+        },
+        {
+          "left": "la ciliegia",
+          "right": "le ciliegie"
+        },
+        {
+          "left": "la pera",
+          "right": "le pere"
+        },
+        {
+          "left": "il cornetto",
+          "right": "i cornetti"
+        },
+        {
+          "left": "il te",
+          "right": "i te"
+        },
+        {
+          "left": "lo spaghetto",
+          "right": "gli spaghetti"
+        },
+        {
+          "left": "la torta",
+          "right": "le torte"
+        },
+        {
+          "left": "il pollo",
+          "right": "i polli"
+        },
+        {
+          "left": "la carne",
+          "right": "le carni"
+        },
+        {
+          "left": "lo spumante",
+          "right": "gli spumanti"
+        },
+        {
+          "left": "la tagliatella",
+          "right": "le tagliatelle"
+        },
+        {
+          "left": "la farina",
+          "right": "le farine"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/courses_a1_w1_2.html"
     },
     {
       "type": "gapfill",

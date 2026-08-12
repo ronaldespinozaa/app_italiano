@@ -8,13 +8,13 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 
 | Fase | Estado |
 |---|---|
-| Arquitectura y motor de ejercicios (4 tipos: mc, gapfill, truefalse, ordering) | ✅ Completo, ver `prototype/index.html` |
+| Arquitectura y motor de ejercicios (5 tipos: mc, gapfill, truefalse, ordering, matching) | ✅ Completo, ver `prototype/index.html` |
 | Inventario de contenido (6 niveles, 756 páginas catalogadas) | ✅ Completo, ver `content/master-content.json` |
 | Vocabulario (89 listas) | ✅ Migrado |
 | Lecciones (54 títulos — confirmado: son bundles de enlaces, no cuerpo propio) | ✅ Migrado |
 | Gramática — texto real (82 explicaciones) | ✅ 82/82 (100%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`) |
 | Listening (175 audios reales + transcripciones) | ✅ 175/175 migrado (vía `listening-scraper.go`) — audio real por streaming desde SoundCloud, no offline (ver `docs/architecture.md` decisión 7) |
-| Ejercicios interactivos | 🟢 1174 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 1151 migrados de `/free_italian_exercises/*.html`, 216 páginas). 914 más migrados pero sin nivel confirmado (`content/exercises-sinnivel.json`). ~123 preguntas tipo "matching" + ~7 páginas de texto con huecos múltiples, sin convertir — ver detalle abajo |
+| Ejercicios interactivos | 🟢 1255 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 1232 migrados de `/free_italian_exercises/*.html`, 237/237 páginas convertibles). 938 más migrados pero sin nivel confirmado (`content/exercises-sinnivel.json`) — ver detalle abajo |
 
 ### Cobertura real de gramática por nivel
 
@@ -44,23 +44,35 @@ El "333" original era un conteo de **páginas** hecho al inventariar el sitio. E
 ~243 páginas reales bajo `/free_italian_exercises/*.html` (190 en el índice principal + ~53
 alcanzadas siguiendo 6 páginas "hub" que solo listan enlaces a sub-páginas de conjugación, ej.
 `imperfetto.html` → `imperfetto_cantare.html`, `imperfetto_essere.html`...). Cada página tiene
-varias preguntas — el total real de **preguntas individuales** es 2065.
+varias preguntas — el total real de **preguntas individuales** es 2170, en **237/237 páginas
+convertibles** (0 omitidas — ver debajo por qué no son 243: ~6 páginas hub no cuentan como
+"convertibles" en sí mismas, solo aportan las sub-páginas que sí lo son).
 
 `tools/exercise_scraper.py` detecta el tipo de ejercicio por la **forma de los datos** (no por
-qué script `bits/*.js` los renderiza, para cubrir también variantes embebidas sin ese include) y
-convierte lo que reconoce con certeza al formato de `EXERCISE_QUEUES`:
+qué script `bits/*.js` los renderiza, para cubrir también variantes embebidas sin ese include):
 
-| Resultado | Cantidad | Detalle |
+| Tipo legacy → tipo del motor | Preguntas | Estado |
 |---|---|---|
-| Migrado y en `prototype/index.html` | 1151 preguntas (216 páginas) | tipos `mc` y `gapfill` (y algo de `ordering`) — el índice de respuesta correcta se verificó a mano contra el código fuente real de `bits/uncountable3.js` y `bits/dropdown.js` antes de confiar en la conversión masiva |
-| Migrado pero **sin nivel CEFR confirmado** | 914 preguntas (82 páginas) | `content/exercises-sinnivel.json` — el nombre de archivo no indica nivel (ej. `Cantare.html`, `Essere.html`, drills de conjugación individuales) y no se quiso adivinar; no está embebido en el prototipo todavía |
-| No convertido — falta un tipo de componente | ~123 preguntas | ejercicios "matching" (unir pares) — el motor actual solo tiene 4 tipos (ver `docs/architecture.md` punto 4), matching sería un 5º |
-| No convertido — forma de datos distinta | ~7 páginas | textos con 10-15 huecos numerados en un solo párrafo (`gappedtext*.js`); no es una pregunta por ítem como el resto, requiere partir el párrafo por cada posición de hueco — no implementado |
+| Selección múltiple (`correctArray`) → `mc` | 749 | ✅ migrado |
+| Rellenar hueco de texto libre → `gapfill` | 472 | ✅ migrado (incluye los huecos de texto tipo cloze, ver abajo) |
+| Reordenar frase → `ordering` | 6 | ✅ migrado |
+| Unir pares → `matching` | 5 grupos / 123 pares | ✅ migrado — **5º tipo de componente nuevo**, agregado en el motor junto con esta migración (ver `docs/architecture.md` punto 4) |
 
-El feedback de las 1151 preguntas migradas es genérico ("¡Correcto!" / la respuesta correcta),
-no la explicación pedagógica en español que sí tienen los 23 ítems originales hechos a mano —
-el sitio no provee esa explicación, así que no se inventó una. Detalle completo (página por
-página, motivo exacto de cada omisión) en `tools/exercise-scraper-report.json`.
+De esas 1355 preguntas (749+472+6+123, contando cada par de matching), **1232 tienen nivel CEFR
+confirmable** por el nombre de archivo y están embebidas en `prototype/index.html`; las otras
+938 quedaron en `content/exercises-sinnivel.json` sin nivel adivinado (nombre de archivo sin
+marcador, ej. `Cantare.html`, `Essere.html`, drills de conjugación individuales alcanzados desde
+páginas hub) — no están embebidas en el prototipo todavía.
+
+Los textos con 10-15 huecos numerados en un solo párrafo (`gappedtext*.js`, ~7 páginas) se
+convirtieron partiendo el párrafo por cada posición de hueco: cada hueco es un ítem `gapfill`
+independiente (antes/después = el texto real que lo rodea en la página), no una vista de
+párrafo continuo — pragmático, sigue siendo 100% contenido real, solo que fragmentado.
+
+El feedback de las preguntas migradas es genérico ("¡Correcto!" / la respuesta correcta), no la
+explicación pedagógica en español que sí tienen los 23 ítems originales hechos a mano — el sitio
+no provee esa explicación, así que no se inventó una. Detalle completo (página por página) en
+`tools/exercise-scraper-report.json`.
 
 ## Estructura del repositorio
 
@@ -94,9 +106,10 @@ tools/
                            directo en content/listening-<nivel>.json (no requiere merge).
                            USO: go run tools/listening-scraper.go
   exercise_scraper.py     Descubre, descarga y convierte los ejercicios legacy (mc/gapfill/
-                           ordering) al formato de EXERCISE_QUEUES. En Python, no Go —
-                           el problema es parsear varias plantillas de un motor de quiz
-                           JS viejo, no solo bajar texto (ver docstring del archivo).
+                           ordering/matching, + huecos múltiples partidos en gapfill) al
+                           formato de EXERCISE_QUEUES. En Python, no Go — el problema es
+                           parsear varias plantillas de un motor de quiz JS viejo, no solo
+                           bajar texto (ver docstring del archivo).
                            Escribe content/exercises-<nivel>.json + un reporte de qué
                            se omitió y por qué. USO: python3 tools/exercise_scraper.py
   level-content-service.go  Microservicio HTTP de ejemplo (cachea contenido por nivel).
@@ -124,12 +137,15 @@ docs/
    ítem). Limitación conocida y documentada: el audio requiere internet (streaming desde
    SoundCloud, no se descargó ningún binario) — ver `docs/architecture.md` decisión 7. El
    conteo real (175) difiere del estimado inicial (198); corregido en cada `level-*-index.json`.
-3. ~~Ejercicios legacy~~ — **hecho en gran parte el 2026-08-12**: 1151 preguntas migradas y
-   embebidas en `EXERCISE_QUEUES` (ver tabla arriba). Queda pendiente, en orden de impacto:
-   (a) asignar nivel a mano a las 914 preguntas de `content/exercises-sinnivel.json` (82
-   páginas, sobre todo drills de conjugación individuales) y embeberlas; (b) un 5º tipo de
-   componente "matching" para ~123 preguntas de unir pares; (c) un parser para las ~7 páginas
-   de texto con huecos múltiples (`gappedtext*.js`) que reparta cada hueco en un ítem `gapfill`.
+3. ~~Ejercicios legacy~~ — **hecho el 2026-08-12**: 1232 preguntas migradas y embebidas en
+   `EXERCISE_QUEUES` junto a los 23 ítems curados (total 1255), sobre las 237/237 páginas
+   convertibles del sitio (0 omitidas). Se agregó **matching** como 5º tipo de componente del
+   motor (UI + lógica de corrección en `prototype/index.html`, `pickMatchLeft`/`pickMatchRight`)
+   y un parser para los textos con huecos múltiples (`gappedtext*.js`, cada hueco → un ítem
+   `gapfill`). Único pendiente real: **938 preguntas sin nivel CEFR confirmado**
+   (`content/exercises-sinnivel.json`, sobre todo drills de conjugación individuales alcanzados
+   desde páginas hub) — no se adivinó el nivel, decisión tomada con el usuario en sesión; falta
+   clasificarlas a mano y embeberlas.
 4. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) cuando
    el contenido esté más completo — ver `docs/roadmap.md`, fase 6. El módulo de listening
    necesitará resolver su dependencia de internet (SoundCloud) antes de poder llamarse

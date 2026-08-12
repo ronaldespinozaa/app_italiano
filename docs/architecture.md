@@ -33,29 +33,39 @@ se migra UNA VEZ a archivos JSON estáticos que viajan embebidos en la app. Cons
 - El "costo" es que el contenido no se actualiza automáticamente si cambia en el sitio
   original — cualquier cambio futuro requiere re-migrar manualmente ese contenido
 
-## 4. Motor de ejercicios: 4 tipos genéricos, no 333 piezas de código
+## 4. Motor de ejercicios: 5 tipos genéricos, no 333 piezas de código
 
 Los ~333 ejercicios legacy del sitio (formato HTML/JS antiguo con un motor de quiz propio de
-hace más de una década) se mapean a 4 tipos de componente reutilizable:
+hace más de una década) se mapean a 5 tipos de componente reutilizable:
 
 - `mc` — opción múltiple
 - `gapfill` — rellenar hueco
 - `truefalse` — verdadero/falso
 - `ordering` — ordenar palabras en una frase
+- `matching` — unir pares (agregado el 2026-08-12, ver abajo)
 
 Cada ejercicio migrado es un objeto de datos con un campo `type`; el componente que lo
 renderiza es el mismo sin importar el nivel o el tema gramatical. Ver `EXERCISE_QUEUES` en
 `prototype/index.html` para el formato exacto de cada tipo.
 
 Confirmado en la migración real del 2026-08-12 (`tools/exercise_scraper.py`, ver
-`docs/roadmap.md` Fase 3): 1151 de 2065 preguntas legacy reales mapearon limpio a `mc`/
-`gapfill`/`ordering`. El "emparejar" (`newmatching*.js` en el sitio) resultó ser real y no
-marginal — 123 preguntas — así que sigue siendo el candidato más claro a 5º tipo de componente
-si se retoma esta fase. Las páginas de texto con huecos múltiples en un solo párrafo
-(`gappedtext*.js`) son un caso aparte: no son "una pregunta con 4 campos" como las demás, son
-un párrafo con 10-15 huecos numerados — ni siquiera encajan en el molde de "objeto con type",
-necesitarían su propio tipo de dato (una lista de huecos por párrafo, no un array plano de
-ejercicios sueltos).
+`docs/roadmap.md` Fase 3): de 2170 preguntas legacy reales descubiertas, 749 mc + 472 gapfill
++ 6 ordering mapearon limpio a los tipos que ya existían. El "emparejar" (`newmatching*.js` en
+el sitio) resultó ser real y no marginal — 123 preguntas en 5 páginas — así que se agregó como
+**5º tipo de componente** en vez de forzarlo a otro tipo o descartarlo: `{type:'matching',
+pairs:[{left,right},...]}`, con UI de dos columnas (izquierda fija, derecha barajada) donde se
+toca un término de cada lado para intentar la pareja — igual que `ordering`, el conjunto
+completo de pares de una página es UN ítem de la cola, no una fila por par. Ver
+`pickMatchLeft`/`pickMatchRight` en `prototype/index.html`.
+
+Las páginas de texto con huecos múltiples en un solo párrafo (`gappedtext*.js`) resultaron ser
+un caso aparte: no son "una pregunta con 4 campos" como las demás, son un párrafo con 10-15
+huecos numerados. Se resolvieron *sin* agregar un 6º tipo — cada hueco se convierte en su propio
+ítem `gapfill` independiente (antes/después = el texto real alrededor de ese hueco), fragmentando
+la vista continua del párrafo en varios ítems sueltos en vez de mantenerla como una sola
+experiencia de lectura. Es una decisión pragmática, no la más fiel a la experiencia original del
+sitio — si en el futuro importa esa continuidad, ahí sí haría falta un tipo de dato nuevo
+("párrafo con lista de huecos", no un array plano de ejercicios).
 
 ## 5. Vocabulario decreciente por nivel (hallazgo real, no decisión de producto)
 

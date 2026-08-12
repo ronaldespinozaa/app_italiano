@@ -2,8 +2,8 @@
 """
 Scraper + conversor de los ejercicios legacy (`/free_italian_exercises/*.html`)
 al formato de datos que consume el motor de `prototype/index.html`
-(`EXERCISE_QUEUES`: tipos mc, gapfill, ordering — ver docs/architecture.md
-punto 4). Ver docs/roadmap.md Fase 3.
+(`EXERCISE_QUEUES`: tipos mc, gapfill, ordering, matching — ver
+docs/architecture.md punto 4). Ver docs/roadmap.md Fase 3.
 
 Por qué Python y no Go (a diferencia de grammar-scraper.go / listening-scraper.go):
 este scraper no solo extrae texto verbatim, tiene que **entender la lógica de
@@ -29,19 +29,25 @@ veces un `var correctArray = new Array(...)`.
   el último puramente numérico (el ancho del <input>, en píxeles/caracteres):
   es **gapfill**. Elementos = [antes, respuesta, después, ancho(ignorado)].
 - Si NO existe `correctArray` y el array tiene exactamente 2 elementos: es
-  **matching** (pares) — el motor actual NO tiene un 5º tipo de componente
-  para esto (ver docs/architecture.md punto 4). Se registra y se omite,
-  no se fuerza a otro tipo.
+  **matching** (pares). Todos los pares de una misma página se agrupan en
+  UN solo ítem `{type:'matching', pairs:[{left,right},...]}` — no una fila
+  por par, porque la interacción real (unir izquierda con derecha) es un
+  solo ejercicio con N pares, igual que 'ordering' es un solo ejercicio con
+  N palabras. Agregado el 2026-08-12 junto con el 5º tipo de componente en
+  el motor (ver docs/architecture.md punto 4).
 - Si NO existe `correctArray` y el array tiene 3+ elementos sin forma de
   gapfill: es **ordering** — los elementos, en ese orden, forman la frase
   correcta; el motor espera `words` ya barajadas (no se auto-barajan solas).
+- Si la página NO tiene ningún `questionN = new Array(...)`: se prueba el
+  formato **gappedtext** (`parse_gappedtext`) — un párrafo con 10-15 huecos
+  numerados vía variables sueltas (`var one=".."`, `var two=".."`, ...) y
+  cada hueco marcado inline con `<INPUT ... name=XXXt> <IMG ... name=XXX>`.
+  Cada hueco se convierte en un ítem `gapfill` independiente (no un tipo de
+  dato nuevo para "párrafo con huecos") — se fragmenta la vista continua del
+  párrafo en items sueltos, con antes/después = el texto real que rodea a
+  cada hueco en la página. Agregado el 2026-08-12.
 
-## Qué se excluye a propósito (no se fuerza ninguna conversión dudosa):
-- Ejercicios "matching" (newmatching*.js) — falta el tipo de componente.
-- Textos con hueco múltiple estilo cloze (gappedtext*.js: un párrafo con
-  10-15 huecos numerados vía variables sueltas var one=".." var two="..") —
-  forma de datos distinta a las demás, requiere separar el párrafo por cada
-  posición de <INPUT>; no implementado en esta pasada.
+## Qué se sigue excluyendo a propósito (no se fuerza ninguna conversión dudosa):
 - Páginas "hub" que solo listan enlaces a sub-páginas de conjugación (ej.
   imperfetto.html -> imperfetto_cantare.html, ...): SÍ se siguen un nivel
   (sus sub-páginas son ejercicios reales en el formato ya soportado).
@@ -195,12 +201,92 @@ def build_kicker(level, topic):
     return f"Ejercicios · {level or 'SIN_NIVEL'} · {topic}"
 
 
+# ---- gappedtext*.js: un párrafo con 10-15 huecos numerados -----------------
+# Forma de datos totalmente distinta a questionN=new Array(...): las
+# respuestas son variables sueltas (var one=".."; var two=".."; ...) y el
+# hueco vive inline en el párrafo como <INPUT ... name=XXXt> <IMG ... name=XXX>.
+# Cada hueco se convierte en un ítem 'gapfill' independiente (antes/después
+# = el texto real que lo rodea en el párrafo), en vez de inventar un tipo de
+# dato nuevo para "párrafo con huecos" — más pragmático y sigue siendo 100%
+# contenido real, solo que fragmentado en vez de una sola vista continua.
+NUM_WORDS = ["one", "two", "three", "four", "five", "six", "seven", "eight",
+             "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen"]
+GAPPEDTEXT_VAR_RE = re.compile(
+    r'var\s+(' + "|".join(NUM_WORDS) + r')\s*=\s*"([^"]*)"'
+)
+BLANK_MARKER_RE = re.compile(
+    r"<INPUT[^>]*name=(\w+)t[^>]*>\s*<IMG[^>]*>", re.I
+)
+STRONG_NUM_RE = re.compile(r"<STRONG>\s*\(\d+\)\s*</STRONG>", re.I)
+
+
+def parse_gappedtext(html):
+    answers = dict(GAPPEDTEXT_VAR_RE.findall(html))
+    if not answers:
+        return None
+
+    last_script_end = 0
+    for marker in ("</SCRIPT>", "</script>"):
+        idx = html.rfind(marker)
+        if idx != -1:
+            last_script_end = max(last_script_end, idx + len(marker))
+
+    end_idx = len(html)
+    for marker in ("Back to", "Contact us"):
+        idx = html.find(marker, last_script_end)
+        if idx != -1:
+            end_idx = min(end_idx, idx)
+
+    passage_html = STRONG_NUM_RE.sub(" ", html[last_script_end:end_idx])
+
+    matches = list(BLANK_MARKER_RE.finditer(passage_html))
+    if not matches:
+        return None
+
+    segments = []
+    prev_end = 0
+    for m in matches:
+        segments.append((passage_html[prev_end:m.start()], m.group(1)))
+        prev_end = m.end()
+    segments.append((passage_html[prev_end:], None))
+
+    blanks = []
+    for i in range(len(segments) - 1):
+        before_raw, word_var = segments[i]
+        after_raw = segments[i + 1][0]
+        answer = answers.get(word_var)
+        if not answer:
+            continue
+        before = clean_text(before_raw)[-220:].strip()
+        after = clean_text(after_raw)[:220].strip()
+        blanks.append((before, answer, after))
+    return blanks or None
+
+
 def convert_page(url, html, level, topic, report):
     ordered, correct = parse_questions(html)
     if not ordered:
-        return []
+        blanks = parse_gappedtext(html)
+        if not blanks:
+            return []
+        items = []
+        for before, answer, after in blanks:
+            items.append({
+                "type": "gapfill",
+                "kicker": build_kicker(level, topic) + " (texto con huecos)",
+                "title": topic,
+                "before": before,
+                "after": after,
+                "answer": answer,
+                "hint": "",
+                "feedbackCorrect": "¡Correcto!",
+                "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+                "_source": url,
+            })
+        return items
 
     items = []
+    matching_pairs = []
     for i, elems in enumerate(ordered):
         n = len(elems)
         try:
@@ -247,8 +333,11 @@ def convert_page(url, html, level, topic, report):
                     "_source": url,
                 })
             elif n == 2:
-                report["skipped"].append({"url": url, "q": i + 1, "reason": "tipo 'matching' (pares) — el motor no tiene ese 5º componente todavía"})
-                continue
+                left, right = elems[0], elems[1]
+                if not left or not right:
+                    report["skipped"].append({"url": url, "q": i + 1, "reason": "matching con un lado vacío"})
+                    continue
+                matching_pairs.append({"left": left, "right": right})
             elif n >= 3:
                 words = list(elems)
                 correct_sentence = " ".join(words)
@@ -270,6 +359,16 @@ def convert_page(url, html, level, topic, report):
                 report["skipped"].append({"url": url, "q": i + 1, "reason": f"forma de array no reconocida ({n} elementos, sin correctArray)"})
         except Exception as e:
             report["skipped"].append({"url": url, "q": i + 1, "reason": f"ERROR parseando: {e}"})
+
+    if matching_pairs:
+        items.append({
+            "type": "matching",
+            "kicker": build_kicker(level, topic),
+            "title": topic,
+            "pairs": matching_pairs,
+            "explanation": "",
+            "_source": url,
+        })
     return items
 
 
@@ -312,7 +411,18 @@ def main():
         topic = clean_text(h1m.group(1)) if h1m else filename.replace(".html", "").replace("_", " ")
 
         ordered, _ = parse_questions(html)
+        level = detect_level(filename)
         if not ordered:
+            # ¿es un texto con huecos múltiples (gappedtext)? probar antes de
+            # asumir que es un hub o darla por perdida.
+            if parse_gappedtext(html):
+                items = convert_page(url, html, level, topic, report)
+                if items:
+                    bucket = level if level else "SIN_NIVEL"
+                    all_items[bucket].extend(items)
+                    report["converted_pages"].append({"url": url, "level": bucket, "topic": topic, "items": len(items)})
+                    time.sleep(0.3)
+                    continue
             # ¿página hub con enlaces a sub-páginas del mismo tema?
             if url not in visited_hubs and "/free_italian_exercises/" in url:
                 visited_hubs.add(url)
@@ -332,7 +442,6 @@ def main():
             time.sleep(0.3)
             continue
 
-        level = detect_level(filename)
         items = convert_page(url, html, level, topic, report)
         if items:
             bucket = level if level else "SIN_NIVEL"

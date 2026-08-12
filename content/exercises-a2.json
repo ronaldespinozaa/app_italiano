@@ -5,6 +5,227 @@
   "exercise_content": [
     {
       "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "Complete the text with one of the following: buoni - migliore - bene - buonissime - meglio - ottima - ottimi - cattivo - pessima - malissimo - male - peggio -pessimo - peggiori - cattivo Secondo me, mia nonna è la cuoca",
+      "after": "del mondo! Fa delle",
+      "answer": "migliore",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "del mondo! Fa delle",
+      "after": "lasagne, anche se il piatto che cucina",
+      "answer": "buonissime",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "lasagne, anche se il piatto che cucina",
+      "after": "in assoluto sono i cannelloni. I miei preferiti sono quelli ripieni di besciamella e ragù: sono davvero",
+      "answer": "meglio",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "in assoluto sono i cannelloni. I miei preferiti sono quelli ripieni di besciamella e ragù: sono davvero",
+      "after": ". Ieri per Mario è stata una",
+      "answer": "ottimi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": ". Ieri per Mario è stata una",
+      "after": "giornata. La mattinata al lavoro è andata molto",
+      "answer": "pessima",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "giornata. La mattinata al lavoro è andata molto",
+      "after": "è arrivato in ritardo perché ha perso il treno, e il suo capo si è arrabbiato con lui. Ma il pomeriggio è andato ancora",
+      "answer": "male",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "è arrivato in ritardo perché ha perso il treno, e il suo capo si è arrabbiato con lui. Ma il pomeriggio è andato ancora",
+      "after": ": mentre era ad una riunione, la segretaria gli ha rovesciato addosso del caffè, e lui si è sporcato la camicia e si è scottato. Quando è tornato a casa dopo il lavoro, Mario ha deciso di cucinare una torta per la sua ra",
+      "answer": "peggio",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "del caffè, e lui si è sporcato la camicia e si è scottato. Quando è tornato a casa dopo il lavoro, Mario ha deciso di cucinare una torta per la sua ragazza, ma si è dimenticato di metterci il lievito, e la torta è venuta",
+      "after": "e con un",
+      "answer": "malissimo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "e con un",
+      "after": "sapore, perché era anche un po’ bruciata. Speriamo che domani vada meglio! Valeria è proprio un’",
+      "answer": "cattivo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "sapore, perché era anche un po’ bruciata. Speriamo che domani vada meglio! Valeria è proprio un’",
+      "after": "studentessa. Prima di ogni esame dell’università si prepara sempre molto",
+      "answer": "ottima",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "studentessa. Prima di ogni esame dell’università si prepara sempre molto",
+      "after": "e per questo ha dei voti molto",
+      "answer": "bene",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "e per questo ha dei voti molto",
+      "after": "Invece suo fratello Francesco è un",
+      "answer": "buoni",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "Invece suo fratello Francesco è un",
+      "after": "studente: è sempre fuori a divertirsi con i suo amici, e anche se non è un",
+      "answer": "pessimo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "studente: è sempre fuori a divertirsi con i suo amici, e anche se non è un",
+      "after": "ragazzo, i suoi voti a scuola sono sempre",
+      "answer": "cattivo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Comparative And Superlative Forms (texto con huecos)",
+      "title": "Comparative And Superlative Forms",
+      "before": "ragazzo, i suoi voti a scuola sono sempre",
+      "after": "di quelli di Valeria.",
+      "answer": "peggiori",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/bene_male_buono_comparativo_a2.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · A2 · Match the prompts and responses:",
+      "title": "Match the prompts and responses:",
+      "pairs": [
+        {
+          "left": "Hai visto il mio quaderno di italiano?",
+          "right": "Sarà sulla tua scrivania in mezzo agli altri."
+        },
+        {
+          "left": "Ieri Elisa sembrava più stanca del solito.",
+          "right": "Avrà dormito poco."
+        },
+        {
+          "left": "Questa torta è più dolce dell’altra.",
+          "right": "Ci avrò messo più zucchero."
+        },
+        {
+          "left": "Davide non è ancora arrivato al lavoro.",
+          "right": "Forse avrà trovato traffico."
+        },
+        {
+          "left": "Da due giorni ho il raffreddore.",
+          "right": "Avrai preso freddo."
+        },
+        {
+          "left": "Il treno da Milano non è ancora arrivato.",
+          "right": "Sarà in ritardo per colpa della neve."
+        },
+        {
+          "left": "Ma dove ho messo i miei occhiali?",
+          "right": "Saranno sul mobile in bagno, come sempre."
+        },
+        {
+          "left": "Alice è antipatica, non parla quasi mai.",
+          "right": "Sarà soltanto un po’ timida, abbi pazienza."
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/collega_frasi_a2.html"
+    },
+    {
+      "type": "gapfill",
       "kicker": "Ejercicios · A2 · 'Essere' Or 'Avere'?",
       "title": "'Essere' Or 'Avere'?",
       "before": "Matthew",
@@ -497,6 +718,150 @@
     },
     {
       "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "Imperfect or Past Tense? (1) Complete the text by conjugating the verb (in brackets) in the imperfect or past tense. Quando (essere)",
+      "after": "bambino (avere)",
+      "answer": "ero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "bambino (avere)",
+      "after": "tanti giochi e mi piaceva stare all'aria aperta. Un giorno mia madre mi (regalare)",
+      "answer": "avevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "tanti giochi e mi piaceva stare all'aria aperta. Un giorno mia madre mi (regalare)",
+      "after": "dei pattini e da quel giorno non li (lasciare)",
+      "answer": "ha regalato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "dei pattini e da quel giorno non li (lasciare)",
+      "after": "mai piu. (passare)",
+      "answer": "ho lasciati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "mai piu. (passare)",
+      "after": "le giornate sotto il sole, all'inizio non (essere)",
+      "answer": "Passavo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "le giornate sotto il sole, all'inizio non (essere)",
+      "after": "molto capace e (rimanere)",
+      "answer": "ero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "molto capace e (rimanere)",
+      "after": "nella via davanti a casa per delle ore. Mi ricordo la prima volta che (cadere)",
+      "answer": "rimanevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "nella via davanti a casa per delle ore. Mi ricordo la prima volta che (cadere)",
+      "after": ", (sbucciarsi)",
+      "answer": "sono caduto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": ", (sbucciarsi)",
+      "after": "un ginocchio ma ero troppo felice e avevo voglia di migliorare, per questo con il tempo (imparare)",
+      "answer": "mi sono sbucciato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "un ginocchio ma ero troppo felice e avevo voglia di migliorare, per questo con il tempo (imparare)",
+      "after": "a cadere ma anche a rialzarmi. Cosi adesso sono campione italiano di pattinaggio, il gioco (diventare)",
+      "answer": "ho imparato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "a cadere ma anche a rialzarmi. Cosi adesso sono campione italiano di pattinaggio, il gioco (diventare)",
+      "after": "una professione e io (crescere)",
+      "answer": "è diventato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (1) (texto con huecos)",
+      "title": "Imperfect or Past Tense? (1)",
+      "before": "una professione e io (crescere)",
+      "after": "ma oggi come ieri mi sento la persona piu felice del modo.",
+      "answer": "sono cresciuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_passato_prossimo_a2.html"
+    },
+    {
+      "type": "gapfill",
       "kicker": "Ejercicios · A2 · Imperfect or Past Tense? (2)",
       "title": "Imperfect or Past Tense? (2)",
       "before": "Mentre io",
@@ -982,6 +1347,150 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/p_prossimo_verbi_riflessivi_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "Conditional Present Tense Complete the text by conjugating the verbs in the conditional present tense: Progetti per l'estate Riccardo: Quest’estate Marina e io",
+      "after": "(volere) fare un viaggio in Croazia. È vicino, i prezzi sono bassi e il mare è stupendo. Voi",
+      "answer": "vorremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(volere) fare un viaggio in Croazia. È vicino, i prezzi sono bassi e il mare è stupendo. Voi",
+      "after": "(venire) con noi? Samuele: A me",
+      "answer": "verreste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(venire) con noi? Samuele: A me",
+      "after": "(piacere) molto, ma in agosto lavoro, e poi non posso spendere troppi soldi per le ferie. Riccardo: Non si",
+      "answer": "piacerebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(piacere) molto, ma in agosto lavoro, e poi non posso spendere troppi soldi per le ferie. Riccardo: Non si",
+      "after": "(spendere) molto. Se siamo in quattro, il viaggio in macchina ci costa meno di 50 euro a testa fra andata e ritorno. E poi",
+      "answer": "spenderebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(spendere) molto. Se siamo in quattro, il viaggio in macchina ci costa meno di 50 euro a testa fra andata e ritorno. E poi",
+      "after": "(dormire – noi) in tenda, e in Croazia i campeggi sono molto economici. Cristina: Io non",
+      "answer": "dormiremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(dormire – noi) in tenda, e in Croazia i campeggi sono molto economici. Cristina: Io non",
+      "after": "(dormire) in tenda neanche per tutto l’oro del mondo! Odio l’idea di passare la notte all’aperto, e poi con tutti gli insetti che ci sono in un campeggio, non",
+      "answer": "dormirei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(dormire) in tenda neanche per tutto l’oro del mondo! Odio l’idea di passare la notte all’aperto, e poi con tutti gli insetti che ci sono in un campeggio, non",
+      "after": "(chiudere) occhio di sicuro. Ma non",
+      "answer": "chiuderei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(chiudere) occhio di sicuro. Ma non",
+      "after": "(potere – noi) andare in ostello? Riccardo: Eddai Cristina! Non è vero che i campeggi sono pieni di insetti, e poi ci",
+      "answer": "potremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(potere – noi) andare in ostello? Riccardo: Eddai Cristina! Non è vero che i campeggi sono pieni di insetti, e poi ci",
+      "after": "(essere) noi a difenderti! Samuele: Beh, se si spende poco, allora vengo anche io! Quando pensate di andare? Riccardo: Pensavamo di andare i primi dieci giorni di luglio, così non",
+      "answer": "saremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(essere) noi a difenderti! Samuele: Beh, se si spende poco, allora vengo anche io! Quando pensate di andare? Riccardo: Pensavamo di andare i primi dieci giorni di luglio, così non",
+      "after": "(trovare) troppa gente e",
+      "answer": "troveremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(trovare) troppa gente e",
+      "after": "(avere) tempo per visitare luoghi diversi. Cristina: In effetti",
+      "answer": "avremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense (texto con huecos)",
+      "title": "Conditional Present Tense",
+      "before": "(avere) tempo per visitare luoghi diversi. Cristina: In effetti",
+      "after": "(essere) davvero una bella vacanza… Però promettete di proteggermi dagli insetti? Samuele: Ahahah sì, tranquilla, agli insetti ci pensiamo noi. Riccardo: Saremo i tuoi angeli custodi, promesso!",
+      "answer": "sarebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/progetti_estate_a2.html"
     },
     {
       "type": "gapfill",

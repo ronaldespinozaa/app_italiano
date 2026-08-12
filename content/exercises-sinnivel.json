@@ -232,6 +232,47 @@
       "_source": "https://onlineitalianclub.com/free_italian_exercises/a_o_in.html"
     },
     {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Adjective Opposites",
+      "title": "Adjective Opposites",
+      "pairs": [
+        {
+          "left": "Divertente",
+          "right": "Noioso"
+        },
+        {
+          "left": "Bello",
+          "right": "Brutto"
+        },
+        {
+          "left": "Magro",
+          "right": "Grasso"
+        },
+        {
+          "left": "Timido",
+          "right": "Aperto"
+        },
+        {
+          "left": "Antipatico",
+          "right": "Simpatico"
+        },
+        {
+          "left": "Carino",
+          "right": "Bruttino"
+        },
+        {
+          "left": "Alto",
+          "right": "Basso"
+        },
+        {
+          "left": "Grande",
+          "right": "Piccolo"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_contrari.html"
+    },
+    {
       "type": "mc",
       "kicker": "Ejercicios · SIN_NIVEL · Possessive Adjectives",
       "title": "Possessive Adjectives",
@@ -626,6 +667,47 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Adjectives From Nouns",
+      "title": "Adjectives From Nouns",
+      "pairs": [
+        {
+          "left": "cavallo",
+          "right": "equino"
+        },
+        {
+          "left": "maiale",
+          "right": "suino"
+        },
+        {
+          "left": "peccora",
+          "right": "ovino"
+        },
+        {
+          "left": "pesce",
+          "right": "ittico"
+        },
+        {
+          "left": "terremoto",
+          "right": "sismico"
+        },
+        {
+          "left": "calore",
+          "right": "termico"
+        },
+        {
+          "left": "colore",
+          "right": "cromatico"
+        },
+        {
+          "left": "acqua",
+          "right": "idrico"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html"
     },
     {
       "type": "mc",
@@ -2404,6 +2486,47 @@
       "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
     },
     {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Linkers",
+      "title": "Linkers",
+      "pairs": [
+        {
+          "left": "Tutto è cambiato e",
+          "right": "ormai non si torna più indietro."
+        },
+        {
+          "left": "Alcuni inbrogliano",
+          "right": "mentre altri sono onesti."
+        },
+        {
+          "left": "Non ha troppi interessi,",
+          "right": "anzi, non ne ha proprio!"
+        },
+        {
+          "left": "Ha comprato casa,",
+          "right": "pertanto ha un mutuo da pagare."
+        },
+        {
+          "left": "Ci impegnamo a farlo,",
+          "right": "a patto che voi ci aiutiate."
+        },
+        {
+          "left": "E' un'instancabile lavoratrice.",
+          "right": "Tuttavia non trova un impiego."
+        },
+        {
+          "left": "Fa tutto per lui,",
+          "right": "basta che lui glielo chieda."
+        },
+        {
+          "left": "Non se n'è occupato lui,",
+          "right": "bensì il suo collega."
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html"
+    },
+    {
       "type": "mc",
       "kicker": "Ejercicios · SIN_NIVEL · Linkers - 1",
       "title": "Linkers - 1",
@@ -3358,6 +3481,47 @@
       "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
     },
     {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Real/Unreal Conditionals Matching Exercise - 1",
+      "title": "Real/Unreal Conditionals Matching Exercise - 1",
+      "pairs": [
+        {
+          "left": "se sapessi la fine della storia",
+          "right": "non leggerei il libro"
+        },
+        {
+          "left": "se avessi qualche giorno libero",
+          "right": "verrei a trovarti"
+        },
+        {
+          "left": "se compri quella macchina",
+          "right": "me la devi prestare"
+        },
+        {
+          "left": "se avessi previsto la sua reazione",
+          "right": "non glielo avrei mai detto"
+        },
+        {
+          "left": "se diremo la verità",
+          "right": "tutti ci crederanno"
+        },
+        {
+          "left": "se prometti di non dirlo a nessuno",
+          "right": "te lo racconto"
+        },
+        {
+          "left": "se tutti dessimo una mano",
+          "right": "si finirebbe in un attimo"
+        },
+        {
+          "left": "se completo bene l'esercizio",
+          "right": "mi merito un premio"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html"
+    },
+    {
       "type": "mc",
       "kicker": "Ejercicios · SIN_NIVEL · Real/Unreal Conditionals - Dropdown Exercise",
       "title": "Real/Unreal Conditionals - Dropdown Exercise",
@@ -3632,6 +3796,88 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. La respuesta correcta es: \"parlassero\".",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico2.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Italian Sentence Adverbs - 1",
+      "title": "Italian Sentence Adverbs - 1",
+      "pairs": [
+        {
+          "left": "Purtroppo",
+          "right": "Sfortunatamente"
+        },
+        {
+          "left": "Volentieri",
+          "right": "Accetto con piacere"
+        },
+        {
+          "left": "Spesso",
+          "right": "Di frequente"
+        },
+        {
+          "left": "Abbastanza",
+          "right": "A sufficienza"
+        },
+        {
+          "left": "Parecchio",
+          "right": "Molto"
+        },
+        {
+          "left": "Giustamente",
+          "right": "In modo onesto, corretto"
+        },
+        {
+          "left": "Personalmente",
+          "right": "Secondo la mia opinione"
+        },
+        {
+          "left": "Davvero",
+          "right": "Veramente"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Italian Sentence Adverbs - 2",
+      "title": "Italian Sentence Adverbs - 2",
+      "pairs": [
+        {
+          "left": "Probabilmente",
+          "right": "Che può accadere, che è quasi sicuro"
+        },
+        {
+          "left": "Intorno",
+          "right": "Nella zona circostante"
+        },
+        {
+          "left": "Presto",
+          "right": "In anticipo, rapidamente"
+        },
+        {
+          "left": "Quasi",
+          "right": "Circa un po' meno"
+        },
+        {
+          "left": "Esattamente",
+          "right": "In modo preciso, con esattezza"
+        },
+        {
+          "left": "Ora",
+          "right": "Adesso"
+        },
+        {
+          "left": "Stranamente",
+          "right": "In modo bizzarro"
+        },
+        {
+          "left": "Attualmente",
+          "right": "Al momento, di questo periodo"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html"
     },
     {
       "type": "mc",
@@ -6622,6 +6868,47 @@
       "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
     },
     {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Unreal Present",
+      "title": "Unreal Present",
+      "pairs": [
+        {
+          "left": "Verrei",
+          "right": "se mi invitassi."
+        },
+        {
+          "left": "Se pagasse lui",
+          "right": "ne comprerei 10."
+        },
+        {
+          "left": "Se fossi in lui",
+          "right": "non lo farei."
+        },
+        {
+          "left": "Sarebbe felicissima",
+          "right": "se lui la sposasse."
+        },
+        {
+          "left": "Lo fareste",
+          "right": "se ve lo chiedessi?"
+        },
+        {
+          "left": "Verresti al cinema",
+          "right": "se ci fosse un bel film?"
+        },
+        {
+          "left": "Ci andremmo",
+          "right": "se avessimo i soldi"
+        },
+        {
+          "left": "Mi telefonerebbero",
+          "right": "se volessero parlare con me."
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html"
+    },
+    {
       "type": "gapfill",
       "kicker": "Ejercicios · SIN_NIVEL · Pinocchio And The Remote Past - 1",
       "title": "Pinocchio And The Remote Past - 1",
@@ -7100,6 +7387,47 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_regolare.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · The Position Of Adjectives",
+      "title": "The Position Of Adjectives",
+      "pairs": [
+        {
+          "left": "Essere un buon padre",
+          "right": "Un padre responsabile, attento"
+        },
+        {
+          "left": "Essere un padre buono",
+          "right": "Un padre gentile"
+        },
+        {
+          "left": "Avere certe notizie",
+          "right": "Notizie non precise"
+        },
+        {
+          "left": "Avere notizie certe.",
+          "right": "Notizie sicure"
+        },
+        {
+          "left": "Comprare un'auto nuova",
+          "right": "Auto non usata, appena uscita dalla fabbrica"
+        },
+        {
+          "left": "Comprare una nuova auto",
+          "right": "Auto appena acquistata, anche usata."
+        },
+        {
+          "left": "Conoscere un vecchio amico",
+          "right": "Amico da tanto tempo"
+        },
+        {
+          "left": "Conoscere un amico vecchio",
+          "right": "Amico anziano"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html"
     },
     {
       "type": "mc",
@@ -8464,6 +8792,227 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "L’estate scorsa ho deciso di andare in vacanza",
+      "after": "Bologna,",
+      "answer": "a",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "Bologna,",
+      "after": "Italia. Li ho frequentato un corso",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "Italia. Li ho frequentato un corso",
+      "after": "italiano. Ogni mattina andavo",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "italiano. Ogni mattina andavo",
+      "after": "scuola, c’era lezione",
+      "answer": "a",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "scuola, c’era lezione",
+      "after": "9.30",
+      "answer": "dalle",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "9.30",
+      "after": "13.30. Alle 11.30 facevamo sempre una pausa e andavamo",
+      "answer": "alle",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "13.30. Alle 11.30 facevamo sempre una pausa e andavamo",
+      "after": "bar tutti insieme. Sono proprio contenta di aver fatto questa scelta anche perche ho fatto amicizia con persone che venivano",
+      "answer": "al",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "bar tutti insieme. Sono proprio contenta di aver fatto questa scelta anche perche ho fatto amicizia con persone che venivano",
+      "after": "tanti paesi diversi. Passavamo sempre il tempo libero insieme ed era molto interessante poter parlare",
+      "answer": "da",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "tanti paesi diversi. Passavamo sempre il tempo libero insieme ed era molto interessante poter parlare",
+      "after": "tanti argomenti diversi e divertirci insieme. Anche Bologna mi e piaciuta davvero tanto, ci sono tantissime cose da fare: passeggiare",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "tanti argomenti diversi e divertirci insieme. Anche Bologna mi e piaciuta davvero tanto, ci sono tantissime cose da fare: passeggiare",
+      "after": "centro, andare",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "centro, andare",
+      "after": "pub o",
+      "answer": "al",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "pub o",
+      "after": "cinema,",
+      "answer": "al",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "cinema,",
+      "after": "teatro,",
+      "answer": "a",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "teatro,",
+      "after": "discoteca o stare",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · SIN_NIVEL · Prepositions (texto con huecos)",
+      "title": "Prepositions",
+      "before": "discoteca o stare",
+      "after": "casa a fare festa con gli amici:) E’ stato un periodo indimenticabile!",
+      "answer": "a",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/un_po_di_preposizioni.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · SIN_NIVEL · Uses of the Conditional Present Tense",
+      "title": "Uses of the Conditional Present Tense",
+      "pairs": [
+        {
+          "left": "Mi porterebbe una bottiglia di vino?",
+          "right": "Al ristorante"
+        },
+        {
+          "left": "Saprebbe dirmi quando arriva il bus?",
+          "right": "Alla fermata"
+        },
+        {
+          "left": "Vorrei un etto di cotto.",
+          "right": "In salumeria"
+        },
+        {
+          "left": "Vorrei una camera matrimoniale.",
+          "right": "In albergo"
+        },
+        {
+          "left": "Mi darebbe un'aspirina?",
+          "right": "In farmacia"
+        },
+        {
+          "left": "Mi servirebbe l'orario dei treni.",
+          "right": "In biglietteria"
+        },
+        {
+          "left": "Vorrei un pacco di Marlboro",
+          "right": "In tabaccheria"
+        },
+        {
+          "left": "Dovrei arrivare in via san Giorgio n.6.",
+          "right": "Nel taxi"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html"
     },
     {
       "type": "gapfill",
