@@ -1,0 +1,3435 @@
+{
+  "level": "C2",
+  "migrated_at": "2026-08-12",
+  "source_note": "Migrado de /free_italian_exercises/*.html (motor de quiz JS legacy). feedback genérico (no pedagógico) — ver README y docs/roadmap.md Fase 3.",
+  "exercise_content": [
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Se fossi ricco ___ tante case in città diverse.",
+      "options": [
+        {
+          "t": "avrei comprato",
+          "correct": false
+        },
+        {
+          "t": "comprerei",
+          "correct": true
+        },
+        {
+          "t": "compravo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"comprerei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Quanto mi piaceva ___ in spiaggia con i miei da piccolo!",
+      "options": [
+        {
+          "t": "andavo",
+          "correct": false
+        },
+        {
+          "t": "vado",
+          "correct": false
+        },
+        {
+          "t": "andare",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Se solo me l' ___ sarei corso in tuo aiuto.",
+      "options": [
+        {
+          "t": "avevi detto",
+          "correct": false
+        },
+        {
+          "t": "avresti detto",
+          "correct": false
+        },
+        {
+          "t": "avessi detto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi detto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "___ superare l'esame se avessero studiato meglio.",
+      "options": [
+        {
+          "t": "Avrebbero potuto",
+          "correct": true
+        },
+        {
+          "t": "Potrebbero",
+          "correct": false
+        },
+        {
+          "t": "Potevano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Avrebbero potuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Benché ___ in ritado tutti i suoi amici l'hanno aspettato.",
+      "options": [
+        {
+          "t": "era stato",
+          "correct": false
+        },
+        {
+          "t": "era",
+          "correct": false
+        },
+        {
+          "t": "fosse",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fosse\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Credo che il treno ___ in orario.",
+      "options": [
+        {
+          "t": "partirebbe",
+          "correct": false
+        },
+        {
+          "t": "era partito",
+          "correct": false
+        },
+        {
+          "t": "sia partito",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia partito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Non pensavo che ci ___ la loro macchina per cosi tanto tempo.",
+      "options": [
+        {
+          "t": "hanno prestato",
+          "correct": false
+        },
+        {
+          "t": "avrebbero prestato",
+          "correct": true
+        },
+        {
+          "t": "prestavano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avrebbero prestato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Mi aveva assicurato che ___ alla riunione, invece non si è presentato.",
+      "options": [
+        {
+          "t": "sarebbe venuto",
+          "correct": true
+        },
+        {
+          "t": "verrebbe",
+          "correct": false
+        },
+        {
+          "t": "verrà",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sarebbe venuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Potete venire alla festa purché ___ le vostre amiche.",
+      "options": [
+        {
+          "t": "invitiate",
+          "correct": true
+        },
+        {
+          "t": "invitaste",
+          "correct": false
+        },
+        {
+          "t": "invitate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"invitiate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Ieri mentre andavo al parco ___ tua sorella.",
+      "options": [
+        {
+          "t": "incontravo",
+          "correct": false
+        },
+        {
+          "t": "ho incontrato",
+          "correct": true
+        },
+        {
+          "t": "avevo incontrato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho incontrato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "___ al lavoro quando mi sono reso conto di non avere le chiavi dell'ufficio.",
+      "options": [
+        {
+          "t": "Sono andato",
+          "correct": false
+        },
+        {
+          "t": "Ero andato",
+          "correct": false
+        },
+        {
+          "t": "Stavo andando",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Stavo andando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Sarei andato qualora ___ di essere stato invitato.",
+      "options": [
+        {
+          "t": "sapessi",
+          "correct": false
+        },
+        {
+          "t": "saprei",
+          "correct": false
+        },
+        {
+          "t": "avessi saputo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi saputo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Sarei venuto sicuramente se solo non ___ lavorare.",
+      "options": [
+        {
+          "t": "avessi dovuto",
+          "correct": true
+        },
+        {
+          "t": "dovrei",
+          "correct": false
+        },
+        {
+          "t": "dovessi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi dovuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Chi li conosce sa che ___ dei ragazzi intelligenti.",
+      "options": [
+        {
+          "t": "sono",
+          "correct": true
+        },
+        {
+          "t": "sono stati",
+          "correct": false
+        },
+        {
+          "t": "siano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Se solo ___ più gentili, nessuno vi negherebbe niente.",
+      "options": [
+        {
+          "t": "sareste",
+          "correct": false
+        },
+        {
+          "t": "foste",
+          "correct": true
+        },
+        {
+          "t": "eravate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"foste\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "___ avvisarci del loro ritardo! Li abbiamo aspettati per ore.",
+      "options": [
+        {
+          "t": "Avrebbero potuto",
+          "correct": true
+        },
+        {
+          "t": "Potrebbero",
+          "correct": false
+        },
+        {
+          "t": "Potevano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Avrebbero potuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Malgrado ___ in vantaggio per 2 a 0 alla fine hanno perso.",
+      "options": [
+        {
+          "t": "erano stati",
+          "correct": false
+        },
+        {
+          "t": "erano",
+          "correct": false
+        },
+        {
+          "t": "fossero",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fossero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Credevo che i tuoi amici ___ per gli Stati Uniti.",
+      "options": [
+        {
+          "t": "partirebbero",
+          "correct": false
+        },
+        {
+          "t": "fossero partiti",
+          "correct": true
+        },
+        {
+          "t": "siano partiti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fossero partiti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Perchè non me lo ___ che avevi litigato con i tuoi?",
+      "options": [
+        {
+          "t": "hai detto",
+          "correct": true
+        },
+        {
+          "t": "dicevi",
+          "correct": false
+        },
+        {
+          "t": "avevi detto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hai detto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Anche ___ prima, non sarei riuscito a venire.",
+      "options": [
+        {
+          "t": "avendolo saputo",
+          "correct": true
+        },
+        {
+          "t": "saperlo",
+          "correct": false
+        },
+        {
+          "t": "ho saputo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendolo saputo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Nonostante ___ ammalati sono voluti andare al compleanno del loro amico.",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "fossero",
+          "correct": true
+        },
+        {
+          "t": "siano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fossero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "___ la cena quando tua madre mi ha chiamata.",
+      "options": [
+        {
+          "t": "Stavo preparando",
+          "correct": true
+        },
+        {
+          "t": "Ho preparato",
+          "correct": false
+        },
+        {
+          "t": "Preparando",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Stavo preparando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "___ da poco a casa quando qualcuno bussò alla mia porta.",
+      "options": [
+        {
+          "t": "Sono tornato",
+          "correct": false
+        },
+        {
+          "t": "Ero tornato",
+          "correct": true
+        },
+        {
+          "t": "Stavo tornando",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ero tornato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Se ci fosse stato bel tempo ___ al mare.",
+      "options": [
+        {
+          "t": "andavamo",
+          "correct": false
+        },
+        {
+          "t": "andremmo",
+          "correct": false
+        },
+        {
+          "t": "saremmo andati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"saremmo andati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ non amo la cucina libanese, non vengo con voi a cena stasera.",
+      "options": [
+        {
+          "t": "Posto che",
+          "correct": true
+        },
+        {
+          "t": "Tanto che",
+          "correct": false
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Posto che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ insistete, verrò con voi al cinema.",
+      "options": [
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Cosicché",
+          "correct": false
+        },
+        {
+          "t": "Poiché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Poiché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "Vi ho già preparato il pranzo ___ possiate mangiare velocemente e poi vi mettiate subito al lavoro.",
+      "options": [
+        {
+          "t": "in modo che",
+          "correct": true
+        },
+        {
+          "t": "in modo da",
+          "correct": false
+        },
+        {
+          "t": "siccome",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in modo che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ non mi hanno invitato, non sono andato alla loro festa.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": false
+        },
+        {
+          "t": "Siccome",
+          "correct": true
+        },
+        {
+          "t": "Quando",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Siccome\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ ti sarai sistemato, verrò a trovarti a Lisbona.",
+      "options": [
+        {
+          "t": "Non appena",
+          "correct": true
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Purché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Non appena\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "Presto, dobbiamo mettere in ordine la camera ___ tornino i nostri genitori.",
+      "options": [
+        {
+          "t": "a patto che",
+          "correct": false
+        },
+        {
+          "t": "anche se",
+          "correct": false
+        },
+        {
+          "t": "prima che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"prima che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "Ho chiamato l'idraulico ___ riparasse il tubo di scarico del lavandino.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": true
+        },
+        {
+          "t": "purché",
+          "correct": false
+        },
+        {
+          "t": "sebbene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ avendolo saputo prima, non sarei riuscito a venire.",
+      "options": [
+        {
+          "t": "Anche se",
+          "correct": false
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Pur",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Pur\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ fossero ammalati sono voluti andare al compleanno del loro amico.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Dato che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ me l'avete chiesto, vi dirò come è realmente andata.",
+      "options": [
+        {
+          "t": "Giacché",
+          "correct": true
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Pur",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Giacché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "Finirò di fare i miei compiti ___ i miei amici mi abbiano invitato ad uscire.",
+      "options": [
+        {
+          "t": "anche se",
+          "correct": false
+        },
+        {
+          "t": "sebbene",
+          "correct": true
+        },
+        {
+          "t": "poiché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sebbene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (1)",
+      "title": "Conjunctions And Linkers (1)",
+      "prompt": "___ si è fatto tardi, non esco stasera.",
+      "options": [
+        {
+          "t": "Benché",
+          "correct": false
+        },
+        {
+          "t": "Dato che",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Dato che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Occorre fare uno schema contenente tutte le variabili ___ avere un quadro complessivo della situazione.",
+      "options": [
+        {
+          "t": "cosi da",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        },
+        {
+          "t": "tanto che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cosi da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Bambini, vi porto al parco ___ prima finiate i vostri compiti.",
+      "options": [
+        {
+          "t": "poiché",
+          "correct": false
+        },
+        {
+          "t": "cosicché",
+          "correct": false
+        },
+        {
+          "t": "a patto che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a patto che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Non si sono presentati alla riunione ___ fosse richiesta la loro presenza.",
+      "options": [
+        {
+          "t": "nonostante",
+          "correct": true
+        },
+        {
+          "t": "anche se",
+          "correct": false
+        },
+        {
+          "t": "siccome",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "___ essendo un principiante Antonio non se la cava affatto male a tennis.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": false
+        },
+        {
+          "t": "Anche",
+          "correct": false
+        },
+        {
+          "t": "Pur",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Pur\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "___ me l'hai chiesto cosi gentilmente, ti aiuterò con gli esercizi di giapponese.",
+      "options": [
+        {
+          "t": "Dato che",
+          "correct": true
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Purché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Dato che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "I miei amici si sono trasferiti negli Stati Uniti ___ cercare nuove opportunità di lavoro.",
+      "options": [
+        {
+          "t": "a patto che",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": true
+        },
+        {
+          "t": "prima che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Hanno mangiato ___ sentirsi esplodere.",
+      "options": [
+        {
+          "t": "cosi tanto da",
+          "correct": true
+        },
+        {
+          "t": "purché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cosi tanto da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "___ tu non mi vuoi aiutare, cambierò la ruota della mia bicicletta da solo.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": false
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Visto che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Visto che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "___ non sapessero ballare si sono buttati nella mischia.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Dato che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "___ non ho niente da fare, stasera guarderò un film e poi andrò a letto presto.",
+      "options": [
+        {
+          "t": "Giacché",
+          "correct": true
+        },
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Giacché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Proverò a dare l'esame ___ sapendo di non essere in grado di superarlo.",
+      "options": [
+        {
+          "t": "anche se",
+          "correct": false
+        },
+        {
+          "t": "sebbene",
+          "correct": false
+        },
+        {
+          "t": "pur",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"pur\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conjunctions And Linkers (2)",
+      "title": "Conjunctions And Linkers (2)",
+      "prompt": "Era un uomo molto gentile ___ tutti gli volevano bene.",
+      "options": [
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "cosicché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cosicché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "Aprite la finestra ___ entri un pò d'aria.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": true
+        },
+        {
+          "t": "finché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ restiamo uniti nessuno potrà farci del male.",
+      "options": [
+        {
+          "t": "Finché",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ starai cosi addosso a tuo figlio non sarà mai indipendente.",
+      "options": [
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Finché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "L'abbiamo contattata ___ ci dica la sua opinione.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": true
+        },
+        {
+          "t": "finché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ sarò io a decidere, quella azienda sarà una nostra partner commerciale.",
+      "options": [
+        {
+          "t": "Finché",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ non mi avrai chiesto scusa, non ti azzardare a chiamarmi.",
+      "options": [
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Finché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "Spese tutto quello che aveva ___ sua moglie venisse curata nelle migliori cliniche.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "Non andrò più a cena fuori ___ la mia pizzeria preferita non avrà riaperto.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": false
+        },
+        {
+          "t": "finché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ non pulirete la vostra stanza non potrete uscire con i vostri amici.",
+      "options": [
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Finché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "___ non avrai fatto aggiustare la macchina dovrai andare al lavoro in autobus.",
+      "options": [
+        {
+          "t": "Affinché",
+          "correct": false
+        },
+        {
+          "t": "Finché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "Vi scrivo questa lettera ___ possiate considerare la mie opinioni.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": true
+        },
+        {
+          "t": "finché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 2",
+      "title": "Finché o Affinché? - 2",
+      "prompt": "Le mie sono critiche costruttive. Lo faccio ___ possano imparare dai propri sbagli.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Ti conviene prenotare ___ se vuoi cenare in quel ristorante: è sempre molto affollato.",
+      "options": [
+        {
+          "t": "a tempo",
+          "correct": false
+        },
+        {
+          "t": "con tempo",
+          "correct": false
+        },
+        {
+          "t": "per tempo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per tempo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Con la crisi sono crollate le vendite ___ in gran parte dei paesi europei.",
+      "options": [
+        {
+          "t": "di dettaglio",
+          "correct": false
+        },
+        {
+          "t": "al dettaglio",
+          "correct": true
+        },
+        {
+          "t": "con dettaglio",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al dettaglio\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Erano in ritardo cosi hanno dovuto preparare le valigie ___ mentre i loro amici chiamavano un taxi.",
+      "options": [
+        {
+          "t": "di fretta e con furia",
+          "correct": false
+        },
+        {
+          "t": "di fretta e furia",
+          "correct": false
+        },
+        {
+          "t": "in fretta e furia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in fretta e furia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Siamo arrivati ___ da Milano.",
+      "options": [
+        {
+          "t": "or ora",
+          "correct": true
+        },
+        {
+          "t": "d'ora",
+          "correct": false
+        },
+        {
+          "t": "per ora",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"or ora\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Hanno organizzato una festa ___ loro genitori.",
+      "options": [
+        {
+          "t": "all'insaputa dei",
+          "correct": true
+        },
+        {
+          "t": "con l'insaputa dei",
+          "correct": false
+        },
+        {
+          "t": "per l'insaputa dei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"all'insaputa dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Marco è sempre andato in piscina ___ Al contrario ha sempre amato andare all'allenamento di calcio.",
+      "options": [
+        {
+          "t": "con malavoglia.",
+          "correct": false
+        },
+        {
+          "t": "per malavoglia.",
+          "correct": false
+        },
+        {
+          "t": "di malavoglia.",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di malavoglia.\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Al concerto degli Stones tutti hanno cantato ___ per più di due ore.",
+      "options": [
+        {
+          "t": "con squarciagola",
+          "correct": false
+        },
+        {
+          "t": "per squarciagola",
+          "correct": false
+        },
+        {
+          "t": "a squarciagola",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a squarciagola\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Per ora Le invio la prima relazione, ___ Le invierò le altre.",
+      "options": [
+        {
+          "t": "in seguito",
+          "correct": true
+        },
+        {
+          "t": "con seguito",
+          "correct": false
+        },
+        {
+          "t": "per seguito",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in seguito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Mi piacciono le persone ___ non quelle snob e arroganti.",
+      "options": [
+        {
+          "t": "di buona",
+          "correct": false
+        },
+        {
+          "t": "alla buona",
+          "correct": true
+        },
+        {
+          "t": "alle buone",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla buona\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "___ tutti gli studenti hanno finito i loro esercizi.",
+      "options": [
+        {
+          "t": "Di poco a poco",
+          "correct": false
+        },
+        {
+          "t": "A poco a poco",
+          "correct": true
+        },
+        {
+          "t": "Poco con poco",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"A poco a poco\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "La vostra camera è un casino: tutto è gettato ___ e niente è in ordine.",
+      "options": [
+        {
+          "t": "di rinfusa",
+          "correct": false
+        },
+        {
+          "t": "con rinfusa",
+          "correct": false
+        },
+        {
+          "t": "alla rinfusa",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla rinfusa\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Adverbial Phrases",
+      "title": "Adverbial Phrases",
+      "prompt": "Se vai in soffitta di vecchi abiti ce ne sono ___ Prendi pure quelli che vuoi.",
+      "options": [
+        {
+          "t": "di bizzeffe.",
+          "correct": false
+        },
+        {
+          "t": "con bizzeffe.",
+          "correct": false
+        },
+        {
+          "t": "a bizzeffe.",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a bizzeffe.\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Parli mai di sport con i tuoi amici? Si, certo ___ parliamo spesso.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": false
+        },
+        {
+          "t": "ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Siete mai stati in Africa? No, ma ___ andremo l'anno prossimo.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": true
+        },
+        {
+          "t": "ne",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Hai già preso una decisione? No, ___ voglio pensare ancora un pò.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": false
+        },
+        {
+          "t": "ci",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "In Sardegna ___ sono molte spiagge bellissime.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": false
+        },
+        {
+          "t": "ci",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Mi raccomando, vieni alla cena di domani. ___ conto!.",
+      "options": [
+        {
+          "t": "Ne",
+          "correct": false
+        },
+        {
+          "t": "Ci",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Alla fine vai alla festa di Luca? No, non ___ penso neanche.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": true
+        },
+        {
+          "t": "ne",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Per quel che ___ so quella ragazza si è sempre comportata bene.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": false
+        },
+        {
+          "t": "ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Signora, quanto prosciutto vuole? ___ vorrei due etti, grazie.",
+      "options": [
+        {
+          "t": "Ci",
+          "correct": false
+        },
+        {
+          "t": "Ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Hai saputo cosa è successo ieri sera? No, non ___ so niente.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": true
+        },
+        {
+          "t": "ci",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Sei mai andato a fare arrampicata in montagna? No, non ___ sono mai andato. Ho troppa paura!.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": true
+        },
+        {
+          "t": "ne",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Questa festa non mi piace, me ___ vado a casa.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": false
+        },
+        {
+          "t": "ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Pronominal Particles 'Ci' and 'Ne'",
+      "title": "Pronominal Particles 'Ci' and 'Ne'",
+      "prompt": "Ti occupi tu dei bambini oggi? Si, me ___ occupo io.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": true
+        },
+        {
+          "t": "ci",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "La nuova ordinanza del sindaco vieta il consumo di alcool fuori ___ locali dopo le 22.00.",
+      "options": [
+        {
+          "t": "nei",
+          "correct": false
+        },
+        {
+          "t": "dai",
+          "correct": true
+        },
+        {
+          "t": "sui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Gaetano è ___ Molise, una piccola regione del sud Italia.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "dal",
+          "correct": false
+        },
+        {
+          "t": "del",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Grazie ___ bottiglia di vino, è stato molto carino da parte vostra portarla.",
+      "options": [
+        {
+          "t": "della",
+          "correct": true
+        },
+        {
+          "t": "sulla",
+          "correct": false
+        },
+        {
+          "t": "con la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"della\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Il tasso di disoccupazione è cresciuto più ___ doppio negli ultimi 3 anni.",
+      "options": [
+        {
+          "t": "con il",
+          "correct": false
+        },
+        {
+          "t": "del",
+          "correct": true
+        },
+        {
+          "t": "nel",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Sono andato alla scuola di italiano per la presentazione ___ nuovi corsi.",
+      "options": [
+        {
+          "t": "con i",
+          "correct": false
+        },
+        {
+          "t": "dei",
+          "correct": true
+        },
+        {
+          "t": "fra i",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Stanno mentendo, glielo leggo ___ occhi.",
+      "options": [
+        {
+          "t": "con gli",
+          "correct": false
+        },
+        {
+          "t": "degli",
+          "correct": false
+        },
+        {
+          "t": "negli",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"negli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Laura si è innamorata ___ suo vecchio compagno di scuola.",
+      "options": [
+        {
+          "t": "con il",
+          "correct": false
+        },
+        {
+          "t": "del",
+          "correct": true
+        },
+        {
+          "t": "per il",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Cosa farai alla fine ___ tuoi studi?",
+      "options": [
+        {
+          "t": "delle",
+          "correct": false
+        },
+        {
+          "t": "con i",
+          "correct": false
+        },
+        {
+          "t": "dei",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Ieri sera ero con i miei amici e abbiamo parlato ___ vecchi tempi.",
+      "options": [
+        {
+          "t": "dal",
+          "correct": false
+        },
+        {
+          "t": "dei",
+          "correct": true
+        },
+        {
+          "t": "con i",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Il negozio di cosmetici non è lontano ___ farmacia.",
+      "options": [
+        {
+          "t": "dalla",
+          "correct": true
+        },
+        {
+          "t": "dalle",
+          "correct": false
+        },
+        {
+          "t": "con la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dalla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Luca parla sempre ___ suoi amici ai suoi genitori.",
+      "options": [
+        {
+          "t": "dei",
+          "correct": true
+        },
+        {
+          "t": "per i",
+          "correct": false
+        },
+        {
+          "t": "tra i",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions (2)",
+      "title": "Articulated (Compound) Prepositions (2)",
+      "prompt": "Hai per caso una chiave inglese ___ tuoi attrezzi?",
+      "options": [
+        {
+          "t": "con i",
+          "correct": false
+        },
+        {
+          "t": "dei",
+          "correct": false
+        },
+        {
+          "t": "tra i",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"tra i\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "I vicini, ___ incontriamo tutti i giorni nel cortile, sono molto simpatici.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "i cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Luca, ___ ti parlavo ieri sera, è appena tornato dagli Stati Uniti.",
+      "options": [
+        {
+          "t": "del quale",
+          "correct": true
+        },
+        {
+          "t": "di che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del quale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Le ragazze ___ lavoro si chiamano Marta e Isabella.",
+      "options": [
+        {
+          "t": "con cui",
+          "correct": true
+        },
+        {
+          "t": "di cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "I miei cugini, ___ vivono a Londra, si chiamano Matteo e Lorenzo.",
+      "options": [
+        {
+          "t": "i cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Non trovo il mio libro di italiano. ___ di voi me l'ha preso?",
+      "options": [
+        {
+          "t": "Chi",
+          "correct": true
+        },
+        {
+          "t": "Che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Chi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Quella ragazza, ___ sono uscito per alcuni mesi, è molto carina.",
+      "options": [
+        {
+          "t": "con cui",
+          "correct": true
+        },
+        {
+          "t": "di cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Mia madre, ___ ti ho già parlato, lavora in una scuola superiore.",
+      "options": [
+        {
+          "t": "la cui",
+          "correct": false
+        },
+        {
+          "t": "della quale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"della quale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Marco, il ragazzo ___ hai chiesto il numero, è fidanzato.",
+      "options": [
+        {
+          "t": "il cui",
+          "correct": false
+        },
+        {
+          "t": "al quale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al quale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "___ di voi piace il cinema?",
+      "options": [
+        {
+          "t": "A chi",
+          "correct": true
+        },
+        {
+          "t": "A che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"A chi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "I ragazzi ___ vivo sono molto simpatici.",
+      "options": [
+        {
+          "t": "con che",
+          "correct": false
+        },
+        {
+          "t": "con cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "L'azienda ___ lavoro è leader nel suo settore.",
+      "options": [
+        {
+          "t": "per cui",
+          "correct": true
+        },
+        {
+          "t": "di cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns (2)",
+      "title": "Relative Pronouns (2)",
+      "prompt": "Michele, ___ sono andato a scuola, ora è un uomo d'affari di successo.",
+      "options": [
+        {
+          "t": "con il quale",
+          "correct": true
+        },
+        {
+          "t": "di cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con il quale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Luca, ___ cane è scappato, abita nella mia stessa via.",
+      "options": [
+        {
+          "t": "il cui",
+          "correct": true
+        },
+        {
+          "t": "che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Quella ragazza, ___ nome non ricordo, è molto carina.",
+      "options": [
+        {
+          "t": "il cui",
+          "correct": true
+        },
+        {
+          "t": "di cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Mia sorella, ___ appartamento si trova accanto al mio, è un chimico industriale.",
+      "options": [
+        {
+          "t": "di cui",
+          "correct": false
+        },
+        {
+          "t": "la cui",
+          "correct": true
+        },
+        {
+          "t": "auto è stata rubata, ha presentato una denuncia alla polizia.Marco,",
+          "correct": false
+        },
+        {
+          "t": "il cui",
+          "correct": false
+        },
+        {
+          "t": "il che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Michele, ___ vita è stato scritto un libro, è un mio amico.",
+      "options": [
+        {
+          "t": "sulla cui",
+          "correct": true
+        },
+        {
+          "t": "la cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sulla cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Mia moglie, ___ lavoro la costringe a stare lunghi periodi all'estero, parla molte lingue straniere.",
+      "options": [
+        {
+          "t": "il cui",
+          "correct": true
+        },
+        {
+          "t": "il che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Davide, ___ amici sono molto simpatici, gestisce un locale.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "i cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Il Sig.Rossi, ___ azienda sta avendo molto successo, ha studiato alla Bocconi.",
+      "options": [
+        {
+          "t": "la cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "I nostri amici, ___ festa sono andate moltissime persone, sono dei DJ famosi.",
+      "options": [
+        {
+          "t": "alla loro",
+          "correct": true
+        },
+        {
+          "t": "alla cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla loro\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Martina, ___ romanzo verrà pubblicato a breve, è una bravissima scrittrice.",
+      "options": [
+        {
+          "t": "il cui",
+          "correct": false
+        },
+        {
+          "t": "la cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "I miei nonni, ___ cane è morto alcuni mesi fa, sono molto anziani.",
+      "options": [
+        {
+          "t": "di cui",
+          "correct": true
+        },
+        {
+          "t": "il cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Possessive Relative Pronouns",
+      "title": "Possessive Relative Pronouns",
+      "prompt": "Anna, ___ casa ora è in vendita, è un'amica di mio marito.",
+      "options": [
+        {
+          "t": "la cui",
+          "correct": false
+        },
+        {
+          "t": "per cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Il ragazzo ___ mi ha salutato è un vecchio amico di famiglia.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "La signora a ___ hanno chiesto aiuto e stata molto disponibile.",
+      "options": [
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Il film ___ ha visto Luisa era ambientato a Bali.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Il motivo per ___ ti hanno chiamato è che non riescono ad aprire la porta.",
+      "options": [
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Qual'è l'argomento da ___ vuoi partire?",
+      "options": [
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Qual'è la materia ___ vuole affrontare per prima?",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Il libro ___ mi hai prestato spiega molto bene la cultura inglese.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "Medicina e odontoiatria sono le uniche facolta' tra ___ posso scegliere.",
+      "options": [
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Relative Pronouns - 'Che' or 'Cui'?",
+      "title": "Relative Pronouns - 'Che' or 'Cui'?",
+      "prompt": "E' di Lucia il gatto ___ mi ha graffiato ieri.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Vi ho contattati ___ rispondiate a qualche domanda.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "___ staremo insieme, saremo felici.",
+      "options": [
+        {
+          "t": "Finché",
+          "correct": true
+        },
+        {
+          "t": "Affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "___ passiate l’esame, vi ho dato tanti compiti per casa.",
+      "options": [
+        {
+          "t": "Finché",
+          "correct": false
+        },
+        {
+          "t": "Affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Non rifiutate l’offerta ___ vi assegnino il posto.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Vi scrivo questa lettera ___ mi ascoltiate.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Parlarono ___ decisero di non sentirsi mai piu.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Fece dei grossi sacrifici ___ sua figlia guarisse.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "___ il pubblico applauda e si diverta, lo spettacolo deve continuare.",
+      "options": [
+        {
+          "t": "Finché",
+          "correct": false
+        },
+        {
+          "t": "Affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Telefonale ___ ti comunica quell’indirizzo al piu presto.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "La sera dopo le stette affianco ___ si risveglio.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Lucrezia era una ragazza timida ___ non si sentiva accettata.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Finché o Affinché? - 1",
+      "title": "Finché o Affinché? - 1",
+      "prompt": "Dopodomani Giulio e Serafino andranno a caccia ___ non riporteranno a casa la cena.",
+      "options": [
+        {
+          "t": "finché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"finché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Corri! Il treno sta",
+      "after": "partire!",
+      "answer": "per",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Quel distratto",
+      "after": "tuo fratello ha dimenticato quella commissione un'altra volta!",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Prendi il lavoro",
+      "after": "piu' calma, hai ancora molto tempo per terminarlo.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Mangio' il cibo",
+      "after": "gusto.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Aveva una fame",
+      "after": "lupi!",
+      "answer": "da",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Mi sono dimenticata",
+      "after": "pagare le bollette, puoi farlo tu?",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Io non c'entro niente",
+      "after": "i vostri litigi.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Da quando ha iniziato l'accademia è cambiata",
+      "after": "meglio.",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Mi racconto' la sua storia",
+      "after": "le lacrime agli occhi.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 2",
+      "title": "Simple Prepositions - 2",
+      "before": "Non ha mai smesso",
+      "after": "pensare al suo ex.",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Giacomo è partito ieri sera",
+      "after": "i suoi amici per passare qualche giorno in montagna.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "C'è una lettera",
+      "after": "la Sig.ra Faccini, dove posso lasciarla?",
+      "answer": "per",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "C'è qui un pacco regalo da parte",
+      "after": "tuo fratello, lo vuoi aprire?",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Con questo freddo bisogna coprirsi bene",
+      "after": "non prendere un malanno!",
+      "answer": "per",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Gli studenti consegneranno i loro elaborati al professore",
+      "after": "volta in volta.",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Anna è uscita con i suoi nuovi amici.",
+      "after": "l'altro, non me li ha neanche presentati.",
+      "answer": "Tra",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Il vaso di fiori è",
+      "after": "le due finestre del balcone.",
+      "answer": "tra",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "I tuoi vecchi giocattoli non sono andati perduti, sono",
+      "after": "soffitta.",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Quell'attore è molto bravo ed è bello",
+      "after": "morire.",
+      "answer": "da",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C2 · Simple Prepositions - 1",
+      "title": "Simple Prepositions - 1",
+      "before": "Questo astuccio non è mio, è",
+      "after": "Manuela.",
+      "answer": "di",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Raffaele ha visto ___ tipi loschi aggirarsi da queste parti, meglio fare attenzione.",
+      "options": [
+        {
+          "t": "dei",
+          "correct": true
+        },
+        {
+          "t": "coi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Ho appoggiato la bottiglia di vino ___ tavolo per non dimenticarla stasera.",
+      "options": [
+        {
+          "t": "al",
+          "correct": false
+        },
+        {
+          "t": "sul",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sul\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Quelle sono le scatole ___ quali abbiamo riposto i vecchi libri.",
+      "options": [
+        {
+          "t": "sulle",
+          "correct": false
+        },
+        {
+          "t": "nelle",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nelle\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Ci ritroviamo una sera a bere qualcosa assieme, come ___ vecchi tempi?",
+      "options": [
+        {
+          "t": "negli",
+          "correct": false
+        },
+        {
+          "t": "ai",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Vado ___ nonna a portarle le medicine, torno subito!",
+      "options": [
+        {
+          "t": "alla",
+          "correct": false
+        },
+        {
+          "t": "dalla",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dalla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "___ scusa di non avere mai tempo, Elia non mi da' mai una mano.",
+      "options": [
+        {
+          "t": "Per la",
+          "correct": false
+        },
+        {
+          "t": "Con la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Con la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "In questo quadro si possono notare le pennellate rapide che caratterizzano le figure ___ sfondo.",
+      "options": [
+        {
+          "t": "sullo",
+          "correct": true
+        },
+        {
+          "t": "per lo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sullo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Hai mai letto ''Qualcuno volo' sul nido ___ cuculo''?",
+      "options": [
+        {
+          "t": "del",
+          "correct": true
+        },
+        {
+          "t": "dal",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Sto preparando il pesce ___ cena con i genitori di Tania.",
+      "options": [
+        {
+          "t": "con la",
+          "correct": false
+        },
+        {
+          "t": "per la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Avete ritrovato il compasso ___ vostri attrezzi?",
+      "options": [
+        {
+          "t": "per i",
+          "correct": false
+        },
+        {
+          "t": "tra i",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"tra i\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Non ne sono sicura, ma credo che ci sia ___ tenero tra quei due.",
+      "options": [
+        {
+          "t": "dal",
+          "correct": false
+        },
+        {
+          "t": "del",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"del\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Articulated (Compound) Prepositions",
+      "title": "Articulated (Compound) Prepositions",
+      "prompt": "Guarda fuori ___ finestrino, che bel panorama!",
+      "options": [
+        {
+          "t": "dal",
+          "correct": true
+        },
+        {
+          "t": "nel",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dal\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    }
+  ]
+}

@@ -1,0 +1,3575 @@
+{
+  "level": "C1",
+  "migrated_at": "2026-08-12",
+  "source_note": "Migrado de /free_italian_exercises/*.html (motor de quiz JS legacy). feedback genérico (no pedagógico) — ver README y docs/roadmap.md Fase 3.",
+  "exercise_content": [
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ si impara.",
+      "options": [
+        {
+          "t": "Sbagliando",
+          "correct": true
+        },
+        {
+          "t": "Avendo sbagliato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Sbagliando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Sono uscito ___ tutti i miei colleghi.",
+      "options": [
+        {
+          "t": "salutando",
+          "correct": true
+        },
+        {
+          "t": "essendo salutato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"salutando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Pur ___ tutto il giorno, non sono riuscito a trovare le mie chiavi.",
+      "options": [
+        {
+          "t": "cercandole",
+          "correct": false
+        },
+        {
+          "t": "avendole cercate",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendole cercate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "L'anno scorso ho trascorso il Natale ___ in ufficio.",
+      "options": [
+        {
+          "t": "lavorando",
+          "correct": true
+        },
+        {
+          "t": "avendo lavorato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"lavorando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Non ___ molto, Luca non ha superato l'esame.",
+      "options": [
+        {
+          "t": "studiando",
+          "correct": false
+        },
+        {
+          "t": "avendo studiato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendo studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ gli appunti capirai la spiegazione.",
+      "options": [
+        {
+          "t": "Rileggendo",
+          "correct": true
+        },
+        {
+          "t": "Avendo riletto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Rileggendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ arrabbiata con lui, non gli parlò per tutta la sera.",
+      "options": [
+        {
+          "t": "Essendo",
+          "correct": true
+        },
+        {
+          "t": "Essendo stata",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ da pochi giorni, non pensavo che il mio computer potesse già rompersi.",
+      "options": [
+        {
+          "t": "Avendolo comprato",
+          "correct": true
+        },
+        {
+          "t": "Comprandolo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Avendolo comprato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ molti anni il tedesco, sono riuscita a comunicare con tutti in Germania.",
+      "options": [
+        {
+          "t": "Studiando",
+          "correct": false
+        },
+        {
+          "t": "Avendo studiato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Avendo studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ Lucia non è potuta venire al lavoro oggi.",
+      "options": [
+        {
+          "t": "Ammalandosi",
+          "correct": false
+        },
+        {
+          "t": "Essendosi ammalata",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendosi ammalata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ in treno leggo sempre un libro.",
+      "options": [
+        {
+          "t": "Avendo viaggiato",
+          "correct": false
+        },
+        {
+          "t": "Viaggiando",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Viaggiando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ in ritardo prenderò un taxi.",
+      "options": [
+        {
+          "t": "Essendo",
+          "correct": true
+        },
+        {
+          "t": "Essendo stato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ dai loro racconti, Luca non è andato nel bosco.",
+      "options": [
+        {
+          "t": "Intimoriti",
+          "correct": false
+        },
+        {
+          "t": "Intimorito",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Intimorito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ tutti gli invitati, Marco e Luisa andarono finalmente a dormire.",
+      "options": [
+        {
+          "t": "Andato",
+          "correct": false
+        },
+        {
+          "t": "Andati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Andati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "Appena ___ le chiavi sono partiti in macchina.",
+      "options": [
+        {
+          "t": "trovate",
+          "correct": true
+        },
+        {
+          "t": "trovati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"trovate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ per i suoi esami, Giulia si è chiusa in casa a studiare.",
+      "options": [
+        {
+          "t": "Preoccupata",
+          "correct": true
+        },
+        {
+          "t": "Preoccupati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Preoccupata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ la scusa giusta, se ne sono subito andati.",
+      "options": [
+        {
+          "t": "Trovate",
+          "correct": false
+        },
+        {
+          "t": "Trovata",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Trovata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "Appena ___ in ufficio, cominciammo a scrivere il report.",
+      "options": [
+        {
+          "t": "arrivato",
+          "correct": false
+        },
+        {
+          "t": "arrivati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"arrivati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ i compiti, sono andati a casa dei loro amici.",
+      "options": [
+        {
+          "t": "Finito",
+          "correct": false
+        },
+        {
+          "t": "Finiti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Finiti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ da cosi tanto rumore, abbiamo deciso di andare a studiare in biblioteca.",
+      "options": [
+        {
+          "t": "Disturbati",
+          "correct": true
+        },
+        {
+          "t": "Disturbato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Disturbati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ tutti i suoi colleghi, si sentiva ancora in imbarazzo.",
+      "options": [
+        {
+          "t": "Conosciuta",
+          "correct": false
+        },
+        {
+          "t": "Conosciuti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Conosciuti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ sempre in modo cosi elegante, sembrava che ogni giorno andasse ad un matrimonio.",
+      "options": [
+        {
+          "t": "Vestito",
+          "correct": true
+        },
+        {
+          "t": "Vestiti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Vestito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "In Italia i giovani appena ___ non trovano lavoro.",
+      "options": [
+        {
+          "t": "laureato",
+          "correct": false
+        },
+        {
+          "t": "laureati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"laureati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Past Participle",
+      "title": "Past Participle",
+      "prompt": "___ da quassù, quella casa è davvero incantevole.",
+      "options": [
+        {
+          "t": "Vista",
+          "correct": true
+        },
+        {
+          "t": "Visti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Vista\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Paola ha fatto di tutto per ___ perdonare dai suoi amici.",
+      "options": [
+        {
+          "t": "farsi",
+          "correct": true
+        },
+        {
+          "t": "facendosi",
+          "correct": false
+        },
+        {
+          "t": "fatta",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"farsi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "___ fredda la pasta non è buona.",
+      "options": [
+        {
+          "t": "Avendo mangiato",
+          "correct": false
+        },
+        {
+          "t": "Mangiando",
+          "correct": false
+        },
+        {
+          "t": "Mangiata",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Mangiata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Anche ___ il tempo non andrei mai a cena a casa loro.",
+      "options": [
+        {
+          "t": "avendo",
+          "correct": true
+        },
+        {
+          "t": "avuto",
+          "correct": false
+        },
+        {
+          "t": "avere avuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Devo assolutamente ricordarmi di ___ a salutare prima che partano.",
+      "options": [
+        {
+          "t": "passarli",
+          "correct": true
+        },
+        {
+          "t": "passandoli",
+          "correct": false
+        },
+        {
+          "t": "passati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"passarli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Per ___ da Bologna a Roma in treno ci vogliono circa due ore.",
+      "options": [
+        {
+          "t": "andando",
+          "correct": false
+        },
+        {
+          "t": "andato",
+          "correct": false
+        },
+        {
+          "t": "andare",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "___ sono inciampato e sono caduto.",
+      "options": [
+        {
+          "t": "Corso",
+          "correct": false
+        },
+        {
+          "t": "Correndo",
+          "correct": true
+        },
+        {
+          "t": "Correre",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Correndo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "La mia macchina è dal meccanico, cosi Francesca è stata cosi gentile da ___ la sua.",
+      "options": [
+        {
+          "t": "prestandomi",
+          "correct": false
+        },
+        {
+          "t": "prestarmi",
+          "correct": true
+        },
+        {
+          "t": "prestato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"prestarmi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Pur ___ per mesi, non è riuscita a superare l'esame.",
+      "options": [
+        {
+          "t": "avendo studiato",
+          "correct": true
+        },
+        {
+          "t": "studiato",
+          "correct": false
+        },
+        {
+          "t": "studiare",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendo studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Ho lavorato fino a tardi, cosi non ho avuto tempo di ___ a salutare i miei amici prima della partenza.",
+      "options": [
+        {
+          "t": "andando",
+          "correct": false
+        },
+        {
+          "t": "andato",
+          "correct": false
+        },
+        {
+          "t": "andare",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "___ in ritardo, i suoi amici se ne erano già andati.",
+      "options": [
+        {
+          "t": "Arrivare",
+          "correct": false
+        },
+        {
+          "t": "Arrivati",
+          "correct": false
+        },
+        {
+          "t": "Essendo arrivato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendo arrivato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Nello ___ una lingua straniera, si devono fare tanti esercizi e si deve fare tanta pratica.",
+      "options": [
+        {
+          "t": "studiando",
+          "correct": false
+        },
+        {
+          "t": "studiato",
+          "correct": false
+        },
+        {
+          "t": "studiare",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"studiare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use of Participle and Infinitive Verb Forms",
+      "title": "Use of Participle and Infinitive Verb Forms",
+      "prompt": "Voglio finire di prepare le valigie prima di ___ per le vacanze.",
+      "options": [
+        {
+          "t": "partendo",
+          "correct": false
+        },
+        {
+          "t": "partire",
+          "correct": true
+        },
+        {
+          "t": "partito",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"partire\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Non sono sicuro ___ avere messo tutto quello che mi serve nella valigia.",
+      "options": [
+        {
+          "t": "da",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "___ quanto tempo hai vissuto a Roma?",
+      "options": [
+        {
+          "t": "Da",
+          "correct": false
+        },
+        {
+          "t": "Per",
+          "correct": true
+        },
+        {
+          "t": "Su",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ieri ho comprato due libri ___ leggere nel fine settimana.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "da",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Michele ha comprato un paio di scarpe ___ ginnastica nuove.",
+      "options": [
+        {
+          "t": "da",
+          "correct": true
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Perché non sei venuto ___ teatro con noi domenica sera?",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "al",
+          "correct": false
+        },
+        {
+          "t": "in",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Presto, sbrigati! La lezione ___ italiano è già cominciata.",
+      "options": [
+        {
+          "t": "da",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ho cercato ___ mettere in moto la mia auto ma non c'è stato niente da fare.",
+      "options": [
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Non riescono mai ___ finire in tempo gli esercizi.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "su",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Non so se venire alla festa, dipende ___ quello che faranno i miei amici.",
+      "options": [
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "da",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "___ questo autore conosco solo il nome.",
+      "options": [
+        {
+          "t": "Da",
+          "correct": false
+        },
+        {
+          "t": "Per",
+          "correct": false
+        },
+        {
+          "t": "Di",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ho visto un gatto ___ un albero.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "su",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"su\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ieri ho parlato con mio padre ___ politica per due ore.",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ho appena cominciato ___ studiare quindi non posso venire con voi ai giardini.",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "___ Laura mi piace in particolare il suo senso dell'umorismo.",
+      "options": [
+        {
+          "t": "Da",
+          "correct": false
+        },
+        {
+          "t": "Di",
+          "correct": true
+        },
+        {
+          "t": "Su",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Apri la finestra ___ far entrare un pò d'aria.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": true
+        },
+        {
+          "t": "da",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ho comprato alcuni libri ___ leggere per l'estate.",
+      "options": [
+        {
+          "t": "da",
+          "correct": true
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"da\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Arrivi sempre tardi, mai una volta che tu sia ___ orario ai tuoi appuntamenti.",
+      "options": [
+        {
+          "t": "a",
+          "correct": false
+        },
+        {
+          "t": "al",
+          "correct": false
+        },
+        {
+          "t": "in",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Non era sicuro ___ aver preso tutto il necessario per il viaggio.",
+      "options": [
+        {
+          "t": "da",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Gli ho comprato un bel regalo ___ il suo compleanno.",
+      "options": [
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Se non smetti ___ fumare ti butto fuori di casa!",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "a",
+          "correct": false
+        },
+        {
+          "t": "su",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Questa mattina l'autobus che prendo per andare ___ lavoro era in ritardo.",
+      "options": [
+        {
+          "t": "al",
+          "correct": true
+        },
+        {
+          "t": "a",
+          "correct": false
+        },
+        {
+          "t": "in",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Il suo ultimo concerto non è stato ___ i migliori che abbia mai fatto.",
+      "options": [
+        {
+          "t": "tra",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "su",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"tra\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Se continui ___ mangiare tutti questi dolci diventerai enorme.",
+      "options": [
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "a",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Prepositions - Dropdown Exercise",
+      "title": "Prepositions - Dropdown Exercise",
+      "prompt": "Ho trovato una macchia ___ rossetto nel colletto della camicia di mio marito.",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "Dove sono andati Giulia e Marco? ___ di voi li ha visti?",
+      "options": [
+        {
+          "t": "Ogni",
+          "correct": false
+        },
+        {
+          "t": "Qualcuno",
+          "correct": true
+        },
+        {
+          "t": "Alcuno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Qualcuno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ martedi gioco a calcio con i miei amici.",
+      "options": [
+        {
+          "t": "Alcuno",
+          "correct": false
+        },
+        {
+          "t": "Ognuno",
+          "correct": false
+        },
+        {
+          "t": "Ogni",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ogni\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ di voi deve scegliere un compagno a cui fare delle domande.",
+      "options": [
+        {
+          "t": "Qualche",
+          "correct": false
+        },
+        {
+          "t": "Alcuni",
+          "correct": false
+        },
+        {
+          "t": "Ognuno",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ognuno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ sia stato, deve chiederle scusa.",
+      "options": [
+        {
+          "t": "Chiunque",
+          "correct": true
+        },
+        {
+          "t": "Ovunque",
+          "correct": false
+        },
+        {
+          "t": "Ogni",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Chiunque\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ ragazzo prende l'autobus senza fare il biglietto.",
+      "options": [
+        {
+          "t": "Alcuni",
+          "correct": false
+        },
+        {
+          "t": "Qualche",
+          "correct": true
+        },
+        {
+          "t": "Ognuno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Qualche\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "Non c'è ___ possibilità di superare l'esame se non studi e fai gli esercizi.",
+      "options": [
+        {
+          "t": "alcune",
+          "correct": false
+        },
+        {
+          "t": "alcuna",
+          "correct": true
+        },
+        {
+          "t": "qualche",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alcuna\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ cosa faccia lei lo critica.",
+      "options": [
+        {
+          "t": "Qualunque",
+          "correct": true
+        },
+        {
+          "t": "Qualche",
+          "correct": false
+        },
+        {
+          "t": "Alcuna",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Qualunque\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ studente ha superato l'esame.",
+      "options": [
+        {
+          "t": "Alcuno",
+          "correct": false
+        },
+        {
+          "t": "Nessuno",
+          "correct": true
+        },
+        {
+          "t": "Ognuno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Nessuno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ andasse trovava degli amici.",
+      "options": [
+        {
+          "t": "Ovunque",
+          "correct": true
+        },
+        {
+          "t": "Ogni",
+          "correct": false
+        },
+        {
+          "t": "Chiunque",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ovunque\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ volte penso che tu mi stia mentendo.",
+      "options": [
+        {
+          "t": "Qualche",
+          "correct": false
+        },
+        {
+          "t": "Alcune",
+          "correct": true
+        },
+        {
+          "t": "Ogni",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Alcune\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "Alla fine dello spettacolo ___ ragazze sono rimaste per chiedere l'autografo all'attore protagonista.",
+      "options": [
+        {
+          "t": "alcuni",
+          "correct": false
+        },
+        {
+          "t": "qualche",
+          "correct": false
+        },
+        {
+          "t": "alcune",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alcune\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Indefinite Pronouns And Adjectives",
+      "title": "Indefinite Pronouns And Adjectives",
+      "prompt": "___ di loro non hanno capito niente della spiegazione.",
+      "options": [
+        {
+          "t": "Alcuni",
+          "correct": true
+        },
+        {
+          "t": "Qualche",
+          "correct": false
+        },
+        {
+          "t": "Tutti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Alcuni\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Tra amici ___ sempre.",
+      "options": [
+        {
+          "t": "si aiutano",
+          "correct": false
+        },
+        {
+          "t": "ci si aiuta",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci si aiuta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Bambini, finito di giocare i giocattoli ___ al loro posto.",
+      "options": [
+        {
+          "t": "si mette",
+          "correct": false
+        },
+        {
+          "t": "si mettono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si mettono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Al parco ___ moltissimo.",
+      "options": [
+        {
+          "t": "ci si diverte",
+          "correct": true
+        },
+        {
+          "t": "ci diverte",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci si diverte\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Se ___ troppo c'è il rischio di commettere molti errori.",
+      "options": [
+        {
+          "t": "ci si agitano",
+          "correct": false
+        },
+        {
+          "t": "ci si agita",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci si agita\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "A causa della burocrazia ___ un sacco di tempo.",
+      "options": [
+        {
+          "t": "si perdono",
+          "correct": false
+        },
+        {
+          "t": "si perde",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si perde\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Se ___ è necessario riposarsi.",
+      "options": [
+        {
+          "t": "si è stanchi",
+          "correct": true
+        },
+        {
+          "t": "si è stanco",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si è stanchi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Ascoltando la radio ___ molte cose interessanti.",
+      "options": [
+        {
+          "t": "si impara",
+          "correct": false
+        },
+        {
+          "t": "si imparano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si imparano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "In vacanza ___ tante cose divertenti.",
+      "options": [
+        {
+          "t": "si fa",
+          "correct": false
+        },
+        {
+          "t": "si fanno",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si fanno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Se ___ su internet, bisogna stare attenti.",
+      "options": [
+        {
+          "t": "ci si conosce",
+          "correct": true
+        },
+        {
+          "t": "si conosce",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci si conosce\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "In questa fabbrica ___ tanto.",
+      "options": [
+        {
+          "t": "si lavorano",
+          "correct": false
+        },
+        {
+          "t": "si lavora",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si lavora\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Se ___ bisogna avvisare.",
+      "options": [
+        {
+          "t": "si è in ritardo",
+          "correct": true
+        },
+        {
+          "t": "si siamo in ritardo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si è in ritardo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · The 'De-personalizing Si'",
+      "title": "The 'De-personalizing Si'",
+      "prompt": "Per dimagrire ___ fare la dieta.",
+      "options": [
+        {
+          "t": "si devono",
+          "correct": false
+        },
+        {
+          "t": "si deve",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si deve\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ Bologna è una bellissima città medievale.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": false
+        },
+        {
+          "t": "",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ mia sorella fa la professoressa di storia dell'arte in un liceo artistico.",
+      "options": [
+        {
+          "t": "La",
+          "correct": false
+        },
+        {
+          "t": "",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ domenica vado sempre a pranzo dalla nonna.",
+      "options": [
+        {
+          "t": "",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ Capri è un'isola bellissima.",
+      "options": [
+        {
+          "t": "",
+          "correct": true
+        },
+        {
+          "t": "Il",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ Sicilia si mangiano tanti dolci buonissimi.",
+      "options": [
+        {
+          "t": "In",
+          "correct": true
+        },
+        {
+          "t": "Nella",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"In\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ Terra gira intorno al Sole.",
+      "options": [
+        {
+          "t": "",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ mio migliore amico si chiama Nicola.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": true
+        },
+        {
+          "t": "",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "Molti giovani italiani vanno in vacanza ___ Ibiza.",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "alla",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "Il prossimo anno mi trasferirò ___ Stati Uniti.",
+      "options": [
+        {
+          "t": "negli",
+          "correct": true
+        },
+        {
+          "t": "in",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"negli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "Ieri ___ Bologna ha battuto la Juventus per 2 a 0.",
+      "options": [
+        {
+          "t": "",
+          "correct": false
+        },
+        {
+          "t": "il",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "La maggior parte degli studenti Erasmus a Bologna viene ___ Spagna e studia ingegneria.",
+      "options": [
+        {
+          "t": "da",
+          "correct": false
+        },
+        {
+          "t": "dalla",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dalla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Use And Omission Of Articles",
+      "title": "Use And Omission Of Articles",
+      "prompt": "___ suo padre si è arrabbiato tantissimo quando ha saputo la notizia.",
+      "options": [
+        {
+          "t": "",
+          "correct": true
+        },
+        {
+          "t": "Il",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Sono contenta che tu ___ con i tuoi amici l'estate scorsa.",
+      "options": [
+        {
+          "t": "te la sia spassata",
+          "correct": true
+        },
+        {
+          "t": "ti sia spassata",
+          "correct": false
+        },
+        {
+          "t": "te lo sia spassato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"te la sia spassata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Ieri Giulia ___ con me perché sono arrivato tardi al lavoro.",
+      "options": [
+        {
+          "t": "me l'è presa",
+          "correct": false
+        },
+        {
+          "t": "sa l'ho preso",
+          "correct": false
+        },
+        {
+          "t": "se l'è presa",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se l'è presa\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "È stata dura ma finalmente ___ a passare l'esame di latino.",
+      "options": [
+        {
+          "t": "ce l'ho fatto",
+          "correct": false
+        },
+        {
+          "t": "l'ho fatta",
+          "correct": false
+        },
+        {
+          "t": "ce l'ho fatta",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ce l'ho fatta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Potete ___ come vi pare, questa è la mia opinione.",
+      "options": [
+        {
+          "t": "pensarcela",
+          "correct": false
+        },
+        {
+          "t": "pensarci",
+          "correct": false
+        },
+        {
+          "t": "pensarla",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"pensarla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Per andare da Bologna a Milano in treno ___ circa un'ora con il Frecciarossa.",
+      "options": [
+        {
+          "t": "ci vuole",
+          "correct": true
+        },
+        {
+          "t": "ci vogliono",
+          "correct": false
+        },
+        {
+          "t": "vuole",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci vuole\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "___ di fare rumore, sto cercando di studiare!",
+      "options": [
+        {
+          "t": "Piantala",
+          "correct": true
+        },
+        {
+          "t": "Piantaci",
+          "correct": false
+        },
+        {
+          "t": "Piantami",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Piantala\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Pensavate davvero che Daniele ___ senza salutare nessuno?",
+      "options": [
+        {
+          "t": "me ne è andato",
+          "correct": false
+        },
+        {
+          "t": "se ne fosse andato",
+          "correct": true
+        },
+        {
+          "t": "se fosse andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se ne fosse andato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Per costruire quel palazzo ___ 5 anni.",
+      "options": [
+        {
+          "t": "ci sono voluti",
+          "correct": true
+        },
+        {
+          "t": "ci hanno voluti",
+          "correct": false
+        },
+        {
+          "t": "ci è voluti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci sono voluti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "A nessuno importa dell'esame, ___ tutti.",
+      "options": [
+        {
+          "t": "me ne infischiano",
+          "correct": false
+        },
+        {
+          "t": "se lo infischiano",
+          "correct": false
+        },
+        {
+          "t": "se ne infischiano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se ne infischiano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Maria è troppo permalosa: ___ per niente.",
+      "options": [
+        {
+          "t": "se lo prende",
+          "correct": false
+        },
+        {
+          "t": "se la prende",
+          "correct": true
+        },
+        {
+          "t": "me la prende",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se la prende\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Alla fine dello spettacolo tutti ___ a casa.",
+      "options": [
+        {
+          "t": "me ne hanno andati",
+          "correct": false
+        },
+        {
+          "t": "se ne sono andati",
+          "correct": true
+        },
+        {
+          "t": "se ne è andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se ne sono andati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Dropdown Exercise 1",
+      "title": "Pronominal Verbs - Dropdown Exercise 1",
+      "prompt": "Non ti preoccupare per loro, ___ come al solito.",
+      "options": [
+        {
+          "t": "se la caveranno",
+          "correct": true
+        },
+        {
+          "t": "se ne caveranno",
+          "correct": false
+        },
+        {
+          "t": "ci caveranno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se la caveranno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "L'esame è difficile me se c'è qualcuno che può ___ quello è proprio lui.",
+      "options": [
+        {
+          "t": "farmela",
+          "correct": false
+        },
+        {
+          "t": "farcela",
+          "correct": true
+        },
+        {
+          "t": "la farlo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"farcela\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Ieri Giulia ___ tre ore per finire l'esercizio di tedesco.",
+      "options": [
+        {
+          "t": "ci ha messo",
+          "correct": true
+        },
+        {
+          "t": "vi ha messa",
+          "correct": false
+        },
+        {
+          "t": "se ne è messa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci ha messo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Quando gli ho raccontato tutto si è arrabbiato e poi ___ con me.",
+      "options": [
+        {
+          "t": "se l'è presa",
+          "correct": true
+        },
+        {
+          "t": "se l'è preso",
+          "correct": false
+        },
+        {
+          "t": "se ne è presa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se l'è presa\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Non ___ con me, non è stata colpa mia.",
+      "options": [
+        {
+          "t": "avercela",
+          "correct": true
+        },
+        {
+          "t": "avermela",
+          "correct": false
+        },
+        {
+          "t": "l'avere",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avercela\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Non preoccuparti per Mario: ___ anche questa volta.",
+      "options": [
+        {
+          "t": "me lo caverò",
+          "correct": false
+        },
+        {
+          "t": "se la caverà",
+          "correct": true
+        },
+        {
+          "t": "se ne caverà",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se la caverà\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Le persone permalose ___ facilmente.",
+      "options": [
+        {
+          "t": "se ne prendono",
+          "correct": false
+        },
+        {
+          "t": "me la prendo",
+          "correct": false
+        },
+        {
+          "t": "se la prendono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"se la prendono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Ragazzi ___ di fare baccano, c'è gente che dorme!",
+      "options": [
+        {
+          "t": "piantamela",
+          "correct": false
+        },
+        {
+          "t": "piantatela",
+          "correct": true
+        },
+        {
+          "t": "piantatene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piantatela\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "___ 10 anni per costruire il nuovo ospedale.",
+      "options": [
+        {
+          "t": "Ci hanno messo",
+          "correct": true
+        },
+        {
+          "t": "Ci sono messi",
+          "correct": false
+        },
+        {
+          "t": "Ci è messi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ci hanno messo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "___ per passare l'esame ma purtroppo non l'ho superato.",
+      "options": [
+        {
+          "t": "Ce l'ho messa tutta",
+          "correct": true
+        },
+        {
+          "t": "Me l'ha messa tutta",
+          "correct": false
+        },
+        {
+          "t": "Se ne è messa tutta",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ce l'ho messa tutta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Questa festa non mi piace, ___ a casa.",
+      "options": [
+        {
+          "t": "me lo vado",
+          "correct": false
+        },
+        {
+          "t": "me ne vado",
+          "correct": true
+        },
+        {
+          "t": "me la vado",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"me ne vado\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Lui l'ha tradita e lei non riesce proprio a ___ e a perdonarlo.",
+      "options": [
+        {
+          "t": "passarne sopra",
+          "correct": false
+        },
+        {
+          "t": "passarci sopra",
+          "correct": true
+        },
+        {
+          "t": "passarlo sopra",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"passarci sopra\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs, Dropdown Exercise 2",
+      "title": "Pronominal Verbs, Dropdown Exercise 2",
+      "prompt": "Laura non vuole ___ di fare pace con il suo ragazzo.",
+      "options": [
+        {
+          "t": "saperne",
+          "correct": true
+        },
+        {
+          "t": "saperlo",
+          "correct": false
+        },
+        {
+          "t": "saperli",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"saperne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "La mamma disse che",
+      "after": ".",
+      "answer": "Elena stava mangiando i biscotti che la nonna le aveva preparato per Natale",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "Claudia mi aveva detto che",
+      "after": ".",
+      "answer": "le sarebbe dispiaciuto tanto farmi fare una brutta figura davanti a tutti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "Fabio mi ha raccontato che",
+      "after": ".",
+      "answer": "di solito la mattina si alza, si veste e fa colazione con i suoi genitori prima di uscire di casa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "Mia mamma dice sempre che",
+      "after": ".",
+      "answer": "se mi applico, potrò riuscire a fare tutto quello che desidero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "Ilaria affermò che",
+      "after": ".",
+      "answer": "sperava che quel regalo sarebbe piaciuto a mia sorella",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech",
+      "title": "Reported Speech",
+      "before": "Davide affermò che",
+      "after": ".",
+      "answer": "da quel giorno in avanti non avrebbe più commesso sciocchezze",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "Il treno è arrivato puntuale, ___ la società ferroviaria avesse annunciato un ritardo di 15 minuti.",
+      "options": [
+        {
+          "t": "sebbene",
+          "correct": true
+        },
+        {
+          "t": "purché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sebbene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "___ ho avuto problemi al lavoro, non ho ancora avuto tempo di riparare il tuo computer.",
+      "options": [
+        {
+          "t": "Pur",
+          "correct": false
+        },
+        {
+          "t": "Anche se",
+          "correct": false
+        },
+        {
+          "t": "Siccome",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Siccome\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "Domani io e la mia ragazza andiamo Verona ___ ascoltare il concerto dei Muse.",
+      "options": [
+        {
+          "t": "affinché",
+          "correct": false
+        },
+        {
+          "t": "perché",
+          "correct": false
+        },
+        {
+          "t": "per",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "Mio padre ha lavorato sodo tutta la vita ___ io e mia sorella potessimo studiare all'Università.",
+      "options": [
+        {
+          "t": "poiché",
+          "correct": false
+        },
+        {
+          "t": "affinché",
+          "correct": true
+        },
+        {
+          "t": "nonostante",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"affinché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "___ dovendo fare economia, non rinuncerò a fare un bel regalo di Natale a mio nipote.",
+      "options": [
+        {
+          "t": "Nonostante",
+          "correct": false
+        },
+        {
+          "t": "Pur",
+          "correct": true
+        },
+        {
+          "t": "Per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Pur\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "___ i continui rimproveri dei sui insegnanti, Luca continua a non fare mai i compiti a casa.",
+      "options": [
+        {
+          "t": "Sebbene",
+          "correct": false
+        },
+        {
+          "t": "Poiché",
+          "correct": false
+        },
+        {
+          "t": "Nonostante",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "Vi aiuterò con le pulizie di casa, ___ non mi facciate pulire il bagno.",
+      "options": [
+        {
+          "t": "perché",
+          "correct": false
+        },
+        {
+          "t": "purché",
+          "correct": true
+        },
+        {
+          "t": "pur",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"purché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "___ essere un principiante, Riccardo è già capace di sciare piuttosto bene.",
+      "options": [
+        {
+          "t": "Pur",
+          "correct": false
+        },
+        {
+          "t": "Nonostante",
+          "correct": false
+        },
+        {
+          "t": "Per",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Per\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "Ho fatto finta di non accorgermi dei tuoi furti ___ volevo capire fino a che punto saresti arrivato.",
+      "options": [
+        {
+          "t": "purché",
+          "correct": false
+        },
+        {
+          "t": "perché",
+          "correct": true
+        },
+        {
+          "t": "affinché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"perché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Conjunctions",
+      "title": "Conjunctions",
+      "prompt": "___ la mia conoscenza dell'inglese non fosse elevata, sono riuscita a trovare lavoro abbastanza in fretta a Boston.",
+      "options": [
+        {
+          "t": "Cosicché",
+          "correct": false
+        },
+        {
+          "t": "Sebbene",
+          "correct": true
+        },
+        {
+          "t": "Pure",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Sebbene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "",
+      "after": "(finire) la partita di tennis, Franco e Samuel sono tornati a casa.",
+      "answer": "Finita",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "Mi dispiace, ma anche",
+      "after": "(volere), non potrei proprio aiutarti.",
+      "answer": "volendo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "Cristina si è slogata un polso",
+      "after": "(giocare) a pallavolo.",
+      "answer": "giocando",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "Una volta",
+      "after": "(tornare) dalla Spagna, Renata parlava perfettamente lo spagnolo.",
+      "answer": "tornata",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "Appena",
+      "after": "(atterrare), ho telefonato a mia madre per dirle che il volo era andato bene.",
+      "answer": "atterrati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "Ho visto Serena che se ne andava da scuola",
+      "after": "(piangere). È successo qualcosa di brutto?",
+      "answer": "piangendo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "",
+      "after": "(fare) molti esercizi, imparerete rapidamente la grammatica italiana..",
+      "answer": "Facendo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "È vero, ma una lingua si impara davvero bene solo",
+      "after": "(parlare)",
+      "answer": "parlando",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "",
+      "after": "(spaventare) all'idea di non superare l'esame di guida, Federico non è riuscito a chiudere occhio per tutta la notte.",
+      "answer": "Spaventato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Participle?",
+      "title": "Present Or Past Participle?",
+      "before": "",
+      "after": "(decorare) con qualche dipinto e un po' di oggetti familiari, la nostra casa è decisamente più bella e accogliente",
+      "answer": "Decorata",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Si è guadagnato da vivere ___ storie.",
+      "options": [
+        {
+          "t": "raccontando",
+          "correct": true
+        },
+        {
+          "t": "avendo raccontato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"raccontando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ insieme, hanno scoperto aspetti del loro carattere che non conoscevano.",
+      "options": [
+        {
+          "t": "Vivendo",
+          "correct": true
+        },
+        {
+          "t": "Avendo vissuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Vivendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Pur ___ in ogni luogo, non è riuscito a trovare le chiavi dell'ufficio.",
+      "options": [
+        {
+          "t": "avendo cercato",
+          "correct": true
+        },
+        {
+          "t": "cercando",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avendo cercato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ arrabbiata, restò in silenzio per tutta la durata del viaggio.",
+      "options": [
+        {
+          "t": "Essendo",
+          "correct": true
+        },
+        {
+          "t": "Essendo stata",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ vicina nel momento del bisogno, Tina mi è sempre stata molto riconoscente.",
+      "options": [
+        {
+          "t": "Essendole",
+          "correct": false
+        },
+        {
+          "t": "Essendole stata",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Essendole stata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "Non ___ molto a genio il programma del corso, vuole abbandonare.",
+      "options": [
+        {
+          "t": "andandole",
+          "correct": true
+        },
+        {
+          "t": "essendole andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andandole\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Present Or Perfect Participle?",
+      "title": "Present Or Perfect Participle?",
+      "prompt": "___ questa mattina, mi ha confessato di avere tradito sua moglie.",
+      "options": [
+        {
+          "t": "Parlandogli",
+          "correct": false
+        },
+        {
+          "t": "Avendogli parlato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Avendogli parlato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "",
+      "after": "il lavoro, andò a riposare. (finire)",
+      "answer": "Finito",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "Appena",
+      "after": "di casa, si ricordò di avere dimenticato le chiavi sul tavolo del salotto. (uscire)",
+      "answer": "uscito",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "",
+      "after": "fa bene alla mente. (leggere)",
+      "answer": "Leggere",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "Ho migliorato la mia pronuncia in italiano",
+      "after": "canzoni per radio. (ascoltare)",
+      "answer": "ascoltando",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "",
+      "after": "le armi, il soldato si ritirò dal campo di battaglia. (deporre)",
+      "answer": "Deposte",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "",
+      "after": "a correre con Mario, la mia forma fisica migliorava a vista d'occhio. (andare)",
+      "answer": "Andando",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "Per",
+      "after": "una casa, devi affidarti ad un buon muratore. (ristrutturare)",
+      "answer": "ristrutturare",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "Il professore se ne andò per il corridoio",
+      "after": "i suoi studenti. (ammonire)",
+      "answer": "ammonendo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "Una volta",
+      "after": "alla fine della strada, prendete il vicolo a destra. (arrivare)",
+      "answer": "arrivati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Infinitive Or Participle?",
+      "title": "Infinitive Or Participle?",
+      "before": "",
+      "after": "un elaborato è un'operazione complessa. (redigere)",
+      "answer": "Redigere",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+    },
+    {
+      "type": "ordering",
+      "kicker": "Ejercicios · C1 · Mica",
+      "title": "Mica",
+      "words": [
+        "avrai",
+        "mica",
+        "?",
+        "preso",
+        "il raffreddore",
+        "Non"
+      ],
+      "correct": "Non avrai mica preso il raffreddore ?",
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+    },
+    {
+      "type": "ordering",
+      "kicker": "Ejercicios · C1 · Mica",
+      "title": "Mica",
+      "words": [
+        "mica",
+        "bambini",
+        "siete",
+        "!",
+        "Non",
+        "dei"
+      ],
+      "correct": "Non siete mica dei bambini !",
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+    },
+    {
+      "type": "ordering",
+      "kicker": "Ejercicios · C1 · Mica",
+      "title": "Mica",
+      "words": [
+        "mica",
+        "mente",
+        "?",
+        "in",
+        "Non",
+        "sarà",
+        "ti",
+        "di",
+        "telefonarle",
+        "venuto"
+      ],
+      "correct": "Non ti sarà mica venuto in mente di telefonarle ?",
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+    },
+    {
+      "type": "ordering",
+      "kicker": "Ejercicios · C1 · Mica",
+      "title": "Mica",
+      "words": [
+        "andare",
+        "hanno",
+        "obbligato",
+        "ti",
+        "Mica",
+        "al",
+        "!",
+        "ricevimento",
+        "ad"
+      ],
+      "correct": "Mica ti hanno obbligato ad andare al ricevimento !",
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+    },
+    {
+      "type": "ordering",
+      "kicker": "Ejercicios · C1 · Mica",
+      "title": "Mica",
+      "words": [
+        "!",
+        "siamo",
+        "ingenui",
+        "Mica"
+      ],
+      "correct": "Mica siamo ingenui !",
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se",
+      "after": "l’italiano, impareresti anche a rispondere al telefono. (studiare)",
+      "answer": "studiassi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se avessi conosciuto quell'insegnante,",
+      "after": "ad amare questa materia. (imparare)",
+      "answer": "avresti imparato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se",
+      "after": "meno, dimagriresti in quattro e quattr'otto. (mangiare)",
+      "answer": "mangiassi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se cominci adesso,",
+      "after": "in tempo per uscire con loro. (finire)",
+      "answer": "finirai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se",
+      "after": "con noi, vi faremo conoscere la citta. (venire)",
+      "answer": "venite",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se fosse un animale,",
+      "after": "un colibri. (essere)",
+      "answer": "sarebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se",
+      "after": "quel caffe, adesso non saremmo qui a sbadigliare. (bere)",
+      "answer": "avessimo bevuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se traducessero quel libro in tedesco, lo",
+      "after": "subito. (comprare)",
+      "answer": "comprerei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se solo",
+      "after": "zitto un attimo, il mal di testa gli passerebbe. (stare)",
+      "answer": "stesse",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Present Or Past Condtional?",
+      "title": "Present Or Past Condtional?",
+      "before": "Se",
+      "after": "ascolto a tutte queste dicerie, non sarei piu' uscito di casa. (dare)",
+      "answer": "avessi dato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "",
+      "after": "(io) abbastanza dei tuoi continui capricci!",
+      "answer": "Ne ho",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Quel permaloso di Fabrizio",
+      "after": "con Antonio perché non gli ha fatto gli auguri di compleanno.",
+      "answer": "se l'è presa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Roberto",
+      "after": "con me perché non l'ho invitato a venire con noi a Siena sabato scorso. Avrei voluto, ma non c'era più posto in macchina!",
+      "answer": "se l'è presa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Pur essendo ancora un principiante, Marco",
+      "after": "piuttosto bene con la chitarra.",
+      "answer": "se la cava",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Forse voi",
+      "after": ", ma per me questo lavoro è una grande occasione per fare carriera, e non voglio sprecarla!",
+      "answer": "ve ne fregate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "È incredibile che, dopo tutti i problemi di salute che hai avuto, tu continui ancora a fumare. Ma non",
+      "after": "abbastanza??",
+      "answer": "ne hai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "È inutile che tu",
+      "after": "con Maurizio: litigando, non risolverete nessun problema.",
+      "answer": "te la prenda",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "",
+      "after": "(io) delle superstizioni di tua madre: un gatto nero che attraversa a strada non è un pericolo per nessuno.",
+      "answer": "Ne ho",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Incidente stradale sulla strada provinciale 35, dove un'auto è finita fuori strada. I tre passeggeri, un uomo di 35 anni, assieme alla moglie di 30 e alla suocera settantenne, hanno riportato ferite lievi:",
+      "after": "con pochi giorni di ospedale.",
+      "answer": "se la caveranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill",
+      "title": "Pronominal Verbs - Gapfill",
+      "before": "Tua madre",
+      "after": "con me perché non ho dato retta ai suoi avvertimenti sul gatto nero. Bah.. continuo a pensare si sia trattato di una coincidenza, e basta.",
+      "answer": "se l'è presa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    }
+  ]
+}

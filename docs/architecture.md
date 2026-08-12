@@ -47,6 +47,16 @@ Cada ejercicio migrado es un objeto de datos con un campo `type`; el componente 
 renderiza es el mismo sin importar el nivel o el tema gramatical. Ver `EXERCISE_QUEUES` en
 `prototype/index.html` para el formato exacto de cada tipo.
 
+Confirmado en la migración real del 2026-08-12 (`tools/exercise_scraper.py`, ver
+`docs/roadmap.md` Fase 3): 1151 de 2065 preguntas legacy reales mapearon limpio a `mc`/
+`gapfill`/`ordering`. El "emparejar" (`newmatching*.js` en el sitio) resultó ser real y no
+marginal — 123 preguntas — así que sigue siendo el candidato más claro a 5º tipo de componente
+si se retoma esta fase. Las páginas de texto con huecos múltiples en un solo párrafo
+(`gappedtext*.js`) son un caso aparte: no son "una pregunta con 4 campos" como las demás, son
+un párrafo con 10-15 huecos numerados — ni siquiera encajan en el molde de "objeto con type",
+necesitarían su propio tipo de dato (una lista de huecos por párrafo, no un array plano de
+ejercicios sueltos).
+
 ## 5. Vocabulario decreciente por nivel (hallazgo real, no decisión de producto)
 
 El sitio original reduce el vocabulario estructurado a medida que sube el nivel: A1 (32

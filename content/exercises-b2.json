@@ -1,0 +1,3525 @@
+{
+  "level": "B2",
+  "migrated_at": "2026-08-12",
+  "source_note": "Migrado de /free_italian_exercises/*.html (motor de quiz JS legacy). feedback genérico (no pedagógico) — ver README y docs/roadmap.md Fase 3.",
+  "exercise_content": [
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Malgrado non ___ ballare, si è buttato nella mischia.",
+      "options": [
+        {
+          "t": "sapeva",
+          "correct": false
+        },
+        {
+          "t": "sappia",
+          "correct": false
+        },
+        {
+          "t": "sapesse",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sapesse\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Bambini, potete andare al parco a patto che ___ i vostri compiti.",
+      "options": [
+        {
+          "t": "fate",
+          "correct": false
+        },
+        {
+          "t": "facciate",
+          "correct": true
+        },
+        {
+          "t": "facesse",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"facciate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Apro la finestra affinché ___ un pò d'aria.",
+      "options": [
+        {
+          "t": "entra",
+          "correct": false
+        },
+        {
+          "t": "fosse entrata",
+          "correct": false
+        },
+        {
+          "t": "entri",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"entri\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Nonostante i miei amici non ___ bene l'inglese, si trasferiscono in Inghilterra.",
+      "options": [
+        {
+          "t": "parlano",
+          "correct": false
+        },
+        {
+          "t": "parlassero",
+          "correct": false
+        },
+        {
+          "t": "parlino",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"parlino\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Mi hanno aiutato senza che io glielo ___ e insieme abbiamo risolto il problema.",
+      "options": [
+        {
+          "t": "chieda",
+          "correct": false
+        },
+        {
+          "t": "chiedo",
+          "correct": false
+        },
+        {
+          "t": "avessi chiesto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi chiesto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Va bene, vengo con voi a cena ma a condizione che ___ la vostra macchina.",
+      "options": [
+        {
+          "t": "prendete",
+          "correct": false
+        },
+        {
+          "t": "prendeste",
+          "correct": false
+        },
+        {
+          "t": "prendiate",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"prendiate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Magari ___ rivedere quella ragazza ancora una volta!",
+      "options": [
+        {
+          "t": "posso",
+          "correct": false
+        },
+        {
+          "t": "potevo",
+          "correct": false
+        },
+        {
+          "t": "potessi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"potessi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Voglio andare ancora una volta al mare prima che ___ l'inverno.",
+      "options": [
+        {
+          "t": "arrivi",
+          "correct": true
+        },
+        {
+          "t": "arriva",
+          "correct": false
+        },
+        {
+          "t": "sia arrivato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"arrivi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Qualora ___ una nostra email, la pregò di cancellarla.",
+      "options": [
+        {
+          "t": "riceve",
+          "correct": false
+        },
+        {
+          "t": "ricevesse",
+          "correct": true
+        },
+        {
+          "t": "riceveva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ricevesse\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Benché non si ___ da anni, sono andati in vacanza insieme.",
+      "options": [
+        {
+          "t": "parlavano",
+          "correct": false
+        },
+        {
+          "t": "siano parlati",
+          "correct": false
+        },
+        {
+          "t": "parlassero",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"parlassero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Vengo alla festa a patto che ___ anche la tua amica.",
+      "options": [
+        {
+          "t": "venga",
+          "correct": true
+        },
+        {
+          "t": "sia venuta",
+          "correct": false
+        },
+        {
+          "t": "viene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"venga\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive With Adverbs And Conjunctions",
+      "title": "Subjunctive With Adverbs And Conjunctions",
+      "prompt": "Nonostante Lucia non ___ molto, è riuscita a superare l'esame di spagnolo a pieni voti.",
+      "options": [
+        {
+          "t": "abbia studiato",
+          "correct": true
+        },
+        {
+          "t": "studia",
+          "correct": false
+        },
+        {
+          "t": "sia studiata",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Quando siete arrivati ___ da un'ora.",
+      "options": [
+        {
+          "t": "avevo già mangiato",
+          "correct": true
+        },
+        {
+          "t": "ho già mangiato",
+          "correct": false
+        },
+        {
+          "t": "mangiavo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avevo già mangiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Tutti i giorni ___ a correre al parco prima di andare al lavoro.",
+      "options": [
+        {
+          "t": "sono andato",
+          "correct": false
+        },
+        {
+          "t": "vado",
+          "correct": true
+        },
+        {
+          "t": "andai",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vado\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Perché non mi ___ ieri sera?",
+      "options": [
+        {
+          "t": "chiamavi",
+          "correct": false
+        },
+        {
+          "t": "hai chiamato",
+          "correct": true
+        },
+        {
+          "t": "avevi chiamato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hai chiamato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Dopo che i miei genitori ___ organizzerò una grande festa.",
+      "options": [
+        {
+          "t": "partono",
+          "correct": false
+        },
+        {
+          "t": "partirebbero",
+          "correct": false
+        },
+        {
+          "t": "saranno partiti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"saranno partiti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Anche se ___ in ritardo sono riuscito ad arrivare in tempo per l'inizio dello spettacolo.",
+      "options": [
+        {
+          "t": "sono stato",
+          "correct": false
+        },
+        {
+          "t": "ero",
+          "correct": true
+        },
+        {
+          "t": "sarei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Secondo me ___ studiare di più se vuoi superare il prossimo esame di lingua francese.",
+      "options": [
+        {
+          "t": "dovresti",
+          "correct": true
+        },
+        {
+          "t": "hai dovuto",
+          "correct": false
+        },
+        {
+          "t": "dovevi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dovresti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Hanno detto che ci ___ la loro macchina ma poi ci hanno ripensato.",
+      "options": [
+        {
+          "t": "hanno prestato",
+          "correct": false
+        },
+        {
+          "t": "avrebbero prestato",
+          "correct": true
+        },
+        {
+          "t": "prestavano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avrebbero prestato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "I ladri hanno restituito i gioielli che ___ la sera prima.",
+      "options": [
+        {
+          "t": "hanno rubato",
+          "correct": false
+        },
+        {
+          "t": "rubavano",
+          "correct": false
+        },
+        {
+          "t": "avevano rubato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avevano rubato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Potete venire alla festa solo se ___ qualcosa da bere.",
+      "options": [
+        {
+          "t": "portereste",
+          "correct": false
+        },
+        {
+          "t": "avete portato",
+          "correct": false
+        },
+        {
+          "t": "portate",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"portate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Ieri ___ un mio vecchio compagno di scuola.",
+      "options": [
+        {
+          "t": "incontravo",
+          "correct": false
+        },
+        {
+          "t": "ho incontrato",
+          "correct": true
+        },
+        {
+          "t": "avevo incontrato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho incontrato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Da piccolo ___ tutti gli anni al mare con i miei.",
+      "options": [
+        {
+          "t": "vado",
+          "correct": false
+        },
+        {
+          "t": "andavo",
+          "correct": true
+        },
+        {
+          "t": "sono andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andavo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (1)",
+      "title": "Tense Agreement (1)",
+      "prompt": "Luigi mi ha detto che ___ alla festa di ieri, invece è rimasto a casa.",
+      "options": [
+        {
+          "t": "sarebbe venuto",
+          "correct": true
+        },
+        {
+          "t": "verrebbe",
+          "correct": false
+        },
+        {
+          "t": "veniva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sarebbe venuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "___ quando all'improvviso squillò il telefono.",
+      "options": [
+        {
+          "t": "Ero mangiando",
+          "correct": false
+        },
+        {
+          "t": "Stavo mangiando",
+          "correct": true
+        },
+        {
+          "t": "Ho mangiato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Stavo mangiando\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Quando ero giovane ___ a correre al parco tutti i giorni.",
+      "options": [
+        {
+          "t": "sono andato",
+          "correct": false
+        },
+        {
+          "t": "vado",
+          "correct": false
+        },
+        {
+          "t": "andavo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andavo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "L'anno scorso ___ tantissimo in vacanza.",
+      "options": [
+        {
+          "t": "ci divertivamo",
+          "correct": false
+        },
+        {
+          "t": "ci divertiamo",
+          "correct": false
+        },
+        {
+          "t": "ci siamo divertiti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci siamo divertiti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Non pensavo che alla festa ___ cosi tanta gente.",
+      "options": [
+        {
+          "t": "sarebbe venuta",
+          "correct": true
+        },
+        {
+          "t": "verrebbe",
+          "correct": false
+        },
+        {
+          "t": "verrà",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sarebbe venuta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Secondo me ___ studiare di più per l'esame: l'avresti superato senza problemi.",
+      "options": [
+        {
+          "t": "avresti dovuto",
+          "correct": true
+        },
+        {
+          "t": "dovresti",
+          "correct": false
+        },
+        {
+          "t": "hai dovuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avresti dovuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Credo che il prossimo anno ___ al concerto dei Rolling Stones.",
+      "options": [
+        {
+          "t": "sarò andato",
+          "correct": false
+        },
+        {
+          "t": "andrei",
+          "correct": false
+        },
+        {
+          "t": "andrò",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andrò\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Quando ___ a casa ti telefonerò.",
+      "options": [
+        {
+          "t": "sarò arrivato",
+          "correct": true
+        },
+        {
+          "t": "sono arrivato",
+          "correct": false
+        },
+        {
+          "t": "arriverei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sarò arrivato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Non ___ in Africa prima del 2014.",
+      "options": [
+        {
+          "t": "è mai stato",
+          "correct": false
+        },
+        {
+          "t": "era mai stato",
+          "correct": true
+        },
+        {
+          "t": "stava",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"era mai stato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Scusi, ___ avere del pane per favore?",
+      "options": [
+        {
+          "t": "potrò",
+          "correct": false
+        },
+        {
+          "t": "ho potuto",
+          "correct": false
+        },
+        {
+          "t": "potrei",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"potrei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Dopo essersi trasferito a Berlino, Vittorio ___ a studiare il tedesco.",
+      "options": [
+        {
+          "t": "cominciava",
+          "correct": false
+        },
+        {
+          "t": "ha cominciato",
+          "correct": true
+        },
+        {
+          "t": "aveva cominciato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha cominciato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Da piccolo ___ sempre allo zoo con i miei genitori.",
+      "options": [
+        {
+          "t": "andavo",
+          "correct": true
+        },
+        {
+          "t": "ero andato",
+          "correct": false
+        },
+        {
+          "t": "sono andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andavo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Tense Agreement (2)",
+      "title": "Tense Agreement (2)",
+      "prompt": "Yuichi mi ha detto che l'indomani ___ a lezione, invece non l'ha fatto.",
+      "options": [
+        {
+          "t": "sarebbe andato",
+          "correct": true
+        },
+        {
+          "t": "andrebbe",
+          "correct": false
+        },
+        {
+          "t": "andava",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sarebbe andato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "La nuova legge ___ dal Parlamento.",
+      "options": [
+        {
+          "t": "è stata emanata",
+          "correct": true
+        },
+        {
+          "t": "ha stato emanata",
+          "correct": false
+        },
+        {
+          "t": "è venuta emanata",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è stata emanata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "Il pane ___ tutte le mattine dal fornaio.",
+      "options": [
+        {
+          "t": "viene cotto",
+          "correct": true
+        },
+        {
+          "t": "ha stato cotto",
+          "correct": false
+        },
+        {
+          "t": "cuoceva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"viene cotto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "Il traffico ___ a causa di un incidente.",
+      "options": [
+        {
+          "t": "blocca",
+          "correct": false
+        },
+        {
+          "t": "è bloccato",
+          "correct": true
+        },
+        {
+          "t": "ha bloccato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è bloccato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "La partita ___ dal Bologna per un goal a zero.",
+      "options": [
+        {
+          "t": "viene stata vinta",
+          "correct": false
+        },
+        {
+          "t": "è stata vinta",
+          "correct": true
+        },
+        {
+          "t": "vincerà",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è stata vinta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "I ladri ___ dalla polizia.",
+      "options": [
+        {
+          "t": "prendono",
+          "correct": false
+        },
+        {
+          "t": "hanno preso",
+          "correct": false
+        },
+        {
+          "t": "sono stati presi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono stati presi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "I treni ___ a causa dello sciopero.",
+      "options": [
+        {
+          "t": "cancellarono",
+          "correct": false
+        },
+        {
+          "t": "sono stati cancellati",
+          "correct": true
+        },
+        {
+          "t": "si cancellano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono stati cancellati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "L'esame ___ da molti studenti.",
+      "options": [
+        {
+          "t": "è stato sostenuto",
+          "correct": true
+        },
+        {
+          "t": "sosteneva",
+          "correct": false
+        },
+        {
+          "t": "sostiene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è stato sostenuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "Vorrei che questo esercizio ___ da te.",
+      "options": [
+        {
+          "t": "andasse fatto",
+          "correct": false
+        },
+        {
+          "t": "venisse fatto",
+          "correct": true
+        },
+        {
+          "t": "sarà fatto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"venisse fatto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "Il film ___ da milioni di persone.",
+      "options": [
+        {
+          "t": "viene stato visto",
+          "correct": false
+        },
+        {
+          "t": "è stato visto",
+          "correct": true
+        },
+        {
+          "t": "ha visto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è stato visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "Gli esercizi ___ dal professore.",
+      "options": [
+        {
+          "t": "hanno corretto",
+          "correct": false
+        },
+        {
+          "t": "corressero",
+          "correct": false
+        },
+        {
+          "t": "sono stati corretti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono stati corretti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "In Italia, il cappuccino non ___ mai dopo pranzo.",
+      "options": [
+        {
+          "t": "beve",
+          "correct": false
+        },
+        {
+          "t": "si beve",
+          "correct": true
+        },
+        {
+          "t": "ha bevuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si beve\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Italian Passive Form",
+      "title": "Italian Passive Form",
+      "prompt": "L'appartamento vicino al mio ___ da una coppia di inglesi.",
+      "options": [
+        {
+          "t": "ha comprato",
+          "correct": false
+        },
+        {
+          "t": "compra",
+          "correct": false
+        },
+        {
+          "t": "è stato comprato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è stato comprato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Ritengo che la situazione ___ difficile da risolvere.",
+      "options": [
+        {
+          "t": "è",
+          "correct": false
+        },
+        {
+          "t": "sia",
+          "correct": true
+        },
+        {
+          "t": "era",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Secondo me gli ___ dire la verità.",
+      "options": [
+        {
+          "t": "debba",
+          "correct": false
+        },
+        {
+          "t": "avessi dovuto",
+          "correct": false
+        },
+        {
+          "t": "devi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"devi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Voglio che Leo ___ a casa presto.",
+      "options": [
+        {
+          "t": "torna",
+          "correct": false
+        },
+        {
+          "t": "torni",
+          "correct": true
+        },
+        {
+          "t": "tornasse",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"torni\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Questo è il libro più interessante che io ___ in vita mia.",
+      "options": [
+        {
+          "t": "leggo",
+          "correct": false
+        },
+        {
+          "t": "ho mai letto",
+          "correct": false
+        },
+        {
+          "t": "abbia mai letto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia mai letto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Anche se ___ in ritardo sono riuscito ad arrivare in tempo per prendere l'autobus.",
+      "options": [
+        {
+          "t": "fossi",
+          "correct": false
+        },
+        {
+          "t": "ero",
+          "correct": true
+        },
+        {
+          "t": "fossi stato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Dubito che loro ___ sempre i loro compiti.",
+      "options": [
+        {
+          "t": "fanno",
+          "correct": false
+        },
+        {
+          "t": "facciano",
+          "correct": true
+        },
+        {
+          "t": "abbiano fatti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"facciano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Non credo che lei ___ il necessario per risolvere la situazione.",
+      "options": [
+        {
+          "t": "ha fatto",
+          "correct": false
+        },
+        {
+          "t": "abbia fatto",
+          "correct": true
+        },
+        {
+          "t": "fa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia fatto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Malgrado glielo ___ tante volte, si sono dimenticati di invitare Luisa alla festa.",
+      "options": [
+        {
+          "t": "avessi ripetuto",
+          "correct": true
+        },
+        {
+          "t": "ripeto",
+          "correct": false
+        },
+        {
+          "t": "ho ripetuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi ripetuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Potete venire alla festa solo se ___ qualcosa da bere.",
+      "options": [
+        {
+          "t": "portiate",
+          "correct": false
+        },
+        {
+          "t": "aveste portato",
+          "correct": false
+        },
+        {
+          "t": "portate",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"portate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Bisogna che lei ___ una decisione.",
+      "options": [
+        {
+          "t": "prende",
+          "correct": false
+        },
+        {
+          "t": "prenda",
+          "correct": true
+        },
+        {
+          "t": "prendesse",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"prenda\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Se domani non ___ vado in campagna.",
+      "options": [
+        {
+          "t": "piovesse",
+          "correct": false
+        },
+        {
+          "t": "piova",
+          "correct": false
+        },
+        {
+          "t": "piove",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piove\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Subjunctive Or Indicative?",
+      "title": "Subjunctive Or Indicative?",
+      "prompt": "Tutte le sere aspetto che tu ___ dal lavoro e mi chiami.",
+      "options": [
+        {
+          "t": "esca",
+          "correct": true
+        },
+        {
+          "t": "esci",
+          "correct": false
+        },
+        {
+          "t": "sei uscita",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"esca\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Secondo i critici, Dante Alighieri ___ la Divina Commedia tra il 1304 e il 1321.",
+      "options": [
+        {
+          "t": "scrisse",
+          "correct": true
+        },
+        {
+          "t": "scrivì",
+          "correct": false
+        },
+        {
+          "t": "scrivette",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"scrisse\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Giuseppe ___ subito in stazione e comprò il biglietto.",
+      "options": [
+        {
+          "t": "andé",
+          "correct": false
+        },
+        {
+          "t": "andò",
+          "correct": true
+        },
+        {
+          "t": "andarono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andò\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Giacomo Leopardi ___ a Racanati il 29 giugno 1798.",
+      "options": [
+        {
+          "t": "nacque",
+          "correct": true
+        },
+        {
+          "t": "nacqui",
+          "correct": false
+        },
+        {
+          "t": "nascette",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nacque\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Molti anni fa Luigi ___ Firenze.",
+      "options": [
+        {
+          "t": "visitai",
+          "correct": false
+        },
+        {
+          "t": "visitò",
+          "correct": true
+        },
+        {
+          "t": "visitarono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"visitò\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Quando Giacomo la ___ si innamorò immediatamente di lei.",
+      "options": [
+        {
+          "t": "vedette",
+          "correct": false
+        },
+        {
+          "t": "vederono",
+          "correct": false
+        },
+        {
+          "t": "vide",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vide\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "I Turchi Ottomani ___ Costantinopoli nel 1453.",
+      "options": [
+        {
+          "t": "conquistarono",
+          "correct": true
+        },
+        {
+          "t": "conquistai",
+          "correct": false
+        },
+        {
+          "t": "conquisero",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"conquistarono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Alessandro Magno ___ un grande condottiero.",
+      "options": [
+        {
+          "t": "fu",
+          "correct": true
+        },
+        {
+          "t": "furono",
+          "correct": false
+        },
+        {
+          "t": "fui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fu\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Firenze fu la città dove ___ origine il Rinascimento.",
+      "options": [
+        {
+          "t": "avette",
+          "correct": false
+        },
+        {
+          "t": "ebbero",
+          "correct": false
+        },
+        {
+          "t": "ebbe",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ebbe\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Leonardo ___ l'Ultima Cena dal 1494 al 1498.",
+      "options": [
+        {
+          "t": "dipingé",
+          "correct": false
+        },
+        {
+          "t": "dipinse",
+          "correct": true
+        },
+        {
+          "t": "dipingette",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dipinse\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "Michele ___ per la prima volta la sua fidanzata a Roma.",
+      "options": [
+        {
+          "t": "incontrai",
+          "correct": false
+        },
+        {
+          "t": "incontrarono",
+          "correct": false
+        },
+        {
+          "t": "incontrò",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"incontrò\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "La Prima Guerra Mondiale ___ nel 1914.",
+      "options": [
+        {
+          "t": "scoppià",
+          "correct": false
+        },
+        {
+          "t": "scoppiarono",
+          "correct": false
+        },
+        {
+          "t": "scoppiò",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"scoppiò\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Remote Past",
+      "title": "Remote Past",
+      "prompt": "I Romani ___ un popolo di conquistatori.",
+      "options": [
+        {
+          "t": "furono",
+          "correct": true
+        },
+        {
+          "t": "fu",
+          "correct": false
+        },
+        {
+          "t": "fummo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"furono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "La ragazza ___ abbiamo incontrato si chiama Elisa.",
+      "options": [
+        {
+          "t": "cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "chi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "Il figlio di Maria, ___ è nato nel 2002, si chiama Luigi.",
+      "options": [
+        {
+          "t": "chi",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "Il libro ___ ho finito di leggere ieri si chiama The Dubliners.",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "chi",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "Le ragazze ___ parlavo erano le mie compagne di classe.",
+      "options": [
+        {
+          "t": "con che",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "con cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "L'azienda ___ lavoro è una multinazionale.",
+      "options": [
+        {
+          "t": "per che",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "per cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "___ di voi vuole venire a teatro?",
+      "options": [
+        {
+          "t": "Che",
+          "correct": false
+        },
+        {
+          "t": "Cui",
+          "correct": false
+        },
+        {
+          "t": "Chi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Chi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "I ragazzi ___ abito sono spagnoli.",
+      "options": [
+        {
+          "t": "di cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "con cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "Mia sorella, ___ parla benissimo l'inglese, ti aiuterà volentieri.",
+      "options": [
+        {
+          "t": "chi",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "cui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "La ragazza ___ ti ho parlato si chiama Giulia.",
+      "options": [
+        {
+          "t": "da cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": false
+        },
+        {
+          "t": "di cui",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di cui\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "Hai restituito il libro ___ avevi preso in prestito in biblioteca?",
+      "options": [
+        {
+          "t": "che",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        },
+        {
+          "t": "chi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "___ non studia non supera l'esame.",
+      "options": [
+        {
+          "t": "Che",
+          "correct": false
+        },
+        {
+          "t": "Chi",
+          "correct": true
+        },
+        {
+          "t": "Lui",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Chi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 1",
+      "title": "Relative Pronouns - 1",
+      "prompt": "La mia ragazza, ___ si chiama Laura, fa l'avvocato.",
+      "options": [
+        {
+          "t": "chi",
+          "correct": false
+        },
+        {
+          "t": "cui",
+          "correct": false
+        },
+        {
+          "t": "che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Dopo il corso, vi va di venire a ___ con noi?",
+      "options": [
+        {
+          "t": "fare un giro",
+          "correct": true
+        },
+        {
+          "t": "fate un giro",
+          "correct": false
+        },
+        {
+          "t": "facciamo un giro",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fare un giro\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Anche se sanno che gli ___ i miei amici non ne vogliono sapere di smettere di fumare.",
+      "options": [
+        {
+          "t": "ha male",
+          "correct": false
+        },
+        {
+          "t": "fanno male",
+          "correct": false
+        },
+        {
+          "t": "fa male",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fa male\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Ieri volevo fare una torta ma ___ con gli ingredienti ed è venuta malissimo.",
+      "options": [
+        {
+          "t": "ho fatto confusione",
+          "correct": true
+        },
+        {
+          "t": "ho avuto confusione",
+          "correct": false
+        },
+        {
+          "t": "hanno fatto confusione",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho fatto confusione\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Ragazzi, mi raccomando ___ a quello che sto per dirvi.",
+      "options": [
+        {
+          "t": "fai molta attenzione",
+          "correct": false
+        },
+        {
+          "t": "pagate molta attenzione",
+          "correct": false
+        },
+        {
+          "t": "fate molta attenzione",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fate molta attenzione\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Sono d'accordo con Luca, secondo me ___ a non invitare Giorgio alla festa.",
+      "options": [
+        {
+          "t": "è stato bene",
+          "correct": false
+        },
+        {
+          "t": "ha fatto bene",
+          "correct": true
+        },
+        {
+          "t": "faceva bene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha fatto bene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Quando torna da scuola mio figlio Marco ___ e poi lo porto in piscina.",
+      "options": [
+        {
+          "t": "ha merenda",
+          "correct": false
+        },
+        {
+          "t": "fanno merenda",
+          "correct": false
+        },
+        {
+          "t": "fa merenda",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fa merenda\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Oggi io e mia moglie andiamo a ___ al bar.",
+      "options": [
+        {
+          "t": "fare colazione",
+          "correct": true
+        },
+        {
+          "t": "avere colazione",
+          "correct": false
+        },
+        {
+          "t": "facciamo colazione",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fare colazione\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Il fratello di mio zio è emigrato in Francia negli anni '50. Li ___ ed ora è molto ricco.",
+      "options": [
+        {
+          "t": "hanno fatto fortuna",
+          "correct": false
+        },
+        {
+          "t": "ha fatto fortuna",
+          "correct": true
+        },
+        {
+          "t": "ha vinto fortuna",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha fatto fortuna\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Le arance ___ alla salute.",
+      "options": [
+        {
+          "t": "fanno bene",
+          "correct": true
+        },
+        {
+          "t": "fai bene",
+          "correct": false
+        },
+        {
+          "t": "faccio bene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fanno bene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Ieri ho visto un film che mi ___ dal ridere.",
+      "options": [
+        {
+          "t": "hai fatto morire",
+          "correct": false
+        },
+        {
+          "t": "ha fatto morire",
+          "correct": true
+        },
+        {
+          "t": "hanno fatto morire",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha fatto morire\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Marta ___ non voglio fare tardi in ufficio.",
+      "options": [
+        {
+          "t": "fai presto",
+          "correct": true
+        },
+        {
+          "t": "vai presto",
+          "correct": false
+        },
+        {
+          "t": "fare presto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fai presto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Expressions With 'Fare'",
+      "title": "Expressions With 'Fare'",
+      "prompt": "Non ___ a quello che ti ha detto Luigi, era molto arrabbiato e non voleva offenderti.",
+      "options": [
+        {
+          "t": "fare caso",
+          "correct": true
+        },
+        {
+          "t": "avere caso",
+          "correct": false
+        },
+        {
+          "t": "fai caso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fare caso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Sono contenta che tu ___ alla festa di ieri sera.",
+      "options": [
+        {
+          "t": "ti fossi divertito",
+          "correct": false
+        },
+        {
+          "t": "ti sia divertito",
+          "correct": true
+        },
+        {
+          "t": "ti divertissi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti sia divertito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Penso che il treno ___ in ritardo.",
+      "options": [
+        {
+          "t": "sia partito",
+          "correct": true
+        },
+        {
+          "t": "abbia partito",
+          "correct": false
+        },
+        {
+          "t": "fosse partito",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia partito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Sono convinto che Luca ___ un corso di cinese lo scorso anno.",
+      "options": [
+        {
+          "t": "abbia frequentato",
+          "correct": true
+        },
+        {
+          "t": "frequenti",
+          "correct": false
+        },
+        {
+          "t": "avesse frequentato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia frequentato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Non riesco a credere che quei due ___ lo scorso sabato, si conoscono da appena un mese.",
+      "options": [
+        {
+          "t": "si fossero sposati",
+          "correct": false
+        },
+        {
+          "t": "si siano sposati",
+          "correct": true
+        },
+        {
+          "t": "si sposassero",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si siano sposati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Benché ___ in ritardo sono riusciti a prendere il treno per Firenze.",
+      "options": [
+        {
+          "t": "fossero",
+          "correct": true
+        },
+        {
+          "t": "siano",
+          "correct": false
+        },
+        {
+          "t": "fossero stati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fossero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Nonostante ___ non avevano perso il sorriso.",
+      "options": [
+        {
+          "t": "avessero perso",
+          "correct": true
+        },
+        {
+          "t": "perdessero",
+          "correct": false
+        },
+        {
+          "t": "perdano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessero perso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Pensavate davvero che Daniele ___ per gli Stati Uniti?",
+      "options": [
+        {
+          "t": "avesse già partito",
+          "correct": false
+        },
+        {
+          "t": "sia già partito",
+          "correct": false
+        },
+        {
+          "t": "fosse già partito",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fosse già partito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Mi pare che ieri tu mi ___ di andare a fare la spesa, mi sbaglio?",
+      "options": [
+        {
+          "t": "abbia detto",
+          "correct": true
+        },
+        {
+          "t": "dica",
+          "correct": false
+        },
+        {
+          "t": "dicessi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia detto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Malgrado non ___ hanno superato l'esame di lingua tedesca.",
+      "options": [
+        {
+          "t": "avessero studiati",
+          "correct": false
+        },
+        {
+          "t": "avessero studiato",
+          "correct": true
+        },
+        {
+          "t": "studiassero",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessero studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Ritengo che il suo progetto ___ valido e innovativo.",
+      "options": [
+        {
+          "t": "fosse stato",
+          "correct": false
+        },
+        {
+          "t": "sia stata",
+          "correct": false
+        },
+        {
+          "t": "sia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Questa è la pizza più buona che io ___ in vita mia.",
+      "options": [
+        {
+          "t": "abbia mai mangiato",
+          "correct": true
+        },
+        {
+          "t": "mangiassi",
+          "correct": false
+        },
+        {
+          "t": "avessi già mangiato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia mai mangiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 1",
+      "title": "Uses Of The Subjunctive - 1",
+      "prompt": "Sebbene ___ quello spettacolo, è andata a teatro con i suoi amici.",
+      "options": [
+        {
+          "t": "abbia già visto",
+          "correct": false
+        },
+        {
+          "t": "avesse già visto",
+          "correct": true
+        },
+        {
+          "t": "vedesse",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avesse già visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Si diceva che Martina ___ per gli Stati Uniti, ma nessuno ne era certo.",
+      "options": [
+        {
+          "t": "fosse partita",
+          "correct": true
+        },
+        {
+          "t": "partisse",
+          "correct": false
+        },
+        {
+          "t": "partiva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fosse partita\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Penso che tu gli ___ dire la verità.",
+      "options": [
+        {
+          "t": "debba",
+          "correct": true
+        },
+        {
+          "t": "avessi dovuto",
+          "correct": false
+        },
+        {
+          "t": "devi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"debba\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Ero contento che Leo ___ un corso di musica.",
+      "options": [
+        {
+          "t": "abbia frequentato",
+          "correct": false
+        },
+        {
+          "t": "frequenti",
+          "correct": false
+        },
+        {
+          "t": "avesse frequentato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avesse frequentato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Questo è il film più bello che io ___ in vita mia.",
+      "options": [
+        {
+          "t": "veda",
+          "correct": false
+        },
+        {
+          "t": "abbia mai visto",
+          "correct": true
+        },
+        {
+          "t": "ho visto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia mai visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Nonostante ___ in ritardo sono riuscito ad arrivare in tempo per l'inizio del film.",
+      "options": [
+        {
+          "t": "fossi",
+          "correct": true
+        },
+        {
+          "t": "sia",
+          "correct": false
+        },
+        {
+          "t": "fossi stato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fossi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Se io devo fare i compiti, che li ___ anche gli altri.",
+      "options": [
+        {
+          "t": "fanno",
+          "correct": false
+        },
+        {
+          "t": "facciano",
+          "correct": true
+        },
+        {
+          "t": "abbiano fatti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"facciano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Non permetterò mai che mio figlio ___ un tatuaggio.",
+      "options": [
+        {
+          "t": "facesse",
+          "correct": false
+        },
+        {
+          "t": "abbia fatto",
+          "correct": false
+        },
+        {
+          "t": "si faccia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si faccia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Malgrado glielo ___ tante volte, si sono dimenticati di portare il vino.",
+      "options": [
+        {
+          "t": "avessi detto",
+          "correct": true
+        },
+        {
+          "t": "dica",
+          "correct": false
+        },
+        {
+          "t": "dicessi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avessi detto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Potete venire alla festa a patto che ___ qualcosa da bere.",
+      "options": [
+        {
+          "t": "portiate",
+          "correct": true
+        },
+        {
+          "t": "aveste portato",
+          "correct": false
+        },
+        {
+          "t": "portaste",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"portiate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Mi pare che lei ___ molto chiara alla riunione di ieri sera.",
+      "options": [
+        {
+          "t": "fosse stata",
+          "correct": false
+        },
+        {
+          "t": "sia stata",
+          "correct": true
+        },
+        {
+          "t": "sia",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia stata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Antonio pensa che tu l' ___ con un'altro ragazzo.",
+      "options": [
+        {
+          "t": "abbia tradito",
+          "correct": true
+        },
+        {
+          "t": "avessi tradito",
+          "correct": false
+        },
+        {
+          "t": "hai tradito",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbia tradito\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - 2",
+      "title": "Uses Of The Subjunctive - 2",
+      "prompt": "Mi dispiace che tu ___ arrabbiato con me.",
+      "options": [
+        {
+          "t": "sia",
+          "correct": true
+        },
+        {
+          "t": "sia stato",
+          "correct": false
+        },
+        {
+          "t": "fossi stato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Dare spago ___ qualcuno.",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Dare il cinque ___ qualcuno.",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "per",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Essere un pezzo ___ pane.",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "al",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Dire in bocca ___ lupo.",
+      "options": [
+        {
+          "t": "col",
+          "correct": false
+        },
+        {
+          "t": "al",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Avere le orecchie foderate ___ prosciutto.",
+      "options": [
+        {
+          "t": "al",
+          "correct": false
+        },
+        {
+          "t": "di",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Mettere i bastoni ___ le ruote.",
+      "options": [
+        {
+          "t": "sulle",
+          "correct": false
+        },
+        {
+          "t": "tra",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"tra\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Cadere ___ corpo morto.",
+      "options": [
+        {
+          "t": "per",
+          "correct": false
+        },
+        {
+          "t": "a",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Girare ___ vuoto.",
+      "options": [
+        {
+          "t": "in",
+          "correct": false
+        },
+        {
+          "t": "a",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Avere il conto ___ rosso.",
+      "options": [
+        {
+          "t": "sul",
+          "correct": false
+        },
+        {
+          "t": "in",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Stare ___ larga.",
+      "options": [
+        {
+          "t": "sulla",
+          "correct": false
+        },
+        {
+          "t": "alla",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Affogare ___ un bicchiere d’acqua.",
+      "options": [
+        {
+          "t": "su",
+          "correct": false
+        },
+        {
+          "t": "in",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "title": "Prepositions - a/di/per/con/su/tra - Dropdown Exercise",
+      "prompt": "Essere ___ pallone.",
+      "options": [
+        {
+          "t": "del",
+          "correct": false
+        },
+        {
+          "t": "nel",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nel\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Aveva solo bisogno ___ amore.",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "dell'",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "___ amore mi piace la magia degli sguardi.",
+      "options": [
+        {
+          "t": "Dell'",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Dell'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Mettiti subito ___ lavoro.",
+      "options": [
+        {
+          "t": "al",
+          "correct": true
+        },
+        {
+          "t": "a",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Vado ___ lavoro alle 17.30.",
+      "options": [
+        {
+          "t": "a",
+          "correct": false
+        },
+        {
+          "t": "al",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"al\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Parlale ___ modo distaccato.",
+      "options": [
+        {
+          "t": "in",
+          "correct": true
+        },
+        {
+          "t": "nel",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Ho cercato di trattare l'argomento ___ modo piu' distaccato possibile.",
+      "options": [
+        {
+          "t": "in",
+          "correct": false
+        },
+        {
+          "t": "nel",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nel\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Non si trattava ___ amicizia sincera.",
+      "options": [
+        {
+          "t": "di",
+          "correct": true
+        },
+        {
+          "t": "della",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"di\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Il bello ___ amicizia e il sentimento d'affetto reciproco.",
+      "options": [
+        {
+          "t": "dell'",
+          "correct": true
+        },
+        {
+          "t": "di",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dell'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "In quel ristorante ___ molto bene, è indicato in tutte le guide turistiche della città.",
+      "options": [
+        {
+          "t": "si mangia",
+          "correct": true
+        },
+        {
+          "t": "si mangiano",
+          "correct": false
+        },
+        {
+          "t": "è mangiato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si mangia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "Se non ___ bene le strade della città, è facile perdersi.",
+      "options": [
+        {
+          "t": "conosciamo",
+          "correct": false
+        },
+        {
+          "t": "si conosce",
+          "correct": false
+        },
+        {
+          "t": "si conoscono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si conoscono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "In classe ___ stare attenti e seguire la lezione.",
+      "options": [
+        {
+          "t": "ci si deve",
+          "correct": false
+        },
+        {
+          "t": "si deve",
+          "correct": true
+        },
+        {
+          "t": "si dovette",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si deve\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "Quando ___ dei propri errori, è giusto cercare di migliorare.",
+      "options": [
+        {
+          "t": "si è consapevoli",
+          "correct": true
+        },
+        {
+          "t": "ci siamo consapevoli",
+          "correct": false
+        },
+        {
+          "t": "si sa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si è consapevoli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "Nel fine settimana di solito ___ e si ha più tempo libero da dedicare ai propri interessi",
+      "options": [
+        {
+          "t": "ci rilassiamo",
+          "correct": false
+        },
+        {
+          "t": "si ci rilassa",
+          "correct": false
+        },
+        {
+          "t": "ci si rilassa",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci si rilassa\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "prompt": "E’ difficile alzarsi presto la mattina quando ___ a dormire fino a tardi.",
+      "options": [
+        {
+          "t": "si è abituati",
+          "correct": true
+        },
+        {
+          "t": "si è abituato",
+          "correct": false
+        },
+        {
+          "t": "si aveva abituato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si è abituati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "In Inghilterra si (guidare)",
+      "after": "a destra.",
+      "answer": "guida",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "In Italia si (mangiare)",
+      "after": "molti gelati.",
+      "answer": "mangiano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (avere)",
+      "after": "mal di testa, e meglio prendere un’aspirina.",
+      "answer": "ha",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (comprare)",
+      "after": "le rose, bisogna prenderne un numero dispari.",
+      "answer": "comprano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (visitare)",
+      "after": "molte citta, ci si sente padroni del mondo.",
+      "answer": "visitano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (stare)",
+      "after": "in vacanza, e triste tornare a casa.",
+      "answer": "sta",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (essere interrogato)",
+      "after": ", bisogna rispondere alle domande.",
+      "answer": "e interrogati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Quando si (conoscere)",
+      "after": "molta gente, si puo far confusione con i nomi.",
+      "answer": "conosce",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "Se si (essere stato)",
+      "after": "in Spagna, si e probabilmente conosciuto uno spagnolo.",
+      "answer": "e stati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · The Impersonal 'Si'",
+      "title": "The Impersonal 'Si'",
+      "before": "In Germania si (parlare)",
+      "after": "bene sia il tedesco sia l’inglese.",
+      "answer": "parlano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Questo è il tiramisu più buono che io (avere)",
+      "after": "mai mangiato!",
+      "answer": "abbia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Credo che organizzare una festa a sorpresa per Paola (essere)",
+      "after": "un'idea splendida.",
+      "answer": "sia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Non ho dubbi sul fatto che tu (essere)",
+      "after": "un bravissimo guidatore, ma la mia auto non te la presto lo stesso!",
+      "answer": "sia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "A Cinzia è dispiaciuto moltissimo che giovedì scorso tu non (venire)",
+      "after": "a vedere il suo saggio di danza!",
+      "answer": "sia venuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Pensavo che tu (giocare)",
+      "after": "a calcio, per questo ti ho chiesto di insegnarmi qualche trucchetto.",
+      "answer": "giocassi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "E va bene, domani verrò con te a fare shopping, Giulia! Ma a patto che mercoledì tu (guardare)",
+      "after": "la partita della Champions League insieme a me!",
+      "answer": "guardi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Ero convinta che Luca (essere)",
+      "after": "un bravo ragazzo, per questo mi sono stupita quando l'hanno arrestato per furto.",
+      "answer": "fosse",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Elisa può mettere il broncio quanto le pare, ma io non permetterò mai che (farsi)",
+      "after": "un tatuaggio!",
+      "answer": "si faccia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "Non basta che tu (sentirsi)",
+      "after": "in colpa per quello che hai fatto! Devi cercare di rimediare!",
+      "answer": "ti senta",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Uses Of The Subjunctive - Gapfill Exercise",
+      "title": "Uses Of The Subjunctive - Gapfill Exercise",
+      "before": "In paese si diceva che la figlia del panettiere",
+      "after": "essere) incinta, ma io sapevo che non era la verità.",
+      "answer": "fosse",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    }
+  ]
+}

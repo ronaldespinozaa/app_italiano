@@ -33,16 +33,30 @@ la Fase 5 (PWA offline-first) se toma en serio el "100% offline", este módulo n
 solución aparte (¿negociar con el autor una copia de los audios? ¿aceptar que listening quede
 como la única excepción online?) — decisión de producto, no técnica, que todavía no se tomó.
 
-## Fase 3 — Ejercicios interactivos (🟡 13/333 = 4%)
-Los 13 ejercicios ya migrados demuestran que el motor de 4 tipos funciona en los 6 niveles.
-Falta convertir los ~320 restantes del formato legacy (`/free_italian_exercises/*.html`) al
-formato de datos que consume `EXERCISE_QUEUES`.
+## Fase 3 — Ejercicios interactivos (🟢 1151/2065 preguntas reales = 56%, ver detalle)
+El "333" original era un conteo de páginas del inventario inicial, no de preguntas — el total
+real de páginas es ~243 (190 del índice + ~53 alcanzadas siguiendo 6 páginas "hub" de
+conjugación) y el total real de preguntas individuales es 2065. `tools/exercise_scraper.py`
+(2026-08-12) detecta el tipo de cada pregunta por la forma de sus datos (no por qué script
+`bits/*.js` la renderiza) y convierte lo que puede reconocer con certeza:
 
-Cada tipo de ejercicio legacy debe mapearse a uno de los 4 tipos del motor:
-- Selección múltiple / verdadero-falso → ya soportado directamente
-- Rellenar huecos (conjugación, preposiciones, etc.) → tipo `gapfill`
-- Reordenar frase/diálogo → tipo `ordering`
-- Emparejar (no soportado aún) → requiere un 5º tipo de componente nuevo
+| Tipo legacy → tipo del motor | Preguntas | Estado |
+|---|---|---|
+| Selección múltiple (2 o 3 opciones, con `correctArray`) → `mc` | 749 | ✅ migrado y embebido |
+| Rellenar hueco de texto libre → `gapfill` | 396 | ✅ migrado y embebido |
+| Reordenar frase (`wordorder.js` y variantes inline) → `ordering` | 6 | ✅ migrado y embebido |
+| — de las 1151 migradas, 914 no tienen nivel CEFR confirmable por el nombre de archivo | — | 🟡 en `content/exercises-sinnivel.json`, sin embeber — falta asignación manual |
+| Emparejar pares (`newmatching*.js`) | ~123 | ⏳ no soportado — requiere un 5º tipo de componente en el motor (ver `docs/architecture.md` punto 4) |
+| Texto con huecos múltiples en un párrafo (`gappedtext*.js`, ~7 páginas) | no contado por pregunta | ⏳ no soportado — forma de datos distinta (un párrafo con 10-15 huecos, no una pregunta por ítem); requiere partir el párrafo por posición de `<INPUT>` |
+
+El índice de respuesta correcta de cada pregunta migrada se verificó a mano contra el código
+fuente real del motor legacy (`bits/uncountable3.js`, `bits/dropdown.js`) antes de confiar en
+la conversión masiva — y se corrió una verificación automática post-conversión (cada `mc` tiene
+exactamente una opción correcta, cada `gapfill` tiene respuesta no vacía, cada `ordering` quedó
+efectivamente barajado) sobre las 1151 preguntas embebidas. El feedback es genérico (correcto/
+incorrecto + la respuesta correcta), no la explicación pedagógica en español de los 23 ítems
+originales — el sitio no la provee, no se inventó. Detalle completo en
+`tools/exercise-scraper-report.json`.
 
 ## Fase 4 — Apagar WordPress
 Una vez Fases 1-3 estén al 100%, WordPress deja de ser necesario como fuente de contenido.

@@ -1,0 +1,4509 @@
+{
+  "level": "A1",
+  "migrated_at": "2026-08-12",
+  "source_note": "Migrado de /free_italian_exercises/*.html (motor de quiz JS legacy). feedback genérico (no pedagógico) — ver README y docs/roadmap.md Fase 3.",
+  "exercise_content": [
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "___ mia macchina è molto vecchia.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": true
+        },
+        {
+          "t": "Le",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Luca ha trovato ___ lavoro per l'estate.",
+      "options": [
+        {
+          "t": "il",
+          "correct": false
+        },
+        {
+          "t": "una",
+          "correct": false
+        },
+        {
+          "t": "un",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"un\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Simona è ___ nostra migliore insegnante.",
+      "options": [
+        {
+          "t": "il",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        },
+        {
+          "t": "una",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "___ madre di Daniele è molto simpatica.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": true
+        },
+        {
+          "t": "Le",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Ieri sera a Bologna è stato inaugurato ___ nuovo Teatro Comunale.",
+      "options": [
+        {
+          "t": "il",
+          "correct": true
+        },
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Mio fratello ha ___ influenza.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "una",
+          "correct": false
+        },
+        {
+          "t": "l'",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"l'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "___ vostro libro è molto interessante.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": true
+        },
+        {
+          "t": "I",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Signori, posso fare ___ domanda?",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "una",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"una\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "___ venerdi sera di solito esco con i miei amici.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": true
+        },
+        {
+          "t": "La",
+          "correct": false
+        },
+        {
+          "t": "Un",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "___ degli studenti non è italiano.",
+      "options": [
+        {
+          "t": "Un",
+          "correct": false
+        },
+        {
+          "t": "Lo",
+          "correct": false
+        },
+        {
+          "t": "Uno",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Uno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Ti piace ___ zuppa che ho preparato?",
+      "options": [
+        {
+          "t": "il",
+          "correct": false
+        },
+        {
+          "t": "uno",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Definite And Indefinite Articles",
+      "title": "Italian Definite And Indefinite Articles",
+      "prompt": "Ho bevuto ___ bicchiere di vino rosso.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "un",
+          "correct": true
+        },
+        {
+          "t": "lo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"un\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_articoli.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Nella stanza ___ un tavolo.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": true
+        },
+        {
+          "t": "ci sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "___ tanti ragazzi alla festa.",
+      "options": [
+        {
+          "t": "C'è",
+          "correct": false
+        },
+        {
+          "t": "Ci sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ci sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "A Roma ___ sempre molto traffico.",
+      "options": [
+        {
+          "t": "ci sono",
+          "correct": false
+        },
+        {
+          "t": "c'è",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Ti saluto, ___ qualcuno alla porta.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": true
+        },
+        {
+          "t": "ci sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "___ molti esercizi da fare per domani.",
+      "options": [
+        {
+          "t": "Ci sono",
+          "correct": true
+        },
+        {
+          "t": "C'è",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ci sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Nella torta ___ le mele.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": false
+        },
+        {
+          "t": "ci sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Oggi voglio guardare la tv: ___ il mio programma preferito.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": true
+        },
+        {
+          "t": "ci sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "In questo bar ___ il telefono.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": true
+        },
+        {
+          "t": "ci sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "A Venezia ___ sempre molti turisti.",
+      "options": [
+        {
+          "t": "ci sono",
+          "correct": true
+        },
+        {
+          "t": "c'è",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "___ molta gente al mercato il sabato mattina.",
+      "options": [
+        {
+          "t": "Ci sono",
+          "correct": false
+        },
+        {
+          "t": "C'è",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"C'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Purtroppo non ___ il latte per colazione.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": true
+        },
+        {
+          "t": "ci sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"c'è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · There is /are - C'è o ci sono?",
+      "title": "There is /are - C'è o ci sono?",
+      "prompt": "Alla scuola di lingua italiana ___ molti studenti.",
+      "options": [
+        {
+          "t": "c'è",
+          "correct": false
+        },
+        {
+          "t": "ci sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_ce_o_ci_sono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "___ tutto il giorno per l'esame.",
+      "options": [
+        {
+          "t": "Abbiamo studiato",
+          "correct": true
+        },
+        {
+          "t": "Siamo studiati",
+          "correct": false
+        },
+        {
+          "t": "Abbiamo studiati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Abbiamo studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "___ le mie chiavi?",
+      "options": [
+        {
+          "t": "Hai viste",
+          "correct": false
+        },
+        {
+          "t": "Sono vista",
+          "correct": false
+        },
+        {
+          "t": "Hai visto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Hai visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Ieri sera Stefania ___ a casa tardi.",
+      "options": [
+        {
+          "t": "ha tornato",
+          "correct": false
+        },
+        {
+          "t": "è tornata",
+          "correct": true
+        },
+        {
+          "t": "ha tornata",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è tornata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Luigi ___ tardi all'appuntamento.",
+      "options": [
+        {
+          "t": "ha arrivato",
+          "correct": false
+        },
+        {
+          "t": "è arrivato",
+          "correct": true
+        },
+        {
+          "t": "sono arrivato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è arrivato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "___ tante volte a Roma.",
+      "options": [
+        {
+          "t": "Ho stato",
+          "correct": false
+        },
+        {
+          "t": "Abbiamo stato",
+          "correct": false
+        },
+        {
+          "t": "Siamo stati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Siamo stati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Ti ___ che non voglio venire al cinema.",
+      "options": [
+        {
+          "t": "ho detta",
+          "correct": false
+        },
+        {
+          "t": "ho detto",
+          "correct": true
+        },
+        {
+          "t": "sono detto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho detto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Luca e Maria ___ la pizza per cena.",
+      "options": [
+        {
+          "t": "sono mangiati",
+          "correct": false
+        },
+        {
+          "t": "hanno mangiati",
+          "correct": false
+        },
+        {
+          "t": "hanno mangiato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno mangiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Simone ___ a casa mezz'ora fa.",
+      "options": [
+        {
+          "t": "è andato",
+          "correct": true
+        },
+        {
+          "t": "ha andato",
+          "correct": false
+        },
+        {
+          "t": "sono andato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è andato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Tu e tuo figlio ___ un corso di inglese.",
+      "options": [
+        {
+          "t": "avete fatti",
+          "correct": false
+        },
+        {
+          "t": "avete fatto",
+          "correct": true
+        },
+        {
+          "t": "siete fatti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avete fatto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Michele ___ a Bologna.",
+      "options": [
+        {
+          "t": "ha nato",
+          "correct": false
+        },
+        {
+          "t": "è nasciuto",
+          "correct": false
+        },
+        {
+          "t": "è nato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è nato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "I miei amici non ___ lo spettacolo a teatro.",
+      "options": [
+        {
+          "t": "hanno visto",
+          "correct": true
+        },
+        {
+          "t": "sono visti",
+          "correct": false
+        },
+        {
+          "t": "hanno visti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Passato Prossimo",
+      "title": "Passato Prossimo",
+      "prompt": "Ieri ___ tutto il giorno.",
+      "options": [
+        {
+          "t": "ho camminato",
+          "correct": true
+        },
+        {
+          "t": "sono camminato",
+          "correct": false
+        },
+        {
+          "t": "siamo camminati",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho camminato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Ieri sera ___ andato a teatro.",
+      "options": [
+        {
+          "t": "ho",
+          "correct": false
+        },
+        {
+          "t": "sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "___ finito di fare i compiti?",
+      "options": [
+        {
+          "t": "Hai",
+          "correct": true
+        },
+        {
+          "t": "Sei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Hai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "A Roma ___ visitato molti musei.",
+      "options": [
+        {
+          "t": "abbiamo",
+          "correct": true
+        },
+        {
+          "t": "siamo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbiamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Ti ___ detto che ho un nuovo lavoro?",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "ho",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "___ messo la birra in frigorifero.",
+      "options": [
+        {
+          "t": "Sono",
+          "correct": false
+        },
+        {
+          "t": "Ho",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ho\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Giovanni ___ visto un film al cinema.",
+      "options": [
+        {
+          "t": "ha",
+          "correct": true
+        },
+        {
+          "t": "è",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Molti miei amici ___ venuti alla festa.",
+      "options": [
+        {
+          "t": "hanno",
+          "correct": false
+        },
+        {
+          "t": "sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "I miei studenti ___ letto molti libri in italiano.",
+      "options": [
+        {
+          "t": "hanno",
+          "correct": true
+        },
+        {
+          "t": "sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "A Venezia ___ visitato una mostra molto interessante.",
+      "options": [
+        {
+          "t": "ho",
+          "correct": true
+        },
+        {
+          "t": "sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "___ comprato il vino per stasera?",
+      "options": [
+        {
+          "t": "Sei",
+          "correct": false
+        },
+        {
+          "t": "Hai",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Hai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Martina ___ cominciato un corso di portoghese",
+      "options": [
+        {
+          "t": "è",
+          "correct": false
+        },
+        {
+          "t": "ha",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Past Tense with 'essere' or 'avere'?",
+      "title": "Past Tense with 'essere' or 'avere'?",
+      "prompt": "Loro non ___ capito niente della lezione.",
+      "options": [
+        {
+          "t": "hanno",
+          "correct": true
+        },
+        {
+          "t": "sono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_passato_prossimo_essere_o_avere.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Mi ___ molto i libri di James Joyce.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": true
+        },
+        {
+          "t": "piace",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piacciono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Ci ___ andare a cena con i nostri amici.",
+      "options": [
+        {
+          "t": "piace",
+          "correct": true
+        },
+        {
+          "t": "piacciono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "A Daniele ___ molto la musica jazz.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Io torno a casa, non mi ___ questo film.",
+      "options": [
+        {
+          "t": "piace",
+          "correct": true
+        },
+        {
+          "t": "piacciono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Non ti ___ gli spaghetti alla carbonara?",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": true
+        },
+        {
+          "t": "piace",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piacciono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "A Laura ___ andare a letto presto.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Maria va spesso in pasticceria perché le ___ i dolci.",
+      "options": [
+        {
+          "t": "piace",
+          "correct": false
+        },
+        {
+          "t": "piacciono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piacciono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Ai nostri figli ___ molto andare in piscina.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Preferisce cucinare il riso perché non le ___ la pasta.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Non ci ___ studiare la grammatica.",
+      "options": [
+        {
+          "t": "piace",
+          "correct": true
+        },
+        {
+          "t": "piacciono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Alla mia ragazza ___ fare colazione al bar.",
+      "options": [
+        {
+          "t": "piacciono",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Piace or piacciono?",
+      "title": "Piace or piacciono?",
+      "prompt": "Non mi ___ andare al mare: preferisco la montagna.",
+      "options": [
+        {
+          "t": "piace",
+          "correct": true
+        },
+        {
+          "t": "piacciono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_piace_o_piacciono.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "___ sempre con i miei amici il sabato sera.",
+      "options": [
+        {
+          "t": "Uscio",
+          "correct": false
+        },
+        {
+          "t": "Esco",
+          "correct": true
+        },
+        {
+          "t": "Escono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Esco\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Loro ___ sempre le soluzioni più difficili.",
+      "options": [
+        {
+          "t": "scelgo",
+          "correct": false
+        },
+        {
+          "t": "scelgono",
+          "correct": true
+        },
+        {
+          "t": "sceglie",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"scelgono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Ogni mattina noi ___ a scuola a piedi.",
+      "options": [
+        {
+          "t": "vado",
+          "correct": false
+        },
+        {
+          "t": "andate",
+          "correct": false
+        },
+        {
+          "t": "andiamo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andiamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Luigi ___ sempre in ritardo agli appuntamenti.",
+      "options": [
+        {
+          "t": "vengo",
+          "correct": false
+        },
+        {
+          "t": "veniamo",
+          "correct": false
+        },
+        {
+          "t": "viene",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"viene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "___ finire i compiti prima di uscire con i tuoi amici.",
+      "options": [
+        {
+          "t": "Devi",
+          "correct": true
+        },
+        {
+          "t": "Devo",
+          "correct": false
+        },
+        {
+          "t": "Deve",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Devi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Loro non ___ mai cose interessanti.",
+      "options": [
+        {
+          "t": "diciamo",
+          "correct": false
+        },
+        {
+          "t": "dico",
+          "correct": false
+        },
+        {
+          "t": "dicono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dicono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Il ministro ___ una nuova legge elettorale.",
+      "options": [
+        {
+          "t": "propongo",
+          "correct": false
+        },
+        {
+          "t": "propone",
+          "correct": true
+        },
+        {
+          "t": "proponiamo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"propone\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Noi ___ sempre tardi a scuola.",
+      "options": [
+        {
+          "t": "faccio",
+          "correct": false
+        },
+        {
+          "t": "fai",
+          "correct": false
+        },
+        {
+          "t": "facciamo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"facciamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Voi ___ sempre dei consigli molto utili.",
+      "options": [
+        {
+          "t": "do",
+          "correct": false
+        },
+        {
+          "t": "diamo",
+          "correct": false
+        },
+        {
+          "t": "date",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"date\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "___ spesso al ristorante con i miei amici.",
+      "options": [
+        {
+          "t": "Ando",
+          "correct": false
+        },
+        {
+          "t": "Vado",
+          "correct": true
+        },
+        {
+          "t": "Vanno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Vado\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Scusi professore ___ ripetere la domanda?",
+      "options": [
+        {
+          "t": "potete",
+          "correct": false
+        },
+        {
+          "t": "può",
+          "correct": true
+        },
+        {
+          "t": "possono",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"può\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Irregular Verbs",
+      "title": "Present Tense Of Irregular Verbs",
+      "prompt": "Loro non ___ rimanere alla festa.",
+      "options": [
+        {
+          "t": "vogliono",
+          "correct": true
+        },
+        {
+          "t": "voglio",
+          "correct": false
+        },
+        {
+          "t": "volete",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vogliono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_irregolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Paolo e Maria ___ sabato per le vacanze.",
+      "options": [
+        {
+          "t": "partite",
+          "correct": false
+        },
+        {
+          "t": "parte",
+          "correct": false
+        },
+        {
+          "t": "partono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"partono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Giulia ___ sempre sotto la doccia.",
+      "options": [
+        {
+          "t": "canto",
+          "correct": false
+        },
+        {
+          "t": "canta",
+          "correct": true
+        },
+        {
+          "t": "cantate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"canta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Laura non ___ la frutta.",
+      "options": [
+        {
+          "t": "mangia",
+          "correct": true
+        },
+        {
+          "t": "mangio",
+          "correct": false
+        },
+        {
+          "t": "mangiamo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Come ___ le tue serate?",
+      "options": [
+        {
+          "t": "passo",
+          "correct": false
+        },
+        {
+          "t": "passi",
+          "correct": true
+        },
+        {
+          "t": "passa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"passi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Noi ___ sempre ai nostri genitori.",
+      "options": [
+        {
+          "t": "scriviamo",
+          "correct": true
+        },
+        {
+          "t": "scrivete",
+          "correct": false
+        },
+        {
+          "t": "scrivo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"scriviamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "A che ora ___ tua sorella?",
+      "options": [
+        {
+          "t": "arrivi",
+          "correct": false
+        },
+        {
+          "t": "arriviamo",
+          "correct": false
+        },
+        {
+          "t": "arriva",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"arriva\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "La mia fidanzata ___ sempre prima di dormire.",
+      "options": [
+        {
+          "t": "leggo",
+          "correct": false
+        },
+        {
+          "t": "leggono",
+          "correct": false
+        },
+        {
+          "t": "legge",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"legge\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Marco ___ molto bene la chitarra.",
+      "options": [
+        {
+          "t": "suoni",
+          "correct": false
+        },
+        {
+          "t": "suona",
+          "correct": true
+        },
+        {
+          "t": "suonate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"suona\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "I prezzi ___ sempre di più.",
+      "options": [
+        {
+          "t": "aumento",
+          "correct": false
+        },
+        {
+          "t": "aumentiamo",
+          "correct": false
+        },
+        {
+          "t": "aumentano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"aumentano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Chi ___ i piatti stasera?",
+      "options": [
+        {
+          "t": "lavano",
+          "correct": false
+        },
+        {
+          "t": "lavi",
+          "correct": false
+        },
+        {
+          "t": "lava",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"lava\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "Loro ___ l'italiano da molti anni.",
+      "options": [
+        {
+          "t": "studiano",
+          "correct": true
+        },
+        {
+          "t": "studiate",
+          "correct": false
+        },
+        {
+          "t": "studio",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"studiano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Present Tense Of Regular Verbs",
+      "title": "Present Tense Of Regular Verbs",
+      "prompt": "I miei genitori ___ sempre prima delle 20.",
+      "options": [
+        {
+          "t": "mangiamo",
+          "correct": false
+        },
+        {
+          "t": "mangi",
+          "correct": false
+        },
+        {
+          "t": "mangiano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangiano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_regolari.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Paolo e Maria ___ tardi stamattina.",
+      "options": [
+        {
+          "t": "mi sono svegliato",
+          "correct": false
+        },
+        {
+          "t": "ci siamo svegiati",
+          "correct": false
+        },
+        {
+          "t": "si sono svegliati",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si sono svegliati\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Giulia ___ sempre con i suoi amici.",
+      "options": [
+        {
+          "t": "si diverte",
+          "correct": true
+        },
+        {
+          "t": "vi divertite",
+          "correct": false
+        },
+        {
+          "t": "mi diverte",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si diverte\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "A che ora ___ quando vai al lavoro?",
+      "options": [
+        {
+          "t": "vi alza",
+          "correct": false
+        },
+        {
+          "t": "ti alza",
+          "correct": false
+        },
+        {
+          "t": "ti alzi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti alzi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Perché ___ sempre con i vostri figli?",
+      "options": [
+        {
+          "t": "ci arrabbiate",
+          "correct": false
+        },
+        {
+          "t": "vi arrabbiate",
+          "correct": true
+        },
+        {
+          "t": "mi arrabbiate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vi arrabbiate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Noi ___ sempre del tuo compleanno.",
+      "options": [
+        {
+          "t": "ci ricordiamo",
+          "correct": true
+        },
+        {
+          "t": "vi ricordate",
+          "correct": false
+        },
+        {
+          "t": "ci ricordo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci ricordiamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Spesso ___ dopo mezzanotte.",
+      "options": [
+        {
+          "t": "mi addormentiamo",
+          "correct": false
+        },
+        {
+          "t": "ti addormento",
+          "correct": false
+        },
+        {
+          "t": "mi addormento",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mi addormento\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "La mia fidanzata ___ sempre al cinema.",
+      "options": [
+        {
+          "t": "ci annoiamo",
+          "correct": false
+        },
+        {
+          "t": "si annoia",
+          "correct": true
+        },
+        {
+          "t": "si annoio",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si annoia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Marco ___ i capelli due volte al mese.",
+      "options": [
+        {
+          "t": "mi taglio",
+          "correct": false
+        },
+        {
+          "t": "si taglia",
+          "correct": true
+        },
+        {
+          "t": "vi tagliate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si taglia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "La mia collega ___ sempre in modo elegante.",
+      "options": [
+        {
+          "t": "mi veste",
+          "correct": false
+        },
+        {
+          "t": "ci vestiamo",
+          "correct": false
+        },
+        {
+          "t": "si veste",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si veste\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Maria ___ sempre per i suoi figli.",
+      "options": [
+        {
+          "t": "mi preoccupa",
+          "correct": false
+        },
+        {
+          "t": "ci preoccupiamo",
+          "correct": false
+        },
+        {
+          "t": "si preoccupa",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si preoccupa\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Loro ___ da molti anni.",
+      "options": [
+        {
+          "t": "ci conosciamo",
+          "correct": false
+        },
+        {
+          "t": "si conoscono",
+          "correct": true
+        },
+        {
+          "t": "mi conosco",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si conoscono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Reflexive Verbs - Present Tense",
+      "title": "Reflexive Verbs - Present Tense",
+      "prompt": "Appena arriva a casa la mamma ___ a fare le pulizie.",
+      "options": [
+        {
+          "t": "si mette",
+          "correct": true
+        },
+        {
+          "t": "ci metto",
+          "correct": false
+        },
+        {
+          "t": "mi metto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si mette\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_presente_verbi_riflessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Carla è una mia vecchia amica, ___ conosco da molti anni.",
+      "options": [
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "___ ho chiamati per invitarvi a cena.",
+      "options": [
+        {
+          "t": "Ci",
+          "correct": false
+        },
+        {
+          "t": "Vi",
+          "correct": true
+        },
+        {
+          "t": "Mi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Vi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "È tutto il giorno che ___ cerco: dove sei stato?",
+      "options": [
+        {
+          "t": "te",
+          "correct": false
+        },
+        {
+          "t": "ti",
+          "correct": true
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Hai letto i libri che ti ho regalato? Si, ___ ho letti tutti.",
+      "options": [
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"li\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Cucini mai le lasagne? Si, ___ cucino ogni domenica.",
+      "options": [
+        {
+          "t": "le",
+          "correct": true
+        },
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Vai tu a fare la spesa? Si, ___ faccio io quando torno.",
+      "options": [
+        {
+          "t": "la",
+          "correct": true
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Quanto prosciutto vuole signora? ___ voglio due etti.",
+      "options": [
+        {
+          "t": "Lo",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": false
+        },
+        {
+          "t": "Ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "La frutta fa molto bene ma non ___ mangio quasi mai.",
+      "options": [
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Sono molto stanco, ___ puoi aiutare per favore?",
+      "options": [
+        {
+          "t": "ti",
+          "correct": false
+        },
+        {
+          "t": "mi",
+          "correct": true
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "___ conosco tutti i tuoi amici.",
+      "options": [
+        {
+          "t": "Lo",
+          "correct": false
+        },
+        {
+          "t": "La",
+          "correct": false
+        },
+        {
+          "t": "Li",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Li\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Quanti caffé bevi al giorno? ___ bevo solo uno.",
+      "options": [
+        {
+          "t": "Li",
+          "correct": false
+        },
+        {
+          "t": "Lo",
+          "correct": false
+        },
+        {
+          "t": "Ne",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Domani non possiamo venire: ___ ha invitato a pranzo mia madre.",
+      "options": [
+        {
+          "t": "ci",
+          "correct": true
+        },
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ci\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_diretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Quando andrò da mia madre ___ racconterò quello che è successo.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "___ ho chiesto se volevano venire a cena a casa mia.",
+      "options": [
+        {
+          "t": "Gli",
+          "correct": true
+        },
+        {
+          "t": "Li",
+          "correct": false
+        },
+        {
+          "t": "Mi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Marco, ora vado a fare la spesa ___ occorre niente?",
+      "options": [
+        {
+          "t": "te",
+          "correct": false
+        },
+        {
+          "t": "ti",
+          "correct": true
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Hai comprato il regalo ai tuoi nipoti? Si, ___ ho comprato un libro.",
+      "options": [
+        {
+          "t": "gli",
+          "correct": true
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Hai parlato con il tuo capo? Si, ___ ho telefonato questa mattina.",
+      "options": [
+        {
+          "t": "gli",
+          "correct": true
+        },
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Signor Rossi, ___ presento mia moglie.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": true
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Per il compleanno di Eva ___ facciamo una festa a sorpresa.",
+      "options": [
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": true
+        },
+        {
+          "t": "la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Quando torni a casa controlla la posta ___ ho inviato una lettera.",
+      "options": [
+        {
+          "t": "vi",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "ti",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Se ti piace la musica jazz ___ consiglio questo cd.",
+      "options": [
+        {
+          "t": "ti",
+          "correct": true
+        },
+        {
+          "t": "mi",
+          "correct": false
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Vi ho già detto che non ___ posso prestare la macchina!",
+      "options": [
+        {
+          "t": "ci",
+          "correct": false
+        },
+        {
+          "t": "mi",
+          "correct": false
+        },
+        {
+          "t": "vi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Se telefoni alle tue amiche ___ puoi dire di venire alle 20.",
+      "options": [
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "gli",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Indirect Object Pronouns",
+      "title": "Indirect Object Pronouns",
+      "prompt": "Se i miei genitori mi cercano ___ devi dire che sono da Maria",
+      "options": [
+        {
+          "t": "gli",
+          "correct": true
+        },
+        {
+          "t": "li",
+          "correct": false
+        },
+        {
+          "t": "vi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/A1_pronomi_indiretti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "l'arancia -",
+      "after": "",
+      "answer": "le arance",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "il limone -",
+      "after": "",
+      "answer": "i limoni",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "la pesca -",
+      "after": "",
+      "answer": "le pesche",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "il fagiolo -",
+      "after": "",
+      "answer": "i fagioli",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "il pesce -",
+      "after": "",
+      "answer": "i pesci",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "la ciliegia -",
+      "after": "",
+      "answer": "le ciliegie",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "il vino -",
+      "after": "",
+      "answer": "i vini",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "la pera -",
+      "after": "",
+      "answer": "le pere",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "la salsiccia -",
+      "after": "",
+      "answer": "le salsicce",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 1",
+      "title": "Italian Plurals - 1",
+      "before": "il cornetto -",
+      "after": "",
+      "answer": "i cornetti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/Plurale_nomi_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "La settimana prossima Miriam e Alex",
+      "after": "(partire) per un viaggio in Marocco.",
+      "answer": "partono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Iliana",
+      "after": "(scrivere) spesso lettere a Raquel, la sua amica argentina.",
+      "answer": "scrive",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Adriana",
+      "after": "(venire) al lavoro tutti i giorni in bicicletta.",
+      "answer": "viene",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Tu sei molto bravo nella musica:",
+      "after": "(suonare) la chitarra e il pianoforte!",
+      "answer": "suoni",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Tu e Sergio",
+      "after": "(abitare) in una zona molto antica della città.",
+      "answer": "abitate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "La biblioteca non apre prima delle 9.",
+      "after": "(andare – noi) a bere un caffè mentre aspettiamo?",
+      "answer": "Andiamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Ho deciso!",
+      "after": "(vendere -io) la mia macchina e mi compro una bella moto.",
+      "answer": "Vendo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "Alessandra",
+      "after": "(insegnare) italiano e latino in un liceo di Ferrara.",
+      "answer": "insegna",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Other Italian Verbs In The Present Tense",
+      "title": "Other Italian Verbs In The Present Tense",
+      "before": "La settimana prossima",
+      "after": "(uscire) il nuovo album dei Coldplay.",
+      "answer": "esce",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/altri_verbi_al_presente_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Sara e Alina ___ venticinque anni e sono della Bulgaria.",
+      "options": [
+        {
+          "t": "ho",
+          "correct": false
+        },
+        {
+          "t": "hanno",
+          "correct": true
+        },
+        {
+          "t": "ha",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Se ___ sete, bevi un bicchiere d'acqua!",
+      "options": [
+        {
+          "t": "ho",
+          "correct": false
+        },
+        {
+          "t": "ha",
+          "correct": false
+        },
+        {
+          "t": "hai",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Noi non ___ una macchina.",
+      "options": [
+        {
+          "t": "hanno",
+          "correct": false
+        },
+        {
+          "t": "abbiamo",
+          "correct": true
+        },
+        {
+          "t": "ho",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbiamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Voi di dove ___ ?",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "è",
+          "correct": false
+        },
+        {
+          "t": "siete",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"siete\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Mi chiamo Marco e ___ trentadue anni.",
+      "options": [
+        {
+          "t": "hanno",
+          "correct": false
+        },
+        {
+          "t": "ho",
+          "correct": true
+        },
+        {
+          "t": "hai",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ho\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Avere / To Have",
+      "title": "Avere / To Have",
+      "prompt": "Se voi ___ voglia di uscire, andiamo insieme a bere qualcosa.",
+      "options": [
+        {
+          "t": "abbiamo",
+          "correct": false
+        },
+        {
+          "t": "avete",
+          "correct": true
+        },
+        {
+          "t": "hai",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avete\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avere_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "felice",
+      "after": "",
+      "answer": "felicemente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "caldo",
+      "after": "",
+      "answer": "caldamente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "triste",
+      "after": "",
+      "answer": "tristemente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "freddo",
+      "after": "",
+      "answer": "freddamente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "noioso",
+      "after": "",
+      "answer": "noiosamente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "allegro",
+      "after": "",
+      "answer": "allegramente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "leggero",
+      "after": "",
+      "answer": "leggermente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Adverbs with '–mente'",
+      "title": "Adverbs with '–mente'",
+      "before": "pesante",
+      "after": "",
+      "answer": "pesantemente",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/avverbi_in_mente_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Mariarosa e Giovanni",
+      "after": "(andare) ogni estate alla Riserva dello Zingaro.",
+      "answer": "vanno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Quando",
+      "after": "(dormire) troppo mi sento sempre intontito.",
+      "answer": "dormo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "",
+      "after": "(avere, voi) il pranzo a sacco per la gita di domani?",
+      "answer": "Avete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Io e i miei amici",
+      "after": "(organizzare) una festa per festeggiare le nostre lauree.",
+      "answer": "organizziamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Matteo e Monica",
+      "after": "(vivere) insieme da poco tempo.",
+      "answer": "vivono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Il cane di Gabriele",
+      "after": "(amare) molto giocare con i bambini.",
+      "answer": "ama",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Annastella",
+      "after": "(insegnare) con passione ai suoi studenti.",
+      "answer": "insegna",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Noi",
+      "after": "(pulire) il nostro appartamento una volta alla settimana.",
+      "answer": "puliamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Giovanni e Carlo non",
+      "after": "(capire) cosa devono fare a lavoro.",
+      "answer": "capiscono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Present Tense In Italian",
+      "title": "The Present Tense In Italian",
+      "before": "Quando non abbiamo voglia di uscire stiamo a casa e",
+      "after": "(avere, voi) il pranzo a sacco per la gita di domani?",
+      "answer": "avete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Il tuo cellulare è",
+      "after": "tua borsa.",
+      "answer": "nella",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Marco è andato al cinema",
+      "after": "Paolo e Francesca.",
+      "answer": "con",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Il televisore si trova",
+      "after": "tavolo.",
+      "answer": "sul",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Firenze si trova",
+      "after": "Roma e Milano.",
+      "answer": "tra",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Ieri sono andata",
+      "after": "Lucia e abbiamo mangiato i pop corn.",
+      "answer": "da",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Ci vediamo",
+      "after": "bar.",
+      "answer": "al",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Il gatto si trova",
+      "after": "divano.",
+      "answer": "sul",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "La sua fidanzata si è affacciata",
+      "after": "finestra.",
+      "answer": "alla",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "L’orologio è appeso",
+      "after": "muro.",
+      "answer": "al",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Prepositions",
+      "title": "Prepositions",
+      "before": "Ho comprato i gioielli",
+      "after": "gioielleria.",
+      "answer": "in",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/esercizi_a1_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "Mi chiamo Irina e ___ russa.",
+      "options": [
+        {
+          "t": "è",
+          "correct": false
+        },
+        {
+          "t": "sono",
+          "correct": true
+        },
+        {
+          "t": "siamo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "La scuola Madrelingua ___ in via S.Giorgio n.6.",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "siete",
+          "correct": false
+        },
+        {
+          "t": "è",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "Noi ___ italiani.",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "siamo",
+          "correct": true
+        },
+        {
+          "t": "sei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"siamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "Voi di dove ___ ?",
+      "options": [
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "è",
+          "correct": false
+        },
+        {
+          "t": "siete",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"siete\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "Ana e Raquel ___ due ragazze spagnole.",
+      "options": [
+        {
+          "t": "sono",
+          "correct": true
+        },
+        {
+          "t": "siamo",
+          "correct": false
+        },
+        {
+          "t": "sei",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Essere / To Be",
+      "title": "Essere / To Be",
+      "prompt": "Parigi ___ la capitale della Francia.",
+      "options": [
+        {
+          "t": "sei",
+          "correct": false
+        },
+        {
+          "t": "sono",
+          "correct": false
+        },
+        {
+          "t": "è",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/essere_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Oggi Claudia ha cominciato una nuova dieta dimagrante",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Oggi Francesco è partito per un viaggio in Brasile",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Stefania ha preparato una torta buonissima per il mio compleanno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Mio cugino è arrivato a Milano con il treno delle 15:28",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Federica Pellegrini ha vinto anche quest'anno la medaglia d'oro agli Europei di nuoto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Rocco ha comprato i biglietti per il concerto di domani sera",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Past Tense",
+      "title": "The Past Tense",
+      "before": "",
+      "after": ".",
+      "answer": "Abbiamo alloggiato all'Hotel Fabrizi, sul lungomare di Rimini.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1(2).html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Laura",
+      "after": "(scegliere) di studiare in Belgio invece che in Italia.",
+      "answer": "ha scelto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Io e Sandro",
+      "after": "(vivere) insieme a Padova per cinque anni.",
+      "answer": "abbiamo vissuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "",
+      "after": "(voi – vedere) l'ultimo film di Quentin Tarantino?",
+      "answer": "Avete visto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Questo pomeriggio Sara e Lisa",
+      "after": "(cercare) un bel regalo per Simonetta.",
+      "answer": "hanno cercato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Toni mi",
+      "after": "(raccontare) del suo viaggio in Bolivia.",
+      "answer": "ha raccontato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "La scorsa estate i miei parenti del Canada",
+      "after": "(venire) a trovarci.",
+      "answer": "sono venuti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Il mio fratellino",
+      "after": "(rompere) la lampada preferita di mia mamma.",
+      "answer": "ha rotto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Ettore",
+      "after": "(partire) per la Calabria.",
+      "answer": "è partito",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "Hai letto il libro che ti",
+      "after": "(io - regalare) a Natale?",
+      "answer": "ho regalato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Conjugate The Past Tense",
+      "title": "Conjugate The Past Tense",
+      "before": "I miei genitori",
+      "after": "(decidere) di comprare un'automobile nuova.",
+      "answer": "hanno deciso",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "la lasagna -",
+      "after": "",
+      "answer": "le lasagne",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "il tè -",
+      "after": "",
+      "answer": "i tè",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "l'uovo -",
+      "after": "",
+      "answer": "le uova",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "lo spaghetto -",
+      "after": "",
+      "answer": "gli spaghetti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "il gelato -",
+      "after": "",
+      "answer": "i gelati",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "la torta -",
+      "after": "",
+      "answer": "le torte",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "il toast -",
+      "after": "",
+      "answer": "i toast",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "il pollo -",
+      "after": "",
+      "answer": "i polli",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "il caffé -",
+      "after": "",
+      "answer": "i caffé",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 2",
+      "title": "Italian Plurals - 2",
+      "before": "la carne -",
+      "after": "",
+      "answer": "le carni",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi2_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la fragola -",
+      "after": "",
+      "answer": "le fragole",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "lo spumante -",
+      "after": "",
+      "answer": "gli spumanti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la spremuta -",
+      "after": "",
+      "answer": "le spremute",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la tagliatella -",
+      "after": "",
+      "answer": "le tagliatelle",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "il dessert -",
+      "after": "",
+      "answer": "i dessert",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la farina -",
+      "after": "",
+      "answer": "le farine",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "l'oliva -",
+      "after": "",
+      "answer": "le olive",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la patata -",
+      "after": "",
+      "answer": "le patate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "la zucca -",
+      "after": "",
+      "answer": "le zucche",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · Italian Plurals - 3",
+      "title": "Italian Plurals - 3",
+      "before": "l'acqua -",
+      "after": "",
+      "answer": "le acque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/plurale_nomi3_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Lui ___ Giovanni.",
+      "options": [
+        {
+          "t": "mi chiamo",
+          "correct": false
+        },
+        {
+          "t": "ti chiami",
+          "correct": false
+        },
+        {
+          "t": "si chiama",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"si chiama\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Io ___ sempre pane e nutella.",
+      "options": [
+        {
+          "t": "mangiamo",
+          "correct": false
+        },
+        {
+          "t": "mangio",
+          "correct": true
+        },
+        {
+          "t": "mangia",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangio\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "I miei amici ___ tutte le sere.",
+      "options": [
+        {
+          "t": "escono",
+          "correct": true
+        },
+        {
+          "t": "usciamo",
+          "correct": false
+        },
+        {
+          "t": "esce",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"escono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Io e la mia famiglia ___ a Parigi.",
+      "options": [
+        {
+          "t": "andiamo",
+          "correct": true
+        },
+        {
+          "t": "vanno",
+          "correct": false
+        },
+        {
+          "t": "vado",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andiamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "La mia insegnante non ___ molto.",
+      "options": [
+        {
+          "t": "viaggi",
+          "correct": false
+        },
+        {
+          "t": "viaggiate",
+          "correct": false
+        },
+        {
+          "t": "viaggia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"viaggia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Mio fratello ___ ingegneria.",
+      "options": [
+        {
+          "t": "studio",
+          "correct": false
+        },
+        {
+          "t": "studiamo",
+          "correct": false
+        },
+        {
+          "t": "studia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"studia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Loro ___ cucinare molto bene.",
+      "options": [
+        {
+          "t": "sapete",
+          "correct": false
+        },
+        {
+          "t": "so",
+          "correct": false
+        },
+        {
+          "t": "sanno",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sanno\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Tu ___ venire a casa mia.",
+      "options": [
+        {
+          "t": "puoi",
+          "correct": true
+        },
+        {
+          "t": "può",
+          "correct": false
+        },
+        {
+          "t": "posso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"puoi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "I miei nonni ___ in montagna.",
+      "options": [
+        {
+          "t": "abiti",
+          "correct": false
+        },
+        {
+          "t": "abitate",
+          "correct": false
+        },
+        {
+          "t": "abitano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abitano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Voi non ___ inglese.",
+      "options": [
+        {
+          "t": "parli",
+          "correct": false
+        },
+        {
+          "t": "parlano",
+          "correct": false
+        },
+        {
+          "t": "parlate",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"parlate\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Maria e Luigi ___ la chitarra.",
+      "options": [
+        {
+          "t": "suoni",
+          "correct": false
+        },
+        {
+          "t": "suonano",
+          "correct": true
+        },
+        {
+          "t": "suonate",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"suonano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Italian Present Tense Exercise",
+      "title": "Italian Present Tense Exercise",
+      "prompt": "Gianna, ___ a fare la spesa?",
+      "options": [
+        {
+          "t": "va",
+          "correct": false
+        },
+        {
+          "t": "vanno",
+          "correct": false
+        },
+        {
+          "t": "vai",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vai\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_indicativo_A1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Vorrei un paio di scarpe nuove e ___ vorrei rosse.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": true
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Vai tu a comprare il pane? Si, ___ compro quando esco dal lavoro.",
+      "options": [
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "gli",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"lo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "I libri di Italo Calvino sono bellissimi, ___ hai mai letto qualcuno?",
+      "options": [
+        {
+          "t": "ne",
+          "correct": true
+        },
+        {
+          "t": "i",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Sandro è molto simpatico, ___ conosco da molti anni.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"lo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Hai saputo di Sara? No, non ___ vedo da mesi.",
+      "options": [
+        {
+          "t": "la",
+          "correct": true
+        },
+        {
+          "t": "le",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Mi hanno regalato delle arance, ma sono troppe per me ___ vuoi un po'?",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "ne",
+          "correct": true
+        },
+        {
+          "t": "le",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Domani usciamo con Marco e Loris. Che bello, non ___ vedo da un anno!",
+      "options": [
+        {
+          "t": "lo",
+          "correct": false
+        },
+        {
+          "t": "gli",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"li\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "La verdura fa bene alla salute, ma non ___ mangio mai.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "ne",
+          "correct": true
+        },
+        {
+          "t": "le",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ne\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "Tuo figlio ___ vedo tutte le settimane in piscina.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": false
+        },
+        {
+          "t": "lo",
+          "correct": true
+        },
+        {
+          "t": "la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"lo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A1 · Direct Object Pronouns",
+      "title": "Direct Object Pronouns",
+      "prompt": "I mandarini non ___ mangio mai. Non mi piacciono proprio.",
+      "options": [
+        {
+          "t": "ne",
+          "correct": false
+        },
+        {
+          "t": "li",
+          "correct": true
+        },
+        {
+          "t": "i",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"li\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronomi_diretti_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "Tutti dicono che a Bologna",
+      "after": "(mangiare) molto bene.",
+      "answer": "si mangia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "Non",
+      "after": "(chiedere) mai l'età ad una signora.",
+      "answer": "si chiede",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "I vini bianchi",
+      "after": "(bere) sempre freddi.",
+      "answer": "si bevono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "Non",
+      "after": "(uscire) di casa in macchina quando nevica.",
+      "answer": "si esce",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "L'uva",
+      "after": "(raccogliere) a settembre.",
+      "answer": "si raccoglie",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "In campagna",
+      "after": "(dormire) molto bene, perché non ci sono i rumori della città.",
+      "answer": "si dorme",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "In treno",
+      "after": "(viaggiare) più comodi che in aereo.",
+      "answer": "si viaggia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A1 · The Impersonal Form With 'Si'",
+      "title": "The Impersonal Form With 'Si'",
+      "before": "Oggi",
+      "after": "(pubblicare) molti più libri che in passato.",
+      "answer": "si pubblicano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_a1.html"
+    }
+  ]
+}
