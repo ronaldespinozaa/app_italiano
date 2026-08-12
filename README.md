@@ -15,6 +15,7 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Gramática — texto real (82 explicaciones) | ✅ 82/82 (100%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`) |
 | Listening (175 audios reales + transcripciones) | ✅ 175/175 migrado (vía `listening-scraper.go`) — audio real por streaming desde SoundCloud, no offline (ver `docs/architecture.md` decisión 7) |
 | Ejercicios interactivos | ✅ 2193 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 2170 migrados de `/free_italian_exercises/*.html`, 237/237 páginas convertibles). 100% con nivel CEFR asignado — ver detalle abajo |
+| Apagar WordPress (Fase 4) | ✅ Completo — con las 4 fases de arriba al 100%, la app no depende de WordPress para nada. `tools/level-content-service.go` (arquitectura alternativa descartada) archivado en `tools/archive/` |
 
 ### Cobertura real de gramática por nivel
 
@@ -122,9 +123,18 @@ tools/
                            bajar texto (ver docstring del archivo).
                            Escribe content/exercises-<nivel>.json + un reporte de qué
                            se omitió y por qué. USO: python3 tools/exercise_scraper.py
-  level-content-service.go  Microservicio HTTP de ejemplo (cachea contenido por nivel).
-                             Su rol quedó obsoleto tras decidir migración estática — se
-                             conserva como referencia de arquitectura alternativa.
+  exercise_level_classification.py  Registro del criterio usado para clasificar a mano las
+                           938 preguntas de content/exercises-sinnivel.json que quedaron sin
+                           nivel CEFR por nombre de archivo (drills de conjugación verbal
+                           sobre todo). No es una herramienta para re-correr — es la
+                           documentación de la decisión, ya aplicada.
+
+  archive/
+    level-content-service.go  Microservicio HTTP de ejemplo (cachea contenido por nivel de
+                               la REST API de WordPress). Archivado en la Fase 4 del roadmap
+                               — la app ya no depende de WordPress para nada; se conserva
+                               como referencia de la arquitectura alternativa que se descartó
+                               (ver docs/architecture.md decisión 3).
 
 migration-log/
   log.json                Registro de problemas encontrados durante la migración manual.
@@ -156,10 +166,21 @@ docs/
    clasificaron a mano, página por página (criterio y detalle en `migration-log/log.json`), y se
    embebieron. Total: **2193 preguntas reales en `EXERCISE_QUEUES`** (23 curadas + 2170
    migradas), 100% con nivel asignado. `content/exercises-sinnivel.json` quedó vacío.
-4. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) cuando
-   el contenido esté más completo — ver `docs/roadmap.md`, fase 6. El módulo de listening
-   necesitará resolver su dependencia de internet (SoundCloud) antes de poder llamarse
-   "100% offline" — ver decisión 7 en `docs/architecture.md`.
+4. ~~Apagar WordPress~~ — **hecho el 2026-08-12**: con las Fases 1-3 al 100%, la app no
+   depende de WordPress para nada. `tools/level-content-service.go` (arquitectura
+   alternativa descartada) se archivó en `tools/archive/` con una nota explicando por qué.
+   El sitio real (`onlineitalianclub.com`) sigue en línea de forma independiente — esto solo
+   significa que la app no lo necesita.
+5. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) — ver
+   `docs/roadmap.md`, fase 5. El módulo de listening necesitará resolver su dependencia de
+   internet (SoundCloud) antes de poder llamarse "100% offline" — ver decisión 7 en
+   `docs/architecture.md`. Este es el próximo bloque de trabajo natural: con contenido
+   (gramática, listening, ejercicios) al 100%, el prototipo ya no tiene excusa para no ser
+   instalable y persistir progreso.
+6. Motor Go→WASM (`wasmapp/`): tiene los 4 tipos de ejercicio + progreso persistido en
+   `localStorage` funcionando, pero vive aparte en `wasmapp/demo.html` — nunca se integró al
+   `prototype/index.html` real. Es un candidato natural para converger con la Fase 5 (el
+   progreso persistente que da `IndexedDB` ahí es justo lo que la PWA necesita).
 
 ## Principio de honestidad de datos
 

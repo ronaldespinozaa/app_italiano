@@ -1,3 +1,16 @@
+// ARCHIVADO 2026-08-12 (Fase 4 del roadmap, "Apagar WordPress") — no se usa
+// en el proyecto. Se conserva como referencia de la arquitectura alternativa
+// que se consideró y se descartó (ver docs/architecture.md, decisión 3):
+// microservicio que consulta la REST API de WordPress en vivo, con caché en
+// memoria, en vez de migrar el contenido una sola vez a JSON estático. Con
+// las Fases 1-3 completas (gramática, listening y ejercicios 100% migrados
+// a content/*.json y embebidos en prototype/index.html), WordPress ya no es
+// necesaria como fuente de contenido para la app — puede apagarse sin romper
+// nada. Este archivo nunca llegó a correr contra un WordPress real con las
+// taxonomías de nivel que necesita (ver nota original abajo); quedó como
+// prueba de concepto de la arquitectura descartada, no como código en uso.
+//
+// ---- comentario original ----
 // Microservicio de ejemplo: sirve contenido de OnlineItalianClub.com
 // ya filtrado por nivel CEFR, cacheado en memoria para no pegarle
 // a WordPress en cada request de la app móvil.

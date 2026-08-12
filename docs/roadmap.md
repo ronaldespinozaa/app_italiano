@@ -71,10 +71,20 @@ efectivamente barajado, cada `matching` no tiene parejas duplicadas del lado der
 no la explicación pedagógica en español de los 23 ítems originales — el sitio no la provee, no
 se inventó. Detalle completo en `tools/exercise-scraper-report.json`.
 
-## Fase 4 — Apagar WordPress
-Una vez Fases 1-3 estén al 100%, WordPress deja de ser necesario como fuente de contenido.
-`tools/level-content-service.go` (el microservicio que consultaba la REST API) queda obsoleto
-y puede archivarse — la decisión de arquitectura fue migración estática, no proxy en vivo.
+## Fase 4 — Apagar WordPress (✅ completa, 2026-08-12)
+Con Fases 1-3 al 100% (gramática, listening y ejercicios migrados a `content/*.json` y
+embebidos en `prototype/index.html`), WordPress deja de ser necesario como fuente de
+contenido para la app. `tools/level-content-service.go` (el microservicio que consultaba la
+REST API) quedó obsoleto y se archivó en `tools/archive/` con una nota explicando por qué —
+nunca llegó a correr contra un WordPress real con las taxonomías de nivel que necesitaba, era
+una prueba de concepto de la arquitectura alternativa que se descartó (ver `docs/architecture.md`
+decisión 3).
+
+Importante: "apagar WordPress" acá significa que **la app no lo necesita**, no que se haya
+apagado el sitio real (`onlineitalianclub.com` sigue siendo la fuente de donde se migró todo, y
+sigue en línea de forma independiente a este proyecto). El único módulo que todavía depende de
+que algo externo esté disponible en tiempo real es Listening, y no de WordPress sino de
+SoundCloud (ver Fase 2 arriba y `docs/architecture.md` decisión 7).
 
 ## Fase 5 — PWA instalable
 Convertir `prototype/index.html` en una PWA real:
