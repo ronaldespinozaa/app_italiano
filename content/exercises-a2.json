@@ -1899,6 +1899,4237 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/verbo_pronominale_andarsene_a2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "___ migliore amico si chiama Giuseppe.",
+      "options": [
+        {
+          "t": "Mi",
+          "correct": false
+        },
+        {
+          "t": "Mio",
+          "correct": false
+        },
+        {
+          "t": "Il mio",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il mio\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Ragazzi, dov'è ___ insegnante?",
+      "options": [
+        {
+          "t": "vostra",
+          "correct": false
+        },
+        {
+          "t": "la vostra",
+          "correct": true
+        },
+        {
+          "t": "la tua",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la vostra\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "___ madre lavora come infermiera.",
+      "options": [
+        {
+          "t": "Mia",
+          "correct": true
+        },
+        {
+          "t": "La mia",
+          "correct": false
+        },
+        {
+          "t": "Ma",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Mia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "___ nonni vivono in Francia.",
+      "options": [
+        {
+          "t": "I nostri",
+          "correct": true
+        },
+        {
+          "t": "Noi",
+          "correct": false
+        },
+        {
+          "t": "Nostri",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"I nostri\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Per favore, mi presti ___ gomma?",
+      "options": [
+        {
+          "t": "tua",
+          "correct": false
+        },
+        {
+          "t": "la vostra",
+          "correct": false
+        },
+        {
+          "t": "la tua",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la tua\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Oggi vado a pranzo dai ___ cugini.",
+      "options": [
+        {
+          "t": "i nostri",
+          "correct": false
+        },
+        {
+          "t": "i miei",
+          "correct": false
+        },
+        {
+          "t": "miei",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"miei\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Marco e Lucia sono usciti, non c'è ___ macchina.",
+      "options": [
+        {
+          "t": "loro",
+          "correct": false
+        },
+        {
+          "t": "vostra",
+          "correct": false
+        },
+        {
+          "t": "la loro",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la loro\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "___ zia è simpaticissima. Devi conoscerla!",
+      "options": [
+        {
+          "t": "Mia",
+          "correct": true
+        },
+        {
+          "t": "La mia",
+          "correct": false
+        },
+        {
+          "t": "Ma",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Mia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "___ compagno è italiano, ma è nato in Svizzera.",
+      "options": [
+        {
+          "t": "Lo suo",
+          "correct": false
+        },
+        {
+          "t": "Suo",
+          "correct": false
+        },
+        {
+          "t": "Il suo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il suo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Ho visto ___ sorellina. E' bellissima!",
+      "options": [
+        {
+          "t": "tua",
+          "correct": false
+        },
+        {
+          "t": "tia",
+          "correct": false
+        },
+        {
+          "t": "la tua",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la tua\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Signora, potrebbe darmi ___ penna per favore?.",
+      "options": [
+        {
+          "t": "Sua",
+          "correct": false
+        },
+        {
+          "t": "La Sua",
+          "correct": true
+        },
+        {
+          "t": "La tua",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La Sua\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Possessive Adjectives",
+      "title": "Possessive Adjectives",
+      "prompt": "Io adoro ___ famiglia!",
+      "options": [
+        {
+          "t": "mia",
+          "correct": false
+        },
+        {
+          "t": "mi",
+          "correct": false
+        },
+        {
+          "t": "la mia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la mia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettivi_possessivi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Tu (volere)",
+      "after": "una casa al mare",
+      "answer": "vorresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "La mia amica (venire)",
+      "after": "con me alla festa",
+      "answer": "verrebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "I miei nonni non (viaggiare)",
+      "after": "in aereo",
+      "answer": "viaggerebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Il mio fidanzato si (sposare)",
+      "after": "subito, ma io no",
+      "answer": "sposerebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Stasera (mangiare)",
+      "after": "volentieri una pizza",
+      "answer": "mangerei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Voi non (fare)",
+      "after": "mai quello che abbiamo fatto noi",
+      "answer": "fareste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Io e i miei amici (potere)",
+      "after": "venire da voi!",
+      "answer": "potremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Che ne (dire)",
+      "after": "di venire a casa mia? Ti piace l'idea?",
+      "answer": "diresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Io (proporre)",
+      "after": "una serata al pub irlandese!",
+      "answer": "proporrei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Conditional Present Tense",
+      "title": "Conditional Present Tense",
+      "before": "Mi (alzare)",
+      "after": "prima, ma non ho la sveglia",
+      "answer": "alzerei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Io non",
+      "after": "da sola, devi aiutarmi.",
+      "answer": "ce la faccio",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Michael Jackson non",
+      "after": "è morto.",
+      "answer": "ce l'ha fatta",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Da piccola",
+      "after": "adesso non ce la faccio più.",
+      "answer": "ce la facevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Un bambino non",
+      "after": "a alzare 120 chili.",
+      "answer": "ce la fa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Se ti piace il mare non",
+      "after": "a vivere in montagna.",
+      "answer": "ce la fai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Ieri",
+      "after": "abbiamo vinto!",
+      "answer": "ce l'abbiamo fatta",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Loro non",
+      "after": "a mangiare pasta tutti i giorni.",
+      "answer": "ce la fanno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Voi",
+      "after": "e noi no!",
+      "answer": "ce l'avete fatta",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Noi non",
+      "after": "più! C'è troppo rumore!",
+      "answer": "ce la facciamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Farcela - 1",
+      "title": "Farcela - 1",
+      "before": "Hanno cambiato casa perchè non",
+      "after": "a vivere lì.",
+      "answer": "ce la facevano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/farcela.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Lucia, ___ di più!.",
+      "options": [
+        {
+          "t": "studia",
+          "correct": true
+        },
+        {
+          "t": "studi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"studia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Dottore, mi ___ delle aspirine.",
+      "options": [
+        {
+          "t": "da'",
+          "correct": false
+        },
+        {
+          "t": "dia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Non ___ lo stupido, amore!",
+      "options": [
+        {
+          "t": "fare",
+          "correct": true
+        },
+        {
+          "t": "faccia",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"fare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Piero, ___ zitto!",
+      "options": [
+        {
+          "t": "sta'",
+          "correct": true
+        },
+        {
+          "t": "stia",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sta'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Mi ___ , può dirmi dov'è la stazione?",
+      "options": [
+        {
+          "t": "scusa",
+          "correct": false
+        },
+        {
+          "t": "scusi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"scusi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "___ una firma qui, signor Rossi.",
+      "options": [
+        {
+          "t": "Metta",
+          "correct": true
+        },
+        {
+          "t": "Metti",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Metta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Professore, mi ___ un libro da leggere.",
+      "options": [
+        {
+          "t": "consiglia",
+          "correct": false
+        },
+        {
+          "t": "consigli",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"consigli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Papà, ___ la coca cola.",
+      "options": [
+        {
+          "t": "compra",
+          "correct": true
+        },
+        {
+          "t": "compri",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"compra\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Non ___ troppo, altrimenti ingrassi.",
+      "options": [
+        {
+          "t": "mangiare",
+          "correct": true
+        },
+        {
+          "t": "mangi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangiare\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Antonio, ___ Alessandra, non ti dimenticare!",
+      "options": [
+        {
+          "t": "chiama",
+          "correct": true
+        },
+        {
+          "t": "chiami",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"chiama\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Direttore, non si ___ di scrivermi una mail.",
+      "options": [
+        {
+          "t": "dimentichi",
+          "correct": true
+        },
+        {
+          "t": "dimenticare",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dimentichi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Formal Or Informal Imperative?",
+      "title": "Formal Or Informal Imperative?",
+      "prompt": "Nicola, ___ via subito!",
+      "options": [
+        {
+          "t": "va'",
+          "correct": true
+        },
+        {
+          "t": "vada",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"va'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperativo_formale_informale.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "___ della camicia è troppo corta.",
+      "options": [
+        {
+          "t": "La manica",
+          "correct": true
+        },
+        {
+          "t": "Il manico",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La manica\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "___ della tua scarpa si è scollata.",
+      "options": [
+        {
+          "t": "Il suolo",
+          "correct": false
+        },
+        {
+          "t": "La suola",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La suola\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Massaggiare ___ del piede è rilassante.",
+      "options": [
+        {
+          "t": "la pianta",
+          "correct": true
+        },
+        {
+          "t": "il pianto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la pianta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "E' caduto a causa di ___ sulla strada.",
+      "options": [
+        {
+          "t": "una buca",
+          "correct": true
+        },
+        {
+          "t": "un buco",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"una buca\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Devi arrivare fino ___ della strada e poi girare.",
+      "options": [
+        {
+          "t": "al fine",
+          "correct": false
+        },
+        {
+          "t": "alla fine",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla fine\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "___ di camminare rivela il carattere di una persona.",
+      "options": [
+        {
+          "t": "Il modo",
+          "correct": true
+        },
+        {
+          "t": "La moda",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il modo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "___ della spesa è molto pesante.",
+      "options": [
+        {
+          "t": "Il busto",
+          "correct": false
+        },
+        {
+          "t": "La busta",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"La busta\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Mi piace molto la torta con ___ e il cioccolato.",
+      "options": [
+        {
+          "t": "la panna",
+          "correct": true
+        },
+        {
+          "t": "il panno",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la panna\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Mi ha ferito ___ con un sasso.",
+      "options": [
+        {
+          "t": "il fronte",
+          "correct": false
+        },
+        {
+          "t": "la fronte",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la fronte\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "___ di una bottiglia di vino è spesso di sughero.",
+      "options": [
+        {
+          "t": "Il tappo",
+          "correct": true
+        },
+        {
+          "t": "La tappa",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il tappo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Al centro della foto c'è ___ di un fiore.",
+      "options": [
+        {
+          "t": "il gambo",
+          "correct": true
+        },
+        {
+          "t": "la gamba",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il gambo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Masculine Or Feminine?",
+      "title": "Masculine Or Feminine?",
+      "prompt": "Roma è ___ dell' Italia.",
+      "options": [
+        {
+          "t": "la capitale",
+          "correct": true
+        },
+        {
+          "t": "il capitale",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la capitale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "dio",
+      "after": "",
+      "answer": "dea",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "celibe",
+      "after": "",
+      "answer": "nubile",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "stregone",
+      "after": "",
+      "answer": "strega",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "montone",
+      "after": "",
+      "answer": "pecora",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "toro",
+      "after": "",
+      "answer": "vacca",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "eroe",
+      "after": "",
+      "answer": "eroina",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "maiale",
+      "after": "",
+      "answer": "scrofa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "scapolo",
+      "after": "",
+      "answer": "zitella",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "caprone",
+      "after": "",
+      "answer": "capra",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Nouns",
+      "title": "Irregular Nouns",
+      "before": "cane",
+      "after": "",
+      "answer": "cagna",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "dire",
+      "after": "",
+      "answer": "detto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "fare",
+      "after": "",
+      "answer": "fatto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "essere",
+      "after": "",
+      "answer": "stato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "decidere",
+      "after": "",
+      "answer": "deciso",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "vedere",
+      "after": "",
+      "answer": "visto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "nascere",
+      "after": "",
+      "answer": "nato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "venire",
+      "after": "",
+      "answer": "venuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "leggere",
+      "after": "",
+      "answer": "letto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "piacere",
+      "after": "",
+      "answer": "piaciuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "spendere",
+      "after": "",
+      "answer": "speso",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "chiedere",
+      "after": "",
+      "answer": "chiesto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 1",
+      "title": "Irregular Past Participles - 1",
+      "before": "scrivere",
+      "after": "",
+      "answer": "scritto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "bere",
+      "after": "",
+      "answer": "bevuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "vivere",
+      "after": "",
+      "answer": "vissuto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "scegliere",
+      "after": "",
+      "answer": "scelto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "succedere",
+      "after": "",
+      "answer": "successo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "chiudere",
+      "after": "",
+      "answer": "chiuso",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "prendere",
+      "after": "",
+      "answer": "preso",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "rimanere",
+      "after": "",
+      "answer": "rimasto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "rispondere",
+      "after": "",
+      "answer": "risposto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "aprire",
+      "after": "",
+      "answer": "aperto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "mettere",
+      "after": "",
+      "answer": "messo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "spegnere",
+      "after": "",
+      "answer": "spento",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Past Participles - 2",
+      "title": "Irregular Past Participles - 2",
+      "before": "morire",
+      "after": "",
+      "answer": "morto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/participio_passato_irregolare_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Giovanni ___ a Milano.",
+      "options": [
+        {
+          "t": "è nato",
+          "correct": true
+        },
+        {
+          "t": "nasceva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è nato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Juan ___ per molti anni a Napoli.",
+      "options": [
+        {
+          "t": "viveva",
+          "correct": false
+        },
+        {
+          "t": "ha vissuto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha vissuto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Mia zia ___ sempre la pasta fatta in casa.",
+      "options": [
+        {
+          "t": "faceva",
+          "correct": true
+        },
+        {
+          "t": "ha fatto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"faceva\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Matteo ___ fino a 30 anni con i suoi genitori.",
+      "options": [
+        {
+          "t": "ha abitato",
+          "correct": true
+        },
+        {
+          "t": "abitava",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha abitato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Mauro è andato via da Firenze quando ___ sette anni.",
+      "options": [
+        {
+          "t": "ha avuto",
+          "correct": false
+        },
+        {
+          "t": "aveva",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"aveva\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Il mio fidanzato ___ un bar nel centro di Bologna.",
+      "options": [
+        {
+          "t": "ha aperto",
+          "correct": true
+        },
+        {
+          "t": "apriva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha aperto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Da piccoli ___ molto bravi a scuola.",
+      "options": [
+        {
+          "t": "siamo stati",
+          "correct": false
+        },
+        {
+          "t": "eravamo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"eravamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Di solito mio padre mi ___ al mare.",
+      "options": [
+        {
+          "t": "portava",
+          "correct": true
+        },
+        {
+          "t": "ha portato",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"portava\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Laura e la sua famiglia ___ sempre al ristorante.",
+      "options": [
+        {
+          "t": "hanno mangiato",
+          "correct": false
+        },
+        {
+          "t": "mangiavano",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangiavano\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Il vostro gatto ___ da quattro giorni.",
+      "options": [
+        {
+          "t": "è morto",
+          "correct": true
+        },
+        {
+          "t": "moriva",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"è morto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Complimenti! ___ davvero brava!",
+      "options": [
+        {
+          "t": "Sei diventata",
+          "correct": true
+        },
+        {
+          "t": "Diventavi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Sei diventata\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Past or Imperfect Tense?",
+      "title": "Past or Imperfect Tense?",
+      "prompt": "Prima ___ una casa grandissima.",
+      "options": [
+        {
+          "t": "avevamo",
+          "correct": true
+        },
+        {
+          "t": "abbiamo avuto",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avevamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "La scuola è vicina ___ stazione.",
+      "options": [
+        {
+          "t": "della",
+          "correct": false
+        },
+        {
+          "t": "dalla",
+          "correct": false
+        },
+        {
+          "t": "alla",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"alla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Sono malato: vado ___ medico.",
+      "options": [
+        {
+          "t": "dal",
+          "correct": true
+        },
+        {
+          "t": "sul",
+          "correct": false
+        },
+        {
+          "t": "al",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dal\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Parto ___ Stati Uniti martedì.",
+      "options": [
+        {
+          "t": "per lo",
+          "correct": false
+        },
+        {
+          "t": "per gli",
+          "correct": true
+        },
+        {
+          "t": "negli",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"per gli\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "La chiave è ___ borsa.",
+      "options": [
+        {
+          "t": "sulla",
+          "correct": false
+        },
+        {
+          "t": "alla",
+          "correct": false
+        },
+        {
+          "t": "nella",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nella\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Mario va in vacanza ___ sua famiglia.",
+      "options": [
+        {
+          "t": "alla",
+          "correct": false
+        },
+        {
+          "t": "per la",
+          "correct": false
+        },
+        {
+          "t": "con la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"con la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Loro amano andare ___ teatro.",
+      "options": [
+        {
+          "t": "a",
+          "correct": true
+        },
+        {
+          "t": "al",
+          "correct": false
+        },
+        {
+          "t": "nel",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Ci piace viaggiare ___ Italia.",
+      "options": [
+        {
+          "t": "in",
+          "correct": true
+        },
+        {
+          "t": "nell'",
+          "correct": false
+        },
+        {
+          "t": "dall'",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"in\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Il libro è ___ studente francese.",
+      "options": [
+        {
+          "t": "allo",
+          "correct": false
+        },
+        {
+          "t": "dello",
+          "correct": true
+        },
+        {
+          "t": "del",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dello\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Le ragazze studiano ___ biblioteca comunale.",
+      "options": [
+        {
+          "t": "in",
+          "correct": false
+        },
+        {
+          "t": "alla",
+          "correct": false
+        },
+        {
+          "t": "nella",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nella\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Articulated Prepositions",
+      "title": "Articulated Prepositions",
+      "prompt": "Andiamo ___ zia.",
+      "options": [
+        {
+          "t": "alla",
+          "correct": false
+        },
+        {
+          "t": "dalla",
+          "correct": true
+        },
+        {
+          "t": "dal'",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"dalla\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Ieri ___ al mare.",
+      "options": [
+        {
+          "t": "vado",
+          "correct": false
+        },
+        {
+          "t": "andavo",
+          "correct": false
+        },
+        {
+          "t": "sono andato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sono andato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Tra due ore ___ per Londra.",
+      "options": [
+        {
+          "t": "partiva",
+          "correct": false
+        },
+        {
+          "t": "parte",
+          "correct": true
+        },
+        {
+          "t": "è partito",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"parte\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Da piccolo Nicola non ___ il formaggio.",
+      "options": [
+        {
+          "t": "mangiava",
+          "correct": true
+        },
+        {
+          "t": "ha mangiato",
+          "correct": false
+        },
+        {
+          "t": "mangia",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mangiava\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Le mie sorelle ___ a Parigi per tre anni.",
+      "options": [
+        {
+          "t": "hanno studiato",
+          "correct": true
+        },
+        {
+          "t": "studiavano",
+          "correct": false
+        },
+        {
+          "t": "studiano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"hanno studiato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Tre giorni fa ___ un bel film al cinema.",
+      "options": [
+        {
+          "t": "vediamo",
+          "correct": false
+        },
+        {
+          "t": "vedevamo",
+          "correct": false
+        },
+        {
+          "t": "abbiamo visto",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"abbiamo visto\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "___ Lisbona nel 2005.",
+      "options": [
+        {
+          "t": "Visitavo",
+          "correct": false
+        },
+        {
+          "t": "Visitavo",
+          "correct": false
+        },
+        {
+          "t": "Ho visitato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Ho visitato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Il concerto è stato bello, non ___ male.",
+      "options": [
+        {
+          "t": "suonavate",
+          "correct": false
+        },
+        {
+          "t": "suonate",
+          "correct": false
+        },
+        {
+          "t": "avete suonato",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"avete suonato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Sono triste, ieri Antonio mi ___ per un'altra!",
+      "options": [
+        {
+          "t": "ha lasciato",
+          "correct": true
+        },
+        {
+          "t": "lascia",
+          "correct": false
+        },
+        {
+          "t": "lasciava",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ha lasciato\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Questo esercizio non mi ___ per niente.",
+      "options": [
+        {
+          "t": "piaceva",
+          "correct": false
+        },
+        {
+          "t": "è piaciuto",
+          "correct": false
+        },
+        {
+          "t": "piace",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"piace\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Quando eravamo piccoli ___ sempre in bicicletta.",
+      "options": [
+        {
+          "t": "siamo andati",
+          "correct": false
+        },
+        {
+          "t": "andiamo",
+          "correct": false
+        },
+        {
+          "t": "andavamo",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"andavamo\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "Da sempre gli italiani ___ il caffè.",
+      "options": [
+        {
+          "t": "hanno bevuto",
+          "correct": false
+        },
+        {
+          "t": "bevono",
+          "correct": true
+        },
+        {
+          "t": "bevevano",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"bevono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · A2 · Present, Past or Imperfect?",
+      "title": "Present, Past or Imperfect?",
+      "prompt": "___ a Bologna da due settimane.",
+      "options": [
+        {
+          "t": "Sono stata",
+          "correct": false
+        },
+        {
+          "t": "Ero",
+          "correct": false
+        },
+        {
+          "t": "Sono",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Sono\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/presente_passato_prossimo_imperfetto.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Non sono brava con le lingue ma",
+      "after": "con il francese.",
+      "answer": "me la cavo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Mio marito mi sta distruggendo! Non",
+      "after": "più!",
+      "answer": "ce la faccio",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Giorgio",
+      "after": "sempre prima di mezzanotte.",
+      "answer": "se ne va",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Lucia si comporta come una bambina,",
+      "after": "per un nonnulla.",
+      "answer": "se la prende",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Mi danno fastidio le persone che",
+      "after": "per delle sciocchezze.",
+      "answer": "se la prendono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Sai che Lucia e Nicola",
+      "after": "da Bologna?",
+      "answer": "se ne vanno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "L'affitto costa troppo e Mario non",
+      "after": "a pagarlo.",
+      "answer": "ce la fa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "A che ora",
+      "after": "? Siamo stanchi!",
+      "answer": "ce ne andiamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Noi non",
+      "after": "più! C'è troppo rumore!",
+      "answer": "ce la facciamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Pronominal Verbs - Present Tense",
+      "title": "Pronominal Verbs - Present Tense",
+      "before": "Non siamo delle cime ma",
+      "after": "!",
+      "answer": "ce la caviamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · A2 · Uses of the Conditional Present Tense",
+      "title": "Uses of the Conditional Present Tense",
+      "pairs": [
+        {
+          "left": "Mi porterebbe una bottiglia di vino?",
+          "right": "Al ristorante"
+        },
+        {
+          "left": "Saprebbe dirmi quando arriva il bus?",
+          "right": "Alla fermata"
+        },
+        {
+          "left": "Vorrei un etto di cotto.",
+          "right": "In salumeria"
+        },
+        {
+          "left": "Vorrei una camera matrimoniale.",
+          "right": "In albergo"
+        },
+        {
+          "left": "Mi darebbe un'aspirina?",
+          "right": "In farmacia"
+        },
+        {
+          "left": "Mi servirebbe l'orario dei treni.",
+          "right": "In biglietteria"
+        },
+        {
+          "left": "Vorrei un pacco di Marlboro",
+          "right": "In tabaccheria"
+        },
+        {
+          "left": "Dovrei arrivare in via san Giorgio n.6.",
+          "right": "Nel taxi"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_del_condizionale.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Io e Jennifer",
+      "after": "(fare) jogging ogni mattina.",
+      "answer": "facciamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "",
+      "after": "(tu, sapere) cosa sta succedendo la fuori?",
+      "answer": "Sai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Tu e tua moglie",
+      "after": "(dare) sempre troppa importanza ai soldi.",
+      "answer": "date",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Molti turisti ogni giorno",
+      "after": "(salire) sulla Torre di Pisa.",
+      "answer": "salgono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Anna e Marco",
+      "after": "(scegliere) di fare un viaggio al mare.",
+      "answer": "scelgono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Io di solito il sabato mangio una pizza con gli amici. Tu",
+      "after": "(uscire) il sabato sera?",
+      "answer": "esci",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · Irregular Verbs",
+      "title": "Irregular Verbs",
+      "before": "Le insegnanti",
+      "after": "(proporre) di fare un esercizio per imparare il congiuntivo.",
+      "answer": "propongono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_irregolari.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "io",
+      "after": "",
+      "answer": "canterei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "tu",
+      "after": "",
+      "answer": "canteresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "canterebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "noi",
+      "after": "",
+      "answer": "canteremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "voi",
+      "after": "",
+      "answer": "cantereste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "loro",
+      "after": "",
+      "answer": "canterebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "io",
+      "after": "",
+      "answer": "crederei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "tu",
+      "after": "",
+      "answer": "crederesti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "crederebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "noi",
+      "after": "",
+      "answer": "crederemmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "voi",
+      "after": "",
+      "answer": "credereste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "loro",
+      "after": "",
+      "answer": "crederebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "io",
+      "after": "",
+      "answer": "sentirei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "sentiresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sentirebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "sentiremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "sentireste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "sentirebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "io",
+      "after": "",
+      "answer": "finirei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "finiresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "finirebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "finiremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "finireste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "finirebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "io",
+      "after": "",
+      "answer": "avrei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "tu",
+      "after": "",
+      "answer": "avresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "avrebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "noi",
+      "after": "",
+      "answer": "avremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "voi",
+      "after": "",
+      "answer": "avreste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "loro",
+      "after": "",
+      "answer": "avrebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "io",
+      "after": "",
+      "answer": "sarei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "tu",
+      "after": "",
+      "answer": "saresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sarebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "noi",
+      "after": "",
+      "answer": "saremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "voi",
+      "after": "",
+      "answer": "sareste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "loro",
+      "after": "",
+      "answer": "sarebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "io",
+      "after": "",
+      "answer": "andrei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "tu",
+      "after": "",
+      "answer": "andresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "andrebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "noi",
+      "after": "",
+      "answer": "andremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "voi",
+      "after": "",
+      "answer": "andreste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "loro",
+      "after": "",
+      "answer": "andrebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "io",
+      "after": "",
+      "answer": "verrei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "verresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "verrebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "verremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "verreste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "verrebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "io",
+      "after": "",
+      "answer": "farei",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "tu",
+      "after": "",
+      "answer": "faresti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "farebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "noi",
+      "after": "",
+      "answer": "faremmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "voi",
+      "after": "",
+      "answer": "fareste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "loro",
+      "after": "",
+      "answer": "farebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/condizionale_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "io",
+      "after": "",
+      "answer": "canterò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "tu",
+      "after": "",
+      "answer": "canterai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "canterà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "noi",
+      "after": "",
+      "answer": "canteremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "voi",
+      "after": "",
+      "answer": "canterete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "loro",
+      "after": "",
+      "answer": "canteranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "io",
+      "after": "",
+      "answer": "crederò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "tu",
+      "after": "",
+      "answer": "crederai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "crederà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "noi",
+      "after": "",
+      "answer": "crederemo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "voi",
+      "after": "",
+      "answer": "crederete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CREDERE",
+      "title": "CREDERE",
+      "before": "loro",
+      "after": "",
+      "answer": "crederanno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_credere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "io",
+      "after": "",
+      "answer": "sentirò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "sentirai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sentirà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "sentiremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "sentirete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "sentiranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "io",
+      "after": "",
+      "answer": "finirò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "finirai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "finirà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "finiremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "finirete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "finiranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "io",
+      "after": "",
+      "answer": "avrò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "tu",
+      "after": "",
+      "answer": "avrai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "avrà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "noi",
+      "after": "",
+      "answer": "avremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "voi",
+      "after": "",
+      "answer": "avrete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · AVERE",
+      "title": "AVERE",
+      "before": "loro",
+      "after": "",
+      "answer": "avranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "io",
+      "after": "",
+      "answer": "sarò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "tu",
+      "after": "",
+      "answer": "sarai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sarà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "noi",
+      "after": "",
+      "answer": "saremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "voi",
+      "after": "",
+      "answer": "sarete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "loro",
+      "after": "",
+      "answer": "saranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "io",
+      "after": "",
+      "answer": "andrò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "tu",
+      "after": "",
+      "answer": "andrai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "andrà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "noi",
+      "after": "",
+      "answer": "andremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "voi",
+      "after": "",
+      "answer": "andrete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ANDARE",
+      "title": "ANDARE",
+      "before": "loro",
+      "after": "",
+      "answer": "andranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_andare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "io",
+      "after": "",
+      "answer": "verrò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "verrai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "verrà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "verremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "verrete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VENIRE",
+      "title": "VENIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "verranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_venire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "io",
+      "after": "",
+      "answer": "farò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "tu",
+      "after": "",
+      "answer": "farai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "farà",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "noi",
+      "after": "",
+      "answer": "faremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "voi",
+      "after": "",
+      "answer": "farete",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "loro",
+      "after": "",
+      "answer": "faranno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/futuro_semplice_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "io",
+      "after": "",
+      "answer": "cantavo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "tu",
+      "after": "",
+      "answer": "cantavi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "cantava",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "noi",
+      "after": "",
+      "answer": "cantavamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "voi",
+      "after": "",
+      "answer": "cantavate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · CANTARE",
+      "title": "CANTARE",
+      "before": "loro",
+      "after": "",
+      "answer": "cantavano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "io",
+      "after": "",
+      "answer": "vedevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "tu",
+      "after": "",
+      "answer": "vedevi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "vedeva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "noi",
+      "after": "",
+      "answer": "vedevamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "voi",
+      "after": "",
+      "answer": "vedevate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · VEDERE",
+      "title": "VEDERE",
+      "before": "loro",
+      "after": "",
+      "answer": "vedevano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_vedere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "io",
+      "after": "",
+      "answer": "sentivo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "sentivi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sentiva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "sentivamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "sentivate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · SENTIRE",
+      "title": "SENTIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "sentivano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "io",
+      "after": "",
+      "answer": "finivo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "finivi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "finiva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "finivamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "finivate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FINIRE",
+      "title": "FINIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "finivano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "io",
+      "after": "",
+      "answer": "ero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "tu",
+      "after": "",
+      "answer": "eri",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "era",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "noi",
+      "after": "",
+      "answer": "eravamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "voi",
+      "after": "",
+      "answer": "eravate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · ESSERE",
+      "title": "ESSERE",
+      "before": "loro",
+      "after": "",
+      "answer": "erano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "io",
+      "after": "",
+      "answer": "dicevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "tu",
+      "after": "",
+      "answer": "dicevi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "diceva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "noi",
+      "after": "",
+      "answer": "dicevamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "voi",
+      "after": "",
+      "answer": "dicevate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · DIRE",
+      "title": "DIRE",
+      "before": "loro",
+      "after": "",
+      "answer": "dicevano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_dire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "io",
+      "after": "",
+      "answer": "facevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "tu",
+      "after": "",
+      "answer": "facevi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "faceva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "noi",
+      "after": "",
+      "answer": "facevamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "voi",
+      "after": "",
+      "answer": "facevate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · FARE",
+      "title": "FARE",
+      "before": "loro",
+      "after": "",
+      "answer": "facevano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_fare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "io",
+      "after": "",
+      "answer": "traducevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "tu",
+      "after": "",
+      "answer": "traducevi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "traduceva",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "noi",
+      "after": "",
+      "answer": "traducevamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "voi",
+      "after": "",
+      "answer": "traducevate",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · A2 · TRADURRE",
+      "title": "TRADURRE",
+      "before": "loro",
+      "after": "",
+      "answer": "traducevano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/imperfetto_tradurre.html"
     }
   ]
 }

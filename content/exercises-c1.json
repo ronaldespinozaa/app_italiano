@@ -3731,6 +3731,942 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Michael Jackson non è un cantante",
+      "after": ". E' il re della Pop Music.",
+      "answer": "qualunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Quando nei ristoranti non c'è",
+      "after": ", evito di entrarci.",
+      "answer": "nessuno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Questa valigia potrebbe essere di",
+      "after": ". Non perdiamo tempo e portiamola alla reception.",
+      "answer": "chiunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Questo è quanto abbiamo guadagnato:",
+      "after": "avrà la sua parte.",
+      "answer": "ciascuno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "L'assassino,",
+      "after": "sia, sarà identificato e imprigionato.",
+      "answer": "chiunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Non lasciare questo ciondolo alla vista di",
+      "after": ". Apparteneva a tua nonna.",
+      "answer": "chiunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Se non lo volete dividere, non lo darò a",
+      "after": "! Capito!",
+      "answer": "nessuno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Purtroppo possiamo mangiare soltanto un pezzo",
+      "after": "di questa deliziosa torta.",
+      "answer": "ciascuno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Mio marito non è un uomo",
+      "after": ": stira, cucina, passa l'aspirapolvere e lava persino i piatti.",
+      "answer": "qualunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Indefinite Adjectives",
+      "title": "Indefinite Adjectives",
+      "before": "Visto che il libro non era di",
+      "after": ",l'ho preso io!",
+      "answer": "nessuno",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Non ho mai conosciuto ___ sua nonna.",
+      "options": [
+        {
+          "t": "-",
+          "correct": true
+        },
+        {
+          "t": "la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"-\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Il posto migliore per andare in vacanza è ___ Puglia.",
+      "options": [
+        {
+          "t": "-",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Mi trovo molto bene con ___ Giovanna.",
+      "options": [
+        {
+          "t": "-",
+          "correct": true
+        },
+        {
+          "t": "la",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"-\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Abbiamo visitato tutta la Toscana e ___ isola d'Elba.",
+      "options": [
+        {
+          "t": "l'",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"l'\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "C'è stato un temporale e si è allagata tutta ___ città.",
+      "options": [
+        {
+          "t": "-",
+          "correct": false
+        },
+        {
+          "t": "la",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Se vogliamo sopravvivere dobbiamo lavorare tutti ___ giorni.",
+      "options": [
+        {
+          "t": "i",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"i\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "La sua nuova ragazza è tutta ___ strana.",
+      "options": [
+        {
+          "t": "la",
+          "correct": false
+        },
+        {
+          "t": "-",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"-\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "___ mio compagno non si decide a trasferirsi a casa mia.",
+      "options": [
+        {
+          "t": "Il",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "___ Malta è un'isoletta molto carina.",
+      "options": [
+        {
+          "t": "La",
+          "correct": false
+        },
+        {
+          "t": "-",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"-\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "___ Mauritius si trovano a nord del Madagascar.",
+      "options": [
+        {
+          "t": "Le",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Le\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Maurizio, ___ cui mamma lavora qui, è un mio caro amico.",
+      "options": [
+        {
+          "t": "la",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"la\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · With Or Without An Article?",
+      "title": "With Or Without An Article?",
+      "prompt": "Non avete mai visto ___ David di Michelangelo??.",
+      "options": [
+        {
+          "t": "il",
+          "correct": true
+        },
+        {
+          "t": "-",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"il\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/con_senza_articolo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Franco dice: 'Non mi piace il cinema.'",
+      "after": "",
+      "answer": "Franco dice che non gli piace il cinema.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Giulio ci chiede: 'Viaggerete con il treno?'",
+      "after": "",
+      "answer": "Giulio ci chiede se viaggeremo con il treno.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Ci chiesero: 'Perché non venite a cena con noi?'",
+      "after": "",
+      "answer": "Ci chiesero perché non andavamo a cena con loro.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Maria rispose: 'mi sono laureata a giugno.'",
+      "after": "",
+      "answer": "Maria rispose che si era laureata a giugno.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Ci spiegarono: 'Abbiamo vissuto in Francia per tanti anni.'",
+      "after": "",
+      "answer": "Ci spiegarono che avevano vissuto in Francia per tanti anni.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Marco chiede a Pio: 'Ti iscriverai al corso di nuoto?'",
+      "after": "",
+      "answer": "Marco chiede a Pio se si sarebbe iscritto al corso di nuoto.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Risposero: 'Andremo al mare.'",
+      "after": "",
+      "answer": "Risposero che sarebbero andati al mare.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Mi hai risposto: 'Non trovo la soluzione del problema.'",
+      "after": "",
+      "answer": "Mi hai risposto che non trovavi la soluzione del problema.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Giulia mi rispose: 'Non potrò venire alla tua festa.'",
+      "after": "",
+      "answer": "Giulia mi rispose che non sarebbe potuta venire alla mia festa.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Reported Speech - 2",
+      "title": "Reported Speech - 2",
+      "before": "Dissero: 'Studieremo molto per superare gli esami.'",
+      "after": "",
+      "answer": "Dissero che avrebbero studiato molto per superare gli esami.",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Per andare da casa a scuola io",
+      "after": "due minuti.",
+      "answer": "ci metto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Con la gonna nera Lucia",
+      "after": "le calze nere.",
+      "answer": "si mette",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Noi",
+      "after": "in ordine la casa ogni giorno.",
+      "answer": "mettiamo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Se non",
+      "after": "i tacchi, mi sento bassa.",
+      "answer": "mi metto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Per cucinare il ragù Maria",
+      "after": "sempre due ore.",
+      "answer": "ci mette",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Ieri alla festa Lucia",
+      "after": "il vestito nuovo.",
+      "answer": "si è messa",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Per fare i compiti ieri noi",
+      "after": "sei ore.",
+      "answer": "ci abbiamo messo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Da piccola io non",
+      "after": "mai il pigiama per dormire.",
+      "answer": "mi mettevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "Il mese scorso Luigi",
+      "after": "a studiare il cinese.",
+      "answer": "si è messo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Uses Of 'Mettere'",
+      "title": "Uses Of 'Mettere'",
+      "before": "In questo progetto loro",
+      "after": "tutto l'impegno.",
+      "answer": "ci mettono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Finchè NON farai come dico io, ti farò ricominciare d'all'inizio ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "NON appena ebbe pronunciato il verdetto, l'accusato scoppiò a piangere. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": true
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON pleonastico\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Io non andrò a letto finchè NON mi leggerai una fiaba. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Appena mi darai i miei soldi, NON ti minaccerò più. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Se non mi lasci la mano, NON ti accadrà niente. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "A meno che NON sia una bugia, lei dovrebbe essere dalla sua amica Marta. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": true
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON pleonastico\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Io resterò sveglio finchè NON tornerà a casa. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": true
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON pleonastico\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Facciamo le cose per bene in modo che NON ci siano problemi dopo. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Sebbene NON sappia l'inglese, è riuscito a farsi capire ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Mi hanno aggredito senza che NON potessi fare niente per difendemi. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": true
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON pleonastico\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "NON posso fare a meno di te ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C1 · Non 'Pleonastico'",
+      "title": "Non 'Pleonastico'",
+      "prompt": "Tu non mi capisci esattamente come io NON capisco te. ___",
+      "options": [
+        {
+          "t": "NON pleonastico",
+          "correct": false
+        },
+        {
+          "t": "NON grammaticale",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"NON grammaticale\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Basta! Non",
+      "after": "più a studiare, sono stanco.",
+      "answer": "ce la faccio",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Quando eri piccolo",
+      "after": "di tutti i colori.",
+      "answer": "ne dicevi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Di solito Giulio",
+      "after": "per le lunghe con discorsi inutili.",
+      "answer": "la tira",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Ieri ho visto un film molto noioso, non",
+      "after": "più.",
+      "answer": "ne potevo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Ieri Marco",
+      "after": "a casa tutto il giorno.",
+      "answer": "se n'è stato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "I ladri videro la polizia e",
+      "after": "a gambe",
+      "answer": "se la diedero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "",
+      "after": "al dito perchè non ti ho invitato alla festa.",
+      "answer": "Te la sei legata",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Perchè",
+      "after": "con me, non ti ho fatto niente.",
+      "answer": "te la prendi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "",
+      "after": "tutta e supereremo l'esame quest'anno.",
+      "answer": "Ce la metteremo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · C1 · Pronominal Verbs - Gapfill Exercise",
+      "title": "Pronominal Verbs - Gapfill Exercise",
+      "before": "Questa volta non",
+      "after": "sopra e ti punirò.",
+      "answer": "ci passerò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
     }
   ]
 }

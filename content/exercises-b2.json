@@ -3520,6 +3520,2005 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · B2 · Adjectives From Nouns",
+      "title": "Adjectives From Nouns",
+      "pairs": [
+        {
+          "left": "cavallo",
+          "right": "equino"
+        },
+        {
+          "left": "maiale",
+          "right": "suino"
+        },
+        {
+          "left": "peccora",
+          "right": "ovino"
+        },
+        {
+          "left": "pesce",
+          "right": "ittico"
+        },
+        {
+          "left": "terremoto",
+          "right": "sismico"
+        },
+        {
+          "left": "calore",
+          "right": "termico"
+        },
+        {
+          "left": "colore",
+          "right": "cromatico"
+        },
+        {
+          "left": "acqua",
+          "right": "idrico"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Usciamo, ___ piove.",
+      "options": [
+        {
+          "t": "anche se",
+          "correct": true
+        },
+        {
+          "t": "sebbene",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"anche se\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Lo voglio, ___ costa troppo.",
+      "options": [
+        {
+          "t": "benché",
+          "correct": false
+        },
+        {
+          "t": "anche se",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"anche se\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Ci vado, ___ paghi lui.",
+      "options": [
+        {
+          "t": "a patto che",
+          "correct": true
+        },
+        {
+          "t": "solo se",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a patto che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Piove, ___ ci sia il sole.",
+      "options": [
+        {
+          "t": "nonostante",
+          "correct": true
+        },
+        {
+          "t": "a patto che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Puoi stare con me, ___ non mi disturbi.",
+      "options": [
+        {
+          "t": "sebbene",
+          "correct": false
+        },
+        {
+          "t": "purché",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"purché\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Ci proviamo, ___ sia troppo difficile.",
+      "options": [
+        {
+          "t": "malgrado",
+          "correct": true
+        },
+        {
+          "t": "anche se",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"malgrado\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Possono venire, ___ non fanno domande.",
+      "options": [
+        {
+          "t": "a condizione che",
+          "correct": false
+        },
+        {
+          "t": "solo se",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"solo se\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Lei guida la macchina ___ non è da sola.",
+      "options": [
+        {
+          "t": "solo se",
+          "correct": true
+        },
+        {
+          "t": "purché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"solo se\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Beviamo i cocktail, ___ non siano alcolici.",
+      "options": [
+        {
+          "t": "anche se",
+          "correct": false
+        },
+        {
+          "t": "a patto che",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a patto che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Mangio la carne, ___ non sia di cavallo.",
+      "options": [
+        {
+          "t": "a condizione che",
+          "correct": true
+        },
+        {
+          "t": "solo se",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"a condizione che\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Ci sposiamo, ___ siamo vecchi.",
+      "options": [
+        {
+          "t": "sebbene",
+          "correct": true
+        },
+        {
+          "t": "purché",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"sebbene\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · The Subjunctive After Conjunctions",
+      "title": "The Subjunctive After Conjunctions",
+      "prompt": "Studia l'italiano, ___ non ci capisca niente!",
+      "options": [
+        {
+          "t": "nonostante",
+          "correct": true
+        },
+        {
+          "t": "a patto che",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"nonostante\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · B2 · Linkers",
+      "title": "Linkers",
+      "pairs": [
+        {
+          "left": "Tutto è cambiato e",
+          "right": "ormai non si torna più indietro."
+        },
+        {
+          "left": "Alcuni inbrogliano",
+          "right": "mentre altri sono onesti."
+        },
+        {
+          "left": "Non ha troppi interessi,",
+          "right": "anzi, non ne ha proprio!"
+        },
+        {
+          "left": "Ha comprato casa,",
+          "right": "pertanto ha un mutuo da pagare."
+        },
+        {
+          "left": "Ci impegnamo a farlo,",
+          "right": "a patto che voi ci aiutiate."
+        },
+        {
+          "left": "E' un'instancabile lavoratrice.",
+          "right": "Tuttavia non trova un impiego."
+        },
+        {
+          "left": "Fa tutto per lui,",
+          "right": "basta che lui glielo chieda."
+        },
+        {
+          "left": "Non se n'è occupato lui,",
+          "right": "bensì il suo collega."
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Vado al mare ___ mi piace.",
+      "options": [
+        {
+          "t": "perciò",
+          "correct": false
+        },
+        {
+          "t": "per cui",
+          "correct": false
+        },
+        {
+          "t": "perchè",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"perchè\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Lui è molto carino, ___ è carinissimo!.",
+      "options": [
+        {
+          "t": "infatti",
+          "correct": false
+        },
+        {
+          "t": "anzi",
+          "correct": true
+        },
+        {
+          "t": "al contrario",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"anzi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Gianna è simpaticissima, ___ fa cabaret.",
+      "options": [
+        {
+          "t": "infatti",
+          "correct": true
+        },
+        {
+          "t": "però",
+          "correct": false
+        },
+        {
+          "t": "bensì",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"infatti\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Luigi è malato ___ è andato a lavoro lo stesso.",
+      "options": [
+        {
+          "t": "ma",
+          "correct": true
+        },
+        {
+          "t": "allora",
+          "correct": false
+        },
+        {
+          "t": "anzi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ma\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Lui non mi rispetta per niente, ___ non gli parlo.",
+      "options": [
+        {
+          "t": "bensì",
+          "correct": false
+        },
+        {
+          "t": "tuttavia",
+          "correct": false
+        },
+        {
+          "t": "quindi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"quindi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Io lavoro, lui, ___ , se ne sta a casa.",
+      "options": [
+        {
+          "t": "per cui",
+          "correct": false
+        },
+        {
+          "t": "infatti",
+          "correct": false
+        },
+        {
+          "t": "invece",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"invece\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "La sua ragazza è magra, ___ lui è un ciccione.",
+      "options": [
+        {
+          "t": "insomma",
+          "correct": false
+        },
+        {
+          "t": "comunque",
+          "correct": false
+        },
+        {
+          "t": "mentre",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"mentre\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Abbiamo bevuto, mangiato e riso. ___ ci siamo divertiti.",
+      "options": [
+        {
+          "t": "Insomma",
+          "correct": true
+        },
+        {
+          "t": "Ma",
+          "correct": false
+        },
+        {
+          "t": "Anzi",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Insomma\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "E' buona, brava e gentile. ___ ha qualcosa che non va.",
+      "options": [
+        {
+          "t": "Infatti",
+          "correct": false
+        },
+        {
+          "t": "Allora",
+          "correct": false
+        },
+        {
+          "t": "Tuttavia",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"Tuttavia\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "In Italia si lavora molto ___ si guadagna poco.",
+      "options": [
+        {
+          "t": "allora",
+          "correct": false
+        },
+        {
+          "t": "cioè",
+          "correct": false
+        },
+        {
+          "t": "ma",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"ma\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Il mio vicino, ___ il tuo capo, è molto ricco.",
+      "options": [
+        {
+          "t": "bensì",
+          "correct": false
+        },
+        {
+          "t": "cioè",
+          "correct": true
+        },
+        {
+          "t": "perciò",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"cioè\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Linkers - 1",
+      "title": "Linkers - 1",
+      "prompt": "Sei al verde, ___ non puoi venire al concerto.",
+      "options": [
+        {
+          "t": "però",
+          "correct": false
+        },
+        {
+          "t": "tuttavia",
+          "correct": false
+        },
+        {
+          "t": "quindi",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"quindi\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "L'italiano è bello",
+      "after": "è difficile.",
+      "answer": "però",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "In Italia c'è il sole",
+      "after": "in Inghilterra piove.",
+      "answer": "invece",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "",
+      "after": "ragazzi, che cosa studiamo oggi?",
+      "answer": "Allora",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "Sono arroganti e scortesi,",
+      "after": "io con loro non ci parlo!",
+      "answer": "allora",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "Siamo andate al cinema, al bar e",
+      "after": "da Luca.",
+      "answer": "infine",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "",
+      "after": "di lamentarti, perchè non lo fai tu?",
+      "answer": "Invece",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "E' carino e interessante ma,",
+      "after": ", non fa per me!",
+      "answer": "comunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "",
+      "after": "vada, sarà un successo!",
+      "answer": "Comunque",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "Mi piace,",
+      "after": "è un pò cruda.",
+      "answer": "però",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Linkers - 2",
+      "title": "Linkers - 2",
+      "before": "Lui non viene da me",
+      "after": "io non vado da lui.",
+      "answer": "allora",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "Roberto e proprio un tipo",
+      "after": "non bada a spese!",
+      "answer": "che",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "La rivista su",
+      "after": "scrive quell’editorialista esce una volta alla settimana",
+      "answer": "cui",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "C’e",
+      "after": "sarebbe pronto a scommettere sulla sua vittoria",
+      "answer": "chi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "Il docente",
+      "after": "insegna geografia in quel liceo e molto preparato",
+      "answer": "che",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "Cio",
+      "after": "conta e non arrendersi mai davanti alle difficolta",
+      "answer": "che",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "Molti civili rimasero feriti nell’attacco, tra",
+      "after": "molte donne e bambini",
+      "answer": "cui",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "L’azienda ha due stabilimenti a",
+      "after": "si aggiungono 15 fabbriche in Italia e all’estero",
+      "answer": "cui",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "Le regole di un’alimentazione controllata valgono soprattutto per",
+      "after": "non gode di buona salute",
+      "answer": "chi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Relative Pronous - 1",
+      "title": "Relative Pronous - 1",
+      "before": "",
+      "after": "desidera partecipare alla gita e pregato di contattare la segreteria della scuola",
+      "answer": "Chi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "I Giudici denunciano che l'inchiesta e stata portata avanti in maniera non trasparente ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": false
+        },
+        {
+          "t": "CON",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"CON\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "Il governatore ha assicurato che i mercati si risollevranno presto dalla crisi ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": false
+        },
+        {
+          "t": "CON",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"CON\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "Il vecchio signore che aggiusta biciclette sotto casa tua vende anche pompe per le ruote ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": true
+        },
+        {
+          "t": "CON",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"REL\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "Non ho molto apprezzato il film che mi avevi consigliato ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": true
+        },
+        {
+          "t": "CON",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"REL\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "Il medico ha detto che lo zio Sante si rimettera presto ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": false
+        },
+        {
+          "t": "CON",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"CON\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Relative Pronouns - 2",
+      "title": "Relative Pronouns - 2",
+      "prompt": "Un vero amico non e una persona che ti da sempre ragione ___",
+      "options": [
+        {
+          "t": "REL",
+          "correct": true
+        },
+        {
+          "t": "CON",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"REL\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · B2 · Italian Sentence Adverbs - 1",
+      "title": "Italian Sentence Adverbs - 1",
+      "pairs": [
+        {
+          "left": "Purtroppo",
+          "right": "Sfortunatamente"
+        },
+        {
+          "left": "Volentieri",
+          "right": "Accetto con piacere"
+        },
+        {
+          "left": "Spesso",
+          "right": "Di frequente"
+        },
+        {
+          "left": "Abbastanza",
+          "right": "A sufficienza"
+        },
+        {
+          "left": "Parecchio",
+          "right": "Molto"
+        },
+        {
+          "left": "Giustamente",
+          "right": "In modo onesto, corretto"
+        },
+        {
+          "left": "Personalmente",
+          "right": "Secondo la mia opinione"
+        },
+        {
+          "left": "Davvero",
+          "right": "Veramente"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · B2 · Italian Sentence Adverbs - 2",
+      "title": "Italian Sentence Adverbs - 2",
+      "pairs": [
+        {
+          "left": "Probabilmente",
+          "right": "Che può accadere, che è quasi sicuro"
+        },
+        {
+          "left": "Intorno",
+          "right": "Nella zona circostante"
+        },
+        {
+          "left": "Presto",
+          "right": "In anticipo, rapidamente"
+        },
+        {
+          "left": "Quasi",
+          "right": "Circa un po' meno"
+        },
+        {
+          "left": "Esattamente",
+          "right": "In modo preciso, con esattezza"
+        },
+        {
+          "left": "Ora",
+          "right": "Adesso"
+        },
+        {
+          "left": "Stranamente",
+          "right": "In modo bizzarro"
+        },
+        {
+          "left": "Attualmente",
+          "right": "Al momento, di questo periodo"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "Ha appena preso la patente: Neopatentato ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' appena stato assunto : Neoassunto ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' appena diventato medico: Neomedico ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "Ha appena preso la laurea: Neolaureato ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' appena guarito: Neoguarito ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' appena diventato fascista: Neofascista ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' da poco che dice cose logiche: Neologismo ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' stato da poco eletto: Neoeletto ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' nato in Nuova Zealanda: Neozelandese ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' il contrario del greco antico: Neogreco ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' la paura del nuovo: Neofobia ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · B2 · Words With The Prefix 'Neo-'",
+      "title": "Words With The Prefix 'Neo-'",
+      "prompt": "E' un nuovo muro in pietra lavorata: Neolitico ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "Il vecchio falegname Geppetto (decidere)",
+      "after": "di costruire un burattino con un pezzo di legno.",
+      "answer": "decise",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "Ma appena lo (finire)",
+      "after": ",",
+      "answer": "finì",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "il burattino (cominciare)",
+      "after": "subito a comportarsi male.",
+      "answer": "cominciò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "Pinocchio (fuggire)",
+      "after": "di casa, mettendo nei guai Geppetto.",
+      "answer": "fuggì",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "Durante le sue avventure (incontrare)",
+      "after": "molti personaggi,",
+      "answer": "incontrò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "come il Grillo Parlante, che (cercare)",
+      "after": "di dargli dei consigli saggi,",
+      "answer": "cercò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "il burattinaio Mangiafuoco, che lo (mettere)",
+      "after": "in gabbia per farlo esibire,",
+      "answer": "mise",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "e il Gatto e la Volpe, che con l'inganno gli (rubare)",
+      "after": "5 monete d'oro.",
+      "answer": "rubarono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "Per fortuna la Fata Turchina (volere)",
+      "after": "aiutarlo,",
+      "answer": "volle",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 1",
+      "title": "Pinocchio And The Remote Past - 1",
+      "before": "ma ancora una volta lui (perdere)",
+      "after": "tutto per colpa sua.",
+      "answer": "perse",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "Pinocchio (andare)",
+      "after": "per un periodo anche a scuola,",
+      "answer": "andò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "dove (conoscere)",
+      "after": "Lucignolo,",
+      "answer": "conobbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "un monello che (avere)",
+      "after": "una cattiva influenza su di lui.",
+      "answer": "ebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "Nel frattempo Geppetto (partire)",
+      "after": "per mare in cerca del suo adorato burattino,",
+      "answer": "partì",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "ma (venire)",
+      "after": "inghiottito da un pescecane.",
+      "answer": "venne",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "Quando Pinocchio lo (sapere)",
+      "after": "si tuffò in mare in cerca del padre,",
+      "answer": "seppe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "che (ritrovare)",
+      "after": "nella pancia del pesce.",
+      "answer": "ritrovò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "Insieme (riuscire)",
+      "after": "a fuggire",
+      "answer": "riuscirono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "e finalmente in città Pinocchio (trasformarsi)",
+      "after": "in un bambino vero, grazie a un incantesimo della Fata Turchina.",
+      "answer": "si trasformò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Pinocchio And The Remote Past - 2",
+      "title": "Pinocchio And The Remote Past - 2",
+      "before": "Così il falegname Geppetto e il bambino Pinocchio (vivere)",
+      "after": "felici e contenti.",
+      "answer": "vissero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+    },
+    {
+      "type": "matching",
+      "kicker": "Ejercicios · B2 · The Position Of Adjectives",
+      "title": "The Position Of Adjectives",
+      "pairs": [
+        {
+          "left": "Essere un buon padre",
+          "right": "Un padre responsabile, attento"
+        },
+        {
+          "left": "Essere un padre buono",
+          "right": "Un padre gentile"
+        },
+        {
+          "left": "Avere certe notizie",
+          "right": "Notizie non precise"
+        },
+        {
+          "left": "Avere notizie certe.",
+          "right": "Notizie sicure"
+        },
+        {
+          "left": "Comprare un'auto nuova",
+          "right": "Auto non usata, appena uscita dalla fabbrica"
+        },
+        {
+          "left": "Comprare una nuova auto",
+          "right": "Auto appena acquistata, anche usata."
+        },
+        {
+          "left": "Conoscere un vecchio amico",
+          "right": "Amico da tanto tempo"
+        },
+        {
+          "left": "Conoscere un amico vecchio",
+          "right": "Amico anziano"
+        }
+      ],
+      "explanation": "",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Credevo che tu (essere)",
+      "after": "inglese.",
+      "answer": "fossi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Pensiamo che Bologna (essere)",
+      "after": "più bella di Firenze.",
+      "answer": "sia",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Carlo non è venuto, è probabile che (cambiare)",
+      "after": "idea.",
+      "answer": "abbia cambiato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Immagino che tu non (venire)",
+      "after": "stasera.",
+      "answer": "venga",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Era necessario che (parlare)",
+      "after": "lui.",
+      "answer": "parlasse",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Tua madre vuole che tu (tornare)",
+      "after": "a casa a mezzanotte.",
+      "answer": "torni",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Luigi, vai a Roma? Pensavo che ci (essere)",
+      "after": "un anno fa.",
+      "answer": "fossi stato",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Ieri non ho pagato il gas, ma credo che l' (fare)",
+      "after": "Marco.",
+      "answer": "abbia fatto",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Ci sembra che loro non (volere)",
+      "after": "venire.",
+      "answer": "vogliano",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Which subjunctive tense?",
+      "title": "Which subjunctive tense?",
+      "before": "Leggi ancora questo libro? Credevo che l'(finire)",
+      "after": ".",
+      "answer": "avessi finito",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "io",
+      "after": "",
+      "answer": "cantai",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "tu",
+      "after": "",
+      "answer": "cantasti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "cantò",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "noi",
+      "after": "",
+      "answer": "cantammo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "voi",
+      "after": "",
+      "answer": "cantaste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Cantare",
+      "title": "Cantare",
+      "before": "loro",
+      "after": "",
+      "answer": "cantarono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_cantare.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "io",
+      "after": "",
+      "answer": "sentii",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "tu",
+      "after": "",
+      "answer": "sentisti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "sentì",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "noi",
+      "after": "",
+      "answer": "sentimmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "voi",
+      "after": "",
+      "answer": "sentiste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Sentire",
+      "title": "Sentire",
+      "before": "loro",
+      "after": "",
+      "answer": "sentirono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_sentire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "io",
+      "after": "",
+      "answer": "finii",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "tu",
+      "after": "",
+      "answer": "finisti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "finì",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "noi",
+      "after": "",
+      "answer": "finimmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "voi",
+      "after": "",
+      "answer": "finiste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Finire",
+      "title": "Finire",
+      "before": "loro",
+      "after": "",
+      "answer": "finirono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_finire.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "io",
+      "after": "",
+      "answer": "ebbi",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "tu",
+      "after": "",
+      "answer": "avesti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "ebbe",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "noi",
+      "after": "",
+      "answer": "avemmo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "voi",
+      "after": "",
+      "answer": "aveste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Avere",
+      "title": "Avere",
+      "before": "loro",
+      "after": "",
+      "answer": "ebbero",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_avere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "io",
+      "after": "",
+      "answer": "fui",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "tu",
+      "after": "",
+      "answer": "fosti",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "lui/lei/Lei",
+      "after": "",
+      "answer": "fu",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "noi",
+      "after": "",
+      "answer": "fummo",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "voi",
+      "after": "",
+      "answer": "foste",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
+    },
+    {
+      "type": "gapfill",
+      "kicker": "Ejercicios · B2 · Essere",
+      "title": "Essere",
+      "before": "loro",
+      "after": "",
+      "answer": "furono",
+      "hint": "",
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. Inténtalo de nuevo.",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto_essere.html"
     }
   ]
 }

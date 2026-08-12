@@ -3430,6 +3430,234 @@
       "feedbackCorrect": "¡Correcto!",
       "feedbackWrong": "No es correcto. La respuesta correcta es: \"dal\".",
       "_source": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Se fossi ricco avrei comprato una Ferrari ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Sarei molto contenta se andassimo al cinema insieme ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Avrei voluto che fosse stata una bella giornata oggi ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Se voi ci aveste ascoltati dall'inizio, tutta quella storia non sarebbe mai accaduta ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Credevo fosse troppo tardi per comprare i biglietti. ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Avessimo potuto superare l'esame se avremmo studiato meglio ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Desidererebbero una tazza di caffè e vorrebbero che tu gliela portassi ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "So che avrebbe gradito la mia presenza e se avessi potuto sarei venuto. ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Avresti qualcosa da sgranocchiare se loro avrebbero fame ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Se leggereste di più, foste più intelligenti. ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Penseresti che fossero venuti alla tua stupida festa? ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": false
+        },
+        {
+          "t": "falso",
+          "correct": true
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"falso\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+    },
+    {
+      "type": "mc",
+      "kicker": "Ejercicios · C2 · Conditionals",
+      "title": "Conditionals",
+      "prompt": "Se solo fosse un pò più magra, sarebbe veramente una ragazza stupenda. ___",
+      "options": [
+        {
+          "t": "vero",
+          "correct": true
+        },
+        {
+          "t": "falso",
+          "correct": false
+        }
+      ],
+      "feedbackCorrect": "¡Correcto!",
+      "feedbackWrong": "No es correcto. La respuesta correcta es: \"vero\".",
+      "_source": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
     }
   ]
 }

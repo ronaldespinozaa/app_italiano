@@ -14,7 +14,7 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Lecciones (54 títulos — confirmado: son bundles de enlaces, no cuerpo propio) | ✅ Migrado |
 | Gramática — texto real (82 explicaciones) | ✅ 82/82 (100%) verbatim del sitio (vía `grammar-scraper.go` + `merge_scraper_output.py`) |
 | Listening (175 audios reales + transcripciones) | ✅ 175/175 migrado (vía `listening-scraper.go`) — audio real por streaming desde SoundCloud, no offline (ver `docs/architecture.md` decisión 7) |
-| Ejercicios interactivos | 🟢 1255 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 1232 migrados de `/free_italian_exercises/*.html`, 237/237 páginas convertibles). 938 más migrados pero sin nivel confirmado (`content/exercises-sinnivel.json`) — ver detalle abajo |
+| Ejercicios interactivos | ✅ 2193 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 2170 migrados de `/free_italian_exercises/*.html`, 237/237 páginas convertibles). 100% con nivel CEFR asignado — ver detalle abajo |
 
 ### Cobertura real de gramática por nivel
 
@@ -58,11 +58,21 @@ qué script `bits/*.js` los renderiza, para cubrir también variantes embebidas 
 | Reordenar frase → `ordering` | 6 | ✅ migrado |
 | Unir pares → `matching` | 5 grupos / 123 pares | ✅ migrado — **5º tipo de componente nuevo**, agregado en el motor junto con esta migración (ver `docs/architecture.md` punto 4) |
 
-De esas 1355 preguntas (749+472+6+123, contando cada par de matching), **1232 tienen nivel CEFR
-confirmable** por el nombre de archivo y están embebidas en `prototype/index.html`; las otras
-938 quedaron en `content/exercises-sinnivel.json` sin nivel adivinado (nombre de archivo sin
-marcador, ej. `Cantare.html`, `Essere.html`, drills de conjugación individuales alcanzados desde
-páginas hub) — no están embebidas en el prototipo todavía.
+De esas 1355 preguntas (749+472+6+123, contando cada par de matching), 1232 tenían nivel CEFR
+confirmable por el nombre de archivo; las otras 938 (82 páginas — sobre todo drills de
+conjugación verbal individuales sin nivel en el nombre, ej. `Cantare.html`, `Essere.html`,
+alcanzados desde páginas hub) no lo tenían.
+
+**Clasificación manual de esas 938 (2026-08-12)**: se clasificaron una por una por página de
+origen (no por título — varios títulos se repiten entre tiempos verbales distintos, ej. "Essere"
+existe como drill de passato remoto Y de congiuntivo presente, con nivel distinto cada vez).
+Criterio: match directo contra el tema ya clasificado en `content/grammar-*.json` cuando existe
+(ej. "Aggettivi possessivi" → A2 porque así está en `grammar-a2.json`); para los ~53 drills de
+conjugación sin tema propio, por tiempo verbal según la progresión CEFR estándar del italiano,
+también anclada en `grammar-*.json` (presente indicativo → A1, imperfetto/condizionale/futuro
+semplice → A2, congiuntivo presente → B1, passato remoto → B2). El criterio completo, página por
+página, queda documentado en `migration-log/log.json`. **Las 2170 preguntas están embebidas en
+`prototype/index.html`; `content/exercises-sinnivel.json` quedó vacío (0 pendientes).**
 
 Los textos con 10-15 huecos numerados en un solo párrafo (`gappedtext*.js`, ~7 páginas) se
 convirtieron partiendo el párrafo por cada posición de hueco: cada hueco es un ítem `gapfill`
@@ -137,15 +147,15 @@ docs/
    ítem). Limitación conocida y documentada: el audio requiere internet (streaming desde
    SoundCloud, no se descargó ningún binario) — ver `docs/architecture.md` decisión 7. El
    conteo real (175) difiere del estimado inicial (198); corregido en cada `level-*-index.json`.
-3. ~~Ejercicios legacy~~ — **hecho el 2026-08-12**: 1232 preguntas migradas y embebidas en
-   `EXERCISE_QUEUES` junto a los 23 ítems curados (total 1255), sobre las 237/237 páginas
-   convertibles del sitio (0 omitidas). Se agregó **matching** como 5º tipo de componente del
-   motor (UI + lógica de corrección en `prototype/index.html`, `pickMatchLeft`/`pickMatchRight`)
-   y un parser para los textos con huecos múltiples (`gappedtext*.js`, cada hueco → un ítem
-   `gapfill`). Único pendiente real: **938 preguntas sin nivel CEFR confirmado**
-   (`content/exercises-sinnivel.json`, sobre todo drills de conjugación individuales alcanzados
-   desde páginas hub) — no se adivinó el nivel, decisión tomada con el usuario en sesión; falta
-   clasificarlas a mano y embeberlas.
+3. ~~Ejercicios legacy~~ — **hecho el 2026-08-12, en dos pasadas**. Primera: 1232 preguntas
+   migradas de `/free_italian_exercises/*.html` (237/237 páginas convertibles, 0 omitidas), más
+   **matching** agregado como 5º tipo de componente del motor (UI + lógica de corrección en
+   `prototype/index.html`, `pickMatchLeft`/`pickMatchRight`) y un parser para los textos con
+   huecos múltiples (`gappedtext*.js`, cada hueco → un ítem `gapfill`). Segunda: las 938
+   preguntas que habían quedado sin nivel CEFR confirmable por el nombre de archivo se
+   clasificaron a mano, página por página (criterio y detalle en `migration-log/log.json`), y se
+   embebieron. Total: **2193 preguntas reales en `EXERCISE_QUEUES`** (23 curadas + 2170
+   migradas), 100% con nivel asignado. `content/exercises-sinnivel.json` quedó vacío.
 4. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) cuando
    el contenido esté más completo — ver `docs/roadmap.md`, fase 6. El módulo de listening
    necesitará resolver su dependencia de internet (SoundCloud) antes de poder llamarse

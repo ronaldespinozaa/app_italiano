@@ -33,7 +33,7 @@ la Fase 5 (PWA offline-first) se toma en serio el "100% offline", este módulo n
 solución aparte (¿negociar con el autor una copia de los audios? ¿aceptar que listening quede
 como la única excepción online?) — decisión de producto, no técnica, que todavía no se tomó.
 
-## Fase 3 — Ejercicios interactivos (🟢 completa sobre lo descubierto — ver el pendiente real abajo)
+## Fase 3 — Ejercicios interactivos (✅ completa)
 El "333" original era un conteo de páginas del inventario inicial, no de preguntas — el total
 real de páginas es ~243 (190 del índice + ~53 alcanzadas siguiendo 6 páginas "hub" de
 conjugación) y el total real de preguntas individuales es 2170, en 237/237 páginas convertibles
@@ -46,20 +46,28 @@ datos (no por qué script `bits/*.js` la renderiza):
 | Rellenar hueco de texto libre → `gapfill` | 472 (incluye los huecos de `gappedtext*.js`, ver abajo) | ✅ migrado y embebido |
 | Reordenar frase (`wordorder.js` y variantes inline) → `ordering` | 6 | ✅ migrado y embebido |
 | Emparejar pares (`newmatching*.js`) → **`matching` (2026-08-12, 5º tipo nuevo)** | 123 pares en 5 grupos | ✅ migrado y embebido — se agregó el tipo de componente al motor (`docs/architecture.md` punto 4) en vez de forzarlo a otro tipo existente |
-| — de las 1232 migradas con nivel, 0 quedaron sin convertir por falta de tipo de componente | — | — |
-| — 938 preguntas migradas correctamente pero **sin nivel CEFR confirmable** por el nombre de archivo | — | 🟡 en `content/exercises-sinnivel.json`, sin embeber — único pendiente real de esta fase, es de clasificación manual, no técnico |
 
 `gappedtext*.js` (texto con 10-15 huecos numerados en un solo párrafo, ~7 páginas) se resolvió
 partiendo el párrafo por cada posición de `<INPUT>`: cada hueco pasó a ser un ítem `gapfill`
 independiente (antes/después = el texto real alrededor de ese hueco en la página), en vez de un
 tipo de dato nuevo para "párrafo con huecos" — pragmático y sigue siendo contenido 100% real.
 
+**Clasificación de nivel CEFR (2026-08-12, segunda pasada)**: de las 2170 preguntas, 1232 tenían
+nivel confirmable por el nombre de archivo; las otras 938 (82 páginas, sobre todo drills de
+conjugación verbal individuales sin tema propio en el nombre) se clasificaron a mano, página por
+página, en rol de profesor de italiano: match directo contra `content/grammar-*.json` cuando el
+tema ya estaba clasificado ahí, y por tiempo verbal (según la progresión CEFR estándar, también
+anclada en `grammar-*.json`) para los drills de conjugación — presente indicativo A1, imperfetto/
+condizionale/futuro semplice A2, congiuntivo presente B1, passato remoto B2. Criterio completo
+en `migration-log/log.json`. Resultado: **2170/2170 preguntas con nivel, 0 en
+`content/exercises-sinnivel.json`.**
+
 El índice de respuesta correcta de cada pregunta migrada se verificó a mano contra el código
 fuente real del motor legacy (`bits/uncountable3.js`, `bits/dropdown.js`) antes de confiar en
 la conversión masiva — y se corrió una verificación automática post-conversión (cada `mc` tiene
 exactamente una opción correcta, cada `gapfill` tiene respuesta no vacía, cada `ordering` quedó
 efectivamente barajado, cada `matching` no tiene parejas duplicadas del lado derecho) sobre las
-1232 preguntas embebidas. El feedback es genérico (correcto/incorrecto + la respuesta correcta),
+2170 preguntas embebidas. El feedback es genérico (correcto/incorrecto + la respuesta correcta),
 no la explicación pedagógica en español de los 23 ítems originales — el sitio no la provee, no
 se inventó. Detalle completo en `tools/exercise-scraper-report.json`.
 
