@@ -2,32 +2,43 @@
 
 // Motor de ejercicios compilado a WebAssembly.
 //
-// Milestone 2 del plan "Go -> WASM": generaliza el Milestone 1 (que solo
-// soportaba `mc`) a los 4 tipos que ya soporta `EXERCISE_QUEUES` en
-// prototype/index.html: mc, gapfill, truefalse, ordering. La lógica de
-// corrección de cada tipo replica EXACTO el comportamiento de
-// answerMC/answerGapfill/answerTF/pickWord en prototype/index.html (mismo
-// trim/lowercase, mismo join con espacio simple para ordering) — no es una
-// reinterpretación, es el mismo contrato de datos.
+// Milestone 3 del plan "Go -> WASM": alcanza paridad con el motor JS real de
+// prototype/index.html (que avanzó mucho en paralelo — ver
+// wasmapp/README.md para el detalle), antes de reemplazarlo:
+//   - Los 5 tipos de EXERCISE_QUEUES: mc, gapfill, truefalse, ordering,
+//     matching (el 5º, agregado junto con la migración de ~123 ejercicios
+//     legacy que lo necesitaban).
+//   - La cola de ejercicios es INFINITA (current.index % len(items)), igual
+//     que `exQueueIndex % queue.length` en el JS — no hay concepto de
+//     "ronda terminada".
+//   - El progreso se persiste en la MISMA clave de localStorage que ya usa
+//     el JS (`italianClubProgress_v1`, esquema {[nivel]: {gram, listen,
+//     vocab, ex, exCorrect}}), tocando solo `ex`/`exCorrect` — así, cuando
+//     se reemplace el motor JS por este, el progreso ya guardado del
+//     usuario sigue funcionando sin migración de datos.
 //
 // Expone en window.exerciseEngine: load, current, answer, next, progress.
-// (Antes de este milestone se llamaba window.mcEngine — se renombró porque
-// ya no es solo mc.)
 package main
 
 import (
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"strings"
 	"syscall/js"
-	"time"
 )
 
-// ExerciseItem es el superset de los 4 tipos, con el mismo shape que ya
-// usa EXERCISE_QUEUES en el prototipo (adaptado a JSON con nombres en
+// Pair es un ítem de un ejercicio `matching`.
+type Pair struct {
+	Left  string `json:"left"`
+	Right string `json:"right"`
+}
+
+// ExerciseItem es el superset de los 5 tipos, con el mismo shape que ya usa
+// EXERCISE_QUEUES en el prototipo (adaptado a JSON con nombres en
 // minúscula). Cada tipo solo llena los campos que le corresponden.
 type ExerciseItem struct {
-	Type string `json:"type"` // mc | gapfill | truefalse | ordering
+	Type string `json:"type"` // mc | gapfill | truefalse | ordering | matching
 	ID   string `json:"id"`
 
 	// mc
@@ -48,61 +59,102 @@ type ExerciseItem struct {
 	// ordering
 	Words           []string `json:"words,omitempty"`
 	CorrectSentence string   `json:"correctSentence,omitempty"`
+
+	// matching
+	Pairs []Pair `json:"pairs,omitempty"`
 }
 
 // answerPayload es lo que manda la UI al contestar. Solo el campo que
 // corresponde al tipo de la pregunta activa debe venir seteado.
 type answerPayload struct {
-	SelectedIndex *int     `json:"selectedIndex,omitempty"` // mc
-	Text          *string  `json:"text,omitempty"`          // gapfill
-	Selected      *bool    `json:"selected,omitempty"`      // truefalse
-	Words         []string `json:"words,omitempty"`         // ordering
+	SelectedIndex   *int     `json:"selectedIndex,omitempty"`   // mc
+	Text            *string  `json:"text,omitempty"`            // gapfill
+	Selected        *bool    `json:"selected,omitempty"`        // truefalse
+	Words           []string `json:"words,omitempty"`           // ordering
+	MatchesComplete bool     `json:"matchesComplete,omitempty"` // matching
 }
 
 type answerResult struct {
-	Error           string `json:"error,omitempty"`
-	Correct         bool   `json:"correct"`
-	CorrectAnswer   string `json:"correctAnswer,omitempty"` // texto legible, para el feedback
-	Score           int    `json:"score"`
-	Total           int    `json:"total"`
-	Done            bool   `json:"done"`
+	Error         string `json:"error,omitempty"`
+	Correct       bool   `json:"correct"`
+	CorrectAnswer string `json:"correctAnswer,omitempty"` // texto legible, para el feedback
 }
 
-type progressRecord struct {
-	Attempts   int    `json:"attempts"`
-	BestScore  int    `json:"bestScore"`
-	BestTotal  int    `json:"bestTotal"`
-	LastPlayed string `json:"lastPlayedAt"`
+// levelBucket refleja EXACTO el shape que ya escribe levelBucket() en
+// prototype/index.html — no es un formato nuevo. gram/listen/vocab quedan
+// intactos acá: este motor nunca los toca, solo los preserva al
+// leer-modificar-escribir el blob completo.
+type levelBucket struct {
+	Gram      map[string]bool `json:"gram"`
+	Listen    map[string]bool `json:"listen"`
+	Vocab     map[string]bool `json:"vocab"`
+	Ex        map[string]bool `json:"ex"`
+	ExCorrect map[string]bool `json:"exCorrect"`
 }
 
-type engineState struct {
-	levelKey string
-	items    []ExerciseItem
-	index    int
-	score    int
-	answered bool
-}
-
-func storageKey(levelKey string) string {
-	return "italianclub:progress:" + levelKey
-}
-
-func loadProgress(levelKey string) progressRecord {
-	var rec progressRecord
-	raw := js.Global().Get("localStorage").Call("getItem", storageKey(levelKey))
-	if raw.IsNull() || raw.IsUndefined() {
-		return rec
+func emptyBucket() levelBucket {
+	return levelBucket{
+		Gram: map[string]bool{}, Listen: map[string]bool{}, Vocab: map[string]bool{},
+		Ex: map[string]bool{}, ExCorrect: map[string]bool{},
 	}
-	_ = json.Unmarshal([]byte(raw.String()), &rec) // si está corrupto, arrancamos de cero
-	return rec
 }
 
-func saveProgress(levelKey string, rec progressRecord) {
-	data, err := json.Marshal(rec)
+const progressStorageKey = "italianClubProgress_v1"
+
+func loadFullProgress() map[string]levelBucket {
+	data := map[string]levelBucket{}
+	raw := js.Global().Get("localStorage").Call("getItem", progressStorageKey)
+	if raw.IsNull() || raw.IsUndefined() {
+		return data
+	}
+	_ = json.Unmarshal([]byte(raw.String()), &data) // si está corrupto, arrancamos de cero
+	return data
+}
+
+func saveFullProgress(data map[string]levelBucket) {
+	b, err := json.Marshal(data)
 	if err != nil {
 		return
 	}
-	js.Global().Get("localStorage").Call("setItem", storageKey(levelKey), string(data))
+	js.Global().Get("localStorage").Call("setItem", progressStorageKey, string(b))
+}
+
+// recordExerciseAttempt replica record ExerciseAttempt() del JS: marca el
+// ítem como visto siempre, y su corrección refleja el ÚLTIMO intento (se
+// borra de exCorrect si el intento actual fue incorrecto), no un historial.
+func recordExerciseAttempt(levelKey string, idx int, correct bool) {
+	data := loadFullProgress()
+	lb, ok := data[levelKey]
+	if !ok {
+		lb = emptyBucket()
+	}
+	key := fmt.Sprintf("%d", idx)
+	lb.Ex[key] = true
+	if correct {
+		lb.ExCorrect[key] = true
+	} else {
+		delete(lb.ExCorrect, key)
+	}
+	data[levelKey] = lb
+	saveFullProgress(data)
+}
+
+// exerciseProgress replica la parte "ex" de progressSummary() del JS.
+func exerciseProgress(levelKey string, total int) map[string]interface{} {
+	data := loadFullProgress()
+	lb, ok := data[levelKey]
+	if !ok {
+		lb = emptyBucket()
+	}
+	seen := len(lb.Ex)
+	correct := len(lb.ExCorrect)
+	pct := 0
+	if total > 0 {
+		pct = (seen * 100) / total
+	}
+	return map[string]interface{}{
+		"seen": seen, "correct": correct, "total": total, "pct": pct,
+	}
 }
 
 func toJSON(v interface{}) string {
@@ -115,6 +167,13 @@ func toJSON(v interface{}) string {
 
 func errJSON(msg string) string {
 	return toJSON(map[string]string{"error": msg})
+}
+
+type engineState struct {
+	levelKey string
+	items    []ExerciseItem
+	index    int
+	answered bool
 }
 
 var current *engineState
@@ -134,7 +193,10 @@ func load(this js.Value, args []js.Value) interface{} {
 		return errJSON("la lista de ejercicios está vacía")
 	}
 	for i, it := range items {
-		if it.Type != "mc" && it.Type != "gapfill" && it.Type != "truefalse" && it.Type != "ordering" {
+		switch it.Type {
+		case "mc", "gapfill", "truefalse", "ordering", "matching":
+			// ok
+		default:
 			return errJSON(fmt.Sprintf("ítem %d: tipo desconocido %q", i, it.Type))
 		}
 	}
@@ -142,24 +204,21 @@ func load(this js.Value, args []js.Value) interface{} {
 	current = &engineState{levelKey: levelKey, items: items}
 	return toJSON(map[string]interface{}{
 		"loaded":   len(items),
-		"progress": loadProgress(levelKey),
+		"progress": exerciseProgress(levelKey, len(items)),
 	})
 }
 
-// current() — el ejercicio activo, sin revelar la respuesta correcta, o
-// {"done":true} si ya se terminó la cola.
+// current() — el ejercicio activo. La cola es infinita (igual que
+// `exQueueIndex % queue.length` en el JS): nunca hay {"done":true}.
 func currentItem(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
 	}
-	if current.index >= len(current.items) {
-		return toJSON(map[string]bool{"done": true})
-	}
-	it := current.items[current.index]
+	pos := current.index % len(current.items)
+	it := current.items[pos]
 
 	public := map[string]interface{}{
-		"id": it.ID, "type": it.Type,
-		"index": current.index, "total": len(current.items),
+		"id": it.ID, "type": it.Type, "queueIndex": pos,
 	}
 	switch it.Type {
 	case "mc":
@@ -173,22 +232,39 @@ func currentItem(this js.Value, args []js.Value) interface{} {
 		public["statement"] = it.Statement
 	case "ordering":
 		public["words"] = it.Words
+	case "matching":
+		type shuffledRight struct {
+			Text     string `json:"text"`
+			RightIdx int    `json:"rightIdx"` // índice original — el left correcto es lefts[rightIdx]
+		}
+		lefts := make([]string, len(it.Pairs))
+		shuffled := make([]shuffledRight, len(it.Pairs))
+		for i, p := range it.Pairs {
+			lefts[i] = p.Left
+			shuffled[i] = shuffledRight{Text: p.Right, RightIdx: i}
+		}
+		rand.Shuffle(len(shuffled), func(i, j int) { shuffled[i], shuffled[j] = shuffled[j], shuffled[i] })
+		public["lefts"] = lefts
+		public["rightsShuffled"] = shuffled
 	}
 	return toJSON(public)
 }
 
-// answer(payloadJSON) — corrige el ejercicio activo. La corrección replica
-// exacto la lógica de prototype/index.html:
+// answer(payloadJSON) — corrige el ejercicio activo y persiste el intento
+// de inmediato (igual que el JS: recordExerciseAttempt se llama en el
+// momento de contestar, no al avanzar). La corrección replica exacto la
+// lógica de prototype/index.html:
 //   - gapfill: trim + lowercase, comparación exacta contra `answer`.
 //   - ordering: palabras unidas con un espacio, trim + lowercase.
 //   - truefalse: comparación booleana estricta.
 //   - mc: índice de opción seleccionada contra `correct`.
+//   - matching: no tiene estado "incorrecto final" — como en el JS, solo se
+//     contesta una vez que el cliente ya unió todos los pares (el
+//     emparejamiento se valida solo del lado del cliente comparando
+//     rightIdx, no hay nada que ocultar), así que siempre es correct=true.
 func answer(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
-	}
-	if current.index >= len(current.items) {
-		return toJSON(answerResult{Done: true})
 	}
 	if current.answered {
 		return errJSON("este ejercicio ya fue respondido — llamá a next()")
@@ -202,7 +278,8 @@ func answer(this js.Value, args []js.Value) interface{} {
 		return errJSON("payload de respuesta inválido: " + err.Error())
 	}
 
-	it := current.items[current.index]
+	pos := current.index % len(current.items)
+	it := current.items[pos]
 	var correct bool
 	var correctAnswer string
 
@@ -239,50 +316,43 @@ func answer(this js.Value, args []js.Value) interface{} {
 		built := strings.ToLower(strings.Join(payload.Words, " "))
 		correct = built == strings.ToLower(it.CorrectSentence)
 		correctAnswer = it.CorrectSentence
+	case "matching":
+		if !payload.MatchesComplete {
+			return errJSON("matching se contesta con matchesComplete:true recién cuando el cliente unió todos los pares")
+		}
+		correct = true
 	}
 
-	if correct {
-		current.score++
-	}
 	current.answered = true
+	recordExerciseAttempt(current.levelKey, pos, correct)
 
-	return toJSON(answerResult{
-		Correct: correct, CorrectAnswer: correctAnswer,
-		Score: current.score, Total: len(current.items),
-	})
+	return toJSON(answerResult{Correct: correct, CorrectAnswer: correctAnswer})
 }
 
-// next() — avanza al siguiente ejercicio. Al terminar la cola, persiste el
-// resultado (intentos totales + mejor puntaje) en localStorage.
+// next() — avanza al siguiente ejercicio de la cola (con wraparound).
 func next(this js.Value, args []js.Value) interface{} {
 	if current == nil {
 		return errJSON("no hay ejercicios cargados — llamá a load() primero")
 	}
 	current.index++
 	current.answered = false
-
-	done := current.index >= len(current.items)
-	if done {
-		rec := loadProgress(current.levelKey)
-		isFirstAttempt := rec.Attempts == 0
-		rec.Attempts++
-		if isFirstAttempt || current.score > rec.BestScore {
-			rec.BestScore = current.score
-			rec.BestTotal = len(current.items)
-		}
-		rec.LastPlayed = time.Now().UTC().Format(time.RFC3339)
-		saveProgress(current.levelKey, rec)
-	}
-	return toJSON(map[string]bool{"done": done})
+	return toJSON(map[string]bool{"ok": true})
 }
 
-// progress(levelKey) — progreso histórico de un nivel, sin necesitar un
-// load() previo (para pantallas de resumen).
+// progress(levelKey) — igual que la parte "ex" de progressSummary() en el
+// JS. Si hay una cola cargada para ese nivel, usa su longitud real como
+// total; si no, total queda en 0 (llamar a load() primero para un total
+// preciso).
 func progress(this js.Value, args []js.Value) interface{} {
 	if len(args) < 1 {
 		return errJSON("uso: exerciseEngine.progress(levelKey)")
 	}
-	return toJSON(loadProgress(args[0].String()))
+	levelKey := args[0].String()
+	total := 0
+	if current != nil && current.levelKey == levelKey {
+		total = len(current.items)
+	}
+	return toJSON(exerciseProgress(levelKey, total))
 }
 
 func main() {

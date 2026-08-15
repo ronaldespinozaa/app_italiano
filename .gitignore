@@ -12,6 +12,11 @@ test-*.log
 # Build artifacts de wasmapp (se regeneran con wasmapp/build.ps1)
 wasmapp/dist/
 
+# Derivado de content/exercises-*.json con el shape de wasmapp/main.go
+# (se regenera con tools/extract_exercise_queues.js) — no confundir con
+# content/exercises-*.json, que es el contenido migrado canónico.
+wasmapp/data/
+
 # Sistema
 .DS_Store
 __pycache__/

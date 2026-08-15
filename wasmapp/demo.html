@@ -2,25 +2,39 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>italianclub exercise-engine — demo WASM</title>
+<title>italianclub exercise-engine — demo WASM (dataset real)</title>
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 2rem auto; padding: 0 1rem; }
+  body { font-family: system-ui, sans-serif; max-width: 34rem; margin: 2rem auto; padding: 0 1rem; }
   button { display: block; width: 100%; margin: .4rem 0; padding: .6rem; font-size: 1rem;
            border: 1px solid #ccc; border-radius: .4rem; background: #fff; cursor: pointer; }
   button:hover:not(:disabled) { background: #f0f0f0; }
   button.correct { background: #d4f7d4; border-color: #4caf50; }
   button.wrong { background: #f7d4d4; border-color: #e53935; }
+  button.selected { border-color: #2b6cb0; border-width: 2px; }
   button.chip { display: inline-block; width: auto; margin-right: .4rem; }
+  .match-cols { display: flex; gap: .6rem; }
+  .match-cols > div { flex: 1; }
   textarea { width: 100%; min-height: 3rem; font: inherit; padding: .5rem; box-sizing: border-box; }
   #built { min-height: 1.6rem; font-weight: 600; margin: .5rem 0; }
   #feedback { margin: 1rem 0; min-height: 1.4rem; font-weight: 600; }
   #status, #progress { color: #666; font-size: .9rem; }
-  #next, #verify { background: #2b6cb0; color: #fff; border: none; }
+  #next, #verify, #levelSelect { background: #2b6cb0; color: #fff; border: none; }
+  #levelSelect { width: auto; display: inline-block; padding: .3rem .6rem; margin-bottom: 1rem; }
 </style>
 </head>
 <body>
-  <h1>Motor de ejercicios — Milestone 2 (Go → WASM)</h1>
-  <p>4 tipos: <code>mc</code>, <code>gapfill</code>, <code>truefalse</code>, <code>ordering</code>.</p>
+  <h1>Motor de ejercicios — Milestone 3 (Go → WASM)</h1>
+  <p>Dataset REAL (no de prueba): <code>content/exercises-&lt;nivel&gt;.json</code>,
+     extraído de <code>EXERCISE_QUEUES</code> con
+     <code>tools/extract_exercise_queues.js</code>. 5 tipos: <code>mc</code>,
+     <code>gapfill</code>, <code>truefalse</code>, <code>ordering</code>, <code>matching</code>.</p>
+
+  <label>Nivel:
+    <select id="levelSelect">
+      <option>A1</option><option>A2</option><option>B1</option>
+      <option>B2</option><option>C1</option><option>C2</option>
+    </select>
+  </label>
   <p id="status">Cargando WebAssembly…</p>
 
   <div id="quiz" hidden>
@@ -32,45 +46,10 @@
 
   <p id="progress"></p>
 
-  <!-- Contenido REAL: las 5 preguntas de A1 tal como existen hoy en
-       prototype/index.html (EXERCISE_QUEUES.A1) — no son datos de prueba
-       inventados, mismo principio de honestidad de datos del resto del
-       repo. correctAnswer/boolAnswer/correct nunca se leen desde acá para
-       mostrar la pregunta: el motor WASM los oculta en current(). -->
-  <script>
-    const LEVEL = "A1";
-    const ITEMS = [
-      {
-        id: "a1-1-mc", type: "mc",
-        prompt: 'Completa: "Io ___ italiano."',
-        options: ["sono", "sei", "è"], correct: 0
-      },
-      {
-        id: "a1-2-gapfill", type: "gapfill",
-        before: "Io ", after: " due sorelle e un fratello.",
-        answer: "ho", hint: "verbo avere, forma \"io\""
-      },
-      {
-        id: "a1-3-ordering", type: "ordering",
-        words: ["italiano", "sono", "Io"],
-        correctSentence: "Io sono italiano"
-      },
-      {
-        id: "a1-4-mc", type: "mc",
-        prompt: '¿Cuál es el plural de "la mano" (femenino aunque termine en -o)?',
-        options: ["le mani", "le mano", "i mani"], correct: 0
-      },
-      {
-        id: "a1-5-gapfill", type: "gapfill",
-        before: "Mi ", after: " i biscotti al cioccolato.",
-        answer: "piacciono", hint: 'el sujeto real es "i biscotti" (plural)'
-      }
-    ];
-  </script>
-
   <script src="dist/wasm_exec.js"></script>
   <script>
     const statusEl = document.getElementById("status");
+    let totalLoaded = 0;
 
     function waitForEngine(cb, triesLeft = 100) {
       if (window.exerciseEngine) return cb();
@@ -85,22 +64,40 @@
     WebAssembly.instantiateStreaming(fetch("dist/app.wasm"), go.importObject)
       .then((result) => {
         go.run(result.instance); // no resuelve nunca (el programa Go bloquea en select{})
-        waitForEngine(startQuiz);
+        waitForEngine(() => {
+          statusEl.textContent = "";
+          document.getElementById("levelSelect").addEventListener("change", startQuiz);
+          startQuiz();
+        });
       })
       .catch((err) => {
         statusEl.textContent = "Error cargando app.wasm: " + err;
         console.error(err);
       });
 
-    let orderingPicked = [];
+    async function startQuiz() {
+      const level = document.getElementById("levelSelect").value;
+      statusEl.textContent = `Cargando content/exercises-${level.toLowerCase()}.json…`;
+      document.getElementById("quiz").hidden = true;
 
-    function startQuiz() {
-      statusEl.textContent = "";
-      const res = JSON.parse(exerciseEngine.load(LEVEL, JSON.stringify(ITEMS)));
+      let data;
+      try {
+        const resp = await fetch(`data/exercises-${level.toLowerCase()}.json`);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        data = await resp.json();
+      } catch (err) {
+        statusEl.textContent = "Error cargando el dataset real: " + err +
+          " — ¿corriste 'node tools/extract_exercise_queues.js' desde la raíz del repo?";
+        return;
+      }
+
+      const res = JSON.parse(exerciseEngine.load(level, JSON.stringify(data.items)));
       if (res.error) {
         statusEl.textContent = "Error: " + res.error;
         return;
       }
+      totalLoaded = res.loaded;
+      statusEl.textContent = "";
       document.getElementById("quiz").hidden = false;
       renderProgress(res.progress);
       renderItem();
@@ -108,23 +105,17 @@
 
     function renderItem() {
       const it = JSON.parse(exerciseEngine.current());
+      if (it.error) { statusEl.textContent = "Error: " + it.error; return; }
+
       const feedback = document.getElementById("feedback");
       const nextBtn = document.getElementById("next");
       const body = document.getElementById("body");
       feedback.textContent = "";
       nextBtn.hidden = true;
-      orderingPicked = [];
-
-      if (it.done) {
-        document.getElementById("kicker").textContent = "";
-        body.innerHTML = "<p><strong>¡Cola terminada!</strong></p>";
-        renderProgress(JSON.parse(exerciseEngine.progress(LEVEL)));
-        return;
-      }
+      body.innerHTML = "";
 
       document.getElementById("kicker").textContent =
-        `${it.type} · ejercicio ${it.index + 1} / ${it.total}`;
-      body.innerHTML = "";
+        `${it.type} · ítem ${it.queueIndex + 1} / ${totalLoaded}`;
 
       if (it.type === "mc") {
         const p = document.createElement("p");
@@ -141,8 +132,7 @@
         p.innerHTML = `${it.before}<u>____</u>${it.after}`;
         body.appendChild(p);
         const ta = document.createElement("textarea");
-        ta.placeholder = it.hint;
-        ta.id = "gapInput";
+        ta.placeholder = it.hint || "";
         body.appendChild(ta);
         const verify = document.createElement("button");
         verify.id = "verify";
@@ -169,21 +159,72 @@
         built.id = "built";
         body.appendChild(built);
         const chips = document.createElement("div");
+        const picked = [];
         it.words.forEach((w) => {
           const chip = document.createElement("button");
           chip.className = "chip";
           chip.textContent = w;
           chip.onclick = () => {
-            orderingPicked.push(w);
+            picked.push(w);
             chip.style.display = "none";
-            built.textContent = orderingPicked.join(" ");
-            if (orderingPicked.length === it.words.length) {
-              submitAnswer({ words: orderingPicked }, []);
+            built.textContent = picked.join(" ");
+            if (picked.length === it.words.length) {
+              submitAnswer({ words: picked }, []);
             }
           };
           chips.appendChild(chip);
         });
         body.appendChild(chips);
+      } else if (it.type === "matching") {
+        const p = document.createElement("p");
+        p.textContent = "Toca un término de la izquierda y después su pareja a la derecha:";
+        body.appendChild(p);
+        const cols = document.createElement("div");
+        cols.className = "match-cols";
+        const leftCol = document.createElement("div");
+        const rightCol = document.createElement("div");
+        cols.appendChild(leftCol);
+        cols.appendChild(rightCol);
+        body.appendChild(cols);
+
+        let selectedBtn = null, selectedIdx = null, matchedCount = 0;
+        it.lefts.forEach((text, idx) => {
+          const btn = document.createElement("button");
+          btn.textContent = text;
+          btn.onclick = () => {
+            if (btn.classList.contains("correct")) return;
+            if (selectedBtn) selectedBtn.classList.remove("selected");
+            selectedBtn = btn;
+            selectedIdx = idx;
+            btn.classList.add("selected");
+          };
+          leftCol.appendChild(btn);
+        });
+        it.rightsShuffled.forEach((r) => {
+          const btn = document.createElement("button");
+          btn.textContent = r.text;
+          btn.onclick = () => {
+            if (btn.classList.contains("correct") || selectedIdx === null) return;
+            if (r.rightIdx === selectedIdx) {
+              btn.classList.remove("selected");
+              btn.classList.add("correct");
+              btn.onclick = null;
+              selectedBtn.classList.remove("selected");
+              selectedBtn.classList.add("correct");
+              selectedBtn.onclick = null;
+              matchedCount++;
+              selectedBtn = null;
+              selectedIdx = null;
+              if (matchedCount === it.lefts.length) {
+                submitAnswer({ matchesComplete: true }, []);
+              }
+            } else {
+              btn.classList.add("wrong");
+              setTimeout(() => btn.classList.remove("wrong"), 400);
+            }
+          };
+          rightCol.appendChild(btn);
+        });
       }
     }
 
@@ -198,22 +239,26 @@
 
       document.getElementById("feedback").textContent = res.correct
         ? "✅ ¡Correcto!"
-        : `❌ Incorrecto. Respuesta correcta: "${res.correctAnswer}"`;
+        : (res.correctAnswer ? `❌ Incorrecto. Respuesta correcta: "${res.correctAnswer}"` : "❌ Incorrecto.");
 
       const nextBtn = document.getElementById("next");
       nextBtn.hidden = false;
-      nextBtn.onclick = () => { exerciseEngine.next(); renderItem(); };
+      nextBtn.onclick = () => {
+        exerciseEngine.next();
+        renderItem();
+        renderProgress(JSON.parse(exerciseEngine.progress(document.getElementById("levelSelect").value)));
+      };
     }
 
     function renderProgress(p) {
-      if (!p || p.attempts === 0) {
+      if (!p || p.seen === 0) {
         document.getElementById("progress").textContent =
-          "Sin intentos previos guardados en este navegador todavía.";
+          "Sin ítems vistos todavía en este nivel (localStorage: italianClubProgress_v1).";
         return;
       }
       document.getElementById("progress").textContent =
-        `Progreso guardado (localStorage) — intentos: ${p.attempts}, ` +
-        `mejor puntaje: ${p.bestScore}/${p.bestTotal}, último: ${p.lastPlayedAt}`;
+        `Progreso guardado (mismo localStorage que usa el prototipo JS) — ` +
+        `vistos: ${p.seen}/${p.total} (${p.pct}%), correctos en el último intento: ${p.correct}.`;
     }
   </script>
 </body>
