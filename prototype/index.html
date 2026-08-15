@@ -5,8 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Italian Club">
 <meta name="theme-color" content="#F4F0E4">
+<meta name="description" content="Aprendé italiano organizado por nivel CEFR (A1–C2): gramática, listening, vocabulario y ejercicios reales.">
 <title>Italian Club — prototipo por nivel</title>
+<link rel="manifest" href="manifest.json">
+<!-- SVG como apple-touch-icon: funciona en Chrome/Android sin problema, pero
+     Safari/iOS históricamente lo soporta de forma inconsistente para el ícono
+     de "Agregar a inicio" — una PWA en producción debería exportar PNGs reales
+     (192x192, 512x512, maskable) además de este SVG. Ver docs/roadmap.md Fase 5. -->
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
 <style>
   :root{
     --bg:#F4F0E4;
@@ -285,12 +294,12 @@ const TIERS = { A:'var(--terracotta)', B:'var(--olive)', C:'var(--navy)' };
 const TIER_SOFT = { A:'var(--terracotta-soft)', B:'var(--olive-soft)', C:'var(--navy-soft)' };
 
 const LEVELS = [
-  {code:'A1', tier:'A', name:'Principiante', pct:35, uiLang:'Interfaz en español', desc:'Primeros pasos: saludos, presente, frases muy cortas.'},
-  {code:'A2', tier:'A', name:'Elemental', pct:0,  uiLang:'Interfaz en español', desc:'Rutinas diarias, pasado simple, vocabulario ampliado.'},
-  {code:'B1', tier:'B', name:'Intermedio', pct:0,  uiLang:'Interfaz mixta ES/IT', desc:'Opiniones, condicional, textos algo más largos.'},
-  {code:'B2', tier:'B', name:'Intermedio alto', pct:0, uiLang:'Interfaz en italiano', desc:'Congiuntivo, matices, noticias y lectura real.'},
-  {code:'C1', tier:'C', name:'Avanzado', pct:0,  uiLang:'Interfaz en italiano', desc:'Literatura, registro formal, producción libre.'},
-  {code:'C2', tier:'C', name:'Dominio', pct:0,  uiLang:'Interfaz en italiano', desc:'Nivel nativo: matices culturales e idiomáticos.'},
+  {code:'A1', tier:'A', name:'Principiante', uiLang:'Interfaz en español', desc:'Primeros pasos: saludos, presente, frases muy cortas.'},
+  {code:'A2', tier:'A', name:'Elemental', uiLang:'Interfaz en español', desc:'Rutinas diarias, pasado simple, vocabulario ampliado.'},
+  {code:'B1', tier:'B', name:'Intermedio', uiLang:'Interfaz mixta ES/IT', desc:'Opiniones, condicional, textos algo más largos.'},
+  {code:'B2', tier:'B', name:'Intermedio alto', uiLang:'Interfaz en italiano', desc:'Congiuntivo, matices, noticias y lectura real.'},
+  {code:'C1', tier:'C', name:'Avanzado', uiLang:'Interfaz en italiano', desc:'Literatura, registro formal, producción libre.'},
+  {code:'C2', tier:'C', name:'Dominio', uiLang:'Interfaz en italiano', desc:'Nivel nativo: matices culturales e idiomáticos.'},
 ];
 
 const MODULES = {
@@ -3069,6 +3078,79 @@ function renderDial(){
   `).join('');
 }
 
+// ---------------------------------------------------------------------
+// Progreso real, persistido en localStorage — Fase 5 del roadmap (PWA).
+// Antes de esto, LEVELS[].pct y los valores de renderProgress() eran
+// números fijos de demo (pct:35 hardcodeado, vals:[72,40,85,20,55,10]) —
+// no se guardaba nada entre sesiones. Se reemplazan por conteos reales:
+// - gram/listen/vocab: qué ítems abrió/vio el usuario al menos una vez
+//   (índice -> true), comparado contra el total real de ese nivel.
+// - ex: por cada ítem de EXERCISE_QUEUES[nivel], si se intentó y si el
+//   último intento fue correcto — igual criterio de "visto" que arriba,
+//   no un contador de intentos que pudiera superar el 100%.
+// No hay tracking por separado de vocab/diálogos/verbos/lectura porque
+// esos 4 módulos de la grilla (ver MODULES) navegan al mismo
+// EXERCISE_QUEUES[nivel] — no hay datos reales que los distinga entre sí
+// todavía (ver README, sección de próximos pasos).
+const PROGRESS_KEY = 'italianClubProgress_v1';
+
+function loadProgress(){
+  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; }
+  catch(e){ return {}; }
+}
+function saveProgress(p){
+  try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(p)); } catch(e){ /* modo privado, etc. — se pierde el progreso, no rompe la app */ }
+}
+function levelBucket(p, level){
+  if(!p[level]) p[level] = {gram:{}, listen:{}, vocab:{}, ex:{}, exCorrect:{}};
+  return p[level];
+}
+function markSeen(category, level, idx){
+  if(idx == null) return;
+  const p = loadProgress();
+  const lb = levelBucket(p, level);
+  if(!lb[category]) lb[category] = {};
+  lb[category][idx] = true;
+  saveProgress(p);
+}
+function recordExerciseAttempt(level, idx, correct){
+  if(idx == null) return;
+  const p = loadProgress();
+  const lb = levelBucket(p, level);
+  if(!lb.ex) lb.ex = {};
+  if(!lb.exCorrect) lb.exCorrect = {};
+  lb.ex[idx] = true;
+  if(correct) lb.exCorrect[idx] = true; else delete lb.exCorrect[idx];
+  saveProgress(p);
+}
+function pctOf(seen, total){
+  return total > 0 ? Math.round(Math.min(seen, total) / total * 100) : 0;
+}
+function progressSummary(level){
+  const lb = levelBucket(loadProgress(), level);
+  const gramTotal = (GRAMMAR_CONTENT[level] || []).length;
+  const listenTotal = (LISTENING_CONTENT[level] || []).length;
+  const vocabSet = vocabSetForLevel(level);
+  const vocabTotal = (vocabSet === 'NO_VOCAB') ? 0 : vocabSet.length;
+  const exQueue = EXERCISE_QUEUES[level] || [];
+  const exSeen = Object.keys(lb.ex || {}).length;
+  const exCorrect = Object.keys(lb.exCorrect || {}).length;
+  return {
+    gram:   {seen: Object.keys(lb.gram || {}).length,   total: gramTotal,   pct: pctOf(Object.keys(lb.gram || {}).length, gramTotal)},
+    listen: {seen: Object.keys(lb.listen || {}).length, total: listenTotal, pct: pctOf(Object.keys(lb.listen || {}).length, listenTotal)},
+    vocab:  {seen: Object.keys(lb.vocab || {}).length,  total: vocabTotal,  pct: pctOf(Object.keys(lb.vocab || {}).length, vocabTotal)},
+    ex:     {seen: exSeen, correct: exCorrect, total: exQueue.length, pct: pctOf(exSeen, exQueue.length)},
+  };
+}
+function overallPct(level){
+  const s = progressSummary(level);
+  const parts = [s.gram, s.listen, s.ex];
+  if(s.vocab.total > 0) parts.push(s.vocab);
+  const withContent = parts.filter(p => p.total > 0);
+  if(!withContent.length) return 0;
+  return Math.round(withContent.reduce((sum, p) => sum + p.pct, 0) / withContent.length);
+}
+
 function openLevel(code){
   currentLevel = code;
   const lvl = LEVELS.find(l=>l.code===code);
@@ -3084,8 +3166,9 @@ function openLevel(code){
   pill.style.color = '#fff';
   document.getElementById('uiLangNote').textContent = '· ' + lvl.uiLang;
 
-  document.getElementById('checkPct').textContent = lvl.pct + '% completado';
-  document.getElementById('checkBar').style.width = lvl.pct + '%';
+  const pct = overallPct(code);
+  document.getElementById('checkPct').textContent = pct + '% completado';
+  document.getElementById('checkBar').style.width = pct + '%';
   document.getElementById('checkBar').style.background = TIERS[lvl.tier];
 
   // modules: reuse A1/B2 demo sets for any A-tier/B-tier/C-tier level (prototype simplification)
@@ -3166,6 +3249,7 @@ function toggleGrammarItem(i){
   const isHidden = body.classList.contains('hidden');
   body.classList.toggle('hidden');
   chev.textContent = isHidden ? '▴' : '▾';
+  if(isHidden) markSeen('gram', currentLevel, i);
 }
 
 // Audio real vía embed de SoundCloud (el sitio original no aloja mp3 propios
@@ -3223,6 +3307,7 @@ function toggleListenItem(i){
   const isHidden = body.classList.contains('hidden');
   body.classList.toggle('hidden');
   chev.textContent = isHidden ? '▴' : '▾';
+  if(isHidden) markSeen('listen', currentLevel, i);
   if(isHidden && body.dataset.loaded === '0'){
     const track = body.dataset.track;
     document.getElementById('lplayer-'+i).innerHTML =
@@ -3246,6 +3331,7 @@ function renderExercise(){
   const queue = currentQueue();
   const ex = queue[exQueueIndex % queue.length];
   window._currentEx = ex;
+  window._currentExIdx = exQueueIndex % queue.length;
   orderingPicked = [];
   const tier = window._currentTier;
   const root = document.getElementById('modalRoot');
@@ -3331,6 +3417,7 @@ function answerMC(btn, correct){
   const ex = window._currentEx;
   document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
   btn.classList.add(correct ? 'correct' : 'wrong');
+  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
   showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong);
 }
 
@@ -3339,6 +3426,7 @@ function answerGapfill(){
   const val = document.getElementById('gapInput').value.trim().toLowerCase();
   const correct = val === ex.answer.toLowerCase();
   document.getElementById('gapInput').style.borderColor = correct ? 'var(--olive)' : 'var(--terracotta)';
+  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
   showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong + ` (Risposta corretta: "${ex.answer}")`);
 }
 
@@ -3347,6 +3435,7 @@ function answerTF(btn, val){
   document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
   const correct = (val === ex.answer);
   btn.classList.add(correct ? 'correct' : 'wrong');
+  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
   showFeedback(correct, ex.explanation);
 }
 
@@ -3359,6 +3448,7 @@ function pickWord(btn, word){
     const built = orderingPicked.join(' ');
     const correct = built.toLowerCase() === ex.correct.toLowerCase();
     document.getElementById('orderBuilt').style.color = correct ? 'var(--olive)' : 'var(--terracotta)';
+    recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
     showFeedback(correct, (correct ? '¡Corretto! ' : `La frase corretta era: "${ex.correct}". `) + ex.explanation);
   }
 }
@@ -3395,6 +3485,7 @@ function pickMatchRight(btn, idx){
     matchingSelectedBtn = null;
     matchingSelectedIdx = null;
     if(matchingMatchedCount === ex.pairs.length){
+      recordExerciseAttempt(currentLevel, window._currentExIdx, true);
       showFeedback(true, ex.explanation || '¡Todas las parejas correctas!');
     }
   } else {
@@ -3455,6 +3546,8 @@ function flipFlash(){
   flashFlipped = !flashFlipped;
   if(flashFlipped){
     card.innerHTML = `<div class="back">${card.dataset.back}</div><div class="hint">toca para volver</div>`;
+    const set = vocabSetForLevel(currentLevel);
+    if(set !== 'NO_VOCAB') markSeen('vocab', currentLevel, flashIndex % set.length);
   } else {
     renderFlash();
   }
@@ -3474,15 +3567,26 @@ function renderNews(){
     </div>`).join('');
 }
 
+// Antes esto mostraba 6 barras con valores fijos de demo ([72,40,85,20,55,10])
+// que no venían de ningún dato real. Ahora usa el progreso real guardado en
+// localStorage (ver bloque Progress más arriba). 'dial'/'verb'/'read' comparten
+// el mismo valor real de 'ex' a propósito: los 4 (vocab aparte) navegan al
+// mismo EXERCISE_QUEUES[nivel] — no hay todavía datos reales que los
+// distinga entre sí, así que no se inventa un número por módulo.
 function renderProgress(){
   const tier = currentTier();
   const modSet = (tier === 'A') ? MODULES.A1 : MODULES.B2;
-  const vals = [72, 40, 85, 20, 55, 10];
-  document.getElementById('progList').innerHTML = modSet.map((m,i)=>`
+  const s = progressSummary(currentLevel);
+  const byKey = {gram: s.gram, list: s.listen, vocab: s.vocab, dial: s.ex, verb: s.ex, read: s.ex};
+  document.getElementById('progList').innerHTML = modSet.map(m=>{
+    const cat = byKey[m.k] || {pct:0, seen:0, total:0};
+    const label = cat.total ? `${cat.pct}%` : 'sin contenido propio';
+    return `
     <div class="prog-row">
-      <div class="top"><span>${m.title}</span><span>${vals[i]}%</span></div>
-      <div class="bar"><i style="width:${vals[i]}%;background:${TIERS[tier]}"></i></div>
-    </div>`).join('');
+      <div class="top"><span>${m.title}</span><span>${label}</span></div>
+      <div class="bar"><i style="width:${cat.pct}%;background:${TIERS[tier]}"></i></div>
+    </div>`;
+  }).join('');
 }
 
 function openLevelWrapped(code){
@@ -3491,6 +3595,16 @@ function openLevelWrapped(code){
 }
 
 renderLevelList();
+
+// Registro del service worker — Fase 5 (PWA instalable). Si el archivo se
+// abre directo con file:// (sin servidor), el registro falla silenciosamente
+// y la app sigue funcionando igual, solo sin offline/instalación — mismo
+// comportamiento que el prototipo tuvo siempre hasta ahora.
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => { /* file://, o sin https: no rompe la app */ });
+  });
+}
 </script>
 
 </body>

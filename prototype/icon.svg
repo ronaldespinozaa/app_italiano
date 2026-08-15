@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#A6402D"/>
+  <rect x="40" y="40" width="432" height="432" rx="64" fill="none" stroke="#C08A2E" stroke-width="6" opacity="0.55"/>
+  <text x="256" y="300" text-anchor="middle"
+        font-family="Iowan Old Style, Palatino Linotype, Georgia, serif"
+        font-size="220" font-weight="600" fill="#FCFAF3">IT</text>
+  <rect x="176" y="336" width="160" height="10" rx="5" fill="#C08A2E"/>
+</svg>
