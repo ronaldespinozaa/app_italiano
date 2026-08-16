@@ -27,21 +27,31 @@ punto 3).
     README del proyecto).
   - `demo.html` ahora carga el **dataset real completo** de cualquier nivel (selector
     A1–C2), no una muestra de 5 ítems.
+- **Milestone 4** (commit `f1bd86a`, este estado): **reemplazo real** — el motor JS de
+  corrección en `prototype/index.html` ya no existe. `renderExercise`/`answerMC`/
+  `answerGapfill`/`answerTF`/`pickWord`/`pickMatchRight` llaman a `window.exerciseEngine`
+  (`app.wasm`); `prototype/sw.js` cachea el binario para uso offline (`CACHE_NAME` subido a
+  v2). Bug real encontrado en la prueba manual y corregido antes del commit: ninguna de las
+  5 funciones de respuesta revisaba `res.error` de `exerciseEngine.answer()` — un doble-tap
+  en "Verifica" (gapfill) disparaba una segunda llamada que Go rechaza correctamente, pero
+  como nadie la revisaba, se mostraba "Respuesta correcta: undefined" en el feedback. Ver
+  `migration-log/log.json` para el detalle completo, incluida la reproducción contra el
+  `.wasm` real en Node antes de dar el fix por bueno.
 
-## Alcance actual (no es el reemplazo todavía)
+## Alcance actual
 
-- Los 5 tipos de ejercicio están soportados, con la MISMA lógica de corrección que
-  `prototype/index.html` (mismo trim+lowercase en `gapfill`, mismo join con espacio simple
-  en `ordering`, misma comparación estricta en `truefalse`, mismo "sin estado incorrecto
-  final" en `matching`) — no es una reinterpretación, es el mismo contrato de datos.
-- Probado con el dataset real completo (2193 ítems, los 6 niveles) vía `demo.html`.
-- El progreso ya es compatible con el que guarda el JS — mismo esquema, misma clave.
+- Los 5 tipos de ejercicio están soportados, con la MISMA lógica de corrección que tenía el
+  JS viejo (mismo trim+lowercase en `gapfill`, mismo join con espacio simple en `ordering`,
+  misma comparación estricta en `truefalse`, mismo "sin estado incorrecto final" en
+  `matching`) — no fue una reinterpretación, fue el mismo contrato de datos.
+- **Es el motor real de la app** — no una demo aparte. `prototype/index.html` no tiene
+  lógica de corrección propia; toda pasa por acá.
+- El progreso usa la misma clave/esquema de `localStorage` que usaba el JS
+  (`italianClubProgress_v1`) — sin migración de datos para los usuarios existentes.
+- `demo.html` sigue existiendo como harness de prueba standalone (dataset real completo,
+  útil para probar cambios en `main.go` sin cargar todo el prototipo).
 - Todavía **no incluye** repetición espaciada (SM-2) para vocabulario — es una pieza
   separada del motor de ejercicios, pendiente, y tampoco existe en el JS.
-- Todavía **no está integrado** en `prototype/index.html` — vive aparte en `demo.html` a
-  propósito. Con la paridad de este milestone, el siguiente paso YA es reemplazar
-  `renderExercise`/`answerMC`/`answerGapfill`/`answerTF`/`pickWord`/`pickMatchLeft`/
-  `pickMatchRight` por llamadas a `exerciseEngine`.
 
 ## Cómo compilar
 
@@ -105,14 +115,12 @@ Campos de entrada y payload de respuesta por tipo:
 (`{text, rightIdx}`, shuffleado en Go con `math/rand`) — el par correcto de `lefts[i]` es el
 elemento de `rightsShuffled` cuyo `rightIdx === i`.
 
-## Próximos pasos (no incluidos en este milestone)
+## Próximos pasos
 
-1. Reemplazar el motor JS de `prototype/index.html` (`renderExercise` + las funciones
-   `answer*`/`pick*`) por llamadas a `exerciseEngine`, cargando `content/exercises-<nivel>.json`
-   — con la paridad de este milestone ya no debería perderse ninguna función, y el progreso
-   existente de los usuarios (`italianClubProgress_v1`) sigue funcionando sin migrar nada.
-   Incluye agregar `wasmapp/dist/app.wasm` y `wasm_exec.js` a `APP_SHELL` en `prototype/sw.js`
-   para que se sigan cacheando offline.
-2. Repetición espaciada (SM-2) para vocabulario — no existe hoy en ningún lado del proyecto
-   (ni en este motor ni en el JS). Es una pieza separada, aparte del motor de ejercicios
-   (opera sobre `REAL_VOCAB`, no sobre `EXERCISE_QUEUES`).
+1. Repetición espaciada (SM-2) para vocabulario — no existe hoy en ningún lado del proyecto.
+   Es una pieza separada del motor de ejercicios (opera sobre `REAL_VOCAB`, no sobre
+   `EXERCISE_QUEUES`).
+2. CI que compile `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente en cada
+   push — hoy `prototype/app.wasm` es un binario compilado a mano y comiteado (`build.ps1`
+   lo copia ahí), sin nada que lo mantenga sincronizado si alguien edita `main.go` y se
+   olvida de recompilar antes de comitear.
