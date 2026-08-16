@@ -33,12 +33,21 @@ try {
     }
     Copy-Item $src (Join-Path $outDir "wasm_exec.js") -Force
 
+    # prototype/ es lo que realmente se sirve/deploya (sin paso de build
+    # propio), asi que el binario compilado se copia ahi tambien. Si cambias
+    # wasmapp/main.go, hay que recompilar y volver a commitear
+    # prototype/app.wasm — no hay CI todavia que lo automatice (ver
+    # wasmapp/README.md, proximos pasos).
+    $protoDir = Join-Path $PSScriptRoot "..\prototype"
+    Copy-Item (Join-Path $outDir "app.wasm") (Join-Path $protoDir "app.wasm") -Force
+    Copy-Item (Join-Path $outDir "wasm_exec.js") (Join-Path $protoDir "wasm_exec.js") -Force
+
     Write-Host "Listo:"
-    Write-Host "  $outDir\app.wasm"
-    Write-Host "  $outDir\wasm_exec.js"
+    Write-Host "  $outDir\app.wasm y wasm_exec.js (build de desarrollo)"
+    Write-Host "  $protoDir\app.wasm y wasm_exec.js (copia para la app real)"
     Write-Host ""
-    Write-Host "Para probar: servir wasmapp/ con un servidor estatico (fetch() de .wasm"
-    Write-Host "no funciona con file://) y abrir demo.html. Por ejemplo:"
+    Write-Host "Para probar wasmapp/demo.html: servir wasmapp/ con un servidor estatico"
+    Write-Host "(fetch() de .wasm no funciona con file://). Por ejemplo:"
     Write-Host "  python -m http.server 8000"
     Write-Host "  -> http://localhost:8000/demo.html"
 }

@@ -289,7 +289,66 @@
 
 <div id="modalRoot"></div>
 
+<script src="wasm_exec.js"></script>
 <script>
+// Motor de ejercicios en Go/WASM (ver wasmapp/) — reemplaza la corrección y
+// persistencia de EXERCISE_QUEUES que antes vivía acá mismo en JS (mc/
+// gapfill/truefalse/ordering/matching). Arranca a cargar ya, en paralelo al
+// resto de la app; openExercise() espera a que esté listo (waitForEngine)
+// antes de mostrar el primer ejercicio. Sin fallback a la lógica JS vieja
+// si WebAssembly no está disponible o falla la carga — igual criterio que
+// el módulo de Listening con SoundCloud (ver docs/architecture.md decisión
+// 7): es una dependencia real, documentada, no oculta.
+let _engineReady = false;
+(function loadExerciseEngine(){
+  if(!('WebAssembly' in window)){
+    console.error('WebAssembly no disponible — el motor de ejercicios no puede cargar.');
+    return;
+  }
+  const go = new Go();
+  WebAssembly.instantiateStreaming(fetch('app.wasm'), go.importObject)
+    .then(result => { go.run(result.instance); _engineReady = true; })
+    .catch(err => console.error('No se pudo cargar app.wasm:', err));
+})();
+function waitForEngine(cb, triesLeft = 100){
+  if(_engineReady && window.exerciseEngine) return cb();
+  if(triesLeft <= 0){
+    document.getElementById('modalRoot').innerHTML =
+      `<div class="modal-back"><div class="modal"><p style="padding:2rem;text-align:center;">
+        No se pudo cargar el motor de ejercicios. Recargá la página o revisá tu conexión.
+      </p></div></div>`;
+    return;
+  }
+  setTimeout(() => waitForEngine(cb, triesLeft - 1), 50);
+}
+
+// Convierte un ítem de EXERCISE_QUEUES al shape que consume
+// window.exerciseEngine.load() (wasmapp/main.go). Espejo intencional de
+// tools/extract_exercise_queues.js — ese script genera el mismo shape para
+// wasmapp/demo.html/data, pero standalone (sin cargar todo el prototipo).
+// Si cambia el shape de EXERCISE_QUEUES, actualizar los dos.
+function toEngineItems(level){
+  const queue = EXERCISE_QUEUES[level] || EXERCISE_QUEUES.A1;
+  return queue.map((ex, idx) => {
+    const base = { type: ex.type, id: `${level}-${idx}` };
+    switch(ex.type){
+      case 'mc': {
+        const options = ex.options.map(o => o.t);
+        const correct = ex.options.findIndex(o => o.correct);
+        return { ...base, prompt: ex.prompt, options, correct };
+      }
+      case 'gapfill':
+        return { ...base, before: ex.before, after: ex.after, answer: ex.answer, hint: ex.hint };
+      case 'truefalse':
+        return { ...base, statement: ex.statement, boolAnswer: ex.answer };
+      case 'ordering':
+        return { ...base, words: ex.words, correctSentence: ex.correct };
+      case 'matching':
+        return { ...base, pairs: ex.pairs };
+    }
+  });
+}
+
 const TIERS = { A:'var(--terracotta)', B:'var(--olive)', C:'var(--navy)' };
 const TIER_SOFT = { A:'var(--terracotta-soft)', B:'var(--olive-soft)', C:'var(--navy-soft)' };
 
@@ -3113,16 +3172,9 @@ function markSeen(category, level, idx){
   lb[category][idx] = true;
   saveProgress(p);
 }
-function recordExerciseAttempt(level, idx, correct){
-  if(idx == null) return;
-  const p = loadProgress();
-  const lb = levelBucket(p, level);
-  if(!lb.ex) lb.ex = {};
-  if(!lb.exCorrect) lb.exCorrect = {};
-  lb.ex[idx] = true;
-  if(correct) lb.exCorrect[idx] = true; else delete lb.exCorrect[idx];
-  saveProgress(p);
-}
+// La persistencia de intentos de ejercicio (antes recordExerciseAttempt())
+// ahora la hace exerciseEngine.answer() en wasmapp/main.go, escribiendo a
+// la misma clave/shape de localStorage — ver la sección de abajo.
 function pctOf(seen, total){
   return total > 0 ? Math.round(Math.min(seen, total) / total * 100) : 0;
 }
@@ -3320,7 +3372,12 @@ function openExercise(moduleKey){
   const lvl = LEVELS.find(l=>l.code===currentLevel);
   window._currentTier = lvl.tier;
   exQueueIndex = 0;
-  renderExercise();
+  document.getElementById('modalRoot').innerHTML =
+    `<div class="modal-back"><div class="modal"><p style="padding:2rem;text-align:center;">Cargando ejercicios…</p></div></div>`;
+  waitForEngine(() => {
+    exerciseEngine.load(currentLevel, JSON.stringify(toEngineItems(currentLevel)));
+    renderExercise();
+  });
 }
 
 function currentQueue(){
@@ -3329,9 +3386,10 @@ function currentQueue(){
 
 function renderExercise(){
   const queue = currentQueue();
-  const ex = queue[exQueueIndex % queue.length];
+  const it = JSON.parse(exerciseEngine.current()); // datos + índice reales: vienen del motor Go
+  const ex = queue[it.queueIndex]; // metadata de presentación: kicker/title/audio/feedback/explanation
   window._currentEx = ex;
-  window._currentExIdx = exQueueIndex % queue.length;
+  window._currentExIdx = it.queueIndex;
   orderingPicked = [];
   const tier = window._currentTier;
   const root = document.getElementById('modalRoot');
@@ -3348,40 +3406,37 @@ function renderExercise(){
     }
   }
 
-  if(ex.type === 'mc'){
-    bodyHtml += `<div class="ex-prompt">${ex.prompt}</div>`;
-    bodyHtml += ex.options.map(o=>`<button class="opt" onclick="answerMC(this, ${o.correct})">${o.t}</button>`).join('');
-  } else if(ex.type === 'gapfill'){
-    bodyHtml += `<div class="ex-prompt">${ex.before}<u>____</u>${ex.after}</div>`;
-    bodyHtml += `<textarea class="free" style="min-height:44px" id="gapInput" placeholder="${ex.hint}"></textarea>`;
-    bodyHtml += `<button class="btn" style="background:${TIERS[tier]};color:#fff" onclick="answerGapfill()">Verifica</button>`;
-  } else if(ex.type === 'truefalse'){
-    bodyHtml += `<div class="ex-prompt">${ex.statement}</div>`;
+  if(it.type === 'mc'){
+    bodyHtml += `<div class="ex-prompt">${it.prompt}</div>`;
+    bodyHtml += it.options.map((opt,i)=>`<button class="opt" onclick="answerMC(this, ${i})">${opt}</button>`).join('');
+  } else if(it.type === 'gapfill'){
+    bodyHtml += `<div class="ex-prompt">${it.before}<u>____</u>${it.after}</div>`;
+    bodyHtml += `<textarea class="free" style="min-height:44px" id="gapInput" placeholder="${it.hint||''}"></textarea>`;
+    bodyHtml += `<button id="verifyBtn" class="btn" style="background:${TIERS[tier]};color:#fff" onclick="answerGapfill()">Verifica</button>`;
+  } else if(it.type === 'truefalse'){
+    bodyHtml += `<div class="ex-prompt">${it.statement}</div>`;
     bodyHtml += `<button class="opt" onclick="answerTF(this, true)">Vero</button>`;
     bodyHtml += `<button class="opt" onclick="answerTF(this, false)">Falso</button>`;
-  } else if(ex.type === 'ordering'){
+  } else if(it.type === 'ordering'){
     bodyHtml += `<div class="ex-prompt">Ordina le parole per formare la frase:</div>`;
     bodyHtml += `<div id="orderBuilt" style="min-height:40px;font-size:16px;font-weight:600;margin-bottom:10px;"></div>`;
-    bodyHtml += `<div id="orderChips">` + ex.words.map((w,i)=>
+    bodyHtml += `<div id="orderChips">` + it.words.map((w,i)=>
       `<button class="opt" style="display:inline-block;width:auto;margin-right:6px;" onclick="pickWord(this,'${w.replace(/'/g,"\\'")}')">${w}</button>`
     ).join('') + `</div>`;
     bodyHtml += `<button class="btn" style="background:var(--hair);color:var(--ink-soft);margin-left:8px" onclick="resetOrdering()">Reiniciar</button>`;
-  } else if(ex.type === 'matching'){
+  } else if(it.type === 'matching'){
+    // El shuffle del lado derecho ahora lo hace el motor Go (math/rand),
+    // no JS — it.rightsShuffled ya viene mezclado con el rightIdx original.
     matchingMatchedCount = 0;
     matchingSelectedBtn = null;
     matchingSelectedIdx = null;
-    const rightShuffled = ex.pairs.map((p,i)=>({text:p.right, idx:i}));
-    for(let i=rightShuffled.length-1;i>0;i--){
-      const j = Math.floor(Math.random()*(i+1));
-      [rightShuffled[i],rightShuffled[j]] = [rightShuffled[j],rightShuffled[i]];
-    }
     bodyHtml += `<div class="ex-prompt">Toca un término de la izquierda y después su pareja a la derecha:</div>`;
     bodyHtml += `<div class="match-cols">`;
-    bodyHtml += `<div style="flex:1;">` + ex.pairs.map((p,i)=>
-      `<button class="opt" onclick="pickMatchLeft(this, ${i})">${p.left}</button>`
+    bodyHtml += `<div style="flex:1;">` + it.lefts.map((l,i)=>
+      `<button class="opt" onclick="pickMatchLeft(this, ${i})">${l}</button>`
     ).join('') + `</div>`;
-    bodyHtml += `<div style="flex:1;">` + rightShuffled.map(r=>
-      `<button class="opt" onclick="pickMatchRight(this, ${r.idx})">${r.text}</button>`
+    bodyHtml += `<div style="flex:1;">` + it.rightsShuffled.map(r=>
+      `<button class="opt" onclick="pickMatchRight(this, ${r.rightIdx})">${r.text}</button>`
     ).join('') + `</div>`;
     bodyHtml += `</div>`;
   }
@@ -3410,46 +3465,74 @@ function showFeedback(correct, msg){
 
 function nextExercise(){
   exQueueIndex++;
+  exerciseEngine.next();
   renderExercise();
 }
 
-function answerMC(btn, correct){
+// Las 5 funciones de abajo ya NO calculan la corrección en JS ni llaman a
+// recordExerciseAttempt() — eso lo hace exerciseEngine.answer() (Go), que
+// persiste el intento en el mismo instante, en la misma clave de
+// localStorage que antes escribía este archivo (ver wasmapp/main.go).
+
+// Envoltorio de exerciseEngine.answer(): si Go devuelve un error (ej. la
+// misma pregunta contestada dos veces por un doble-tap antes de que se
+// deshabiliten los botones — un race condition real en mobile), lo muestra
+// en vez de dejar pasar un `res` a medio llenar (eso era el bug: sin este
+// chequeo, res.correctAnswer quedaba `undefined` y se imprimía literal en
+// el feedback — "la respuesta correcta es undefined"). Devuelve null si
+// hubo error, para que el caller corte ahí.
+function submitAnswer(payload){
+  const res = JSON.parse(exerciseEngine.answer(JSON.stringify(payload)));
+  if(res.error){
+    document.getElementById('fb').innerHTML =
+      `<div class="feedback" style="background:var(--terracotta-soft);color:var(--terracotta)">${res.error}</div>`;
+    return null;
+  }
+  return res;
+}
+
+function answerMC(btn, selectedIndex){
   const ex = window._currentEx;
   document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
-  btn.classList.add(correct ? 'correct' : 'wrong');
-  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
-  showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong);
+  const res = submitAnswer({selectedIndex});
+  if(!res) return;
+  btn.classList.add(res.correct ? 'correct' : 'wrong');
+  showFeedback(res.correct, res.correct ? ex.feedbackCorrect : ex.feedbackWrong);
 }
 
 function answerGapfill(){
   const ex = window._currentEx;
-  const val = document.getElementById('gapInput').value.trim().toLowerCase();
-  const correct = val === ex.answer.toLowerCase();
-  document.getElementById('gapInput').style.borderColor = correct ? 'var(--olive)' : 'var(--terracotta)';
-  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
-  showFeedback(correct, correct ? ex.feedbackCorrect : ex.feedbackWrong + ` (Risposta corretta: "${ex.answer}")`);
+  const input = document.getElementById('gapInput');
+  const verifyBtn = document.getElementById('verifyBtn');
+  const text = input.value;
+  input.disabled = true;
+  if(verifyBtn) verifyBtn.disabled = true; // evita doble-tap mientras se resuelve
+  const res = submitAnswer({text});
+  if(!res) return;
+  input.style.borderColor = res.correct ? 'var(--olive)' : 'var(--terracotta)';
+  showFeedback(res.correct, res.correct ? ex.feedbackCorrect : ex.feedbackWrong + ` (Risposta corretta: "${res.correctAnswer}")`);
 }
 
-function answerTF(btn, val){
+function answerTF(btn, selected){
   const ex = window._currentEx;
   document.querySelectorAll('.opt').forEach(o=>o.onclick=null);
-  const correct = (val === ex.answer);
-  btn.classList.add(correct ? 'correct' : 'wrong');
-  recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
-  showFeedback(correct, ex.explanation);
+  const res = submitAnswer({selected});
+  if(!res) return;
+  btn.classList.add(res.correct ? 'correct' : 'wrong');
+  showFeedback(res.correct, ex.explanation);
 }
 
 function pickWord(btn, word){
   orderingPicked.push(word);
   btn.style.display = 'none';
   document.getElementById('orderBuilt').textContent = orderingPicked.join(' ');
-  const ex = window._currentEx;
-  if(orderingPicked.length === ex.words.length){
-    const built = orderingPicked.join(' ');
-    const correct = built.toLowerCase() === ex.correct.toLowerCase();
-    document.getElementById('orderBuilt').style.color = correct ? 'var(--olive)' : 'var(--terracotta)';
-    recordExerciseAttempt(currentLevel, window._currentExIdx, correct);
-    showFeedback(correct, (correct ? '¡Corretto! ' : `La frase corretta era: "${ex.correct}". `) + ex.explanation);
+  const it = JSON.parse(exerciseEngine.current());
+  if(orderingPicked.length === it.words.length){
+    const ex = window._currentEx;
+    const res = submitAnswer({words: orderingPicked});
+    if(!res) return;
+    document.getElementById('orderBuilt').style.color = res.correct ? 'var(--olive)' : 'var(--terracotta)';
+    showFeedback(res.correct, (res.correct ? '¡Corretto! ' : `La frase corretta era: "${res.correctAnswer}". `) + ex.explanation);
   }
 }
 
@@ -3470,11 +3553,11 @@ function pickMatchLeft(btn, idx){
   btn.classList.add('selected');
 }
 
-function pickMatchRight(btn, idx){
+function pickMatchRight(btn, rightIdx){
   if(btn.classList.contains('correct')) return;
   if(matchingSelectedIdx === null) return;
   const ex = window._currentEx;
-  if(idx === matchingSelectedIdx){
+  if(rightIdx === matchingSelectedIdx){
     btn.classList.remove('selected');
     btn.classList.add('correct');
     btn.onclick = null;
@@ -3484,8 +3567,10 @@ function pickMatchRight(btn, idx){
     matchingMatchedCount++;
     matchingSelectedBtn = null;
     matchingSelectedIdx = null;
-    if(matchingMatchedCount === ex.pairs.length){
-      recordExerciseAttempt(currentLevel, window._currentExIdx, true);
+    const it = JSON.parse(exerciseEngine.current());
+    if(matchingMatchedCount === it.lefts.length){
+      const res = submitAnswer({matchesComplete: true});
+      if(!res) return;
       showFeedback(true, ex.explanation || '¡Todas las parejas correctas!');
     }
   } else {

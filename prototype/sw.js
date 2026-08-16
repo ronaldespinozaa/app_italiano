@@ -11,8 +11,11 @@
 //
 // Subir CACHE_NAME (v1 -> v2...) en cada cambio de fondo grande fuerza a
 // los clientes viejos a descartar su caché en el próximo activate.
-const CACHE_NAME = 'italian-club-v1';
-const APP_SHELL = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE_NAME = 'italian-club-v2'; // v2: agrega app.wasm/wasm_exec.js (motor de ejercicios)
+const APP_SHELL = [
+  './', './index.html', './manifest.json', './icon.svg',
+  './app.wasm', './wasm_exec.js',
+];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
