@@ -78,7 +78,15 @@ let totalItems = 0;
 
 for (const [level, list] of Object.entries(REAL_VOCAB)) {
   const items = list.map((entry) => {
-    const [word, back] = entry.split("/");
+    // split() con límite en vez de destructuring: si alguna vez una entrada
+    // tiene un segundo "/" (ninguna lo tiene hoy, pero nada lo impide a
+    // futuro), entry.split("/") devolvería 3+ partes y un destructuring
+    // [word, back] descartaría todo lo que sigue en silencio. Partir solo
+    // en la primera "/" preserva el resto tal cual, igual criterio que
+    // vocabSetForLevel() en prototype/index.html debería seguir si cambia.
+    const slash = entry.indexOf("/");
+    const word = slash === -1 ? entry : entry.slice(0, slash);
+    const back = slash === -1 ? "" : entry.slice(slash + 1);
     return { word, back };
   });
 

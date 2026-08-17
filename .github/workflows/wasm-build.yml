@@ -51,15 +51,55 @@ jobs:
           fi
           cp "$SRC" prototype/wasm_exec.js
 
-      - name: Commitear binario si cambió
+      - name: Bump CACHE_NAME en sw.js según el hash del binario nuevo
+        run: |
+          set -e
+          # Hallazgo real de code review (2026-08-17): los builds de Go/WASM
+          # no son reproducibles entre versiones/plataformas — el mismo
+          # main.go/sm2.go da un app.wasm distinto byte a byte según quién
+          # compile (ver wasmapp/README.md). Sin esto, prototype/sw.js sigue
+          # sirviendo el app.wasm VIEJO cacheado (stale-while-revalidate no
+          # fuerza una recarga inmediata) mientras index.html ya se actualizó
+          # — un usuario que vuelve puede correr un JS nuevo contra un WASM
+          # viejo con una API distinta. CACHE_NAME pasa a incluir un hash
+          # corto del binario recién compilado, así que cambia solo cuando
+          # el binario realmente cambia — mecánico, no depende de que
+          # alguien se acuerde de bumpearlo a mano.
+          HASH="$(sha256sum prototype/app.wasm | cut -c1-10)"
+          sed -i "s/const CACHE_NAME = 'italian-club-v2-[^']*';/const CACHE_NAME = 'italian-club-v2-${HASH}';/" prototype/sw.js
+          grep -q "italian-club-v2-${HASH}" prototype/sw.js || {
+            echo "No se pudo actualizar CACHE_NAME en prototype/sw.js (¿cambió el formato de la línea?)" >&2
+            exit 1
+          }
+
+      - name: Commitear si cambió (con rebase por si hubo un push concurrente)
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add prototype/app.wasm prototype/wasm_exec.js
+          git add prototype/app.wasm prototype/wasm_exec.js prototype/sw.js
           if git diff --cached --quiet; then
             echo "Sin cambios en el binario compilado, nada que commitear."
-          else
-            git commit -m "CI: recompila app.wasm y wasm_exec.js desde wasmapp/main.go [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "CI: recompila app.wasm/wasm_exec.js y bumpea CACHE_NAME [skip ci]"
+
+          # Ventana real: compilar tarda varios minutos: si alguien pushea a
+          # master mientras tanto, un `git push` liso falla non-fast-forward.
+          # Reintenta con rebase — el commit de CI solo toca 3 archivos
+          # binarios/generados, así que un conflicto real es casi imposible.
+          for i in 1 2 3; do
+            git fetch origin master
+            if ! git rebase origin/master; then
+              echo "rebase falló (¿conflicto real?), abortando sin reintentar" >&2
+              git rebase --abort
+              exit 1
+            fi
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+            echo "push rechazado (intento $i/3), reintentando…"
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "no se pudo pushear el binario recompilado tras 3 intentos" >&2
+          exit 1

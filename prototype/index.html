@@ -3376,7 +3376,12 @@ function openExercise(moduleKey){
   document.getElementById('modalRoot').innerHTML =
     `<div class="modal-back"><div class="modal"><p style="padding:2rem;text-align:center;">Cargando ejercicios…</p></div></div>`;
   waitForEngine(() => {
-    exerciseEngine.load(currentLevel, JSON.stringify(toEngineItems(currentLevel)));
+    const res = JSON.parse(exerciseEngine.load(currentLevel, JSON.stringify(toEngineItems(currentLevel))));
+    if(res.error){
+      document.getElementById('modalRoot').innerHTML =
+        `<div class="modal-back"><div class="modal"><p style="padding:2rem;text-align:center;">No se pudieron cargar los ejercicios: ${res.error}</p></div></div>`;
+      return;
+    }
     renderExercise();
   });
 }
@@ -3537,7 +3542,14 @@ function pickWord(btn, word){
   }
 }
 
+// Antes esto solo re-renderizaba el mismo ejercicio: el guard
+// current.answered de Go (agregado para el bug de doble-submit, ver
+// migration-log/log.json) seguía en true tras el primer intento, así que
+// el segundo intento del usuario — uno legítimo, no un doble-tap — se
+// rechazaba con el mismo error. exerciseEngine.retry() resetea esa
+// bandera sin avanzar a otro ejercicio.
 function resetOrdering(){
+  exerciseEngine.retry();
   renderExercise();
 }
 
@@ -3636,9 +3648,28 @@ function renderFlash(){
   card.innerHTML = `<div class="hint">Cargando…</div>`;
   card.dataset.back = '';
   waitForEngine(() => {
-    vocabEngine.load(currentLevel, JSON.stringify(set));
+    const res = JSON.parse(vocabEngine.load(currentLevel, JSON.stringify(set)));
+    if(res.error){
+      card.innerHTML = `<div class="word" style="font-size:16px;">No se pudo cargar el vocabulario: ${res.error}</div>`;
+      if(stats) stats.textContent = '';
+      return;
+    }
     showFlashCurrent();
   });
+}
+// Envoltorio de vocabEngine.answer(): mismo criterio que submitAnswer()
+// para exerciseEngine (ver más abajo) — si Go devuelve error (ej. calificar
+// la misma tarjeta dos veces sin pedir current() de nuevo, un doble-tap en
+// los botones de abajo), lo muestra en vez de dejarlo pasar en silencio.
+// Devuelve null si hubo error, para que el caller corte ahí.
+function submitVocabAnswer(payload){
+  const res = JSON.parse(vocabEngine.answer(JSON.stringify(payload)));
+  if(res.error){
+    const stats = document.getElementById('flashStats');
+    if(stats) stats.textContent = 'Error: ' + res.error;
+    return null;
+  }
+  return res;
 }
 // showFlashCurrent() pide la tarjeta activa a vocabEngine.current() sin
 // reiniciar su estado (a diferencia de renderFlash(), que sí llama a
@@ -3675,11 +3706,20 @@ function flipFlash(){
 // primero, después nueva — ver pickVocabIndex() en wasmapp/sm2.go). El
 // "visto" de la barra de progreso de Vocabulario ahora se marca acá (al
 // calificar de verdad), no con solo dar vuelta la tarjeta como antes.
+// Los botones se deshabilitan mientras se procesa la calificación — sin
+// esto, un doble-tap dispara vocabEngine.answer() dos veces para la misma
+// tarjeta; Go rechaza la segunda llamada correctamente, pero antes de este
+// fix nadie revisaba ese error (mismo bug, ya corregido una vez en
+// exerciseEngine — ver submitAnswer() más abajo y migration-log/log.json).
 function nextFlash(known){
   const set = vocabSetForLevel(currentLevel);
   if(set === 'NO_VOCAB') return;
+  const btns = document.querySelectorAll('.flash-controls button');
+  btns.forEach(b => b.disabled = true);
   waitForEngine(() => {
-    vocabEngine.answer(JSON.stringify({quality: known ? 4 : 1}));
+    const res = submitVocabAnswer({quality: known ? 4 : 1});
+    btns.forEach(b => b.disabled = false);
+    if(!res) return; // error ya mostrado por submitVocabAnswer
     showFlashCurrent();
   });
 }

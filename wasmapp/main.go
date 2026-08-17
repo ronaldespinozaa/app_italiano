@@ -141,6 +141,17 @@ func recordExerciseAttempt(levelKey string, idx int, correct bool) {
 	if !ok {
 		lb = emptyBucket()
 	}
+	// Nil-check defensivo: si el bucket existía en localStorage pero sin
+	// "ex"/"exCorrect" (localStorage corrupto o editado a mano — json.
+	// Unmarshal deja el mapa en nil en vez de fallar), escribir directo
+	// panicaría con "assignment to entry in nil map". Mismo criterio que ya
+	// usa saveVocabCard() para VocabSRS/Vocab más abajo.
+	if lb.Ex == nil {
+		lb.Ex = map[string]bool{}
+	}
+	if lb.ExCorrect == nil {
+		lb.ExCorrect = map[string]bool{}
+	}
 	key := fmt.Sprintf("%d", idx)
 	lb.Ex[key] = true
 	if correct {
@@ -352,6 +363,22 @@ func next(this js.Value, args []js.Value) interface{} {
 	return toJSON(map[string]bool{"ok": true})
 }
 
+// retry() — permite recontestar el ejercicio ACTIVO (sin avanzar en la
+// cola, a diferencia de next()). Bug real encontrado en la prueba de este
+// motor: el botón "Reiniciar" de ordering en prototype/index.html
+// (resetOrdering()) solo volvía a renderizar el mismo ejercicio, pero el
+// guard current.answered de answer() — agregado para el bug de doble-submit
+// (ver migration-log/log.json) — seguía en true, así que el segundo intento
+// del usuario, uno legítimo, se rechazaba igual que un doble-tap accidental.
+// retry() resetea esa bandera para el mismo ítem sin tocar current.index.
+func retry(this js.Value, args []js.Value) interface{} {
+	if current == nil {
+		return errJSON("no hay ejercicios cargados — llamá a load() primero")
+	}
+	current.answered = false
+	return toJSON(map[string]bool{"ok": true})
+}
+
 // progress(levelKey) — igual que la parte "ex" de progressSummary() en el
 // JS. Si hay una cola cargada para ese nivel, usa su longitud real como
 // total; si no, total queda en 0 (llamar a load() primero para un total
@@ -558,6 +585,7 @@ func main() {
 	api.Set("current", js.FuncOf(currentItem))
 	api.Set("answer", js.FuncOf(answer))
 	api.Set("next", js.FuncOf(next))
+	api.Set("retry", js.FuncOf(retry))
 	api.Set("progress", js.FuncOf(progress))
 	js.Global().Set("exerciseEngine", api)
 

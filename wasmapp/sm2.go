@@ -58,12 +58,7 @@ func today() string {
 // para que el test pueda fijar una fecha determinística sin tocar el reloj
 // del sistema.
 func applySM2(card SRSCard, quality int, todayStr string) SRSCard {
-	if quality < 0 {
-		quality = 0
-	}
-	if quality > 5 {
-		quality = 5
-	}
+	quality = max(0, min(5, quality)) // builtins de Go 1.21+ (ver go.mod)
 
 	if quality < 3 {
 		card.Reps = 0
@@ -81,10 +76,7 @@ func applySM2(card SRSCard, quality int, todayStr string) SRSCard {
 	}
 
 	q := float64(quality)
-	card.EF = card.EF + (0.1 - (5-q)*(0.08+(5-q)*0.02))
-	if card.EF < 1.3 {
-		card.EF = 1.3
-	}
+	card.EF = max(1.3, card.EF+(0.1-(5-q)*(0.08+(5-q)*0.02)))
 
 	base, err := time.Parse(dateLayout, todayStr)
 	if err != nil {
