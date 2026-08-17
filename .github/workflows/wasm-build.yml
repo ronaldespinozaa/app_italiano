@@ -1,0 +1,65 @@
+name: Build wasmapp
+
+# Cierra el pendiente documentado en wasmapp/README.md ("Próximos pasos", punto 2):
+# prototype/app.wasm es hoy un binario compilado a mano y comiteado (via build.ps1),
+# sin nada que lo mantenga sincronizado si alguien edita wasmapp/main.go y se olvida
+# de recompilar antes de comitear. Este workflow recompila y comitea el binario
+# automáticamente en cada push que toque el motor Go.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "wasmapp/**.go"
+      - "wasmapp/go.mod"
+      - ".github/workflows/wasm-build.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+
+      - name: Compilar app.wasm (GOOS=js GOARCH=wasm)
+        working-directory: wasmapp
+        env:
+          GOOS: js
+          GOARCH: wasm
+        run: go build -o ../prototype/app.wasm .
+
+      - name: Copiar wasm_exec.js (runtime glue de Go)
+        run: |
+          set -e
+          GOROOT="$(go env GOROOT)"
+          # La ubicación cambió entre versiones de Go (lib/wasm/ desde 1.24+,
+          # misc/wasm/ antes) — mismo fallback que wasmapp/build.ps1.
+          if [ -f "$GOROOT/lib/wasm/wasm_exec.js" ]; then
+            SRC="$GOROOT/lib/wasm/wasm_exec.js"
+          elif [ -f "$GOROOT/misc/wasm/wasm_exec.js" ]; then
+            SRC="$GOROOT/misc/wasm/wasm_exec.js"
+          else
+            echo "No se encontró wasm_exec.js en $GOROOT (lib/wasm ni misc/wasm)" >&2
+            exit 1
+          fi
+          cp "$SRC" prototype/wasm_exec.js
+
+      - name: Commitear binario si cambió
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add prototype/app.wasm prototype/wasm_exec.js
+          if git diff --cached --quiet; then
+            echo "Sin cambios en el binario compilado, nada que commitear."
+          else
+            git commit -m "CI: recompila app.wasm y wasm_exec.js desde wasmapp/main.go [skip ci]"
+            git push
+          fi

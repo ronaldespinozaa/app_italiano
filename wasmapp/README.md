@@ -120,7 +120,8 @@ elemento de `rightsShuffled` cuyo `rightIdx === i`.
 1. Repetición espaciada (SM-2) para vocabulario — no existe hoy en ningún lado del proyecto.
    Es una pieza separada del motor de ejercicios (opera sobre `REAL_VOCAB`, no sobre
    `EXERCISE_QUEUES`).
-2. CI que compile `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente en cada
-   push — hoy `prototype/app.wasm` es un binario compilado a mano y comiteado (`build.ps1`
-   lo copia ahí), sin nada que lo mantenga sincronizado si alguien edita `main.go` y se
-   olvida de recompilar antes de comitear.
+2. ~~CI que compile `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente~~ —
+   **hecho el 2026-08-17**: `.github/workflows/wasm-build.yml` recompila `app.wasm` +
+   `wasm_exec.js` y los comitea a `prototype/` en cada push que toque `wasmapp/*.go` o
+   `go.mod` (también invocable a mano vía `workflow_dispatch`). `build.ps1` sigue siendo útil
+   para compilar y probar en local antes de pushear.
