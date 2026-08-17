@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>italianclub vocab-engine — demo WASM (SM-2, dataset real)</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 28rem; margin: 2rem auto; padding: 0 1rem; }
+  .card { border: 1px solid #ccc; border-radius: .6rem; padding: 2rem 1rem; text-align: center;
+          min-height: 6rem; display: flex; flex-direction: column; justify-content: center;
+          cursor: pointer; user-select: none; }
+  .card .word { font-size: 1.4rem; font-weight: 600; }
+  .card .hint { color: #888; font-size: .85rem; margin-top: .5rem; }
+  .controls { display: flex; gap: .5rem; margin-top: 1rem; }
+  button { flex: 1; padding: .6rem; font-size: .95rem; border: 1px solid #ccc; border-radius: .4rem;
+           background: #fff; cursor: pointer; }
+  button:hover { background: #f0f0f0; }
+  #again { border-color: #e53935; color: #e53935; }
+  #hard { border-color: #f9a825; color: #f9a825; }
+  #easy { border-color: #4caf50; color: #4caf50; }
+  #status, #progress, #cardMeta { color: #666; font-size: .85rem; }
+  #cardMeta { text-align: center; margin-top: .4rem; }
+  #levelSelect { width: auto; display: inline-block; padding: .3rem .6rem; margin-bottom: 1rem; }
+</style>
+</head>
+<body>
+  <h1>Motor de vocabulario — Milestone 5 (SM-2, Go → WASM)</h1>
+  <p>Dataset REAL (no de prueba): <code>content</code> de <code>REAL_VOCAB</code> en
+     <code>prototype/index.html</code>, extraído con <code>tools/extract_vocab.js</code>.
+     El algoritmo (<code>wasmapp/sm2.go</code>) es el mismo que usa la app real — este harness
+     solo expone la escala completa de calidad 0-5 para probarlo, en vez de los 2 botones
+     simplificados que tiene <code>prototype/index.html</code>.</p>
+
+  <label>Nivel:
+    <select id="levelSelect">
+      <option>A1</option><option>A2</option><option>B1</option>
+      <option>B2</option><option>C1</option>
+    </select>
+  </label>
+  <p id="status">Cargando WebAssembly…</p>
+
+  <div id="quiz" hidden>
+    <div class="card" id="flashCard"></div>
+    <p id="cardMeta"></p>
+    <div class="controls">
+      <button id="again">No me acordé</button>
+      <button id="hard">Con esfuerzo</button>
+      <button id="easy">Fácil</button>
+    </div>
+  </div>
+
+  <p id="progress"></p>
+
+  <script src="dist/wasm_exec.js"></script>
+  <script>
+    const statusEl = document.getElementById("status");
+    let flipped = false;
+    let currentCard = null;
+
+    function waitForEngine(cb, triesLeft = 100) {
+      if (window.vocabEngine) return cb();
+      if (triesLeft <= 0) {
+        statusEl.textContent = "Error: window.vocabEngine nunca apareció. ¿Corriste build.ps1?";
+        return;
+      }
+      setTimeout(() => waitForEngine(cb, triesLeft - 1), 50);
+    }
+
+    const go = new Go();
+    WebAssembly.instantiateStreaming(fetch("dist/app.wasm"), go.importObject)
+      .then((result) => {
+        go.run(result.instance); // no resuelve nunca (el programa Go bloquea en select{})
+        waitForEngine(() => {
+          statusEl.textContent = "";
+          document.getElementById("levelSelect").addEventListener("change", startDeck);
+          document.getElementById("flashCard").addEventListener("click", flip);
+          document.getElementById("again").onclick = () => grade(1);
+          document.getElementById("hard").onclick = () => grade(3);
+          document.getElementById("easy").onclick = () => grade(5);
+          startDeck();
+        });
+      })
+      .catch((err) => {
+        statusEl.textContent = "Error cargando app.wasm: " + err;
+        console.error(err);
+      });
+
+    async function startDeck() {
+      const level = document.getElementById("levelSelect").value;
+      statusEl.textContent = `Cargando data/vocab-${level.toLowerCase()}.json…`;
+      document.getElementById("quiz").hidden = true;
+
+      let data;
+      try {
+        const resp = await fetch(`data/vocab-${level.toLowerCase()}.json`);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        data = await resp.json();
+      } catch (err) {
+        statusEl.textContent = "Error cargando el dataset real: " + err +
+          " — ¿corriste 'node tools/extract_vocab.js' desde la raíz del repo?";
+        return;
+      }
+
+      const res = JSON.parse(vocabEngine.load(level, JSON.stringify(data.items)));
+      if (res.error) {
+        statusEl.textContent = "Error: " + res.error;
+        return;
+      }
+      statusEl.textContent = "";
+      document.getElementById("quiz").hidden = false;
+      renderProgress(res.progress);
+      renderCard();
+    }
+
+    function renderCard() {
+      flipped = false;
+      currentCard = JSON.parse(vocabEngine.current());
+      if (currentCard.error) { statusEl.textContent = "Error: " + currentCard.error; return; }
+      showFront();
+      document.getElementById("cardMeta").textContent = currentCard.isNew
+        ? "nueva — nunca calificada"
+        : `repaso #${currentCard.reps} · próxima: ${currentCard.due} (intervalo ${currentCard.interval}d)`;
+    }
+
+    function showFront() {
+      document.getElementById("flashCard").innerHTML =
+        `<div class="word">${currentCard.word}</div><div class="hint">toca para ver la traducción</div>`;
+    }
+
+    function flip() {
+      if (!currentCard) return;
+      flipped = !flipped;
+      document.getElementById("flashCard").innerHTML = flipped
+        ? `<div class="word">${currentCard.back}</div><div class="hint">toca para volver</div>`
+        : `<div class="word">${currentCard.word}</div><div class="hint">toca para ver la traducción</div>`;
+    }
+
+    function grade(quality) {
+      if (!currentCard) return;
+      const res = JSON.parse(vocabEngine.answer(JSON.stringify({ quality })));
+      if (res.error) {
+        statusEl.textContent = "Error: " + res.error;
+        return;
+      }
+      renderCard();
+      renderProgress(JSON.parse(vocabEngine.progress(document.getElementById("levelSelect").value)));
+    }
+
+    function renderProgress(p) {
+      if (!p || p.seen === 0) {
+        document.getElementById("progress").textContent =
+          "Sin tarjetas calificadas todavía en este nivel (localStorage: italianClubProgress_v1).";
+        return;
+      }
+      document.getElementById("progress").textContent =
+        `Progreso guardado (mismo localStorage que usa el prototipo real) — ` +
+        `calificadas: ${p.seen}/${p.total} (${p.pct}%), para hoy: ${p.due}, aprendidas: ${p.mastered}.`;
+    }
+  </script>
+</body>
+</html>
