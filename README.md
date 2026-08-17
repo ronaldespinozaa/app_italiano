@@ -4,7 +4,7 @@ Migración del contenido educativo de [onlineitalianclub.com](https://onlineital
 una experiencia de app móvil organizada por nivel CEFR (A1–C2), sin dependencia de WordPress
 en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 
-## Estado del proyecto (actualizado en esta sesión)
+## Estado del proyecto (actualizado 2026-08-17)
 
 | Fase | Estado |
 |---|---|
@@ -16,6 +16,8 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Listening (175 audios reales + transcripciones) | ✅ 175/175 migrado (vía `listening-scraper.go`) — audio real por streaming desde SoundCloud, no offline (ver `docs/architecture.md` decisión 7) |
 | Ejercicios interactivos | ✅ 2193 ítems reales en `EXERCISE_QUEUES` (23 curados a mano + 2170 migrados de `/free_italian_exercises/*.html`, 237/237 páginas convertibles). 100% con nivel CEFR asignado — ver detalle abajo |
 | Apagar WordPress (Fase 4) | ✅ Completo — con las 4 fases de arriba al 100%, la app no depende de WordPress para nada. `tools/level-content-service.go` (arquitectura alternativa descartada) archivado en `tools/archive/` |
+| PWA instalable + progreso persistido (Fase 5) | ✅ Completo — manifest + service worker, progreso granular por ítem en `localStorage` |
+| Motor de ejercicios en Go/WASM (`wasmapp/`) | ✅ **Milestone 4 — es el motor real de la app**, no una demo aparte. El JS de corrección en `prototype/index.html` ya no existe: `renderExercise`/`answerMC`/`answerGapfill`/`answerTF`/`pickWord`/`pickMatchRight` llaman a `window.exerciseEngine` (`app.wasm`), cacheado offline por `prototype/sw.js`. Ver `wasmapp/README.md` |
 
 ### Cobertura real de gramática por nivel
 
@@ -171,16 +173,20 @@ docs/
    alternativa descartada) se archivó en `tools/archive/` con una nota explicando por qué.
    El sitio real (`onlineitalianclub.com`) sigue en línea de forma independiente — esto solo
    significa que la app no lo necesita.
-5. **Sacar el prototipo de HTML plano** a una PWA real con Workbox (offline-first) — ver
-   `docs/roadmap.md`, fase 5. El módulo de listening necesitará resolver su dependencia de
-   internet (SoundCloud) antes de poder llamarse "100% offline" — ver decisión 7 en
-   `docs/architecture.md`. Este es el próximo bloque de trabajo natural: con contenido
-   (gramática, listening, ejercicios) al 100%, el prototipo ya no tiene excusa para no ser
-   instalable y persistir progreso.
-6. Motor Go→WASM (`wasmapp/`): tiene los 4 tipos de ejercicio + progreso persistido en
-   `localStorage` funcionando, pero vive aparte en `wasmapp/demo.html` — nunca se integró al
-   `prototype/index.html` real. Es un candidato natural para converger con la Fase 5 (el
-   progreso persistente que da `IndexedDB` ahí es justo lo que la PWA necesita).
+5. ~~Sacar el prototipo de HTML plano a una PWA real~~ — **hecho el 2026-08-14** (Fase 5):
+   manifest + service worker, progreso real persistido en `localStorage`. El módulo de
+   listening sigue dependiendo de internet (streaming SoundCloud) — ver decisión 7 en
+   `docs/architecture.md`, no cuenta como "100% offline" por eso.
+6. ~~Motor Go→WASM (`wasmapp/`)~~ — **hecho el 2026-08-16** (Milestone 4): reemplazo real, ya
+   no vive aparte en `wasmapp/demo.html`. `prototype/index.html` no tiene lógica de corrección
+   propia; los 5 tipos de ejercicio pasan por `window.exerciseEngine` (`app.wasm`), con el
+   mismo esquema de `localStorage` que usaba el JS (sin migración de datos). Detalle completo,
+   incluido un bug real de doble-submit encontrado y corregido en la prueba manual, en
+   `wasmapp/README.md` y `migration-log/log.json`.
+7. **Próximos pasos reales** (ver `wasmapp/README.md`): repetición espaciada (SM-2) para
+   vocabulario — no existe en ningún lado del proyecto todavía — y CI que compile
+   `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente en cada push (hoy es un
+   binario compilado a mano y comiteado).
 
 ## Principio de honestidad de datos
 
