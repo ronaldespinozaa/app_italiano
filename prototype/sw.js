@@ -25,7 +25,7 @@
 // lo reflejara. Si compilás a mano con build.ps1 en vez de dejar que CI lo
 // haga, actualizá este hash vos mismo (sha256sum prototype/app.wasm | cut
 // -c1-10) o el próximo push a wasmapp/*.go lo va a pisar de todas formas.
-const CACHE_NAME = 'italian-club-v2-6f23d7d9c9';
+const CACHE_NAME = 'italian-club-v2-a45f1c1ff5';
 const APP_SHELL = [
   './', './index.html', './manifest.json', './icon.svg',
   './app.wasm', './wasm_exec.js',
