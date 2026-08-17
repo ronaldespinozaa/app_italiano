@@ -37,6 +37,12 @@ punto 3).
   como nadie la revisaba, se mostraba "Respuesta correcta: undefined" en el feedback. Ver
   `migration-log/log.json` para el detalle completo, incluida la reproducción contra el
   `.wasm` real en Node antes de dar el fix por bueno.
+- **Milestone 5** (este estado, 2026-08-17): `window.vocabEngine` — repetición espaciada
+  SM-2 para las flashcards de vocabulario, reemplazando el ciclo secuencial
+  (`flashIndex++ % set.length`) que tenía `prototype/index.html`. Algoritmo puro en
+  `sm2.go` (sin build tag, testeado con `go test` sin runner de WASM — ver `sm2_test.go`);
+  glue de `localStorage` en `main.go`, agregando el campo `vocabSrs` a `levelBucket` sin
+  tocar `gram`/`listen`/`ex`/`exCorrect`. Ver la sección de API más abajo.
 
 ## Alcance actual
 
@@ -45,13 +51,14 @@ punto 3).
   misma comparación estricta en `truefalse`, mismo "sin estado incorrecto final" en
   `matching`) — no fue una reinterpretación, fue el mismo contrato de datos.
 - **Es el motor real de la app** — no una demo aparte. `prototype/index.html` no tiene
-  lógica de corrección propia; toda pasa por acá.
+  lógica de corrección propia ni de repaso de vocabulario; toda pasa por acá.
 - El progreso usa la misma clave/esquema de `localStorage` que usaba el JS
   (`italianClubProgress_v1`) — sin migración de datos para los usuarios existentes.
 - `demo.html` sigue existiendo como harness de prueba standalone (dataset real completo,
-  útil para probar cambios en `main.go` sin cargar todo el prototipo).
-- Todavía **no incluye** repetición espaciada (SM-2) para vocabulario — es una pieza
-  separada del motor de ejercicios, pendiente, y tampoco existe en el JS.
+  útil para probar cambios en `main.go` sin cargar todo el prototipo) — solo cubre
+  `exerciseEngine`, no tiene UI de flashcards para `vocabEngine` todavía.
+- Repetición espaciada (SM-2) para vocabulario: **hecha** — ver Milestone 5 y la sección de
+  API `window.vocabEngine` abajo.
 
 ## Cómo compilar
 
@@ -117,11 +124,36 @@ elemento de `rightsShuffled` cuyo `rightIdx === i`.
 
 ## Próximos pasos
 
-1. Repetición espaciada (SM-2) para vocabulario — no existe hoy en ningún lado del proyecto.
-   Es una pieza separada del motor de ejercicios (opera sobre `REAL_VOCAB`, no sobre
-   `EXERCISE_QUEUES`).
+1. ~~Repetición espaciada (SM-2) para vocabulario~~ — **hecho el 2026-08-17**:
+   `window.vocabEngine` (`load`/`current`/`answer`/`progress`), algoritmo puro en `sm2.go`
+   (sin build tag, testeado con `go test ./wasmapp/...` sin necesitar un runner de
+   WebAssembly — ver `sm2_test.go`). Reemplaza el ciclo secuencial que tenían las flashcards
+   de `prototype/index.html` (`flashIndex++ % set.length`, sin ningún algoritmo real detrás,
+   pese a que los botones "Aún no la sé" / "La sé" ya existían en el markup). El estado SM-2
+   por ítem vive en la misma clave de `localStorage` que usa `exerciseEngine`
+   (`italianClubProgress_v1`, campo nuevo `vocabSrs` por nivel) — ver detalle abajo.
 2. ~~CI que compile `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente~~ —
    **hecho el 2026-08-17**: `.github/workflows/wasm-build.yml` recompila `app.wasm` +
    `wasm_exec.js` y los comitea a `prototype/` en cada push que toque `wasmapp/*.go` o
    `go.mod` (también invocable a mano vía `workflow_dispatch`). `build.ps1` sigue siendo útil
    para compilar y probar en local antes de pushear.
+
+## API expuesta en `window.vocabEngine`
+
+Mismo criterio de "todo en JSON string" que `exerciseEngine`. El algoritmo es SM-2
+(SuperMemo 2, Piotr Wozniak) sin modificaciones — la escala de calidad es la 0-5 estándar del
+algoritmo, aunque la UI de `prototype/index.html` solo manda dos valores (ver tabla).
+
+| Función | Uso |
+|---|---|
+| `load(levelKey, itemsJSON)` | Carga el set de vocabulario de un nivel `[{word,back},...]` — mismo shape que `vocabSetForLevel()` en el JS, sin conversión. Devuelve `{loaded, progress}`. |
+| `current()` | Tarjeta activa: `{index, word, back, isNew, reps, interval, due}`. Si no hay una ya elegida, `pickVocabIndex()` decide cuál mostrar (vencida más antigua > nunca calificada > due más próximo a futuro) — la cola nunca queda vacía. |
+| `answer(payloadJSON)` | Califica la tarjeta activa y aplica SM-2. Payload: `{"quality": N}` (0-5). La UI real usa solo 1 ("Aún no la sé") y 4 ("La sé") — no expone la escala completa de 6 niveles al usuario, dos botones alcanzan para una flashcard. Devuelve `{ef, interval, reps, due}`. |
+| `progress(levelKey)` | `{seen, total, pct, due, mastered}` — `due` es cuántas tocan hoy, `mastered` es un umbral práctico (3 repasos correctos seguidos) sin equivalente en el algoritmo SM-2 en sí. |
+
+El progreso se persiste en la misma clave de `localStorage` que `exerciseEngine`
+(`italianClubProgress_v1`), agregando un campo nuevo por nivel (`vocabSrs`, mapa índice→card
+SM-2) sin tocar `gram`/`listen`/`ex`/`exCorrect`. También sigue marcando `vocab[idx]=true`
+(el mismo campo que antes escribía `markSeen('vocab', ...)` en el JS) para que la barra de
+progreso de "Vocabulario" siga funcionando — con un cambio de criterio: ahora se marca
+"visto" al calificar la tarjeta, no al solo darla vuelta.

@@ -18,6 +18,8 @@ en producción. Ver `docs/architecture.md` para las decisiones de diseño.
 | Apagar WordPress (Fase 4) | ✅ Completo — con las 4 fases de arriba al 100%, la app no depende de WordPress para nada. `tools/level-content-service.go` (arquitectura alternativa descartada) archivado en `tools/archive/` |
 | PWA instalable + progreso persistido (Fase 5) | ✅ Completo — manifest + service worker, progreso granular por ítem en `localStorage` |
 | Motor de ejercicios en Go/WASM (`wasmapp/`) | ✅ **Milestone 4 — es el motor real de la app**, no una demo aparte. El JS de corrección en `prototype/index.html` ya no existe: `renderExercise`/`answerMC`/`answerGapfill`/`answerTF`/`pickWord`/`pickMatchRight` llaman a `window.exerciseEngine` (`app.wasm`), cacheado offline por `prototype/sw.js`. Ver `wasmapp/README.md` |
+| Repetición espaciada (SM-2) para vocabulario | ✅ **Milestone 5 de `wasmapp/`** — `window.vocabEngine` reemplaza el ciclo secuencial que tenían las flashcards. Algoritmo SM-2 puro y testeado en `wasmapp/sm2.go`/`sm2_test.go`, estado persistido en la misma clave de `localStorage` que ya usa `exerciseEngine` |
+| CI del binario `.wasm` | ✅ `.github/workflows/wasm-build.yml` recompila y comitea `app.wasm`/`wasm_exec.js` en cada push que toque `wasmapp/*.go` |
 
 ### Cobertura real de gramática por nivel
 
@@ -183,10 +185,16 @@ docs/
    mismo esquema de `localStorage` que usaba el JS (sin migración de datos). Detalle completo,
    incluido un bug real de doble-submit encontrado y corregido en la prueba manual, en
    `wasmapp/README.md` y `migration-log/log.json`.
-7. **Próximos pasos reales** (ver `wasmapp/README.md`): repetición espaciada (SM-2) para
-   vocabulario — no existe en ningún lado del proyecto todavía — y CI que compile
-   `wasmapp/main.go` y actualice `prototype/app.wasm` automáticamente en cada push (hoy es un
-   binario compilado a mano y comiteado).
+7. ~~Repetición espaciada (SM-2) para vocabulario~~ — **hecho el 2026-08-17** (Milestone 5 de
+   `wasmapp/`): `window.vocabEngine` reemplaza el ciclo secuencial que tenían las flashcards
+   de `prototype/index.html` (los botones "Aún no la sé" / "La sé" ya existían en el markup,
+   pero no estaban conectados a ningún algoritmo). Detalle completo, incluida la API expuesta,
+   en `wasmapp/README.md`.
+8. ~~CI que compile `wasmapp/main.go`~~ — **hecho el 2026-08-17**: `.github/workflows/wasm-build.yml`.
+9. **Próximo bloque de trabajo natural**: no hay ningún pendiente documentado del roadmap
+   original sin cerrar. Candidatos para lo que sigue: UI de vocabulario en `wasmapp/demo.html`
+   (hoy `vocabEngine` no tiene harness de prueba standalone, a diferencia de `exerciseEngine`),
+   o retomar `docs/roadmap.md` para decidir el próximo foco del producto.
 
 ## Principio de honestidad de datos
 

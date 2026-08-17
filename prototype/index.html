@@ -246,6 +246,7 @@
       <button style="background:var(--terracotta-soft);color:var(--terracotta)" onclick="nextFlash(false)">Aún no la sé</button>
       <button style="background:var(--olive-soft);color:var(--olive)" onclick="nextFlash(true)">La sé</button>
     </div>
+    <p class="hint" id="flashStats" style="text-align:center;margin-top:.5rem;"></p>
   </div>
 
   <!-- NOTICIAS SCREEN -->
@@ -291,18 +292,20 @@
 
 <script src="wasm_exec.js"></script>
 <script>
-// Motor de ejercicios en Go/WASM (ver wasmapp/) — reemplaza la corrección y
-// persistencia de EXERCISE_QUEUES que antes vivía acá mismo en JS (mc/
-// gapfill/truefalse/ordering/matching). Arranca a cargar ya, en paralelo al
-// resto de la app; openExercise() espera a que esté listo (waitForEngine)
-// antes de mostrar el primer ejercicio. Sin fallback a la lógica JS vieja
-// si WebAssembly no está disponible o falla la carga — igual criterio que
-// el módulo de Listening con SoundCloud (ver docs/architecture.md decisión
-// 7): es una dependencia real, documentada, no oculta.
+// Un mismo binario Go/WASM (ver wasmapp/) expone dos motores:
+// window.exerciseEngine (corrección y persistencia de EXERCISE_QUEUES: mc/
+// gapfill/truefalse/ordering/matching) y window.vocabEngine (repetición
+// espaciada SM-2 para las flashcards de REAL_VOCAB, ver wasmapp/sm2.go).
+// Arranca a cargar ya, en paralelo al resto de la app; openExercise() y
+// renderFlash() esperan a que esté listo (waitForEngine) antes de mostrar
+// contenido. Sin fallback a lógica JS vieja si WebAssembly no está
+// disponible o falla la carga — igual criterio que el módulo de Listening
+// con SoundCloud (ver docs/architecture.md decisión 7): es una dependencia
+// real, documentada, no oculta.
 let _engineReady = false;
 (function loadExerciseEngine(){
   if(!('WebAssembly' in window)){
-    console.error('WebAssembly no disponible — el motor de ejercicios no puede cargar.');
+    console.error('WebAssembly no disponible — los motores de ejercicios y vocabulario no pueden cargar.');
     return;
   }
   const go = new Go();
@@ -311,7 +314,7 @@ let _engineReady = false;
     .catch(err => console.error('No se pudo cargar app.wasm:', err));
 })();
 function waitForEngine(cb, triesLeft = 100){
-  if(_engineReady && window.exerciseEngine) return cb();
+  if(_engineReady && window.exerciseEngine && window.vocabEngine) return cb();
   if(triesLeft <= 0){
     document.getElementById('modalRoot').innerHTML =
       `<div class="modal-back"><div class="modal"><p style="padding:2rem;text-align:center;">
@@ -2735,7 +2738,6 @@ const EXERCISE_QUEUES = {
 
 let currentLevel = null;
 let currentTab = 'home';
-let flashIndex = 0;
 let flashFlipped = false;
 
 // Vocabulario real migrado (ver a1-content.json / a2-content.json), indexado
@@ -3239,7 +3241,6 @@ function openLevel(code){
   cta.style.background = ext.bg;
   cta.innerHTML = `<div><h5 style="color:${ext.color}">${ext.title}</h5><p>${ext.body}</p></div>`;
 
-  flashIndex = 0;
   switchTab('home');
 }
 
@@ -3612,18 +3613,50 @@ function currentTier(){
   return lvl ? lvl.tier : 'A';
 }
 
+// ---------------------------------------------------------------------
+// Flashcards de vocabulario — repetición espaciada real (SM-2), vía
+// window.vocabEngine (wasmapp/, ver wasmapp/sm2.go). Antes esto era un
+// ciclo puramente secuencial (flashIndex++ % set.length, sin ningún
+// algoritmo detrás): los botones "Aún no la sé" / "La sé" ya existían en el
+// markup, pero nextFlash() ignoraba directamente el argumento. Mismo
+// criterio que el motor de ejercicios (ver loadExerciseEngine arriba): sin
+// fallback a la lógica JS vieja si WASM no está disponible.
+// ---------------------------------------------------------------------
 function renderFlash(){
   flashFlipped = false;
   const card = document.getElementById('flashCard');
+  const stats = document.getElementById('flashStats');
   const set = vocabSetForLevel(currentLevel);
   if(set === 'NO_VOCAB'){
     card.innerHTML = `<div class="word" style="font-size:16px;">Este nivel no tiene listas de vocabulario propias en el sitio original</div><div class="hint">C2 se centra 100% en gramática y matices — prueba "Gramática" en Mi nivel</div>`;
     card.dataset.back = '';
+    if(stats) stats.textContent = '';
     return;
   }
-  const item = set[flashIndex % set.length];
-  card.innerHTML = `<div class="word">${item.word}</div><div class="hint">toca para ver la traducción</div>`;
-  card.dataset.back = item.back;
+  card.innerHTML = `<div class="hint">Cargando…</div>`;
+  card.dataset.back = '';
+  waitForEngine(() => {
+    vocabEngine.load(currentLevel, JSON.stringify(set));
+    showFlashCurrent();
+  });
+}
+// showFlashCurrent() pide la tarjeta activa a vocabEngine.current() sin
+// reiniciar su estado (a diferencia de renderFlash(), que sí llama a
+// load()) — así dar vuelta la tarjeta o recargar el progreso no le hace
+// "olvidar" cuál tarjeta estaba mostrando ni fuerza a elegir otra.
+function showFlashCurrent(){
+  const card = document.getElementById('flashCard');
+  const it = JSON.parse(vocabEngine.current()); // {index, word, back, isNew, reps, interval, due}
+  window._currentFlash = it;
+  card.innerHTML = `<div class="word">${it.word}</div><div class="hint">toca para ver la traducción</div>`;
+  card.dataset.back = it.back;
+  updateFlashStats();
+}
+function updateFlashStats(){
+  const stats = document.getElementById('flashStats');
+  if(!stats) return;
+  const p = JSON.parse(vocabEngine.progress(currentLevel)); // {seen,total,pct,due,mastered}
+  stats.textContent = `${p.due} para repasar hoy · ${p.mastered}/${p.total} ya aprendidas`;
 }
 function flipFlash(){
   const card = document.getElementById('flashCard');
@@ -3631,15 +3664,24 @@ function flipFlash(){
   flashFlipped = !flashFlipped;
   if(flashFlipped){
     card.innerHTML = `<div class="back">${card.dataset.back}</div><div class="hint">toca para volver</div>`;
-    const set = vocabSetForLevel(currentLevel);
-    if(set !== 'NO_VOCAB') markSeen('vocab', currentLevel, flashIndex % set.length);
-  } else {
-    renderFlash();
+  } else if(window._currentFlash){
+    const it = window._currentFlash;
+    card.innerHTML = `<div class="word">${it.word}</div><div class="hint">toca para ver la traducción</div>`;
   }
 }
-function nextFlash(){
-  flashIndex++;
-  renderFlash();
+// nextFlash(known) — califica la tarjeta activa en vocabEngine (SM-2:
+// known=true → quality 4 "me acordé bien", known=false → quality 1 "no me
+// acordé") y pide la siguiente que el algoritmo elija mostrar (vencida
+// primero, después nueva — ver pickVocabIndex() en wasmapp/sm2.go). El
+// "visto" de la barra de progreso de Vocabulario ahora se marca acá (al
+// calificar de verdad), no con solo dar vuelta la tarjeta como antes.
+function nextFlash(known){
+  const set = vocabSetForLevel(currentLevel);
+  if(set === 'NO_VOCAB') return;
+  waitForEngine(() => {
+    vocabEngine.answer(JSON.stringify({quality: known ? 4 : 1}));
+    showFlashCurrent();
+  });
 }
 
 function renderNews(){

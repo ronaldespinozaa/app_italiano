@@ -1,6 +1,6 @@
 //go:build js && wasm
 
-// Motor de ejercicios compilado a WebAssembly.
+// Motor de ejercicios y vocabulario compilado a WebAssembly.
 //
 // Milestone 3 del plan "Go -> WASM": alcanza paridad con el motor JS real de
 // prototype/index.html (que avanzó mucho en paralelo — ver
@@ -18,6 +18,13 @@
 //     usuario sigue funcionando sin migración de datos.
 //
 // Expone en window.exerciseEngine: load, current, answer, next, progress.
+//
+// Repetición espaciada (SM-2) para vocabulario: pieza separada del motor de
+// ejercicios de arriba (opera sobre REAL_VOCAB, no sobre EXERCISE_QUEUES).
+// El algoritmo en sí (SRSCard, applySM2, pickVocabIndex) vive en sm2.go, sin
+// build tag de js/wasm, para poder testearlo con `go test` sin un runner de
+// WebAssembly. Acá solo el glue: localStorage + API expuesta en
+// window.vocabEngine (load, current, answer, progress).
 package main
 
 import (
@@ -81,15 +88,21 @@ type answerResult struct {
 }
 
 // levelBucket refleja EXACTO el shape que ya escribe levelBucket() en
-// prototype/index.html — no es un formato nuevo. gram/listen/vocab quedan
-// intactos acá: este motor nunca los toca, solo los preserva al
-// leer-modificar-escribir el blob completo.
+// prototype/index.html, más el campo nuevo `vocabSrs` que agrega este motor.
+// gram/listen quedan intactos acá: este motor nunca los toca, solo los
+// preserva al leer-modificar-escribir el blob completo — mismo criterio para
+// vocabSrs desde el lado de exerciseEngine (arriba) y viceversa desde
+// vocabEngine (abajo): como los dos comparten este mismo struct, un
+// read-modify-write de uno nunca pisa los datos del otro. omitempty en
+// VocabSRS para no ensuciar con `"vocabSrs":null` el progreso ya guardado de
+// usuarios que todavía no usaron flashcards.
 type levelBucket struct {
-	Gram      map[string]bool `json:"gram"`
-	Listen    map[string]bool `json:"listen"`
-	Vocab     map[string]bool `json:"vocab"`
-	Ex        map[string]bool `json:"ex"`
-	ExCorrect map[string]bool `json:"exCorrect"`
+	Gram      map[string]bool    `json:"gram"`
+	Listen    map[string]bool    `json:"listen"`
+	Vocab     map[string]bool    `json:"vocab"`
+	Ex        map[string]bool    `json:"ex"`
+	ExCorrect map[string]bool    `json:"exCorrect"`
+	VocabSRS  map[string]SRSCard `json:"vocabSrs,omitempty"`
 }
 
 func emptyBucket() levelBucket {
@@ -355,6 +368,190 @@ func progress(this js.Value, args []js.Value) interface{} {
 	return toJSON(exerciseProgress(levelKey, total))
 }
 
+// ---------------------------------------------------------------------
+// Vocabulario: repetición espaciada (SM-2)
+// ---------------------------------------------------------------------
+// El algoritmo puro (SRSCard, applySM2, pickVocabIndex, vocabProgressCounts)
+// vive en sm2.go. Acá solo el estado activo + el glue de localStorage,
+// mismo patrón que engineState/current arriba.
+
+type vocabEngineState struct {
+	levelKey    string
+	items       []VocabItem
+	activeIndex int
+	hasActive   bool
+	answered    bool
+}
+
+var vocab *vocabEngineState
+
+func vocabSRSMap(levelKey string) map[string]SRSCard {
+	data := loadFullProgress()
+	lb, ok := data[levelKey]
+	if !ok || lb.VocabSRS == nil {
+		return map[string]SRSCard{}
+	}
+	return lb.VocabSRS
+}
+
+func vocabCardFor(levelKey string, idx int) SRSCard {
+	card, seen := vocabSRSMap(levelKey)[fmt.Sprintf("%d", idx)]
+	if !seen {
+		return newSRSCard()
+	}
+	return card
+}
+
+// saveVocabCard persiste la card SM-2 actualizada Y marca el ítem como
+// "visto" en Vocab[idx] — el mismo campo que antes escribía
+// markSeen('vocab', ...) en el JS (ver prototype/index.html), para que la
+// barra de progreso de "Vocabulario" siga funcionando con el mismo criterio
+// de progressSummary(). La diferencia semántica: antes se marcaba "visto" al
+// dar vuelta la tarjeta (con solo mirar la traducción alcanzaba); ahora se
+// marca al calificarla (el usuario ya se autoevaluó) — más fiel a lo que
+// "visto" debería significar en un sistema de repetición espaciada real.
+func saveVocabCard(levelKey string, idx int, card SRSCard) {
+	data := loadFullProgress()
+	lb, ok := data[levelKey]
+	if !ok {
+		lb = emptyBucket()
+	}
+	if lb.VocabSRS == nil {
+		lb.VocabSRS = map[string]SRSCard{}
+	}
+	if lb.Vocab == nil {
+		lb.Vocab = map[string]bool{}
+	}
+	key := fmt.Sprintf("%d", idx)
+	lb.VocabSRS[key] = card
+	lb.Vocab[key] = true
+	data[levelKey] = lb
+	saveFullProgress(data)
+}
+
+// vocabProgress arma el mapa de progreso que devuelven tanto load() como
+// progress(): además de seen/total/pct (mismo shape que exerciseProgress,
+// para que la UI los trate igual), agrega due/mastered — específicos de
+// SM-2, sin equivalente en el motor de ejercicios.
+func vocabProgress(levelKey string, total int) map[string]interface{} {
+	srs := vocabSRSMap(levelKey)
+	seen, due, mastered := vocabProgressCounts(srs, total, today())
+	pct := 0
+	if total > 0 {
+		pct = (seen * 100) / total
+	}
+	return map[string]interface{}{
+		"seen": seen, "total": total, "pct": pct, "due": due, "mastered": mastered,
+	}
+}
+
+// vocabLoad(levelKey, itemsJSON) — reemplaza el set de vocabulario activo.
+// itemsJSON tiene el mismo shape que vocabSetForLevel() en el JS
+// ([{word,back},...]) — se puede pasar directo, sin conversión.
+func vocabLoad(this js.Value, args []js.Value) interface{} {
+	if len(args) < 2 {
+		return errJSON("uso: vocabEngine.load(levelKey, itemsJSON)")
+	}
+	levelKey := args[0].String()
+
+	var items []VocabItem
+	if err := json.Unmarshal([]byte(args[1].String()), &items); err != nil {
+		return errJSON("JSON de vocabulario inválido: " + err.Error())
+	}
+	if len(items) == 0 {
+		return errJSON("la lista de vocabulario está vacía")
+	}
+
+	vocab = &vocabEngineState{levelKey: levelKey, items: items}
+	return toJSON(map[string]interface{}{
+		"loaded":   len(items),
+		"progress": vocabProgress(levelKey, len(items)),
+	})
+}
+
+// vocabCurrent() — la tarjeta activa. Si no hay una ya elegida (recién
+// cargado, o la anterior ya se calificó), pickVocabIndex() elige la
+// siguiente según el estado SM-2 guardado. Igual que exerciseEngine, se
+// devuelve `back` (la traducción) sin ocultar nada: a diferencia de un
+// ejercicio, acá no hay "hacer trampa" posible — el dato ya está visible en
+// REAL_VOCAB del lado del JS; el flip es solo una animación de UI.
+func vocabCurrent(this js.Value, args []js.Value) interface{} {
+	if vocab == nil {
+		return errJSON("no hay vocabulario cargado — llamá a load() primero")
+	}
+	if !vocab.hasActive {
+		vocab.activeIndex = pickVocabIndex(vocabSRSMap(vocab.levelKey), len(vocab.items), today())
+		vocab.hasActive = true
+		vocab.answered = false
+	}
+	idx := vocab.activeIndex
+	item := vocab.items[idx]
+	card := vocabCardFor(vocab.levelKey, idx)
+	return toJSON(map[string]interface{}{
+		"index": idx, "word": item.Word, "back": item.Back,
+		"isNew": card.Due == "" && card.Reps == 0,
+		"reps":  card.Reps, "interval": card.Interval, "due": card.Due,
+	})
+}
+
+type vocabAnswerPayload struct {
+	Quality int `json:"quality"`
+}
+
+// vocabAnswer(payloadJSON) — califica la tarjeta activa (payload:
+// {"quality": N}, escala 0-5 de SM-2) y avanza. El flip en la UI es
+// independiente de esto: se puede dar vuelta la tarjeta sin calificar
+// (llamando a current() de nuevo, que devuelve la misma tarjeta mientras no
+// se conteste), igual de espíritu que exerciseEngine, que no fuerza un
+// avance hasta next().
+func vocabAnswer(this js.Value, args []js.Value) interface{} {
+	if vocab == nil {
+		return errJSON("no hay vocabulario cargado — llamá a load() primero")
+	}
+	if !vocab.hasActive {
+		return errJSON("no hay tarjeta activa — llamá a current() primero")
+	}
+	if vocab.answered {
+		return errJSON("esta tarjeta ya fue calificada — llamá a current() para pedir la siguiente")
+	}
+	if len(args) < 1 {
+		return errJSON("uso: vocabEngine.answer(payloadJSON)")
+	}
+
+	var payload vocabAnswerPayload
+	if err := json.Unmarshal([]byte(args[0].String()), &payload); err != nil {
+		return errJSON("payload de respuesta inválido: " + err.Error())
+	}
+
+	idx := vocab.activeIndex
+	card := vocabCardFor(vocab.levelKey, idx)
+	card = applySM2(card, payload.Quality, today())
+	saveVocabCard(vocab.levelKey, idx, card)
+
+	vocab.answered = true
+	vocab.hasActive = false // fuerza a pickVocabIndex a elegir de nuevo en el próximo current()
+
+	return toJSON(map[string]interface{}{
+		"ef": card.EF, "interval": card.Interval, "reps": card.Reps, "due": card.Due,
+	})
+}
+
+// vocabProgressAPI(levelKey) — progreso de vocabulario para ese nivel. Si
+// hay un set cargado para ese nivel, usa su longitud real como total; si no,
+// total queda en 0 (llamar a load() primero para un total preciso) — mismo
+// criterio que progress() del motor de ejercicios.
+func vocabProgressAPI(this js.Value, args []js.Value) interface{} {
+	if len(args) < 1 {
+		return errJSON("uso: vocabEngine.progress(levelKey)")
+	}
+	levelKey := args[0].String()
+	total := 0
+	if vocab != nil && vocab.levelKey == levelKey {
+		total = len(vocab.items)
+	}
+	return toJSON(vocabProgress(levelKey, total))
+}
+
 func main() {
 	api := js.Global().Get("Object").New()
 	api.Set("load", js.FuncOf(load))
@@ -364,7 +561,14 @@ func main() {
 	api.Set("progress", js.FuncOf(progress))
 	js.Global().Set("exerciseEngine", api)
 
-	fmt.Println("italianclub exercise-engine (wasm) listo — window.exerciseEngine disponible")
+	vapi := js.Global().Get("Object").New()
+	vapi.Set("load", js.FuncOf(vocabLoad))
+	vapi.Set("current", js.FuncOf(vocabCurrent))
+	vapi.Set("answer", js.FuncOf(vocabAnswer))
+	vapi.Set("progress", js.FuncOf(vocabProgressAPI))
+	js.Global().Set("vocabEngine", vapi)
+
+	fmt.Println("italianclub exercise-engine + vocab-engine (wasm) listo — window.exerciseEngine y window.vocabEngine disponibles")
 
 	select {} // mantiene vivo el programa para que los callbacks sigan respondiendo
 }
