@@ -1,0 +1,57 @@
+name: Deploy Pages
+
+# Publica prototype/ (el prototipo real de la app, no todo el repo) como el
+# sitio de GitHub Pages. Necesario para probar la PWA de verdad en un
+# celular: los service workers (prototype/sw.js) requieren HTTPS real —
+# localhost es la única excepción, y no cuenta desde otro dispositivo en la
+# misma WiFi — así que sin esto no hay forma de instalar "Agregar a pantalla
+# de inicio" ni probar el modo offline.
+#
+# Se dispara en dos casos:
+#   - push directo a prototype/** (editaste HTML/CSS/JS/manifest a mano).
+#   - cuando termina el workflow "Build wasmapp" (wasm-build.yml): ese
+#     workflow recompila y comitea app.wasm/wasm_exec.js/sw.js con
+#     "[skip ci]" en el mensaje, lo que hace que GitHub NO dispare workflows
+#     con trigger "push" para ese commit — workflow_run sí se dispara en
+#     este caso, porque reacciona a que el otro workflow terminó, no a un
+#     evento de push nuevo. Sin esto, el sitio publicado quedaría con un
+#     app.wasm viejo cada vez que CI lo recompila solo.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "prototype/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_run:
+    workflows: ["Build wasmapp"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: prototype
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
