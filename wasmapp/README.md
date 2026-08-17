@@ -136,7 +136,14 @@ elemento de `rightsShuffled` cuyo `rightIdx === i`.
    **hecho el 2026-08-17**: `.github/workflows/wasm-build.yml` recompila `app.wasm` +
    `wasm_exec.js` y los comitea a `prototype/` en cada push que toque `wasmapp/*.go` o
    `go.mod` (también invocable a mano vía `workflow_dispatch`). `build.ps1` sigue siendo útil
-   para compilar y probar en local antes de pushear.
+   para compilar y probar en local antes de pushear. **Verificado en la primera corrida real**
+   (`Build wasmapp #1`, 2026-08-17): el binario que compiló CI (Go 1.24, Ubuntu) salió
+   distinto byte a byte del que se había comiteado a mano en local (Go 1.26.5, Windows) —
+   3.61MB vs 3.39MB — pese a ser el mismo `main.go`/`sm2.go`. Los builds de Go/WASM no son
+   reproducibles entre versiones del compilador/plataforma, así que **CI es la fuente de
+   verdad del binario que corre en producción**, no el que quede comiteado por un `build.ps1`
+   local — si compilás en local para probar algo, el próximo push a `wasmapp/*.go` va a
+   sobreescribirlo igual.
 
 ## API expuesta en `window.vocabEngine`
 
