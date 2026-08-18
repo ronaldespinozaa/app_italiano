@@ -1,5 +1,9 @@
 name: Deploy Pages
 
+# Source de Pages puesto en "GitHub Actions" (Settings > Pages) el 2026-08-18
+# — sin eso, este workflow nunca llega a correr: el "site" de Pages no
+# existe todavía para el repo hasta el primer deploy exitoso.
+#
 # Publica prototype/ (el prototipo real de la app, no todo el repo) como el
 # sitio de GitHub Pages. Necesario para probar la PWA de verdad en un
 # celular: los service workers (prototype/sw.js) requieren HTTPS real —
